@@ -1,0 +1,305 @@
+[
+  {
+    "key": "wheels",
+    "title": "Wheels",
+    "storage": "nd_wheels",
+    "blurb": "One spin each, then it is pure luck. Spin them whenever you pass; none of them care how long you wait.",
+    "rows": [
+      {
+        "id": "excitement",
+        "name": "Wheel of Excitement",
+        "need": "Land on the 20,000 NP space.",
+        "url": "https://www.neopets.com/faerieland/wheel.phtml",
+        "link": "Spin"
+      },
+      {
+        "id": "knowledge",
+        "name": "Brightvale",
+        "need": "Land on the 8-pointed star on the Wheel of Knowledge.",
+        "url": "https://www.neopets.com/medieval/knowledge.phtml",
+        "link": "Spin"
+      },
+      {
+        "id": "mediocrity",
+        "name": "Mediocrity",
+        "need": "Land on the 4,000 NP space. No notification is shown, so check your count after.",
+        "url": "https://www.neopets.com/prehistoric/mediocrity.phtml",
+        "link": "Spin"
+      },
+      {
+        "id": "monotony",
+        "name": "Wheel of Monotony",
+        "need": "Land on the \"?\" space. One spin takes hours to finish.",
+        "guide": "https://www.jellyneo.net/?go=wheels",
+        "link": "Guide"
+      },
+      {
+        "id": "ticktock",
+        "name": "Tick Tock",
+        "need": "Pay at least 100,000 NP to grease the Wheel of Monotony. Awarded on top of your normal prize.",
+        "guide": "https://www.jellyneo.net/?go=wheels",
+        "link": "Guide"
+      },
+      {
+        "id": "highroller",
+        "name": "High Roller",
+        "need": "Land on the blank square on the Wheel of Extravagance. Costs 100,000 NP a spin.",
+        "guide": "https://www.jellyneo.net/?go=wheels",
+        "link": "Guide"
+      }
+    ]
+  },
+  {
+    "key": "luck",
+    "title": "Luck dailies",
+    "storage": "nd_luck",
+    "blurb": "Random on a daily you are doing anyway. Nothing to buy and nothing to time — just keep turning up.",
+    "rows": [
+      {
+        "id": "snowager",
+        "name": "Snowager - Rawr!",
+        "need": "Get blasted. Any blast counts. The app already reminds you at 6am, 2pm and 10pm.",
+        "url": "https://www.neopets.com/winter/snowager.phtml",
+        "link": "Open"
+      },
+      {
+        "id": "forgotten",
+        "name": "Forgotten Shore",
+        "need": "Random on the daily prize.",
+        "url": "https://www.neopets.com/pirates/forgottenshore.phtml",
+        "link": "Open"
+      },
+      {
+        "id": "tomb",
+        "name": "Geraptiku - Deserted Tomb",
+        "need": "Random when you win an item.",
+        "url": "https://www.neopets.com/worlds/geraptiku/tomb.phtml",
+        "link": "Open"
+      },
+      {
+        "id": "sssidney",
+        "name": "Sssidney",
+        "need": "Win any prize on a Deserted Fairground scratchcard.",
+        "url": "https://www.neopets.com/halloween/scratch.phtml",
+        "link": "Open"
+      },
+      {
+        "id": "buried",
+        "name": "Aisha Scalawag",
+        "need": "Random when you win anything at Buried Treasure, booby prize included.",
+        "url": "https://www.neopets.com/pirates/buriedtreasure/index.phtml",
+        "link": "Open"
+      },
+      {
+        "id": "tombola",
+        "name": "Tombola",
+        "need": "Keep pulling tickets; several avatars sit behind daily luck like this.",
+        "url": "https://www.neopets.com/island/tombola.phtml",
+        "link": "Open"
+      },
+      {
+        "id": "plushie",
+        "name": "Grundo - Discarded Plushie",
+        "need": "Random on the daily prize. Odds go up during the Winter Starlight Celebration.",
+        "guide": "https://www.jellyneo.net/?go=tdmbgpop",
+        "link": "Guide"
+      },
+      {
+        "id": "edna",
+        "name": "Edna - Cackle!",
+        "need": "Random when you finish an Edna quest that asked for three items.",
+        "guide": "https://www.jellyneo.net/?go=ednas_quest",
+        "link": "Guide"
+      },
+      {
+        "id": "lever",
+        "name": "Lever of Doom",
+        "need": "Random when the lever steals 100 NP off you.",
+        "guide": "https://www.jellyneo.net/index.php?go=leverofdoom",
+        "link": "Guide"
+      },
+      {
+        "id": "lurker",
+        "name": "Dark Lurker",
+        "need": "Random when you buy from any Haunted Woods, Deserted Fairground or Neovian shop.",
+        "guide": "https://www.jellyneo.net/?go=avatars&id=items",
+        "link": "Guide"
+      }
+    ]
+  },
+  {
+    "key": "luck-games",
+    "title": "Luck-based games",
+    "storage": "nd_luck_games",
+    "blurb": "Chance-based games, with some choices along the way. Check off each avatar when awarded; some games cost NP per attempt.",
+    "rows": [
+      {
+        "id": "double-or-nothing",
+        "name": "Double or Nothing",
+        "need": "Skeith - Snargan: collect your winnings at 320 NP.",
+        "url": "https://www.neopets.com/medieval/doubleornothing.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "dice-a-roo",
+        "name": "Dice-A-Roo",
+        "need": "Win the jackpot to receive the avatar.",
+        "url": "https://www.neopets.com/games/dicearoo.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "kiss-the-mortog",
+        "name": "Kiss the Mortog",
+        "need": "Mortog Smooch: choose four correctly in a row, then collect 5,900 NP.",
+        "url": "https://www.neopets.com/medieval/kissthemortog.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "cheeseroller",
+        "name": "Cheeseroller",
+        "need": "Techo - Cheesy: a random award after finishing in 60 seconds or less.",
+        "url": "https://www.neopets.com/medieval/cheeseroller.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "grarrl-keno",
+        "name": "Grarrl Keno",
+        "need": "Randomly awarded while playing; four matches are not a guarantee.",
+        "url": "https://www.neopets.com/prehistoric/keno.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "tyranu-evavu",
+        "name": "Tyranu Evavu",
+        "need": "Get at least 15 correct guesses in a row.",
+        "url": "https://www.neopets.com/games/tyranuevavu.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "gormball",
+        "name": "Gormball",
+        "need": "Gormball - Gargarox: win a game.",
+        "url": "https://www.neopets.com/space/gormball.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "kacheek-seek",
+        "name": "Kacheek Seek",
+        "need": "Must... Keep... Smiling...: randomly awarded after a win.",
+        "url": "https://www.neopets.com/games/hidenseek.phtml",
+        "link": "Play"
+      },
+      {
+        "id": "poogle-racing",
+        "name": "Poogle Racing",
+        "need": "Poogle Racing Winner: win a Poogle Race.",
+        "url": "https://www.neopets.com/faerieland/poogleracing.phtml",
+        "link": "Play"
+      }
+    ]
+  },
+  {
+    "key": "species",
+    "title": "Pets you would need",
+    "storage": "nd_species",
+    "blurb": "Each of these needs a particular species. Making a basic pet is free, so the top group costs nothing but a pet slot. The painted ones need a paint brush or a morphing potion.",
+    "rows": [
+      {
+        "id": "feedme",
+        "name": "Feed Me",
+        "need": "Make a Skeith, feed it any item with \"skeith\" in the name. Skeith Juice Cocktail is 100 NP.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "shoyru",
+        "name": "Bless you, Shoyru",
+        "need": "Make a Shoyru, bless it with a Weak Bottled Faerie. About 90 NP.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "lenny",
+        "name": "Lenny - Wicked",
+        "need": "Make a Lenny, feed it any Spooky Food.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "tuskaninny",
+        "name": "Tuskaninny - Spotted",
+        "need": "Make a Tuskaninny, hold any item with \"spotted\" in the name, visit its lookup.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "elephante",
+        "name": "Elephante Surprise",
+        "need": "Make an Elephante, feed it a Bag of Peanuts. About 28,000 NP.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "gelert",
+        "name": "Clever Thief",
+        "need": "Make a Gelert, equip a Thief Dagger, then battle once.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "jetsam",
+        "name": "Jetsam - Wanna Fight?",
+        "need": "Make a Jetsam, win one 1-player Battledome fight. No notification is shown.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "shoyrutough",
+        "name": "Shoyru - Tough!",
+        "need": "Same Shoyru as above. Win a 1-player fight. Two-player does not count.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "lupeboom",
+        "name": "Hello, little Lupe... BOOOM!",
+        "need": "Make a Lupe, win a fight, the Chia Clown is the usual target.",
+        "cost": "Free pet"
+      },
+      {
+        "id": "werelupe",
+        "name": "Werelupe",
+        "need": "Own a Halloween Lupe and open its lookup.",
+        "cost": "Needs paint"
+      },
+      {
+        "id": "quiggle",
+        "name": "Island Quiggle",
+        "need": "Own an Island Quiggle that is 30+ days old.",
+        "cost": "Needs paint"
+      },
+      {
+        "id": "grundo",
+        "name": "Grundo - Forever Orange",
+        "need": "Own an Orange Grundo and open its lookup.",
+        "cost": "Needs paint"
+      },
+      {
+        "id": "snowwocky",
+        "name": "Wocky - Snow Day",
+        "need": "Own any Snow pet that is 100+ days old.",
+        "cost": "Needs paint"
+      },
+      {
+        "id": "fireblum",
+        "name": "Blumaroo - Fire!",
+        "need": "A Fire Blumaroo with a petpet 30+ days old whose name contains \"fire\".",
+        "cost": "Needs paint"
+      },
+      {
+        "id": "mummyruki",
+        "name": "Ruki - Mummified",
+        "need": "A Halloween Ruki with a 30+ day old Mummy Baby attached. The Mummy Baby is only 3,950 NP.",
+        "cost": "Needs paint"
+      },
+      {
+        "id": "vandagyre",
+        "name": "Robot Vandagyre",
+        "need": "A Robot Vandagyre with a Robot-painted petpet, viewed as your active pet.",
+        "cost": "Needs paint"
+      }
+    ]
+  }
+]

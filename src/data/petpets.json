@@ -1,0 +1,94 @@
+[
+  {
+    "id": "quadrapus",
+    "name": "Quadrapus",
+    "days": 60
+  },
+  {
+    "id": "snicklebeast",
+    "name": "Snicklebeast",
+    "days": 61
+  },
+  {
+    "id": "harris",
+    "name": "Harris - Hi",
+    "days": 99
+  },
+  {
+    "id": "huggy",
+    "name": "Huggy",
+    "days": 99
+  },
+  {
+    "id": "gruslen",
+    "name": "Gruslen",
+    "days": 99
+  },
+  {
+    "id": "slorg",
+    "name": "Slorg",
+    "days": 100
+  },
+  {
+    "id": "mazzew",
+    "name": "Mazzew",
+    "days": 221
+  },
+  {
+    "id": "snowbunny",
+    "name": "Whee! (Snowbunny)",
+    "days": 364
+  },
+  {
+    "id": "fire",
+    "name": "Blumaroo - Fire!",
+    "days": 30,
+    "condition": "Needs your own Fire Blumaroo and a petpet species/colour name containing Fire."
+  },
+  {
+    "id": "mummy",
+    "name": "Ruki - Mummified",
+    "days": 30,
+    "condition": "Needs your own Halloween Ruki with a Mummy Baby attached."
+  },
+  {
+    "id": "angelpuss",
+    "name": "Angelpuss",
+    "days": 0,
+    "condition": "No waiting. Any colour Angelpuss (or a Devilpuss) attached to any pet, then open Quick Ref.",
+    "go": {
+      "label": "Quick Ref ↗",
+      "url": "https://www.neopets.com/quickref.phtml"
+    }
+  },
+  {
+    "id": "meowclops",
+    "name": "Meowclops",
+    "days": 0,
+    "condition": "No waiting. Any colour Meowclops attached to any pet, then open Quick Ref.",
+    "go": {
+      "label": "Quick Ref ↗",
+      "url": "https://www.neopets.com/quickref.phtml"
+    }
+  },
+  {
+    "id": "mootix",
+    "name": "Mootix",
+    "days": 0,
+    "condition": "No waiting. A Mootix attached to the petpet itself, not to the pet, then open Quick Ref.",
+    "go": {
+      "label": "Quick Ref ↗",
+      "url": "https://www.neopets.com/quickref.phtml"
+    }
+  },
+  {
+    "id": "doglefox",
+    "name": "Muddy Paws",
+    "days": 0,
+    "condition": "No waiting. Any colour Doglefox attached, then groom that pet with an item that has \"soap\" in its name.",
+    "go": {
+      "label": "Open inventory to groom ↗",
+      "url": "https://www.neopets.com/inventory.phtml"
+    }
+  }
+]

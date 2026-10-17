@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Quest Log",
+    "note": "Open first. New day 12am Pacific.",
+    "group": "Top dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/questlog/"
+      }
+    ],
+    "shortcuts": [
+      {
+        "label": "NC Mall / Popular items",
+        "url": "https://ncmall.neopets.com/mall/shop.phtml"
+      },
+      {
+        "label": "Games room",
+        "url": "https://www.neopets.com/games/"
+      },
+      {
+        "label": "Fishing",
+        "url": "https://www.neopets.com/water/fishing.phtml"
+      },
+      {
+        "label": "Battledome",
+        "url": "https://www.neopets.com/dome/arena.phtml"
+      },
+      {
+        "label": "Customize",
+        "url": "https://www.neopets.com/customise/"
+      },
+      {
+        "label": "Safety Deposit Box",
+        "url": "https://www.neopets.com/safetydeposit.phtml"
+      },
+      {
+        "label": "Inventory · feed, groom, play, read",
+        "url": "https://www.neopets.com/inventory.phtml"
+      },
+      {
+        "label": "General Store · buy items",
+        "url": "https://www.neopets.com/generalstore.phtml"
+      },
+      {
+        "label": "Wheel of Excitement",
+        "url": "https://www.neopets.com/faerieland/wheel.phtml"
+      },
+      {
+        "label": "Wheel of Mediocrity",
+        "url": "https://www.neopets.com/prehistoric/mediocrity.phtml"
+      },
+      {
+        "label": "Wheel of Knowledge",
+        "url": "https://www.neopets.com/medieval/knowledge.phtml"
+      },
+      {
+        "label": "Wheel of Misfortune",
+        "url": "https://www.neopets.com/halloween/wheel/index.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Battledome",
+    "note": "Fight until the daily limits are used.",
+    "group": "Top dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/dome/arena.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Faerie Festival",
+    "note": "Visit the event hub each day.",
+    "group": "Top dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/faeriefestival/index.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Food Club",
+    "note": "Check the current round and choose your own bets.",
+    "group": "Top dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "build bets",
+        "url": "https://neofood.club"
+      },
+      {
+        "label": "place & collect",
+        "url": "https://www.neopets.com/pirates/foodclub.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Faerie Quests",
+    "note": "Your active quest shows here. —",
+    "group": "Top dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/quests.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Trudy's Surprise",
+    "note": "12am Pacific. Keep the streak.",
+    "group": "Top dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/trudys_surprise.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Bank Interest",
+    "note": "Collect before moving money.",
+    "group": "Top dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/bank.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Stock Market",
+    "note": "Bargain list. Up to 1,000 shares.",
+    "group": "Top dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/stockmarket.phtml?type=list&bargain=true"
+      }
+    ]
+  },
+  {
+    "name": "Secret Laboratory",
+    "note": "Lab Ray.",
+    "group": "Dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/lab.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Petpet Laboratory",
+    "note": "",
+    "group": "Dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/petpetlab.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Forgotten Shore",
+    "note": "",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/pirates/forgottenshore.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Coltzan's Shrine",
+    "note": "Resets every 13 hours.",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/desert/shrine.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Negg Cave",
+    "note": "Shenkuu puzzle. Once a day.",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/shenkuu/neggcave/"
+      }
+    ]
+  },
+  {
+    "name": "Snowager",
+    "note": "",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/winter/snowager.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Grave Danger",
+    "note": "Free. The petpet always comes back. 5–10 hours.",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/halloween/gravedanger/index.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Swashbuckling Academy",
+    "note": "Any time. Start a course or collect a finished one. Courses cost dubloons.",
+    "group": "Training",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/pirates/academy.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Mystery Island Training School",
+    "note": "Start a course or collect a finished one. Courses cost tan codestones.",
+    "group": "Training",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/island/training.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Jhudora's Bluff",
+    "note": "Avatar at quest 20. One quest per 12 hours, shared with Illusen, though their levels count separately. 33m20s per quest on Premium.",
+    "group": "Dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/faerieland/darkfaerie.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Illusen's Glade",
+    "note": "Avatar at quest 20. One quest per 12 hours, shared with Jhudora, though their levels count separately. Closed on Jhudora Day, 4 February.",
+    "group": "Dailies",
+    "priority": true,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/medieval/earthfaerie.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Monthly Freebies",
+    "note": "Once a calendar month. 2,000 NP plus food.",
+    "group": "Other",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/freebies/"
+      }
+    ]
+  },
+  {
+    "name": "Magma Pool",
+    "note": "Your Magma Pool window is unique to your account. Record observations in Account information.",
+    "group": "Other",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/magma/pool.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Wheels",
+    "note": "Choose a wheel. Each link has its own daily check; cooldowns still apply.",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Excitement",
+        "url": "https://www.neopets.com/faerieland/wheel.phtml"
+      },
+      {
+        "label": "Starlight",
+        "url": "https://www.neopets.com/premium/wheel.phtml"
+      },
+      {
+        "label": "Mediocrity",
+        "url": "https://www.neopets.com/prehistoric/mediocrity.phtml"
+      },
+      {
+        "label": "Knowledge",
+        "url": "https://www.neopets.com/medieval/knowledge.phtml"
+      },
+      {
+        "label": "Monotony",
+        "url": "https://www.neopets.com/prehistoric/monotony/monotony.phtml"
+      },
+      {
+        "label": "Misfortune",
+        "url": "https://www.neopets.com/halloween/wheel/index.phtml"
+      },
+      {
+        "label": "Extravagance",
+        "url": "https://www.neopets.com/desert/extravagance.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Scratchcards",
+    "note": "Choose a kiosk. Buying and scratching remain separate actions on Neopets.",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Ice Caves",
+        "url": "https://www.neopets.com/winter/kiosk.phtml"
+      },
+      {
+        "label": "Space Faerie",
+        "url": "https://www.neopets.com/premium/sc/"
+      },
+      {
+        "label": "Deserted Fairground",
+        "url": "https://www.neopets.com/halloween/scratch.phtml"
+      },
+      {
+        "label": "Lost Desert",
+        "url": "https://www.neopets.com/desert/sc/kiosk.phtml"
+      }
+    ]
+  },
+  {
+    "name": "Tombola",
+    "note": "An ordinary daily prize draw.",
+    "group": "Dailies",
+    "priority": false,
+    "links": [
+      {
+        "label": "Open",
+        "url": "https://www.neopets.com/island/tombola.phtml"
+      }
+    ]
+  }
+]

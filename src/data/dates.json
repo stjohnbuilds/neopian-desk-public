@@ -1,0 +1,73 @@
+[
+  {
+    "id": "poogle-day",
+    "month": 9,
+    "day": 19,
+    "title": "Poogle Day",
+    "body": "Check today’s Poogle releases and limited-edition pet availability.",
+    "url": "https://www.neopets.com/nf.phtml",
+    "guide": "https://www.jellyneo.net/?go=yearlies"
+  },
+  {
+    "id": "faerie-day",
+    "month": 9,
+    "day": 20,
+    "title": "Faerie Festival day",
+    "body": "Check Healing Springs and the Faerieland shop discounts. The larger event’s dates may differ.",
+    "url": "https://www.neopets.com/faerieland/springs.phtml",
+    "guide": "https://www.jellyneo.net/?go=yearlies"
+  },
+  {
+    "id": "scamander",
+    "month": 10,
+    "day": 12,
+    "title": "Scamander Swarm",
+    "body": "Check the Money Tree for the annual swarm; catching one is not guaranteed.",
+    "url": "https://www.neopets.com/donations.phtml",
+    "guide": "https://www.jellyneo.net/?go=yearlies"
+  },
+  {
+    "id": "halloween",
+    "month": 10,
+    "day": 31,
+    "title": "Halloween",
+    "body": "Check Jellyneo for this year’s activities. The Haunted Woods site theme has a one-minute opportunity at 11:59pm Pacific.",
+    "url": "https://www.neopets.com/nf.phtml",
+    "guide": "https://www.jellyneo.net/?go=yearlies"
+  },
+  {
+    "id": "birthday",
+    "month": 11,
+    "day": 15,
+    "title": "Neopets birthday",
+    "body": "Check New Features for the birthday avatar and this year’s celebrations.",
+    "url": "https://www.neopets.com/nf.phtml",
+    "guide": "https://www.jellyneo.net/?go=avatars&id=annual"
+  },
+  {
+    "id": "borovan",
+    "month": 12,
+    "day": 20,
+    "title": "Cup O’ Borovan avatar",
+    "body": "Visit New Features today for the avatar.",
+    "url": "https://www.neopets.com/nf.phtml",
+    "guide": "https://www.jellyneo.net/?go=avatars&id=annual"
+  },
+  {
+    "id": "christmas",
+    "month": 12,
+    "day": 25,
+    "title": "Christmas Aisha avatar",
+    "body": "Collect from the Advent Calendar today.",
+    "url": "https://www.neopets.com/winter/adventcalendar.phtml",
+    "guide": "https://www.jellyneo.net/?go=avatars&id=annual"
+  },
+  {
+    "id": "freebies",
+    "day": 1,
+    "title": "Monthly Freebies reset",
+    "body": "A fresh monthly bundle is available. You can collect it later this month too.",
+    "url": "https://www.neopets.com/freebies/",
+    "guide": "https://www.jellyneo.net/?go=monthly_freebies"
+  }
+]

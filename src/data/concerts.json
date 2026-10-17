@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rock",
+    "avatar": "I Love My Rock",
+    "band": "Sticks N Stones",
+    "when": "10th and 17th"
+  },
+  {
+    "id": "groovy",
+    "avatar": "Groovy Chomby",
+    "band": "Chomby and the Fungus Balls",
+    "when": "8th, 15th, 29th; also 22nd except May and 23rd except April"
+  },
+  {
+    "id": "jazzmosis",
+    "avatar": "Jazzmosis Elephante",
+    "band": "Jazzmosis",
+    "when": "6th, 13th, 20th, 27th"
+  },
+  {
+    "id": "jubzambra",
+    "avatar": "Jub Zambra",
+    "band": "Jub Zambra and the Cobrall Charmers",
+    "when": "5th"
+  },
+  {
+    "id": "icecream",
+    "avatar": "Yes Boy Ice-Cream",
+    "band": "Yes Boy Ice-Cream",
+    "when": "12th, 19th, 26th"
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "sloth-quiz",
+    "month": 1,
+    "days": [
+      14
+    ],
+    "title": "I *heart* Sloth avatar",
+    "body": "Complete the quiz at Sloth’s Mind Control Laboratory. The answers are C, D, B, C, A."
+  },
+  {
+    "id": "sloth-clone",
+    "month": 1,
+    "days": [
+      14
+    ],
+    "title": "Evil Sloth Clone avatar",
+    "body": "Visit the Virtupets Supply Deck today."
+  },
+  {
+    "id": "jhudora-feb",
+    "month": 2,
+    "days": [
+      4
+    ],
+    "title": "Evil Jhudora avatar",
+    "body": "Complete one of Jhudora’s quests today.",
+    "url": "https://www.neopets.com/faerieland/darkfaerie.phtml",
+    "guide": "https://www.jellyneo.net/?go=jhudoras_cloud"
+  },
+  {
+    "id": "valentine-chia",
+    "month": 2,
+    "days": [
+      13,
+      14
+    ],
+    "title": "Valentine Chia avatar",
+    "body": "Send the Valentine Neogreeting today. It works on the 13th or the 14th."
+  },
+  {
+    "id": "quiguki-fools",
+    "month": 4,
+    "days": [
+      4
+    ],
+    "title": "Quiguki April Fools avatar",
+    "body": "Refresh the old layout news page today, after the April Fools prank has been taken down."
+  },
+  {
+    "id": "easter-cybunny",
+    "month": 4,
+    "days": [
+      8,
+      9,
+      10
+    ],
+    "title": "Easter Cybunny avatar",
+    "body": "Send the Easter Neogreeting today. It works on the 8th, 9th or 10th."
+  },
+  {
+    "id": "coltzan-shrine",
+    "month": 7,
+    "days": [
+      9
+    ],
+    "title": "Shrine of Coltzan avatar",
+    "body": "Visit Coltzan’s Shrine today.",
+    "url": "https://www.neopets.com/desert/shrine.phtml"
+  },
+  {
+    "id": "illusen-vs-jhudora",
+    "month": 10,
+    "days": [
+      1
+    ],
+    "window": true,
+    "title": "Illusen vs Jhudora avatar · Faerie Festival",
+    "body": "Visit the Faerie Quest page every day of the Faerie Festival. Check Jellyneo for this year’s dates.",
+    "url": "https://www.neopets.com/quests.phtml"
+  },
+  {
+    "id": "esophagor-quests",
+    "month": 10,
+    "days": [
+      1
+    ],
+    "window": true,
+    "title": "Esophagor - Feed Meeee avatar",
+    "body": "Complete 13 Esophagor quests in total during the Festival of Fears this month."
+  },
+  {
+    "id": "trick-or-treat",
+    "month": 10,
+    "days": [
+      1
+    ],
+    "window": true,
+    "title": "Trick or Treat avatar",
+    "body": "Collect or read all 7 Trick-or-Treat bags before the 31st."
+  },
+  {
+    "id": "plastic-fir",
+    "month": 12,
+    "days": [
+      1
+    ],
+    "title": "Plastic Fir avatar",
+    "body": "Collect from the Advent Calendar today.",
+    "url": "https://www.neopets.com/winter/adventcalendar.phtml"
+  },
+  {
+    "id": "attack-pea",
+    "month": 12,
+    "days": [
+      1
+    ],
+    "window": true,
+    "title": "Seasonal Attack Pea avatar",
+    "body": "Released on one random day this month through the Advent Calendar. You only get it if you collect that day’s prize, so collect every day.",
+    "url": "https://www.neopets.com/winter/adventcalendar.phtml"
+  },
+  {
+    "id": "borovan-dipped",
+    "month": 12,
+    "days": [
+      20
+    ],
+    "title": "Borovan Dipped avatar",
+    "body": "Feed a pet an item with “borovan” in its name today. Grarrls and Skeiths can eat non-food borovan items, which are cheaper.",
+    "url": "https://www.neopets.com/inventory.phtml"
+  }
+]

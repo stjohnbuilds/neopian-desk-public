@@ -1,0 +1,500 @@
+{
+  "evilcoconut": {
+    "activity": "Coconut Shy",
+    "cadence": "100 NP per throw, up to 20 throws a day.",
+    "daily": true,
+    "activityId": "daily:coconut-shy"
+  },
+  "chocolate": {
+    "activity": "Chocolate Factory",
+    "cadence": "Optional restock attempt; directly purchase a qualifying item.",
+    "daily": false,
+    "activityId": "daily:chocolate-factory"
+  },
+  "wheelofexcitement": {
+    "activity": "Wheel of Excitement",
+    "cadence": "500 NP per spin; 2-hour cooldown, plus a daily bonus spin (Premium or ad). Cooldown continues across midnight.",
+    "daily": true,
+    "activityId": "daily:wheel-of-excitement"
+  },
+  "brightvale": {
+    "activity": "Wheel of Knowledge",
+    "cadence": "400 NP per spin; up to two daily spins. The second spin requires Premium or an ad.",
+    "daily": true,
+    "activityId": "daily:wheel-of-knowledge"
+  },
+  "mediocrity": {
+    "activity": "Wheel of Mediocrity",
+    "cadence": "100 NP per spin; 40-minute cooldown, plus a daily bonus spin. Cooldown continues across midnight; the bonus requires Premium or an ad.",
+    "daily": true,
+    "activityId": "daily:wheel-of-mediocrity"
+  },
+  "misfortune": {
+    "activity": "Wheel of Misfortune",
+    "cadence": "150 NP per spin; 2-hour cooldown.",
+    "daily": true,
+    "activityId": "daily:wheel-of-misfortune"
+  },
+  "monotony": {
+    "activity": "Wheel of Monotony",
+    "cadence": "150 NP per spin; up to two daily spins. Can take hours. The second spin requires Premium or an ad.",
+    "daily": true,
+    "activityId": "daily:wheel-of-monotony"
+  },
+  "ava_monotony_tick": {
+    "activity": "Wheel of Monotony",
+    "cadence": "150 NP per spin; up to two daily spins. Can take hours. The second spin requires Premium or an ad.",
+    "daily": true,
+    "activityId": "daily:wheel-of-monotony"
+  },
+  "extravagance": {
+    "activity": "Wheel of Extravagance",
+    "cadence": "100,000 NP per spin; up to two daily spins. The second spin requires Premium or an ad.",
+    "daily": true,
+    "activityId": "daily:wheel-of-extravagance"
+  },
+  "snowager": {
+    "activity": "Snowager",
+    "cadence": "Sleeping hours: 6–7am, 2–3pm and 10–11pm Pacific. Once each window.",
+    "daily": true,
+    "activityId": "daily:snowager"
+  },
+  "geraptiku_tomb": {
+    "activity": "Deserted Tomb",
+    "cadence": "Once a day.",
+    "daily": true,
+    "activityId": "daily:deserted-tomb"
+  },
+  "ava_fruit_machine": {
+    "activity": "Fruit Machine",
+    "cadence": "Daily visit.",
+    "daily": true,
+    "activityId": "daily:fruit-machine"
+  },
+  "moodyskarl": {
+    "activity": "Grumpy Old King",
+    "cadence": "Two joke attempts per day, shared by both avatars.",
+    "daily": true,
+    "activityId": "daily:grumpy-old-king"
+  },
+  "jester": {
+    "activity": "Grumpy Old King",
+    "cadence": "Two joke attempts per day, shared by both avatars.",
+    "daily": true,
+    "activityId": "daily:grumpy-old-king"
+  },
+  "kinghagan": {
+    "activity": "Wise Old King",
+    "cadence": "Once a day.",
+    "daily": true,
+    "activityId": "daily:wise-old-king"
+  },
+  "kadoatery": {
+    "activity": "Kadoatery",
+    "cadence": "75 feeds total, accumulated over time. Today’s check does not reset that progress.",
+    "daily": false,
+    "activityId": "daily:kadoatery"
+  },
+  "jhudorascloud": {
+    "activity": "Jhudora’s Bluff",
+    "cadence": "12-hour cooldown shared with Illusen.",
+    "daily": true,
+    "activityId": "daily:jhudora-s-bluff"
+  },
+  "illusensglade": {
+    "activity": "Illusen’s Glade",
+    "cadence": "12-hour cooldown shared with Jhudora.",
+    "daily": true,
+    "activityId": "daily:illusen-s-glade"
+  },
+  "forgshore": {
+    "activity": "Forgotten Shore",
+    "cadence": "One visit each day after completing the Forgotten Shore map.",
+    "daily": true,
+    "activityId": "daily:forgotten-shore"
+  },
+  "sssidney": {
+    "activity": "Deserted Fairground Scratchcards",
+    "cadence": "Buy one card every two hours; up to five cards scratched daily on-site. Buying cooldowns are shared with other kiosks.",
+    "daily": true,
+    "activityId": "daily:deserted-fairground-scratchcards"
+  },
+  "aishascalawag": {
+    "activity": "Buried Treasure",
+    "cadence": "300 NP per attempt; three-hour cooldown.",
+    "daily": true,
+    "activityId": "daily:buried-treasure"
+  },
+  "tdmbgpop": {
+    "activity": "Discarded Magical Blue Grundo Plushie",
+    "cadence": "One visit each day.",
+    "daily": true,
+    "activityId": "daily:discarded-magical-blue-grundo-plushie"
+  },
+  "ednacackle": {
+    "activity": "Edna’s quests",
+    "cadence": "Up to ten completed quests daily, shared with Snow Faerie and Kitchen quests. Only three-item Edna quests can award the avatar.",
+    "daily": true,
+    "activityId": "daily:edna-s-quests"
+  },
+  "leverofdoom": {
+    "activity": "Open activity",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:open-activity"
+  },
+  "darklurker": {
+    "activity": "Haunted Woods restocks",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:haunted-woods-restocks"
+  },
+  "snargan": {
+    "activity": "Double or Nothing",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:double-or-nothing"
+  },
+  "luckyblumaroo": {
+    "activity": "Dice-A-Roo",
+    "cadence": "Play until your pet becomes bored; return on another day for more attempts.",
+    "daily": true,
+    "activityId": "daily:dice-a-roo"
+  },
+  "mortogkiss": {
+    "activity": "Kiss the Mortog",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:kiss-the-mortog"
+  },
+  "cheeseroller": {
+    "activity": "Cheeseroller",
+    "cadence": "Up to three games daily. A finish within 60 seconds gives a random avatar chance.",
+    "daily": true,
+    "activityId": "daily:cheeseroller"
+  },
+  "lilgrarrl": {
+    "activity": "Grarrl Keno",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:grarrl-keno"
+  },
+  "jarbjarb": {
+    "activity": "Tyranu Evavu",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:tyranu-evavu"
+  },
+  "gormball_gargarox": {
+    "activity": "Gormball",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:gormball"
+  },
+  "islandkacheek": {
+    "activity": "Kacheek Seek",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:kacheek-seek"
+  },
+  "pooglewinner": {
+    "activity": "Poogle Racing",
+    "cadence": "Races every 15 minutes. Bet on the winning Poogle and collect your winnings.",
+    "daily": true,
+    "activityId": "daily:poogle-racing"
+  },
+  "symol": {
+    "activity": "Symol",
+    "cadence": "Four-minute prize window each hour; one-hour cooldown after attempting. Check the guide for today’s window.",
+    "daily": true,
+    "activityId": "daily:symol"
+  },
+  "aim_hauntedwoods_1": {
+    "activity": "Grave Danger",
+    "cadence": "Check each new ten-minute status while your petpet is adventuring.",
+    "daily": true,
+    "activityId": "daily:grave-danger"
+  },
+  "turmaculus": {
+    "activity": "Turmaculus",
+    "cadence": "Check during his daily waking hour. The avatar requires him to eat your petpet.",
+    "daily": true,
+    "activityId": "daily:turmaculus"
+  },
+  "deadlydice": {
+    "activity": "Deadly Dice",
+    "cadence": "Once daily, midnight–1am Pacific; all day October 31. A tied loss can remove the avatar.",
+    "daily": true,
+    "activityId": "daily:deadly-dice"
+  },
+  "air_mote": {
+    "activity": "Brightvale Motery",
+    "cadence": "Optional restock attempt; directly purchase a qualifying mote.",
+    "daily": false,
+    "activityId": "daily:brightvale-motery"
+  },
+  "valiant": {
+    "activity": "Battledome",
+    "cadence": "Random award after a victory.",
+    "daily": false,
+    "activityId": "daily:battledome"
+  },
+  "nfy14": {
+    "activity": "Mysterious Negg Cave",
+    "cadence": "One puzzle daily.",
+    "daily": true,
+    "activityId": "daily:mysterious-negg-cave"
+  },
+  "kelpwaitress": {
+    "activity": "Kelp",
+    "cadence": "Optional paid attempt; your pet must bring home leftovers.",
+    "daily": false,
+    "activityId": "daily:kelp"
+  },
+  "braintree": {
+    "activity": "Brain Tree",
+    "cadence": "One quest every 24 hours. Avatar requires a top-50 leaderboard result.",
+    "daily": true,
+    "activityId": "daily:brain-tree"
+  },
+  "aim_sandcastle": {
+    "activity": "Play with sand items",
+    "cadence": "Optional repeatable toy attempt; random award.",
+    "daily": false,
+    "activityId": "daily:play-with-sand-items"
+  },
+  "capara": {
+    "activity": "Cheat!",
+    "cadence": "Repeat round one until the qualifying result awards the avatar.",
+    "daily": false,
+    "activityId": "daily:cheat"
+  },
+  "chokato": {
+    "activity": "Chokato inventory",
+    "cadence": "Requires a Chokato (TCG) in inventory; random award.",
+    "daily": false,
+    "activityId": "daily:chokato-inventory"
+  },
+  "drackonack_hungry": {
+    "activity": "Drackonack feeding event",
+    "cadence": "Requires a Drackonack and cheese-named food in inventory; random event.",
+    "daily": false,
+    "activityId": "daily:drackonack-feeding-event"
+  },
+  "fuzzleBOO": {
+    "activity": "Play with Blue Evil Fuzzle",
+    "cadence": "Optional repeatable toy attempt; random award.",
+    "daily": false,
+    "activityId": "daily:play-with-blue-evil-fuzzle"
+  },
+  "aim_jhudora_fire": {
+    "activity": "Jhudora’s Bluff",
+    "cadence": "12-hour cooldown shared with Illusen.",
+    "daily": true,
+    "activityId": "daily:jhudora-s-bluff"
+  },
+  "fishsquid": {
+    "activity": "Underwater Fishing",
+    "cadence": "Fishing cooldown applies to each pet; skill around 80 is needed.",
+    "daily": true,
+    "activityId": "daily:underwater-fishing"
+  },
+  "ava_food_club_smmmmm": {
+    "activity": "Food Club",
+    "cadence": "Daily rounds; collect 1,000,000 NP cumulatively since October 15, 2025. Smaller claims across rounds count.",
+    "daily": true,
+    "activityId": "daily:food-club"
+  },
+  "runaway_garlic": {
+    "activity": "Garlic feeding",
+    "cadence": "Optional repeated feeding until awarded.",
+    "daily": false,
+    "activityId": "daily:garlic-feeding"
+  },
+  "gloomy": {
+    "activity": "Gloomy weather",
+    "cadence": "Check for gloomy or rainy weather; availability varies.",
+    "daily": true,
+    "activityId": "daily:gloomy-weather"
+  },
+  "godori": {
+    "activity": "Godori",
+    "cadence": "250 winning hands within one calendar month; monthly progress resets.",
+    "daily": false,
+    "activityId": "daily:godori"
+  },
+  "zafara_helpful": {
+    "activity": "Avatar help",
+    "cadence": "Repeatable page visit; random award.",
+    "daily": false,
+    "activityId": "daily:avatar-help"
+  },
+  "ava_htrichelite": {
+    "activity": "Hidden Tower",
+    "cadence": "Five qualifying capsule purchases over time; check purchase limits and costs.",
+    "daily": false,
+    "activityId": "daily:hidden-tower"
+  },
+  "imposterapple": {
+    "activity": "Apple Bobbing",
+    "cadence": "Once daily; extra attempts depend on current account benefits.",
+    "daily": true,
+    "activityId": "daily:apple-bobbing"
+  },
+  "islandmystic": {
+    "activity": "Island Mystic",
+    "cadence": "One English fortune and one non-English fortune per day.",
+    "daily": true,
+    "activityId": "daily:island-mystic"
+  },
+  "ava_puzzle_addict": {
+    "activity": "Puzzles of the Past",
+    "cadence": "Replay completed puzzles for a random avatar chance; not a Daily Puzzle streak.",
+    "daily": false,
+    "activityId": "daily:puzzles-of-the-past"
+  },
+  "kikopop": {
+    "activity": "Kiko Pop",
+    "cadence": "Once daily; use Standard or Super Crazy difficulty.",
+    "daily": true,
+    "activityId": "daily:kiko-pop"
+  },
+  "kioskwocky": {
+    "activity": "Wintery Scratchcards",
+    "cadence": "Buy one card every six hours; up to five cards scratched daily on-site. Any winning prize qualifies.",
+    "daily": true,
+    "activityId": "daily:wintery-scratchcards"
+  },
+  "acp": {
+    "activity": "King Altador daily prize",
+    "cadence": "Return after claiming the Altador Plot’s first rewards; allow about 6–12 hours.",
+    "daily": true,
+    "activityId": "daily:king-altador-daily-prize"
+  },
+  "letitsnow": {
+    "activity": "Snowy weather",
+    "cadence": "Requires an Icy Snowflake in inventory and snow or a blizzard.",
+    "daily": true,
+    "activityId": "daily:snowy-weather"
+  },
+  "library_faerie": {
+    "activity": "Faerie Crossword",
+    "cadence": "Complete today’s crossword.",
+    "daily": true,
+    "activityId": "daily:faerie-crossword"
+  },
+  "mastervex": {
+    "activity": "Cellblock",
+    "cadence": "Progress through matches; random award.",
+    "daily": false,
+    "activityId": "daily:cellblock"
+  },
+  "pooralbert": {
+    "activity": "Poor Old Albert",
+    "cadence": "Repeatable page visit; random award.",
+    "daily": false,
+    "activityId": "daily:poor-old-albert"
+  },
+  "neomailaddict": {
+    "activity": "Neomail",
+    "cadence": "Random award while reading your inbox; sending messages is not required.",
+    "daily": false,
+    "activityId": "daily:neomail"
+  },
+  "lottery": {
+    "activity": "Neopian Lottery",
+    "cadence": "Optional daily draw; buying tickets does not guarantee a win.",
+    "daily": true,
+    "activityId": "daily:neopian-lottery"
+  },
+  "aim_babygrundo_boo": {
+    "activity": "Play with a Baby pet",
+    "cadence": "Optional repeatable toy attempt; random award.",
+    "daily": false,
+    "activityId": "daily:play-with-a-baby-pet"
+  },
+  "petpetlabray": {
+    "activity": "Petpet Laboratory",
+    "cadence": "Daily zap; requires access and consumes NP.",
+    "daily": true,
+    "activityId": "daily:petpet-laboratory"
+  },
+  "pickyourown": {
+    "activity": "Pick Your Own",
+    "cadence": "One paid visit each day.",
+    "daily": true,
+    "activityId": "daily:pick-your-own"
+  },
+  "pwned": {
+    "activity": "Secret Laboratory",
+    "cadence": "Daily zap; requires laboratory access.",
+    "daily": true,
+    "activityId": "daily:secret-laboratory"
+  },
+  "haiku": {
+    "activity": "Haiku Generator",
+    "cadence": "Repeatable visit; random award.",
+    "daily": false,
+    "activityId": "daily:haiku-generator"
+  },
+  "rubbish": {
+    "activity": "Discarding items",
+    "cadence": "Cumulative goal; today’s check does not reset discarded-item progress.",
+    "daily": false,
+    "activityId": "daily:discarding-items"
+  },
+  "aim_aisha_snotdrip": {
+    "activity": "Secret Laboratory",
+    "cadence": "Daily zap; requires laboratory access.",
+    "daily": true,
+    "activityId": "daily:secret-laboratory"
+  },
+  "soup_faerie_kind": {
+    "activity": "Soup Kitchen",
+    "cadence": "Only while eligible under the Soup Kitchen’s NP limit; random feeding award.",
+    "daily": false,
+    "activityId": "daily:soup-kitchen"
+  },
+  "taelia": {
+    "activity": "Snow Faerie quests",
+    "cadence": "Up to ten completed quests daily, shared with Edna and Kitchen quests. One successful Snow Faerie quest awards the avatar.",
+    "daily": true,
+    "activityId": "daily:snow-faerie-quests"
+  },
+  "thatsnotrubbish": {
+    "activity": "Rubbish Dump",
+    "cadence": "Check for qualifying items; daily pickup limits apply.",
+    "daily": true,
+    "activityId": "daily:rubbish-dump"
+  },
+  "ava_thrifting_queen": {
+    "activity": "Igloo Garage Sale",
+    "cadence": "250 purchases total; up to ten purchases per day.",
+    "daily": false,
+    "activityId": "daily:igloo-garage-sale"
+  },
+  "trudyavatar": {
+    "activity": "Trudy’s Surprise",
+    "cadence": "Once daily; maintain the 25-day streak.",
+    "daily": true,
+    "activityId": "daily:trudy-s-surprise"
+  },
+  "unifaboo": {
+    "activity": "Clothing Shop",
+    "cadence": "Optional restock attempt; directly purchase a qualifying item.",
+    "daily": false,
+    "activityId": "daily:clothing-shop"
+  },
+  "ava_alien_kad": {
+    "activity": "Petpet Laboratory",
+    "cadence": "Daily zap; requires access and consumes NP.",
+    "daily": true,
+    "activityId": "daily:petpet-laboratory"
+  },
+  "kissthemortog": {
+    "activity": "Kiss the Mortog",
+    "cadence": "Repeatable attempt; check the guide for limits.",
+    "daily": false,
+    "activityId": "daily:kiss-the-mortog"
+  }
+}

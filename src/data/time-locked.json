@@ -1,0 +1,39 @@
+[
+  {
+    "id": "symol",
+    "title": "Symol",
+    "when": "4 minutes each hour",
+    "body": "Win an item, Neopoints or a level-up from the Symol Hole inside the hourly window. The window moves every day, so check the guide for today’s.",
+    "url": "https://www.neopets.com/medieval/symolhole.phtml",
+    "guide": "https://www.jellyneo.net/?go=symolhole"
+  },
+  {
+    "id": "grave-tombstone",
+    "title": "Grave Tombstone",
+    "when": "Every 10 minutes",
+    "body": "While your petpet is away adventuring, check its status on the main Grave Danger page. One chance per status change, and those change every 10 minutes.",
+    "url": "https://www.neopets.com/halloween/gravedanger/index.phtml",
+    "guide": "https://www.jellyneo.net/?go=gravedanger"
+  },
+  {
+    "id": "turmaculus",
+    "title": "Turmaculus",
+    "when": "Only while he is awake",
+    "body": "Get your petpet eaten by Turmaculus. He sleeps most of the day, so open the page and check; if he is asleep, come back later.",
+    "url": "https://www.neopets.com/medieval/turmaculus.phtml"
+  },
+  {
+    "id": "von-roo",
+    "title": "Count von Roo’s Deadly Dice",
+    "when": "Midnight–1am Pacific; all day October 31",
+    "body": "Von Roo only appears at night. Tie with him, then win at least 2 levels. Careful: if you play again, tie, and then lose, the avatar is taken back off you.",
+    "url": "https://www.neopets.com/worlds/deadlydice.phtml",
+    "guide": "https://www.jellyneo.net/?go=deadlydice"
+  },
+  {
+    "id": "make-a-wish",
+    "title": "Make A Wish",
+    "when": "12:00–12:01am NST",
+    "body": "Visit the lookup of a Starry pet with a Starry petpet attached, inside that one minute."
+  }
+]

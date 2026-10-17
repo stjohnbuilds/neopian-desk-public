@@ -1,0 +1,4599 @@
+{
+  "checkedOn": "2026-09-12",
+  "source": "https://thedailyneopets.com/neoavatars/solutions",
+  "categoryCounts": {
+    "Battledome": 22,
+    "Clickable": 97,
+    "Game": 130,
+    "Item": 117,
+    "Miscellaneous": 64,
+    "Pet": 28,
+    "Petpet": 16,
+    "Random": 41,
+    "Retired": 64,
+    "Seasonal": 38
+  },
+  "entries": [
+    {
+      "code": "10thbday",
+      "name": "10th Birthday",
+      "source": "https://thedailyneopets.com/neoavatars/10th-birthday",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "twentyyearavatar",
+      "name": "20 Year Celebration avatar",
+      "source": "https://thedailyneopets.com/neoavatars/20-year-celebration-avatar",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_birthdaybash",
+      "name": "25th Anniversary - Birthday Bash Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/25th-anniversary-birthday-bash-avatar",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "mibeach",
+      "name": "A Day at the Beach",
+      "source": "https://thedailyneopets.com/neoavatars/a-day-at-the-beach",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ahhhhmeepit",
+      "name": "A Meepit!  Run!",
+      "source": "https://thedailyneopets.com/neoavatars/a-meepit-run",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "a53",
+      "name": "A53 - LIKE A BOSS",
+      "source": "https://thedailyneopets.com/neoavatars/a53-like-a-boss",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "aaasrevenge",
+      "name": "AAA's Revenge",
+      "source": "https://thedailyneopets.com/neoavatars/aaas-revenge",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "royalboyacara",
+      "name": "Acara - Angry Prince",
+      "source": "https://thedailyneopets.com/neoavatars/acara-angry-prince",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "robertabrightvale",
+      "name": "Acara - Roberta of Brightvale",
+      "source": "https://thedailyneopets.com/neoavatars/acara-roberta-of-brightvale",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "acezafara",
+      "name": "Ace Zafara",
+      "source": "https://thedailyneopets.com/neoavatars/ace-zafara",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "achyfi",
+      "name": "Achyfi!",
+      "source": "https://thedailyneopets.com/neoavatars/achyfi",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_acmi_darkest_faerie",
+      "name": "ACMI - The Darkest Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/acmi-the-darkest-faerie",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_adventure_juni",
+      "name": "Adventure Pass - Juni",
+      "source": "https://thedailyneopets.com/neoavatars/adventure-pass-juni",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "aim_kacheek_pirate_wink",
+      "name": "Ahoy",
+      "source": "https://thedailyneopets.com/neoavatars/ahoy",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_25anniversary_aisha",
+      "name": "Aisha - 25th Anniversary Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/aisha-25th-anniversary-avatar",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "discoaisha",
+      "name": "Aisha - Disco",
+      "source": "https://thedailyneopets.com/neoavatars/aisha-disco",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "hoban",
+      "name": "Aisha - Hoban the Navigator",
+      "source": "https://thedailyneopets.com/neoavatars/aisha-hoban-the-navigator",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "aishascalawag",
+      "name": "Aisha Scalawag",
+      "source": "https://thedailyneopets.com/neoavatars/aisha-scalawag",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "alienaisha",
+      "name": "Alien Aisha",
+      "source": "https://thedailyneopets.com/neoavatars/alien-aisha",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_hands_on_board",
+      "name": "All Hands on Board",
+      "source": "https://thedailyneopets.com/neoavatars/all-hands-on-board",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "altador2018altadoravatar",
+      "name": "Altador 2018 - Altador Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-altador-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018brightvaleavatar",
+      "name": "Altador 2018 - Brightvale Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-brightvale-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018dariganavatar",
+      "name": "Altador 2018 - Darigan Citadel Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-darigan-citadel-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018faerielandavatar",
+      "name": "Altador 2018 - Faerieland Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-faerieland-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018hauntedavatar",
+      "name": "Altador 2018 - Haunted Woods Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-haunted-woods-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018kikolakeavatar",
+      "name": "Altador 2018 - Kiko Lake Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-kiko-lake-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018krawkavatar",
+      "name": "Altador 2018 - Krawk Island Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-krawk-island-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018kreludoravatar",
+      "name": "Altador 2018 - Kreludor Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-kreludor-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018lostdesertavatar",
+      "name": "Altador 2018 - Lost Desert Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-lost-desert-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018maraquaavatar",
+      "name": "Altador 2018 - Maraqua Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-maraqua-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018meridellavatar",
+      "name": "Altador 2018 - Meridell Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-meridell-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018moltaraavatar",
+      "name": "Altador 2018 - Moltara Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-moltara-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018mysteryislandavatar",
+      "name": "Altador 2018 - Mystery Island Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-mystery-island-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018rooislandavatar",
+      "name": "Altador 2018 - Roo Island Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-roo-island-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018shenkuuavatar",
+      "name": "Altador 2018 - Shenkuu Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-shenkuu-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018terrormountainavatar",
+      "name": "Altador 2018 - Terror Mountain Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-terror-mountain-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018tyranniaavatar",
+      "name": "Altador 2018 - Tyrannia Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-tyrannia-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altador2018virtupetsavatar",
+      "name": "Altador 2018 - Virtupets Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2018-virtupets-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "aicon_neopiacentral",
+      "name": "Altador 2026 - Neopia Central",
+      "source": "https://thedailyneopets.com/neoavatars/altador-2026-neopia-central",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "altadorcup",
+      "name": "Altador Cup",
+      "source": "https://thedailyneopets.com/neoavatars/altador-cup",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "altadorcupstaff",
+      "name": "Altador Cup - Staff Tourney",
+      "source": "https://thedailyneopets.com/neoavatars/altador-cup-staff-tourney",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "altadorcupplayer",
+      "name": "Altador Cup Player",
+      "source": "https://thedailyneopets.com/neoavatars/altador-cup-player",
+      "categories": [
+        "Game",
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "altadorcup_staff",
+      "name": "Altador Cup Staff Tournament",
+      "source": "https://thedailyneopets.com/neoavatars/altador-cup-staff-tournament",
+      "categories": [
+        "Game",
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "ava_yooyu_fall",
+      "name": "Altador Cup XX",
+      "source": "https://thedailyneopets.com/neoavatars/altador-cup-xx",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "angelpuss2",
+      "name": "Angelpuss",
+      "source": "https://thedailyneopets.com/neoavatars/angelpuss",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "angelpuss",
+      "name": "Angelpuss - Angel",
+      "source": "https://thedailyneopets.com/neoavatars/angelpuss-angel",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "air_mote",
+      "name": "Angry Air Mote",
+      "source": "https://thedailyneopets.com/neoavatars/angry-air-mote",
+      "categories": [
+        "Item",
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "anubis",
+      "name": "Anubis",
+      "source": "https://thedailyneopets.com/neoavatars/anubis",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_af24_swm",
+      "name": "April Fool 2024",
+      "source": "https://thedailyneopets.com/neoavatars/april-fool-2024",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ava_aprilfools_y27",
+      "name": "April Fools 2026",
+      "source": "https://thedailyneopets.com/neoavatars/april-fools-2026",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_rbookshelf_collector",
+      "name": "Archive Books - Collector",
+      "source": "https://thedailyneopets.com/neoavatars/archive-books-collector",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "aota",
+      "name": "Atlas Of The Ancients",
+      "source": "https://thedailyneopets.com/neoavatars/atlas-of-the-ancients",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "attackoftheslorgs",
+      "name": "Attack of the Slorgs",
+      "source": "https://thedailyneopets.com/neoavatars/attack-of-the-slorgs",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "avatarcollector",
+      "name": "Avatar Collector",
+      "source": "https://thedailyneopets.com/neoavatars/avatar-collector",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "mathsbabaa",
+      "name": "Babaa - Maths Nightmare",
+      "source": "https://thedailyneopets.com/neoavatars/babaa-maths-nightmare",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "babybuzz",
+      "name": "Baby Buzz",
+      "source": "https://thedailyneopets.com/neoavatars/baby-buzz",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "babynimmo",
+      "name": "Baby Nimmo",
+      "source": "https://thedailyneopets.com/neoavatars/baby-nimmo",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "cracked",
+      "name": "Baby Pteri - Cracked",
+      "source": "https://thedailyneopets.com/neoavatars/baby-pteri-cracked",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "valiant",
+      "name": "Battle Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/battle-faerie",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "battlejubjub",
+      "name": "Battle Jubjub",
+      "source": "https://thedailyneopets.com/neoavatars/battle-jubjub",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "bd_veteran",
+      "name": "Battledome Veteran",
+      "source": "https://thedailyneopets.com/neoavatars/battledome-veteran",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "awakened_aagh7l",
+      "name": "Battleground: Awakened",
+      "source": "https://thedailyneopets.com/neoavatars/battleground-awakened",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "brutes_syg48s",
+      "name": "Battleground: Brute Squad",
+      "source": "https://thedailyneopets.com/neoavatars/battleground-brute-squad",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "seekers_slb7gh",
+      "name": "Battleground: Seekers",
+      "source": "https://thedailyneopets.com/neoavatars/battleground-seekers",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "order_aylbt",
+      "name": "Battleground: The Order",
+      "source": "https://thedailyneopets.com/neoavatars/battleground-the-order",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "sway_lyatb3",
+      "name": "Battleground: The Sway",
+      "source": "https://thedailyneopets.com/neoavatars/battleground-the-sway",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "thieves_atyl7",
+      "name": "Battleground: Thieves Guild",
+      "source": "https://thedailyneopets.com/neoavatars/battleground-thieves-guild",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "ava_beach_please",
+      "name": "Beach Please!",
+      "source": "https://thedailyneopets.com/neoavatars/beach-please",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "beautycontest",
+      "name": "Beauty Contest",
+      "source": "https://thedailyneopets.com/neoavatars/beauty-contest",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_best_strategist",
+      "name": "Best Strategist",
+      "source": "https://thedailyneopets.com/neoavatars/best-strategist",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "betterthanyou",
+      "name": "Better Than You",
+      "source": "https://thedailyneopets.com/neoavatars/better-than-you",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "nfy14",
+      "name": "Beware the Neggbreaker",
+      "source": "https://thedailyneopets.com/neoavatars/beware-the-neggbreaker",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "squished",
+      "name": "BFM - Squished Spiders",
+      "source": "https://thedailyneopets.com/neoavatars/bfm-squished-spiders",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "bilgedice",
+      "name": "Bilge Dice",
+      "source": "https://thedailyneopets.com/neoavatars/bilge-dice",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "luckystreak",
+      "name": "Bilge Dice - Lucky Streak!",
+      "source": "https://thedailyneopets.com/neoavatars/bilge-dice-lucky-streak",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "blackPteri",
+      "name": "Black Pteri",
+      "source": "https://thedailyneopets.com/neoavatars/black-pteri",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "asparableh",
+      "name": "Bleh!!",
+      "source": "https://thedailyneopets.com/neoavatars/bleh",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "blessyoushoyru",
+      "name": "Bless you, Shoyru.",
+      "source": "https://thedailyneopets.com/neoavatars/bless-you-shoyru",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "chefbonju",
+      "name": "Blumaroo - Chef Bonju",
+      "source": "https://thedailyneopets.com/neoavatars/blumaroo-chef-bonju",
+      "categories": [
+        "Item",
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "fireblumaroo",
+      "name": "Blumaroo - Fire!",
+      "source": "https://thedailyneopets.com/neoavatars/blumaroo-fire",
+      "categories": [
+        "Pet",
+        "Petpet"
+      ]
+    },
+    {
+      "code": "jester",
+      "name": "Blumaroo Court Jester",
+      "source": "https://thedailyneopets.com/neoavatars/blumaroo-court-jester",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "kelpwaitress",
+      "name": "Bon Appetit",
+      "source": "https://thedailyneopets.com/neoavatars/bon-appetit",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "ava_book_cipher",
+      "name": "Book Cipher Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/book-cipher-avatar",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "grumpybori",
+      "name": "Bori - Grumpy",
+      "source": "https://thedailyneopets.com/neoavatars/bori-grumpy",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "borovan_dipped",
+      "name": "Borovan Dipped",
+      "source": "https://thedailyneopets.com/neoavatars/borovan-dipped",
+      "categories": [
+        "Item",
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "ava_brain_freeze",
+      "name": "Brain Freeze!",
+      "source": "https://thedailyneopets.com/neoavatars/brain-freeze",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "braintree",
+      "name": "Brain Tree Quest",
+      "source": "https://thedailyneopets.com/neoavatars/brain-tree-quest",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "brightvale",
+      "name": "Brightvale",
+      "source": "https://thedailyneopets.com/neoavatars/brightvale",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "brokentoy",
+      "name": "Broken",
+      "source": "https://thedailyneopets.com/neoavatars/broken",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "mutantbruce",
+      "name": "Bruce - Mutant",
+      "source": "https://thedailyneopets.com/neoavatars/bruce-mutant",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_brushitoff",
+      "name": "Brush It Off",
+      "source": "https://thedailyneopets.com/neoavatars/brush-it-off",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "aim_sandcastle",
+      "name": "Building Sand Castles",
+      "source": "https://thedailyneopets.com/neoavatars/building-sand-castles",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "maraquanbuzz",
+      "name": "Buzz - Maraquan",
+      "source": "https://thedailyneopets.com/neoavatars/buzz-maraquan",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "buzzin",
+      "name": "Buzzin'",
+      "source": "https://thedailyneopets.com/neoavatars/buzzin",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "bythonbrood",
+      "name": "Bython Brood",
+      "source": "https://thedailyneopets.com/neoavatars/bython-brood",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "3legs",
+      "name": "Cap'n Threelegs",
+      "source": "https://thedailyneopets.com/neoavatars/capn-threelegs",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "capara",
+      "name": "Capara",
+      "source": "https://thedailyneopets.com/neoavatars/capara",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "scarblade",
+      "name": "Captain Scarblade",
+      "source": "https://thedailyneopets.com/neoavatars/captain-scarblade",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "captionwinner",
+      "name": "Caption Contest - Funny",
+      "source": "https://thedailyneopets.com/neoavatars/caption-contest-funny",
+      "categories": [
+        "Game",
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "ava_cap_contest",
+      "name": "Caption Contest - Hilarious",
+      "source": "https://thedailyneopets.com/neoavatars/caption-contest-hilarious",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "carnival_terror",
+      "name": "Carnival of Terror",
+      "source": "https://thedailyneopets.com/neoavatars/carnival-of-terror",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "charitycorner",
+      "name": "Charity Corner",
+      "source": "https://thedailyneopets.com/neoavatars/charity-corner",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "charityCorner2018",
+      "name": "Charity Corner 2018",
+      "source": "https://thedailyneopets.com/neoavatars/charity-corner-2018",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "charitycorner2019",
+      "name": "Charity Corner 2019",
+      "source": "https://thedailyneopets.com/neoavatars/charity-corner-2019",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "charitycorner2020",
+      "name": "Charity Corner 2020",
+      "source": "https://thedailyneopets.com/neoavatars/charity-corner-2020",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "florg",
+      "name": "Chia - Florg",
+      "source": "https://thedailyneopets.com/neoavatars/chia-florg",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "chiabomber",
+      "name": "Chia Bomber",
+      "source": "https://thedailyneopets.com/neoavatars/chia-bomber",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "chocolate",
+      "name": "Chocolate!",
+      "source": "https://thedailyneopets.com/neoavatars/chocolate",
+      "categories": [
+        "Item",
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "chokato",
+      "name": "Chokato",
+      "source": "https://thedailyneopets.com/neoavatars/chokato",
+      "categories": [
+        "Item",
+        "Random"
+      ]
+    },
+    {
+      "code": "rainbowchomby",
+      "name": "Chomby - Colourful",
+      "source": "https://thedailyneopets.com/neoavatars/chomby-colourful",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ac_christmas_aisha",
+      "name": "Christmas Aisha",
+      "source": "https://thedailyneopets.com/neoavatars/christmas-aisha",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "clay_day",
+      "name": "Clay - Ouch!",
+      "source": "https://thedailyneopets.com/neoavatars/clay-ouch",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_clever_strategist",
+      "name": "Clever Strategist",
+      "source": "https://thedailyneopets.com/neoavatars/clever-strategist",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "hic_kanrik",
+      "name": "Clever Thief",
+      "source": "https://thedailyneopets.com/neoavatars/clever-thief",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "cliffhanger",
+      "name": "Cliffhanger - Game Over",
+      "source": "https://thedailyneopets.com/neoavatars/cliffhanger-game-over",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "cocoroller",
+      "name": "Coco Roll",
+      "source": "https://thedailyneopets.com/neoavatars/coco-roll",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "cocojubjub",
+      "name": "Coconut Jubjub",
+      "source": "https://thedailyneopets.com/neoavatars/coconut-jubjub",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "codestones",
+      "name": "Codestones!",
+      "source": "https://thedailyneopets.com/neoavatars/codestones",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "colorfulkorbat",
+      "name": "Colourful Korbat",
+      "source": "https://thedailyneopets.com/neoavatars/colourful-korbat",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "comiccon2018",
+      "name": "Comic Con 2018",
+      "source": "https://thedailyneopets.com/neoavatars/comic-con-2018",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "deadlydice",
+      "name": "Count von Roo's Deadly Dice",
+      "source": "https://thedailyneopets.com/neoavatars/count-von-roos-deadly-dice",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "aim_borovan_cup",
+      "name": "Cup O' Borovan",
+      "source": "https://thedailyneopets.com/neoavatars/cup-o-borovan",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "maraquansupporter",
+      "name": "Curse of Maraqua - Maraquan Supporter",
+      "source": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-maraquan-supporter",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "maraquanwarrior",
+      "name": "Curse of Maraqua - Maraquan Warrior",
+      "source": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-maraquan-warrior",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "piratesupporter",
+      "name": "Curse of Maraqua - Pirate Supporter",
+      "source": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-pirate-supporter",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "piratewarrior",
+      "name": "Curse of Maraqua - Pirate Warrior",
+      "source": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-pirate-warrior",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ava_customisation",
+      "name": "Customisation Connoisseur",
+      "source": "https://thedailyneopets.com/neoavatars/customisation-connoisseur",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "plushiecybunny",
+      "name": "Cybunny - Plush",
+      "source": "https://thedailyneopets.com/neoavatars/cybunny-plush",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "cyodrake",
+      "name": "Cyodrake",
+      "source": "https://thedailyneopets.com/neoavatars/cyodrake",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ddstaff_tourney",
+      "name": "Daily Dare Neopets Staff Tournament",
+      "source": "https://thedailyneopets.com/neoavatars/daily-dare-neopets-staff-tournament",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ddstaff",
+      "name": "Daily Dare Staff Tournament",
+      "source": "https://thedailyneopets.com/neoavatars/daily-dare-staff-tournament",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "darigandarkling",
+      "name": "Darigan Darkling",
+      "source": "https://thedailyneopets.com/neoavatars/darigan-darkling",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "darkpeophin",
+      "name": "Darigan Peophin",
+      "source": "https://thedailyneopets.com/neoavatars/darigan-peophin",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "dariganredeemed",
+      "name": "Darigan Redeemed",
+      "source": "https://thedailyneopets.com/neoavatars/darigan-redeemed",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "darklurker",
+      "name": "Dark Lurker",
+      "source": "https://thedailyneopets.com/neoavatars/dark-lurker",
+      "categories": [
+        "Item",
+        "Random"
+      ]
+    },
+    {
+      "code": "darknova",
+      "name": "Dark Nova",
+      "source": "https://thedailyneopets.com/neoavatars/dark-nova",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_deadchia",
+      "name": "Dead Chia Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/dead-chia-avatar",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "deckswabber",
+      "name": "Deckswabber",
+      "source": "https://thedailyneopets.com/neoavatars/deckswabber",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "defenders_aisha",
+      "name": "Defenders of Neopia - Aisha",
+      "source": "https://thedailyneopets.com/neoavatars/defenders-of-neopia-aisha",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "defenders_lupe",
+      "name": "Defenders of Neopia - Lupe",
+      "source": "https://thedailyneopets.com/neoavatars/defenders-of-neopia-lupe",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "destructomatch2",
+      "name": "Destruct-O-Match II",
+      "source": "https://thedailyneopets.com/neoavatars/destruct-o-match-ii",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_devotedcaretaker",
+      "name": "Devoted Caretaker",
+      "source": "https://thedailyneopets.com/neoavatars/devoted-caretaker",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "dice_escape",
+      "name": "Dice Escape",
+      "source": "https://thedailyneopets.com/neoavatars/dice-escape",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "luckyblumaroo",
+      "name": "Dice-A-Roo",
+      "source": "https://thedailyneopets.com/neoavatars/dice-a-roo",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_dizzyyooyu",
+      "name": "Dizzy Yooyu",
+      "source": "https://thedailyneopets.com/neoavatars/dizzy-yooyu",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "donoteatcarrot",
+      "name": "Do Not Eat!!",
+      "source": "https://thedailyneopets.com/neoavatars/do-not-eat",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_doglefetch",
+      "name": "Doglefetch",
+      "source": "https://thedailyneopets.com/neoavatars/doglefetch",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "drdeath",
+      "name": "Dr. Death",
+      "source": "https://thedailyneopets.com/neoavatars/dr-death",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "drgrumps",
+      "name": "Dr. Grumps",
+      "source": "https://thedailyneopets.com/neoavatars/dr-grumps",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "drackonack_hungry",
+      "name": "Drackonack - Hungry",
+      "source": "https://thedailyneopets.com/neoavatars/drackonack-hungry",
+      "categories": [
+        "Item",
+        "Petpet",
+        "Random"
+      ]
+    },
+    {
+      "code": "efmcdraik",
+      "name": "Draik - Escape from Meridell Castle",
+      "source": "https://thedailyneopets.com/neoavatars/draik-escape-from-meridell-castle",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "draikegg",
+      "name": "Draik - Hatched",
+      "source": "https://thedailyneopets.com/neoavatars/draik-hatched",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "dungdash",
+      "name": "Dung Dash - Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/dung-dash-avatar",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ava_art_gallery_contest",
+      "name": "Easel-y the Best",
+      "source": "https://thedailyneopets.com/neoavatars/easel-y-the-best",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "easterbunny",
+      "name": "Easter Cybunny",
+      "source": "https://thedailyneopets.com/neoavatars/easter-cybunny",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "ednacackle",
+      "name": "Edna - Cackle!",
+      "source": "https://thedailyneopets.com/neoavatars/edna-cackle",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "battleelephante",
+      "name": "Elephante - To War!",
+      "source": "https://thedailyneopets.com/neoavatars/elephante-to-war",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "elephantesurprise",
+      "name": "Elephante Surprise",
+      "source": "https://thedailyneopets.com/neoavatars/elephante-surprise",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "emosuki",
+      "name": "Emo Usuki",
+      "source": "https://thedailyneopets.com/neoavatars/emo-usuki",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_esophagor",
+      "name": "Esophagor",
+      "source": "https://thedailyneopets.com/neoavatars/esophagor",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "evilcoconut",
+      "name": "Evil Coconut",
+      "source": "https://thedailyneopets.com/neoavatars/evil-coconut",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "evileliv",
+      "name": "Evil Eliv Thade",
+      "source": "https://thedailyneopets.com/neoavatars/evil-eliv-thade",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "fuzzleBOO",
+      "name": "Evil Fuzzle - BOO!",
+      "source": "https://thedailyneopets.com/neoavatars/evil-fuzzle-boo",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "jhudoraohyeah",
+      "name": "Evil Jhudora",
+      "source": "https://thedailyneopets.com/neoavatars/evil-jhudora",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "aim_sloth_clone",
+      "name": "Evil Sloth Clone",
+      "source": "https://thedailyneopets.com/neoavatars/evil-sloth-clone",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "extremepotato",
+      "name": "Extreme Potato Counter",
+      "source": "https://thedailyneopets.com/neoavatars/extreme-potato-counter",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "itsalive",
+      "name": "Faellie - It's Alive!",
+      "source": "https://thedailyneopets.com/neoavatars/faellie-its-alive",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "faeriebubbles",
+      "name": "Faerie Bubbles",
+      "source": "https://thedailyneopets.com/neoavatars/faerie-bubbles",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_faerie_celebration",
+      "name": "Faerie Celebration",
+      "source": "https://thedailyneopets.com/neoavatars/faerie-celebration",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "faeriefestival",
+      "name": "Faerie Festival",
+      "source": "https://thedailyneopets.com/neoavatars/faerie-festival",
+      "categories": [
+        "Miscellaneous",
+        "Retired"
+      ]
+    },
+    {
+      "code": "ff_matchmaker",
+      "name": "Faerie Fragments - Professional Matchmaker",
+      "source": "https://thedailyneopets.com/neoavatars/faerie-fragments-professional-matchmaker",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "faeriepteri",
+      "name": "Faerie Pteri",
+      "source": "https://thedailyneopets.com/neoavatars/faerie-pteri",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "schooltools",
+      "name": "Fall Charity Corner",
+      "source": "https://thedailyneopets.com/neoavatars/fall-charity-corner",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "hungryskeith",
+      "name": "Feed Me",
+      "source": "https://thedailyneopets.com/neoavatars/feed-me",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "neggfest2010_95e8ebf8a4",
+      "name": "Festival of Neggs Y12 - Quester",
+      "source": "https://thedailyneopets.com/neoavatars/festival-of-neggs-y12-quester",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "negg_fest11",
+      "name": "Festival of Neggs Y13 - Builder",
+      "source": "https://thedailyneopets.com/neoavatars/festival-of-neggs-y13-builder",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "fiendishformations",
+      "name": "Fiendish Formations",
+      "source": "https://thedailyneopets.com/neoavatars/fiendish-formations",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "aim_jhudora_fire",
+      "name": "Fiery Jhudora",
+      "source": "https://thedailyneopets.com/neoavatars/fiery-jhudora",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "fierypteri",
+      "name": "Fiery Pteri",
+      "source": "https://thedailyneopets.com/neoavatars/fiery-pteri",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "firekougra",
+      "name": "Fire Paw",
+      "source": "https://thedailyneopets.com/neoavatars/fire-paw",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "fishsquid",
+      "name": "Fishing - Titanic Squid",
+      "source": "https://thedailyneopets.com/neoavatars/fishing-titanic-squid",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "ava_fishing_vortex",
+      "name": "Fishing Vortex",
+      "source": "https://thedailyneopets.com/neoavatars/fishing-vortex",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "kissthemortog",
+      "name": "Flee!",
+      "source": "https://thedailyneopets.com/neoavatars/flee",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "rainbowflotsam",
+      "name": "Flotsam - Rainbow",
+      "source": "https://thedailyneopets.com/neoavatars/flotsam-rainbow",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "toughflotsam",
+      "name": "Flotsam - Tough!",
+      "source": "https://thedailyneopets.com/neoavatars/flotsam-tough",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_lostindark",
+      "name": "Follow The Light",
+      "source": "https://thedailyneopets.com/neoavatars/follow-the-light",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_food_club_smmmmm",
+      "name": "Food Club - Winner Winner Pirate Dinner",
+      "source": "https://thedailyneopets.com/neoavatars/food-club-winner-winner-pirate-dinner",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "foreverloading",
+      "name": "Forever Loading...",
+      "source": "https://thedailyneopets.com/neoavatars/forever-loading",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "forgshore",
+      "name": "Forgotten Shore",
+      "source": "https://thedailyneopets.com/neoavatars/forgotten-shore",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "freakedkorbat",
+      "name": "Freaked Korbat",
+      "source": "https://thedailyneopets.com/neoavatars/freaked-korbat",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ff_yoinked",
+      "name": "Freaky Factory - Yoinked",
+      "source": "https://thedailyneopets.com/neoavatars/freaky-factory-yoinked",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "freejhuidah",
+      "name": "Free Jhuidah!",
+      "source": "https://thedailyneopets.com/neoavatars/free-jhuidah",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ava_fruit_machine",
+      "name": "Fruit Machine - Jackpot!",
+      "source": "https://thedailyneopets.com/neoavatars/fruit-machine-jackpot",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "fyora",
+      "name": "Fyora - Faerie Queen",
+      "source": "https://thedailyneopets.com/neoavatars/fyora-faerie-queen",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "gadgadsfruit",
+      "name": "Gadgadsbogen!",
+      "source": "https://thedailyneopets.com/neoavatars/gadgadsbogen",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "gadsgadsgame",
+      "name": "Gadgadsgame",
+      "source": "https://thedailyneopets.com/neoavatars/gadgadsgame",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_gallery_collector",
+      "name": "Gallery Go-Getter",
+      "source": "https://thedailyneopets.com/neoavatars/gallery-go-getter",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "galleryofevil_vira",
+      "name": "Gallery of Evil - Vira",
+      "source": "https://thedailyneopets.com/neoavatars/gallery-of-evil-vira",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_game_trophy",
+      "name": "Game Trophy Enthusiast",
+      "source": "https://thedailyneopets.com/neoavatars/game-trophy-enthusiast",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "avinroo",
+      "name": "Gamesmaster Aaa",
+      "source": "https://thedailyneopets.com/neoavatars/gamesmaster-aaa",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ava_gaming_slorg",
+      "name": "Gaming Slorg Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/gaming-slorg-avatar",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "runaway_garlic",
+      "name": "Garlic!  Run!!",
+      "source": "https://thedailyneopets.com/neoavatars/garlic-run",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "starrygelert",
+      "name": "Gelert - Starry",
+      "source": "https://thedailyneopets.com/neoavatars/gelert-starry",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "geraptiku_tomb",
+      "name": "Geraptiku - Deserted Tomb",
+      "source": "https://thedailyneopets.com/neoavatars/geraptiku-deserted-tomb",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "ghostkrawk",
+      "name": "Ghost Krawk",
+      "source": "https://thedailyneopets.com/neoavatars/ghost-krawk",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "ghostlupe",
+      "name": "Ghost Lupe",
+      "source": "https://thedailyneopets.com/neoavatars/ghost-lupe",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "aim_kacheek_ghost",
+      "name": "Ghost Stories",
+      "source": "https://thedailyneopets.com/neoavatars/ghost-stories",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "gloomy",
+      "name": "Gloomy",
+      "source": "https://thedailyneopets.com/neoavatars/gloomy",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "gnome",
+      "name": "Gnome!",
+      "source": "https://thedailyneopets.com/neoavatars/gnome",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "godori",
+      "name": "Godori",
+      "source": "https://thedailyneopets.com/neoavatars/godori",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "goldy",
+      "name": "Goldy",
+      "source": "https://thedailyneopets.com/neoavatars/goldy",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "bankdepositavatar",
+      "name": "Good Day At The Bank",
+      "source": "https://thedailyneopets.com/neoavatars/good-day-at-the-bank",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "iscacaylis",
+      "name": "Good or Bad?",
+      "source": "https://thedailyneopets.com/neoavatars/good-or-bad",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "goparokko",
+      "name": "Goparokko",
+      "source": "https://thedailyneopets.com/neoavatars/goparokko",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "gormball_gargarox",
+      "name": "Gormball - Gargarox",
+      "source": "https://thedailyneopets.com/neoavatars/gormball-gargarox",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "gtu",
+      "name": "Grand Theft Ummagine",
+      "source": "https://thedailyneopets.com/neoavatars/grand-theft-ummagine",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "darigangrarrl",
+      "name": "Grarrl - Darigan",
+      "source": "https://thedailyneopets.com/neoavatars/grarrl-darigan",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "galem",
+      "name": "Grarrl - Galem Darkhand",
+      "source": "https://thedailyneopets.com/neoavatars/grarrl-galem-darkhand",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "lilgrarrl",
+      "name": "Grarrl Keno",
+      "source": "https://thedailyneopets.com/neoavatars/grarrl-keno",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "grarrlwarrior",
+      "name": "Grarrl Warrior",
+      "source": "https://thedailyneopets.com/neoavatars/grarrl-warrior",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "aim_hauntedwoods_1",
+      "name": "Grave Tombstone",
+      "source": "https://thedailyneopets.com/neoavatars/grave-tombstone",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "greyfaerie",
+      "name": "Grey Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/grey-faerie",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_fon24_gk",
+      "name": "Grey Kari",
+      "source": "https://thedailyneopets.com/neoavatars/grey-kari",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "sigh",
+      "name": "Grey Wocky - *sigh*",
+      "source": "https://thedailyneopets.com/neoavatars/grey-wocky-sigh",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "groovychomby",
+      "name": "Groovy Chomby",
+      "source": "https://thedailyneopets.com/neoavatars/groovy-chomby",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "tdmbgpop",
+      "name": "Grundo - Discarded Plushie",
+      "source": "https://thedailyneopets.com/neoavatars/grundo-discarded-plushie",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "grundo_faerie",
+      "name": "Grundo - Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/grundo-faerie",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "foreverorange",
+      "name": "Grundo - Forever Orange",
+      "source": "https://thedailyneopets.com/neoavatars/grundo-forever-orange",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "grundo_snowthrow",
+      "name": "Grundo - Snowthrow!",
+      "source": "https://thedailyneopets.com/neoavatars/grundo-snowthrow",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "grundogrunt",
+      "name": "Grundo Warehouse",
+      "source": "https://thedailyneopets.com/neoavatars/grundo-warehouse",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "gruslen",
+      "name": "Gruslen",
+      "source": "https://thedailyneopets.com/neoavatars/gruslen",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "ava_guild_battler",
+      "name": "Guild Battler",
+      "source": "https://thedailyneopets.com/neoavatars/guild-battler",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "hatpc",
+      "name": "Hannah and the Pirate Caves",
+      "source": "https://thedailyneopets.com/neoavatars/hannah-and-the-pirate-caves",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "birthday",
+      "name": "Happy Birthday!",
+      "source": "https://thedailyneopets.com/neoavatars/happy-birthday",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "windyharris",
+      "name": "Harris - Hi",
+      "source": "https://thedailyneopets.com/neoavatars/harris-hi",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "heermeedjet",
+      "name": "Heermeedjet",
+      "source": "https://thedailyneopets.com/neoavatars/heermeedjet",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "yourlupeasplode",
+      "name": "Hello, little Lupe... BOOOM!",
+      "source": "https://thedailyneopets.com/neoavatars/hello-little-lupe-booom",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "zafara_helpful",
+      "name": "Helpful Zafara",
+      "source": "https://thedailyneopets.com/neoavatars/helpful-zafara",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "hiddenidentity",
+      "name": "Hidden Identity",
+      "source": "https://thedailyneopets.com/neoavatars/hidden-identity",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "extravagance",
+      "name": "High Roller",
+      "source": "https://thedailyneopets.com/neoavatars/high-roller",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "icehissi",
+      "name": "Hissi - Ice",
+      "source": "https://thedailyneopets.com/neoavatars/hissi-ice",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_varwolf_howl",
+      "name": "Howling Varwolf",
+      "source": "https://thedailyneopets.com/neoavatars/howling-varwolf",
+      "categories": [
+        "Clickable",
+        "Pet"
+      ]
+    },
+    {
+      "code": "htrich",
+      "name": "HT - Rich",
+      "source": "https://thedailyneopets.com/neoavatars/ht-rich",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "htricher",
+      "name": "HT - Richer",
+      "source": "https://thedailyneopets.com/neoavatars/ht-richer",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "htrichest",
+      "name": "HT - Richest",
+      "source": "https://thedailyneopets.com/neoavatars/ht-richest",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_htrichelite",
+      "name": "HT- Elite",
+      "source": "https://thedailyneopets.com/neoavatars/ht-elite",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "huggy",
+      "name": "Huggy",
+      "source": "https://thedailyneopets.com/neoavatars/huggy",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "ihearthappiness",
+      "name": "I *heart* Happiness",
+      "source": "https://thedailyneopets.com/neoavatars/i-heart-happiness",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "iheartslothy",
+      "name": "I *heart* Sloth",
+      "source": "https://thedailyneopets.com/neoavatars/i-heart-sloth",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "ava_iheartnc",
+      "name": "I ❤ Neocash",
+      "source": "https://thedailyneopets.com/neoavatars/i-neocash",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "pet_rock",
+      "name": "I Love My Rock",
+      "source": "https://thedailyneopets.com/neoavatars/i-love-my-rock",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "savedMysteryIsland",
+      "name": "I Saved Mystery Island",
+      "source": "https://thedailyneopets.com/neoavatars/i-saved-mystery-island",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "neopocalypse",
+      "name": "I survived the Neopocalypse!",
+      "source": "https://thedailyneopets.com/neoavatars/i-survived-the-neopocalypse",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "pantdeviltaunt",
+      "name": "I Taunt The Pant Devil",
+      "source": "https://thedailyneopets.com/neoavatars/i-taunt-the-pant-devil",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "dung",
+      "name": "I'm Smelly",
+      "source": "https://thedailyneopets.com/neoavatars/im-smelly",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "icecreammachine",
+      "name": "Ice Cream Machine",
+      "source": "https://thedailyneopets.com/neoavatars/ice-cream-machine",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "illusendoll",
+      "name": "Illusen Doll",
+      "source": "https://thedailyneopets.com/neoavatars/illusen-doll",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "fq2023",
+      "name": "Illusen vs Jhudora",
+      "source": "https://thedailyneopets.com/neoavatars/illusen-vs-jhudora",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "illusensglade",
+      "name": "Illusen's Glade",
+      "source": "https://thedailyneopets.com/neoavatars/illusens-glade",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_udtcgillusen",
+      "name": "Illusens Mortog",
+      "source": "https://thedailyneopets.com/neoavatars/illusens-mortog",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "imposterapple",
+      "name": "Imposter Apple",
+      "source": "https://thedailyneopets.com/neoavatars/imposter-apple",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "infirmary",
+      "name": "Infirmary",
+      "source": "https://thedailyneopets.com/neoavatars/infirmary",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "iommoehog",
+      "name": "IOM Moehog",
+      "source": "https://thedailyneopets.com/neoavatars/iom-moehog",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "islandmystic",
+      "name": "Island Mystic",
+      "source": "https://thedailyneopets.com/neoavatars/island-mystic",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "islandquiggle",
+      "name": "Island Quiggle",
+      "source": "https://thedailyneopets.com/neoavatars/island-quiggle",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "discoixi",
+      "name": "Ixi - Disco",
+      "source": "https://thedailyneopets.com/neoavatars/ixi-disco",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "swampwitch",
+      "name": "Ixi - Sophie the Swamp Witch",
+      "source": "https://thedailyneopets.com/neoavatars/ixi-sophie-the-swamp-witch",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "elephantejazz",
+      "name": "Jazzmosis Elephante",
+      "source": "https://thedailyneopets.com/neoavatars/jazzmosis-elephante",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "jeranhero",
+      "name": "Jeran - Hero",
+      "source": "https://thedailyneopets.com/neoavatars/jeran-hero",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "bahbyjetsam",
+      "name": "Jetsam - Bah!",
+      "source": "https://thedailyneopets.com/neoavatars/jetsam-bah",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "robotjetsam",
+      "name": "Jetsam - Wanna Fight?",
+      "source": "https://thedailyneopets.com/neoavatars/jetsam-wanna-fight",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "jetsamchomp",
+      "name": "Jetsam Chomp!",
+      "source": "https://thedailyneopets.com/neoavatars/jetsam-chomp",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "ava_udtcgjhudora",
+      "name": "Jhudora Gruslens",
+      "source": "https://thedailyneopets.com/neoavatars/jhudora-gruslens",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "jhudorascloud",
+      "name": "Jhudora's Cloud",
+      "source": "https://thedailyneopets.com/neoavatars/jhudoras-cloud",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_puzzle_addict",
+      "name": "Jigsaw Puzzle Addict",
+      "source": "https://thedailyneopets.com/neoavatars/jigsaw-puzzle-addict",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "jubzambra",
+      "name": "Jub Zambra",
+      "source": "https://thedailyneopets.com/neoavatars/jub-zambra",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "tyrannianjubjub",
+      "name": "Jubjub - Tyrannian",
+      "source": "https://thedailyneopets.com/neoavatars/jubjub-tyrannian",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "kacheek06",
+      "name": "Kacheek - Herder",
+      "source": "https://thedailyneopets.com/neoavatars/kacheek-herder",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_25anniversary_kacheek",
+      "name": "Kacheek -25th Anniversary Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/kacheek-25th-anniversary-avatar",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "ava_mlbp_kacheek",
+      "name": "Kacheek Homerun",
+      "source": "https://thedailyneopets.com/neoavatars/kacheek-homerun",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "kacheekswim",
+      "name": "Kacheek Swim",
+      "source": "https://thedailyneopets.com/neoavatars/kacheek-swim",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "kadoatery",
+      "name": "Kadoatery - Mew!",
+      "source": "https://thedailyneopets.com/neoavatars/kadoatery-mew",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "kassminion",
+      "name": "Kass Minion",
+      "source": "https://thedailyneopets.com/neoavatars/kass-minion",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "kasukilu",
+      "name": "Kasuki Lu - Heeyah!",
+      "source": "https://thedailyneopets.com/neoavatars/kasuki-lu-heeyah",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "kaufortuneteller",
+      "name": "Kau - Fortune Teller",
+      "source": "https://thedailyneopets.com/neoavatars/kau-fortune-teller",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "starrykau",
+      "name": "Kau - Starry",
+      "source": "https://thedailyneopets.com/neoavatars/kau-starry",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "musickiko",
+      "name": "Kiko - Rock!",
+      "source": "https://thedailyneopets.com/neoavatars/kiko-rock",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "kikosnacktime",
+      "name": "Kiko - Snack Time!",
+      "source": "https://thedailyneopets.com/neoavatars/kiko-snack-time",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ninjakiko",
+      "name": "Kiko Ninja",
+      "source": "https://thedailyneopets.com/neoavatars/kiko-ninja",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "kikopop",
+      "name": "Kiko Pop!",
+      "source": "https://thedailyneopets.com/neoavatars/kiko-pop",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "kelpbeard",
+      "name": "King Kelpbeard",
+      "source": "https://thedailyneopets.com/neoavatars/king-kelpbeard",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_udtcg_com_kingskeith",
+      "name": "King Skarl Hero",
+      "source": "https://thedailyneopets.com/neoavatars/king-skarl-hero",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "kioskwocky",
+      "name": "Kiosk Wocky",
+      "source": "https://thedailyneopets.com/neoavatars/kiosk-wocky",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "koiplushie",
+      "name": "Koi - Spotted Plushie",
+      "source": "https://thedailyneopets.com/neoavatars/koi-spotted-plushie",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "royalkorbat_boy",
+      "name": "Korbat - Royal",
+      "source": "https://thedailyneopets.com/neoavatars/korbat-royal",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "royalkorbat_girl",
+      "name": "Korbat - Royal",
+      "source": "https://thedailyneopets.com/neoavatars/korbat-royal-1",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "babykougra",
+      "name": "Kougra - Baby",
+      "source": "https://thedailyneopets.com/neoavatars/kougra-baby",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "krawkislandfever",
+      "name": "Krawk - Island Fever",
+      "source": "https://thedailyneopets.com/neoavatars/krawk-island-fever",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "krawkenattack",
+      "name": "Krawken Attack",
+      "source": "https://thedailyneopets.com/neoavatars/krawken-attack",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "landlba",
+      "name": "L&L - Bravo, Aurrick!",
+      "source": "https://thedailyneopets.com/neoavatars/ll-bravo-aurrick",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ava_lairbeast",
+      "name": "Lair Beast",
+      "source": "https://thedailyneopets.com/neoavatars/lair-beast",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "lawyerbot",
+      "name": "Lawyerbot &lt;3 Usuki",
+      "source": "https://thedailyneopets.com/neoavatars/lawyerbot-lt3-usuki",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ldp_tablet",
+      "name": "LDP - What does it mean?",
+      "source": "https://thedailyneopets.com/neoavatars/ldp-what-does-it-mean",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "lenny_plushie",
+      "name": "Lennies Rule",
+      "source": "https://thedailyneopets.com/neoavatars/lennies-rule",
+      "categories": [
+        "Game",
+        "Retired"
+      ]
+    },
+    {
+      "code": "acp",
+      "name": "Lenny - Finneus",
+      "source": "https://thedailyneopets.com/neoavatars/lenny-finneus",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "mutantlenny",
+      "name": "Lenny - Mutant",
+      "source": "https://thedailyneopets.com/neoavatars/lenny-mutant",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "wickedlenny",
+      "name": "Lenny - Wicked",
+      "source": "https://thedailyneopets.com/neoavatars/lenny-wicked",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "letitsnow",
+      "name": "Let It Snow!",
+      "source": "https://thedailyneopets.com/neoavatars/let-it-snow",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "leverofdoom",
+      "name": "Lever of Doom",
+      "source": "https://thedailyneopets.com/neoavatars/lever-of-doom",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "library_faerie",
+      "name": "Library Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/library-faerie",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_love_bomb",
+      "name": "Love Bomb",
+      "source": "https://thedailyneopets.com/neoavatars/love-bomb",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "kingaltador",
+      "name": "Lupe - King Altador",
+      "source": "https://thedailyneopets.com/neoavatars/lupe-king-altador",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "madaboutorange",
+      "name": "Mad About Orange",
+      "source": "https://thedailyneopets.com/neoavatars/mad-about-orange",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "magax",
+      "name": "Magax: Destroyer",
+      "source": "https://thedailyneopets.com/neoavatars/magax-destroyer",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "kauvara",
+      "name": "Magical Kauvara",
+      "source": "https://thedailyneopets.com/neoavatars/magical-kauvara",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "aim_night_sky",
+      "name": "Make A Wish",
+      "source": "https://thedailyneopets.com/neoavatars/make-a-wish",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "maraquanchomby",
+      "name": "Maraquan Chomby",
+      "source": "https://thedailyneopets.com/neoavatars/maraquan-chomby",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "maraquankrawk",
+      "name": "Maraquan Krawk",
+      "source": "https://thedailyneopets.com/neoavatars/maraquan-krawk",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "aim_maraquanlupe",
+      "name": "Maraquan Lupe",
+      "source": "https://thedailyneopets.com/neoavatars/maraquan-lupe",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "mastervex",
+      "name": "Master Vex",
+      "source": "https://thedailyneopets.com/neoavatars/master-vex",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_match_madness",
+      "name": "Match Madness",
+      "source": "https://thedailyneopets.com/neoavatars/match-madness",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "mazzew",
+      "name": "Mazzew",
+      "source": "https://thedailyneopets.com/neoavatars/mazzew",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "glitchedtopsibot",
+      "name": "Mecha Topsi - Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/mecha-topsi-avatar",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "mediocrity",
+      "name": "Mediocrity",
+      "source": "https://thedailyneopets.com/neoavatars/mediocrity",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "meepvsfeep",
+      "name": "Meepit Vs Feepit",
+      "source": "https://thedailyneopets.com/neoavatars/meepit-vs-feepit",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "villainousmeerca",
+      "name": "Meerca - Halloween",
+      "source": "https://thedailyneopets.com/neoavatars/meerca-halloween",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "meercachase",
+      "name": "Meerca Chase",
+      "source": "https://thedailyneopets.com/neoavatars/meerca-chase",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "meowclops_close",
+      "name": "Meowclops",
+      "source": "https://thedailyneopets.com/neoavatars/meowclops",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "meridellknight",
+      "name": "Meridell Knight",
+      "source": "https://thedailyneopets.com/neoavatars/meridell-knight",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "meerouladen",
+      "name": "Merouladen",
+      "source": "https://thedailyneopets.com/neoavatars/merouladen",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "meukasnot",
+      "name": "Meuka - Snotty",
+      "source": "https://thedailyneopets.com/neoavatars/meuka-snotty",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "ava_mind_control",
+      "name": "Mind Control",
+      "source": "https://thedailyneopets.com/neoavatars/mind-control",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "custard",
+      "name": "Mmm, custard!",
+      "source": "https://thedailyneopets.com/neoavatars/mmm-custard",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "moach",
+      "name": "Moach",
+      "source": "https://thedailyneopets.com/neoavatars/moach",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "piratemoehog",
+      "name": "Moehog - Avast!",
+      "source": "https://thedailyneopets.com/neoavatars/moehog-avast",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "halloweenmoehog",
+      "name": "Moehog - Halloween",
+      "source": "https://thedailyneopets.com/neoavatars/moehog-halloween",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "monsterhunting",
+      "name": "Monster Hunting",
+      "source": "https://thedailyneopets.com/neoavatars/monster-hunting",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "mootix",
+      "name": "Mootix",
+      "source": "https://thedailyneopets.com/neoavatars/mootix",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "mortogkiss",
+      "name": "Mortog Smooch",
+      "source": "https://thedailyneopets.com/neoavatars/mortog-smooch",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "evilpoogle",
+      "name": "MSPP",
+      "source": "https://thedailyneopets.com/neoavatars/mspp",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "doglefox_mud",
+      "name": "Muddy Paws",
+      "source": "https://thedailyneopets.com/neoavatars/muddy-paws",
+      "categories": [
+        "Item",
+        "Petpet"
+      ]
+    },
+    {
+      "code": "islandkacheek",
+      "name": "Must... Keep... Smiling...",
+      "source": "https://thedailyneopets.com/neoavatars/must-keep-smiling",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "mutantdraik",
+      "name": "Mutant Draik - Back Off!",
+      "source": "https://thedailyneopets.com/neoavatars/mutant-draik-back-off",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "pooralbert",
+      "name": "Mutant Graveyard of Doom",
+      "source": "https://thedailyneopets.com/neoavatars/mutant-graveyard-of-doom",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "mutantgravedoom",
+      "name": "Mutant Graveyard of Doom II",
+      "source": "https://thedailyneopets.com/neoavatars/mutant-graveyard-of-doom-ii",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "mutantjubjub",
+      "name": "Mutant JubJub",
+      "source": "https://thedailyneopets.com/neoavatars/mutant-jubjub",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "halloweenmynci",
+      "name": "Mynci - Halloween",
+      "source": "https://thedailyneopets.com/neoavatars/mynci-halloween",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "nabile",
+      "name": "Nabile",
+      "source": "https://thedailyneopets.com/neoavatars/nabile",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "easterbunnyy17",
+      "name": "Negg Basket Cybunny",
+      "source": "https://thedailyneopets.com/neoavatars/negg-basket-cybunny",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "neomailaddict",
+      "name": "Neomail Addict",
+      "source": "https://thedailyneopets.com/neoavatars/neomail-addict",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "ava_nt_1k",
+      "name": "Neopian 1k Edition",
+      "source": "https://thedailyneopets.com/neoavatars/neopian-1k-edition",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "lottery",
+      "name": "Neopian Lottery",
+      "source": "https://thedailyneopets.com/neoavatars/neopian-lottery",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_rules",
+      "name": "Neopian Task Force",
+      "source": "https://thedailyneopets.com/neoavatars/neopian-task-force",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ntstar",
+      "name": "Neopian Times Star",
+      "source": "https://thedailyneopets.com/neoavatars/neopian-times-star",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ntwriter",
+      "name": "Neopian Times Writer",
+      "source": "https://thedailyneopets.com/neoavatars/neopian-times-writer",
+      "categories": [
+        "Game",
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "ava_neopiesknow",
+      "name": "Neopies - Know It All",
+      "source": "https://thedailyneopets.com/neoavatars/neopies-know-it-all",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "nq1erick",
+      "name": "NeoQuest - Wise and Powerful",
+      "source": "https://thedailyneopets.com/neoavatars/neoquest-wise-and-powerful",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "bunninator",
+      "name": "Neoquest II - Bionic Cybunny",
+      "source": "https://thedailyneopets.com/neoavatars/neoquest-ii-bionic-cybunny",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "devilpuss",
+      "name": "Neoquest II - Devilpuss",
+      "source": "https://thedailyneopets.com/neoavatars/neoquest-ii-devilpuss",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "weakling",
+      "name": "Neoquest II - Weakling",
+      "source": "https://thedailyneopets.com/neoavatars/neoquest-ii-weakling",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "neovisionplus",
+      "name": "Neovision Plus Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/neovision-plus-avatar",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "emotingnimmo",
+      "name": "Nimmo - Emote",
+      "source": "https://thedailyneopets.com/neoavatars/nimmo-emote",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "nimmospond",
+      "name": "Nimmos Pond",
+      "source": "https://thedailyneopets.com/neoavatars/nimmos-pond",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "niptor",
+      "name": "Niptor",
+      "source": "https://thedailyneopets.com/neoavatars/niptor",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "wreathy",
+      "name": "Not For Wreathale",
+      "source": "https://thedailyneopets.com/neoavatars/not-for-wreathale",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "numbersix",
+      "name": "Number Six",
+      "source": "https://thedailyneopets.com/neoavatars/number-six",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_nyx_powers",
+      "name": "Nyx - Void Powers",
+      "source": "https://thedailyneopets.com/neoavatars/nyx-void-powers",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "obeliskwar_ayfb89s",
+      "name": "Obelisk War Veteran",
+      "source": "https://thedailyneopets.com/neoavatars/obelisk-war-veteran",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ohemgee",
+      "name": "OHEMGEE!!!",
+      "source": "https://thedailyneopets.com/neoavatars/ohemgee",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_overtherainbow",
+      "name": "Over The Rainbow",
+      "source": "https://thedailyneopets.com/neoavatars/over-the-rainbow",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "aim_babygrundo_boo",
+      "name": "Peek-A-Boo!",
+      "source": "https://thedailyneopets.com/neoavatars/peek-a-boo",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "faeriepeo",
+      "name": "Peophin - Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/peophin-faerie",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "purplepeo",
+      "name": "Peophin - Purple",
+      "source": "https://thedailyneopets.com/neoavatars/peophin-purple",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "petpetlabray",
+      "name": "Petpet Laboratory",
+      "source": "https://thedailyneopets.com/neoavatars/petpet-laboratory",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "petpetrescue",
+      "name": "Petpet Rescue",
+      "source": "https://thedailyneopets.com/neoavatars/petpet-rescue",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "petpetsitter",
+      "name": "Petpetsitter",
+      "source": "https://thedailyneopets.com/neoavatars/petpetsitter",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "pickyourown",
+      "name": "Pick Your Own",
+      "source": "https://thedailyneopets.com/neoavatars/pick-your-own",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "pinatacandy",
+      "name": "Pinatas & Candy!",
+      "source": "https://thedailyneopets.com/neoavatars/pinatas-candy",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "pinkpopcorn",
+      "name": "Pink!",
+      "source": "https://thedailyneopets.com/neoavatars/pink",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "aishapirate",
+      "name": "Pirate! - Aisha",
+      "source": "https://thedailyneopets.com/neoavatars/pirate-aisha",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "krawkpirate",
+      "name": "Pirate! - Krawk",
+      "source": "https://thedailyneopets.com/neoavatars/pirate-krawk",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "scorchiopirate",
+      "name": "Pirate! - Scorchio",
+      "source": "https://thedailyneopets.com/neoavatars/pirate-scorchio",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "shoyrupirate",
+      "name": "Pirate! - Shoyru",
+      "source": "https://thedailyneopets.com/neoavatars/pirate-shoyru",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "plasticfir",
+      "name": "Plastic Fir",
+      "source": "https://thedailyneopets.com/neoavatars/plastic-fir",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "plushieeyrie",
+      "name": "Plushie Eyrie",
+      "source": "https://thedailyneopets.com/neoavatars/plushie-eyrie",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_plushie_mania",
+      "name": "Plushie Mania",
+      "source": "https://thedailyneopets.com/neoavatars/plushie-mania",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "novaplushie",
+      "name": "Plushie Nova",
+      "source": "https://thedailyneopets.com/neoavatars/plushie-nova",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "plushieTycoon",
+      "name": "Plushie Tycoon",
+      "source": "https://thedailyneopets.com/neoavatars/plushie-tycoon",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "plushietonu",
+      "name": "Plushie!",
+      "source": "https://thedailyneopets.com/neoavatars/plushie",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "piratepoogle",
+      "name": "Poogle - Pirate",
+      "source": "https://thedailyneopets.com/neoavatars/poogle-pirate",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "pooglewinner",
+      "name": "Poogle Racing Winner",
+      "source": "https://thedailyneopets.com/neoavatars/poogle-racing-winner",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_pandorapresents",
+      "name": "Presents from Pandora Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/presents-from-pandora-avatar",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_cookbook_omelette",
+      "name": "Professional Omelette Flipper - Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/professional-omelette-flipper-avatar",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "dariganpteri",
+      "name": "Pteri - Darigan",
+      "source": "https://thedailyneopets.com/neoavatars/pteri-darigan",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "punchbag",
+      "name": "Punchbag",
+      "source": "https://thedailyneopets.com/neoavatars/punchbag",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "pwned",
+      "name": "Pwned by the Lab",
+      "source": "https://thedailyneopets.com/neoavatars/pwned-by-the-lab",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "quadrapus",
+      "name": "Quadrapus",
+      "source": "https://thedailyneopets.com/neoavatars/quadrapus",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "queenfyora",
+      "name": "Queen Fyora",
+      "source": "https://thedailyneopets.com/neoavatars/queen-fyora",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "quiggleaaay",
+      "name": "Quiggle - Cheesy Grin",
+      "source": "https://thedailyneopets.com/neoavatars/quiggle-cheesy-grin",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "mutantquiggle",
+      "name": "Quiggle - Mutant",
+      "source": "https://thedailyneopets.com/neoavatars/quiggle-mutant",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "quigukiArmageddon",
+      "name": "Quiguki April Fools Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/quiguki-april-fools-avatar",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "maraquanraider",
+      "name": "Raider Of Maraqua",
+      "source": "https://thedailyneopets.com/neoavatars/raider-of-maraqua",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "raindorf",
+      "name": "Raindorf",
+      "source": "https://thedailyneopets.com/neoavatars/raindorf",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "randomcontest",
+      "name": "Random Contest Winner",
+      "source": "https://thedailyneopets.com/neoavatars/random-contest-winner",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "randomevents2014",
+      "name": "RANDOM EVENT EVENT AVATAR",
+      "source": "https://thedailyneopets.com/neoavatars/random-event-event-avatar",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "donna_wasm",
+      "name": "Revenge is Sweet",
+      "source": "https://thedailyneopets.com/neoavatars/revenge-is-sweet",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "roboeyrie",
+      "name": "Robo",
+      "source": "https://thedailyneopets.com/neoavatars/robo",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "robotvandagyre",
+      "name": "Robot Vandagyre",
+      "source": "https://thedailyneopets.com/neoavatars/robot-vandagyre",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "haiku",
+      "name": "Rorru",
+      "source": "https://thedailyneopets.com/neoavatars/rorru",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "royalboylutari",
+      "name": "Royalboy Lutari",
+      "source": "https://thedailyneopets.com/neoavatars/royalboy-lutari",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "rubbish",
+      "name": "Rubbish",
+      "source": "https://thedailyneopets.com/neoavatars/rubbish",
+      "categories": [
+        "Item",
+        "Miscellaneous",
+        "Random"
+      ]
+    },
+    {
+      "code": "tfr2010_d92f4b98fa",
+      "name": "Ruined",
+      "source": "https://thedailyneopets.com/neoavatars/ruined",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ruki",
+      "name": "Ruki",
+      "source": "https://thedailyneopets.com/neoavatars/ruki",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "desertruki",
+      "name": "Ruki - Desert",
+      "source": "https://thedailyneopets.com/neoavatars/ruki-desert",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "mummifiedruki",
+      "name": "Ruki - Mummified",
+      "source": "https://thedailyneopets.com/neoavatars/ruki-mummified",
+      "categories": [
+        "Pet",
+        "Petpet"
+      ]
+    },
+    {
+      "code": "ava_sakhmet_leaderboard",
+      "name": "Sakhmet Savant",
+      "source": "https://thedailyneopets.com/neoavatars/sakhmet-savant",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_sakhmet_soiree",
+      "name": "Sakhmet Soiree",
+      "source": "https://thedailyneopets.com/neoavatars/sakhmet-soiree",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "scarabug",
+      "name": "Scarabug",
+      "source": "https://thedailyneopets.com/neoavatars/scarabug",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "hauntedscorchio",
+      "name": "Scorchio - Haunted",
+      "source": "https://thedailyneopets.com/neoavatars/scorchio-haunted",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "scordrax",
+      "name": "Scorchio - Scordrax",
+      "source": "https://thedailyneopets.com/neoavatars/scorchio-scordrax",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_acmi_starry_scorchio",
+      "name": "Scorchio - Starry",
+      "source": "https://thedailyneopets.com/neoavatars/scorchio-starry",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "sdb",
+      "name": "SDB Pack Rat",
+      "source": "https://thedailyneopets.com/neoavatars/sdb-pack-rat",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "attack_pea",
+      "name": "Seasonal Attack Pea",
+      "source": "https://thedailyneopets.com/neoavatars/seasonal-attack-pea",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "neodaqtick",
+      "name": "Sell! SELL!!",
+      "source": "https://thedailyneopets.com/neoavatars/sell-sell",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "sewage_surfer",
+      "name": "Sewage Surfer",
+      "source": "https://thedailyneopets.com/neoavatars/sewage-surfer",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_25anniversary_shoyru",
+      "name": "Shoyru - 25th Anniversary",
+      "source": "https://thedailyneopets.com/neoavatars/shoyru-25th-anniversary",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "toughshoyru",
+      "name": "Shoyru - Tough!",
+      "source": "https://thedailyneopets.com/neoavatars/shoyru-tough",
+      "categories": [
+        "Battledome",
+        "Pet"
+      ]
+    },
+    {
+      "code": "ava_coltzan_shrine",
+      "name": "Shrine of Coltzan",
+      "source": "https://thedailyneopets.com/neoavatars/shrine-of-coltzan",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "sinsishifter",
+      "name": "Sinsi - Shapeshifter",
+      "source": "https://thedailyneopets.com/neoavatars/sinsi-shapeshifter",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "sitespotlight",
+      "name": "Site Spotlight",
+      "source": "https://thedailyneopets.com/neoavatars/site-spotlight",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "moodyskarl",
+      "name": "Skarl - Moody",
+      "source": "https://thedailyneopets.com/neoavatars/skarl-moody",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "jellyprocessing",
+      "name": "Skeith - Jelly Processing Plant",
+      "source": "https://thedailyneopets.com/neoavatars/skeith-jelly-processing-plant",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "kinghagan",
+      "name": "Skeith - King Hagan",
+      "source": "https://thedailyneopets.com/neoavatars/skeith-king-hagan",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "snargan",
+      "name": "Skeith - Snargan",
+      "source": "https://thedailyneopets.com/neoavatars/skeith-snargan",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "slorg",
+      "name": "Slorg",
+      "source": "https://thedailyneopets.com/neoavatars/slorg",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "sloth",
+      "name": "Sloth!",
+      "source": "https://thedailyneopets.com/neoavatars/sloth",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "slugawoooo",
+      "name": "SlugaWOO!",
+      "source": "https://thedailyneopets.com/neoavatars/slugawoo",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_varwolf_food",
+      "name": "Smelly Surprise",
+      "source": "https://thedailyneopets.com/neoavatars/smelly-surprise",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "smuggleddubloon",
+      "name": "Smuggler's Dubloon",
+      "source": "https://thedailyneopets.com/neoavatars/smugglers-dubloon",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "snicklebeasty",
+      "name": "Snicklebeast",
+      "source": "https://thedailyneopets.com/neoavatars/snicklebeast",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "snorkle",
+      "name": "Snorkle",
+      "source": "https://thedailyneopets.com/neoavatars/snorkle",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "aim_aisha_snotdrip",
+      "name": "Snot What I want",
+      "source": "https://thedailyneopets.com/neoavatars/snot-what-i-want",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "snowager",
+      "name": "Snowager - Rawr!",
+      "source": "https://thedailyneopets.com/neoavatars/snowager-rawr",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "snowmuncher",
+      "name": "Snowmuncher",
+      "source": "https://thedailyneopets.com/neoavatars/snowmuncher",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "snowroller",
+      "name": "Snowroller",
+      "source": "https://thedailyneopets.com/neoavatars/snowroller",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "snuffly",
+      "name": "Snuffly",
+      "source": "https://thedailyneopets.com/neoavatars/snuffly",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "soup_faerie_kind",
+      "name": "Soup Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/soup-faerie",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "soup_kitchen_donation",
+      "name": "Soup Faerie - Donation",
+      "source": "https://thedailyneopets.com/neoavatars/soup-faerie-donation",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "spacefaerie",
+      "name": "Space Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/space-faerie",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "spacerocked",
+      "name": "Spacerocked!",
+      "source": "https://thedailyneopets.com/neoavatars/spacerocked",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "spardel",
+      "name": "Spardel",
+      "source": "https://thedailyneopets.com/neoavatars/spardel",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "speckled",
+      "name": "Speckled",
+      "source": "https://thedailyneopets.com/neoavatars/speckled",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "myncispike",
+      "name": "Spike It!",
+      "source": "https://thedailyneopets.com/neoavatars/spike-it",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "spottedgelert",
+      "name": "Spotted Gelert",
+      "source": "https://thedailyneopets.com/neoavatars/spotted-gelert",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "sssidney",
+      "name": "Sssidney",
+      "source": "https://thedailyneopets.com/neoavatars/sssidney",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "altador",
+      "name": "Stamp Collector - Altador",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-altador",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "battleformeridell",
+      "name": "Stamp Collector - Battle for Meridell",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-battle-for-meridell",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_stampalbum_charms",
+      "name": "Stamp Collector - Charms",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-charms",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_stampalbum_charms2",
+      "name": "Stamp Collector - Charms II",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-charms-ii",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "coins",
+      "name": "Stamp Collector - Coins",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-coins",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "avaevilcoconut",
+      "name": "Stamp Collector - Evil Coconuts",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-evil-coconuts",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsfaerieland87393",
+      "name": "Stamp Collector - Faerieland",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-faerieland",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsHaunted3192",
+      "name": "Stamp Collector - Haunted Woods",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-haunted-woods",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_stampalbum_krawkisland",
+      "name": "Stamp Collector - Krawk Island",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-krawk-island",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsDesert0013",
+      "name": "Stamp Collector - Lost Desert",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-lost-desert",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_stampalbum_maractite_coins",
+      "name": "Stamp Collector - Maractite Coins",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-maractite-coins",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "kingkelp",
+      "name": "Stamp Collector - Maraquan",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-maraquan",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "meridellvsarigan",
+      "name": "Stamp Collector - Meridell vs Darigan",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-meridell-vs-darigan",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsMystery2352",
+      "name": "Stamp Collector - Mystery Island",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-mystery-island",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampcollectorneopiacentral",
+      "name": "Stamp Collector - Neopia Central",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-neopia-central",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "neoquest",
+      "name": "Stamp Collector - Neoquest",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-neoquest",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "neoquestii",
+      "name": "Stamp Collector - Neoquest II",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-neoquest-ii",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "other",
+      "name": "Stamp Collector - Other",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-other",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_stampalbum_other_faeries",
+      "name": "Stamp Collector - Other III",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-other-iii",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "tdn-stamp-collector-other-iv",
+      "name": "Stamp Collector - Other IV",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-other-iv",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsothers",
+      "name": "Stamp Collector - Others II",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-others-ii",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_stampalbum_qasala",
+      "name": "Stamp Collector - Qasala",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-qasala",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "scarabs",
+      "name": "Stamp Collector - Scarabs",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-scarabs",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "collectorseashells",
+      "name": "Stamp Collector - Sea Shells",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-sea-shells",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "sta_avatar_linae",
+      "name": "Stamp Collector - Shenkuu",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-shenkuu",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsSnowy2312",
+      "name": "Stamp Collector - Snowy Valley",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-snowy-valley",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "spacestationcoins",
+      "name": "Stamp Collector - Space Station Coins",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-space-station-coins",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsbattledome1337",
+      "name": "Stamp Collector - The Battledome",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-the-battledome",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsTyrannia3421",
+      "name": "Stamp Collector - Tyrannia",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-tyrannia",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "stampsVirtupets9764",
+      "name": "Stamp Collector - Virtupets",
+      "source": "https://thedailyneopets.com/neoavatars/stamp-collector-virtupets",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_storytelling_1000th",
+      "name": "Storytelling 1000th",
+      "source": "https://thedailyneopets.com/neoavatars/storytelling-1000th",
+      "categories": [
+        "Clickable",
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "storytelling",
+      "name": "Storytelling Competition",
+      "source": "https://thedailyneopets.com/neoavatars/storytelling-competition",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "superpea",
+      "name": "Super Attack Pea!",
+      "source": "https://thedailyneopets.com/neoavatars/super-attack-pea",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "sutekstomb",
+      "name": "Suteks Tomb",
+      "source": "https://thedailyneopets.com/neoavatars/suteks-tomb",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "symol",
+      "name": "Symol",
+      "source": "https://thedailyneopets.com/neoavatars/symol",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "taelia",
+      "name": "Taelia the Snow Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/taelia-the-snow-faerie",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_take_my_money",
+      "name": "Take My Money",
+      "source": "https://thedailyneopets.com/neoavatars/take-my-money",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "hwp_krawley",
+      "name": "Tale of Woe - Krawley",
+      "source": "https://thedailyneopets.com/neoavatars/tale-of-woe-krawley",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "tarla",
+      "name": "Tarla - Shop of Mystery",
+      "source": "https://thedailyneopets.com/neoavatars/tarla-shop-of-mystery",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "rods_champion",
+      "name": "TCG - Return of Dr. Sloth Champion",
+      "source": "https://thedailyneopets.com/neoavatars/tcg-return-of-dr-sloth-champion",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "tcgtourney2",
+      "name": "TCG - Wanna Play?",
+      "source": "https://thedailyneopets.com/neoavatars/tcg-wanna-play",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "tcg_wizard",
+      "name": "TCG Wizard",
+      "source": "https://thedailyneopets.com/neoavatars/tcg-wizard",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "teamillusen",
+      "name": "Team Illusen",
+      "source": "https://thedailyneopets.com/neoavatars/team-illusen",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "teamjhudora",
+      "name": "Team Jhudora",
+      "source": "https://thedailyneopets.com/neoavatars/team-jhudora",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "cheeseroller",
+      "name": "Techo - Cheesy",
+      "source": "https://thedailyneopets.com/neoavatars/techo-cheesy",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "techobuzz",
+      "name": "Techo - The Buzzer Game",
+      "source": "https://thedailyneopets.com/neoavatars/techo-the-buzzer-game",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "techomaster",
+      "name": "Techo Master",
+      "source": "https://thedailyneopets.com/neoavatars/techo-master",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "thatsnotrubbish",
+      "name": "That's Not Rubbish",
+      "source": "https://thedailyneopets.com/neoavatars/thats-not-rubbish",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "darkestfaerie",
+      "name": "The Darkest Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/the-darkest-faerie",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_nyx_arcade",
+      "name": "The Void Arcade",
+      "source": "https://thedailyneopets.com/neoavatars/the-void-arcade",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_af25_voidnick",
+      "name": "The Void Files",
+      "source": "https://thedailyneopets.com/neoavatars/the-void-files",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "thewraithresurgence",
+      "name": "The Wraith Resurgence",
+      "source": "https://thedailyneopets.com/neoavatars/the-wraith-resurgence",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "ava_thrifting_queen",
+      "name": "Thrifting Queen",
+      "source": "https://thedailyneopets.com/neoavatars/thrifting-queen",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_monotony_tick",
+      "name": "Tick Tock",
+      "source": "https://thedailyneopets.com/neoavatars/tick-tock",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "taviteatime",
+      "name": "Time For Tea",
+      "source": "https://thedailyneopets.com/neoavatars/time-for-tea",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "toasty",
+      "name": "Toasty",
+      "source": "https://thedailyneopets.com/neoavatars/toasty",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "tomos",
+      "name": "Tomos",
+      "source": "https://thedailyneopets.com/neoavatars/tomos",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "tonucharge",
+      "name": "Tonu - Charge!",
+      "source": "https://thedailyneopets.com/neoavatars/tonu-charge",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "mutanttonu",
+      "name": "Tonu - Mutant",
+      "source": "https://thedailyneopets.com/neoavatars/tonu-mutant",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "toothfaerie",
+      "name": "Tooth Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/tooth-faerie",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "topgamer",
+      "name": "Top Gamer",
+      "source": "https://thedailyneopets.com/neoavatars/top-gamer",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_towerconqueror",
+      "name": "Tower Conqueror",
+      "source": "https://thedailyneopets.com/neoavatars/tower-conqueror",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "halloween_reginald_hauntedbook_avatar",
+      "name": "Trick or Treat 2023",
+      "source": "https://thedailyneopets.com/neoavatars/trick-or-treat-2023",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "trudyavatar",
+      "name": "Trudy Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/trudy-avatar",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "turmaculus",
+      "name": "Turmaculus",
+      "source": "https://thedailyneopets.com/neoavatars/turmaculus",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "bullseye",
+      "name": "Turtum",
+      "source": "https://thedailyneopets.com/neoavatars/turtum",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "tuskyrelax",
+      "name": "Tuskaninny - Relax",
+      "source": "https://thedailyneopets.com/neoavatars/tuskaninny-relax",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "spottedtuskaninny",
+      "name": "Tuskaninny - Spotted",
+      "source": "https://thedailyneopets.com/neoavatars/tuskaninny-spotted",
+      "categories": [
+        "Item",
+        "Pet"
+      ]
+    },
+    {
+      "code": "typingterror",
+      "name": "Typing Terror",
+      "source": "https://thedailyneopets.com/neoavatars/typing-terror",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "jarbjarb",
+      "name": "Tyranu Evavu",
+      "source": "https://thedailyneopets.com/neoavatars/tyranu-evavu",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_udtcgshoyru",
+      "name": "UD TCG - Arcade Shoyru",
+      "source": "https://thedailyneopets.com/neoavatars/ud-tcg-arcade-shoyru",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_udtcgfireuni",
+      "name": "UD TCG - Fire Uni",
+      "source": "https://thedailyneopets.com/neoavatars/ud-tcg-fire-uni",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_udtcgstarryacara",
+      "name": "UD TCG - Starry Acara",
+      "source": "https://thedailyneopets.com/neoavatars/ud-tcg-starry-acara",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "unibeauty",
+      "name": "Uni - Beauty",
+      "source": "https://thedailyneopets.com/neoavatars/uni-beauty",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "nightsteed",
+      "name": "Uni - Nightsteed",
+      "source": "https://thedailyneopets.com/neoavatars/uni-nightsteed",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "unifaboo",
+      "name": "Uni Faboo",
+      "source": "https://thedailyneopets.com/neoavatars/uni-faboo",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_alien_kad",
+      "name": "Unidentified Flying Kadoatie",
+      "source": "https://thedailyneopets.com/neoavatars/unidentified-flying-kadoatie",
+      "categories": [
+        "Random"
+      ]
+    },
+    {
+      "code": "aim_paperbag_puppet",
+      "name": "unknown",
+      "source": "https://thedailyneopets.com/neoavatars/unknown",
+      "categories": [
+        "Game",
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "usukicon_shopkeeper",
+      "name": "Usukicon - Shopkeeper",
+      "source": "https://thedailyneopets.com/neoavatars/usukicon-shopkeeper",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "usukicon_usuls",
+      "name": "Usukicon - Usuls",
+      "source": "https://thedailyneopets.com/neoavatars/usukicon-usuls",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "royalboyusul",
+      "name": "Usul - Royal Boy",
+      "source": "https://thedailyneopets.com/neoavatars/usul-royal-boy",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "valentine_chia",
+      "name": "Valentine Chia",
+      "source": "https://thedailyneopets.com/neoavatars/valentine-chia",
+      "categories": [
+        "Seasonal"
+      ]
+    },
+    {
+      "code": "ava_virtuallyalive",
+      "name": "Virtually Alive",
+      "source": "https://thedailyneopets.com/neoavatars/virtually-alive",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_vocivus",
+      "name": "Void Vanquisher",
+      "source": "https://thedailyneopets.com/neoavatars/void-vanquisher",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "ava_voidworks_capsule",
+      "name": "Voidworks Technician",
+      "source": "https://thedailyneopets.com/neoavatars/voidworks-technician",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "volcanoReward",
+      "name": "Volcano Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/volcano-faerie",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "volcanorun",
+      "name": "Volcano Run",
+      "source": "https://thedailyneopets.com/neoavatars/volcano-run",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "ava_warlock_void",
+      "name": "Warlock of the Void",
+      "source": "https://thedailyneopets.com/neoavatars/warlock-of-the-void",
+      "categories": [
+        "Battledome"
+      ]
+    },
+    {
+      "code": "ava_neoyork_car",
+      "name": "Welcome to Neo York!",
+      "source": "https://thedailyneopets.com/neoavatars/welcome-to-neo-york",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "werelupe",
+      "name": "Werelupe",
+      "source": "https://thedailyneopets.com/neoavatars/werelupe",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "whackedkass",
+      "name": "Whack-a-Kass",
+      "source": "https://thedailyneopets.com/neoavatars/whack-a-kass",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "white_snowbunnies",
+      "name": "Whee!",
+      "source": "https://thedailyneopets.com/neoavatars/whee",
+      "categories": [
+        "Petpet"
+      ]
+    },
+    {
+      "code": "wheelofexcitement",
+      "name": "Wheel of Excitement",
+      "source": "https://thedailyneopets.com/neoavatars/wheel-of-excitement",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "misfortune",
+      "name": "Wheel Of Misfortune",
+      "source": "https://thedailyneopets.com/neoavatars/wheel-of-misfortune",
+      "categories": [
+        "Game",
+        "Random"
+      ]
+    },
+    {
+      "code": "monotony",
+      "name": "Wheel of Monotony",
+      "source": "https://thedailyneopets.com/neoavatars/wheel-of-monotony",
+      "categories": [
+        "Game"
+      ]
+    },
+    {
+      "code": "pinkcybunny",
+      "name": "Who Me?",
+      "source": "https://thedailyneopets.com/neoavatars/who-me",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "charitycorner2017",
+      "name": "Winter Charity Corner",
+      "source": "https://thedailyneopets.com/neoavatars/winter-charity-corner",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "wishingwell",
+      "name": "Wishing Well",
+      "source": "https://thedailyneopets.com/neoavatars/wishing-well",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "ava_boardgame",
+      "name": "Withdrawal Or Deposit?",
+      "source": "https://thedailyneopets.com/neoavatars/withdrawal-or-deposit",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "camowocky",
+      "name": "Wocky - Camouflage",
+      "source": "https://thedailyneopets.com/neoavatars/wocky-camouflage",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "snowwocky",
+      "name": "Wocky - Snow Day",
+      "source": "https://thedailyneopets.com/neoavatars/wocky-snow-day",
+      "categories": [
+        "Pet"
+      ]
+    },
+    {
+      "code": "faeriexweetok",
+      "name": "Xweetok - Faerie",
+      "source": "https://thedailyneopets.com/neoavatars/xweetok-faerie",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "yarrble",
+      "name": "Yarrble!",
+      "source": "https://thedailyneopets.com/neoavatars/yarrble",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "yesboyicecream",
+      "name": "Yes Boy Ice-Cream",
+      "source": "https://thedailyneopets.com/neoavatars/yes-boy-ice-cream",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "code": "aim_hasee_yum",
+      "name": "Yum!",
+      "source": "https://thedailyneopets.com/neoavatars/yum",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "yurble",
+      "name": "Yurble",
+      "source": "https://thedailyneopets.com/neoavatars/yurble",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "yurbleforeman",
+      "name": "Yurble - Forefitor",
+      "source": "https://thedailyneopets.com/neoavatars/yurble-forefitor",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "zaffydoubleagent",
+      "name": "Zafara - Double Agent",
+      "source": "https://thedailyneopets.com/neoavatars/zafara-double-agent",
+      "categories": [
+        "Item"
+      ]
+    },
+    {
+      "code": "ava_fon25_zaira",
+      "name": "Zaira Avatar",
+      "source": "https://thedailyneopets.com/neoavatars/zaira-avatar",
+      "categories": [
+        "Retired"
+      ]
+    },
+    {
+      "code": "zomutt",
+      "name": "Zomutt",
+      "source": "https://thedailyneopets.com/neoavatars/zomutt",
+      "categories": [
+        "Clickable"
+      ]
+    },
+    {
+      "code": "ava_ffy28_vote",
+      "name": "Faerie Festival - I Voted!",
+      "source": "https://www.neopets.com/settings/neoboards/",
+      "categories": [
+        "Miscellaneous"
+      ],
+      "checkedOn": "2026-10-04",
+      "observedInOwnSelector": true
+    }
+  ]
+}

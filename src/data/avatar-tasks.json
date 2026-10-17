@@ -1,0 +1,214 @@
+[
+  {
+    "id": "coconut",
+    "name": "Evil Coconut",
+    "group": "Daily chances",
+    "activity": "Coconut Shy",
+    "note": "Open this fast link and refresh it for another throw; no Flash needed. Each visit or refresh uses one throw. Knock a coconut off its stand to earn the avatar; an explosion does not count.",
+    "cadence": "100 NP per throw, up to 20 throws a day.",
+    "path": "/halloween/process_cocoshy.phtml?coconut=1",
+    "guide": "coconut_shy"
+  },
+  {
+    "id": "bank-birthday",
+    "name": "Good Day at the Bank",
+    "group": "Birthdays",
+    "activity": "Bank",
+    "note": "On one of your pets’ birthdays, make that pet active and deposit NP into your own bank account. Neopets confirms the avatar by Neomail. This is one avatar, whichever pet’s birthday you use.",
+    "cadence": "Your saved pet birthdays appear in Calendar until you mark this avatar collected.",
+    "path": "/bank.phtml",
+    "guide": "bank"
+  },
+  {
+    "id": "chocolate",
+    "name": "Chocolate!",
+    "group": "Shops",
+    "activity": "Chocolate Factory",
+    "note": "Buy a rarity 90 or higher item directly from this shop. A user-shop purchase does not count. The guide lists qualifying sweets.",
+    "cadence": "Check restocks; item availability varies.",
+    "path": "/objects.phtml?type=shop&obj_type=14",
+    "source": "https://items.jellyneo.net/search/chocolate-avatar-list/"
+  },
+  {
+    "id": "excitement",
+    "reminderMinutes": 120,
+    "name": "Wheel of Excitement",
+    "group": "Wheels",
+    "activity": "Wheel of Excitement",
+    "note": "Land on the 20,000 NP space.",
+    "cadence": "500 NP per spin; 2-hour cooldown, plus a daily bonus spin (Premium or ad). Cooldown continues across midnight.",
+    "path": "/faerieland/wheel.phtml",
+    "guide": "wheel_of_excitement"
+  },
+  {
+    "id": "knowledge",
+    "name": "Brightvale",
+    "group": "Wheels",
+    "activity": "Wheel of Knowledge",
+    "note": "Land on the eight-pointed star.",
+    "cadence": "400 NP per spin; up to two daily spins. The second spin requires Premium or an ad.",
+    "path": "/medieval/knowledge.phtml",
+    "guide": "wheel_of_knowledge"
+  },
+  {
+    "id": "mediocrity",
+    "reminderMinutes": 40,
+    "name": "Mediocrity",
+    "group": "Wheels",
+    "activity": "Wheel of Mediocrity",
+    "note": "Land on 4,000 NP. Check your avatar preferences afterwards: there is no award notice.",
+    "cadence": "100 NP per spin; 40-minute cooldown, plus a daily bonus spin. Cooldown continues across midnight; the bonus requires Premium or an ad.",
+    "path": "/prehistoric/mediocrity.phtml",
+    "guide": "wheel_of_mediocrity"
+  },
+  {
+    "id": "misfortune",
+    "name": "Wheel of Misfortune",
+    "group": "Wheels",
+    "activity": "Wheel of Misfortune",
+    "note": "Any space can randomly award it. Check your avatar preferences; there is no notification. This wheel can have negative effects—read the guide first.",
+    "cadence": "150 NP per spin; 2-hour cooldown.",
+    "path": "/halloween/wheel/index.phtml",
+    "guide": "wheel_of_misfortune"
+  },
+  {
+    "id": "monotony",
+    "name": "Wheel of Monotony",
+    "group": "Wheels",
+    "activity": "Wheel of Monotony",
+    "note": "Land on the question mark and finish the spin to collect the result.",
+    "cadence": "150 NP per spin; up to two daily spins. Can take hours. The second spin requires Premium or an ad.",
+    "path": "/prehistoric/monotony/monotony.phtml",
+    "guide": "wheel_of_monotony"
+  },
+  {
+    "id": "ticktock",
+    "name": "Tick Tock",
+    "group": "Wheels",
+    "activity": "Greasing the Wheel of Monotony",
+    "note": "A random chance after paying at least 100,000 NP to grease the wheel, awarded when it finishes. An expensive optional attempt; not guaranteed.",
+    "cadence": "Shares Wheel of Monotony spins.",
+    "path": "/prehistoric/monotony/monotony.phtml",
+    "guide": "wheel_of_monotony"
+  },
+  {
+    "id": "highroller",
+    "name": "High Roller",
+    "group": "Wheels",
+    "activity": "Wheel of Extravagance",
+    "note": "Land on the blank square. An expensive optional attempt; not guaranteed.",
+    "cadence": "100,000 NP per spin; up to two daily spins. The second spin requires Premium or an ad.",
+    "path": "/desert/extravagance.phtml",
+    "guide": "wheel_of_extravagance"
+  },
+  {
+    "id": "snowager",
+    "name": "Snowager - Rawr!",
+    "group": "Daily chances",
+    "activity": "Snowager",
+    "note": "A random award when you get blasted. Regular hibernation visits cannot award it.",
+    "cadence": "Sleeping hours: 6–7am, 2–3pm and 10–11pm Pacific. Once each window.",
+    "path": "/winter/snowager.phtml",
+    "guide": "snowager"
+  },
+  {
+    "id": "tomb",
+    "name": "Geraptiku - Deserted Tomb",
+    "group": "Daily chances",
+    "activity": "Deserted Tomb",
+    "note": "A random chance when you receive an item from the tomb.",
+    "cadence": "Once a day.",
+    "path": "/worlds/geraptiku/tomb.phtml",
+    "guide": "geraptomb"
+  },
+  {
+    "id": "fruit",
+    "name": "Fruit Machine - Jackpot!",
+    "group": "Daily chances",
+    "activity": "Fruit Machine",
+    "note": "Match three Cheops or three Puntec fruits. Cheops became eligible on September 11, 2026.",
+    "cadence": "Daily visit.",
+    "path": "/desert/fruit/index.phtml",
+    "guide": "fruit_machine"
+  },
+  {
+    "id": "moody",
+    "name": "Skarl - Moody",
+    "group": "Daily chances",
+    "activity": "Grumpy Old King",
+    "note": "Receive the result where Skarl throws you out of his castle.",
+    "cadence": "Two joke attempts per day, shared by both avatars.",
+    "path": "/medieval/grumpyking.phtml",
+    "guide": "grumpy_old_king"
+  },
+  {
+    "id": "jester",
+    "name": "Blumaroo Court Jester",
+    "group": "Daily chances",
+    "activity": "Grumpy Old King",
+    "note": "Choose the question about fierce Peophins eating too much tin of olives, leaving its three optional slots blank, and get the hysterical-laughter result. Any answer is allowed. See the guide for the exact dropdown choices.",
+    "cadence": "Two joke attempts per day, shared by both avatars.",
+    "path": "/medieval/grumpyking.phtml",
+    "guide": "grumpy_old_king"
+  },
+  {
+    "id": "hagan",
+    "name": "Skeith - King Hagan",
+    "group": "Daily chances",
+    "activity": "Wise Old King",
+    "note": "Receive an A+ for your wisdom. The grade is random.",
+    "cadence": "Once a day.",
+    "path": "/medieval/wiseking.phtml",
+    "guide": "wise_old_king"
+  },
+  {
+    "id": "kad",
+    "name": "Kadoatery - Mew!",
+    "group": "Ongoing goals",
+    "activity": "Kadoatery",
+    "note": "Feed 75 Kadoaties, then view your user lookup. Keep the feeding count in the achievement below, then mark this avatar collected when awarded.",
+    "cadence": "75 feeds total, accumulated over time. Today’s check does not reset that progress.",
+    "path": "/games/kadoatery/index.phtml",
+    "guide": "kadoatery"
+  },
+  {
+    "id": "jhudora",
+    "name": "Jhudora’s Cloud",
+    "group": "Ongoing goals",
+    "activity": "Jhudora’s Bluff",
+    "note": "Finish level 20. Track your current quest level in the achievement below.",
+    "cadence": "12-hour cooldown shared with Illusen.",
+    "path": "/faerieland/darkfaerie.phtml",
+    "guide": "jhudoras_cloud"
+  },
+  {
+    "id": "illusen",
+    "name": "Illusen’s Glade",
+    "group": "Ongoing goals",
+    "activity": "Illusen’s Glade",
+    "note": "Finish level 20. Her quest level is separate from Jhudora’s.",
+    "cadence": "12-hour cooldown shared with Jhudora.",
+    "path": "/forest/illusen.phtml",
+    "guide": "illusens_glade"
+  },
+  {
+    "id": "illusen-day",
+    "name": "Illusen Doll",
+    "group": "Seasonal",
+    "activity": "Illusen’s Quests",
+    "note": "Complete a quest on March 17. Check your shared cooldown in advance.",
+    "cadence": "March 17 each year. Reminder in Dailies.",
+    "path": "/medieval/earthfaerie.phtml",
+    "guide": "illusens_glade"
+  },
+  {
+    "id": "jhudora-day",
+    "name": "Evil Jhudora",
+    "group": "Seasonal",
+    "activity": "Jhudora’s Quests",
+    "note": "Complete a quest on February 4. Check your shared cooldown in advance.",
+    "cadence": "February 4 each year. Reminder in Dailies.",
+    "path": "/faerieland/darkfaerie.phtml",
+    "guide": "jhudoras_cloud"
+  }
+]

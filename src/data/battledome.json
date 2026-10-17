@@ -1,0 +1,77 @@
+{
+  "intro": "Five stats exist: Level, Hit Points, Strength, Defence and Movement. Never train Movement \u2014 it does nothing in the current Battledome.",
+  "sections": [
+    {
+      "title": "Before level 250",
+      "points": [
+        "Train Level only, at the Mystery Island school (tan codestones).",
+        "Keep a Training Cookie active.",
+        "Faerie Quests daily, Kitchen Quests when convenient."
+      ],
+      "links": [
+        {
+          "label": "Mystery Island school",
+          "url": "https://www.neopets.com/island/training.phtml"
+        },
+        {
+          "label": "Swashbuckling Academy",
+          "url": "https://www.neopets.com/pirates/academy.phtml"
+        },
+        {
+          "label": "Kitchen Quest",
+          "url": "https://www.neopets.com/island/kitchen.phtml"
+        }
+      ],
+      "note": "Swashbuckling Academy is paid in dubloons and trains to level 40 \u2014 usually cheaper for the early levels."
+    },
+    {
+      "title": "After level 250",
+      "points": [
+        "Ninja School only (red codestones).",
+        "Train whichever of HP, Strength or Defence is lowest.",
+        "When it stops, raise Level and go back."
+      ],
+      "links": [
+        {
+          "label": "Secret Ninja School",
+          "url": "https://www.neopets.com/island/fight_training.phtml"
+        }
+      ]
+    },
+    {
+      "title": "The cap",
+      "points": [
+        "A stat only trains to twice your level.",
+        "Hit Points can reach three times, but once HP is above twice your level nothing else will train until Level catches up \u2014 so do not over-feed HP."
+      ],
+      "links": []
+    }
+  ],
+  "items": [
+    {
+      "text": "Bubbling Fungus \u2014 best cheap Strength boost, about 86k, average +1.8.",
+      "url": "https://items.jellyneo.net/search/?name=Bubbling+Fungus",
+      "label": "Bubbling Fungus"
+    },
+    {
+      "text": "Armoured Negg \u2014 +1 Defence, roughly 535k\u2013675k.",
+      "url": "https://items.jellyneo.net/search/?name=Armoured+Negg",
+      "label": "Armoured Negg"
+    },
+    {
+      "text": "Snegg \u2014 +2 to 3 Hit Points, but around 4m each.",
+      "url": "https://items.jellyneo.net/search/?name=Snegg",
+      "label": "Snegg"
+    },
+    {
+      "text": "Cool Negg \u2014 Level, HP and Strength, around 5m. Not worth it routinely.",
+      "url": "https://items.jellyneo.net/search/?name=Cool+Negg",
+      "label": "Cool Negg"
+    }
+  ],
+  "priceNote": "Prices checked 10 September 2026.",
+  "guide": {
+    "label": "Jellyneo training guide",
+    "url": "https://www.jellyneo.net/?go=training_your_pet"
+  }
+}

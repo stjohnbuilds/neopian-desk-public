@@ -1,0 +1,147 @@
+[
+  {
+    "id": "kad",
+    "name": "Kadoaties fed",
+    "kind": "count",
+    "unit": "fed",
+    "tiers": [
+      [
+        1,
+        "bronze"
+      ],
+      [
+        10,
+        "silver"
+      ],
+      [
+        25,
+        "gold"
+      ],
+      [
+        75,
+        "the pink avatar"
+      ]
+    ],
+    "u": "https://www.neopets.com/games/kadoatery/index.phtml",
+    "go": "Open the Kadoatery",
+    "what": "A room of hungry cats. You buy what one is asking for and feed it.",
+    "how": "Bronze at 1, silver at 10, gold at 25. Your profile shows the running count to everyone, which is why people keep going. At 75 you get an avatar.",
+    "guides": []
+  },
+  {
+    "id": "stamps",
+    "name": "Stamps in the album",
+    "kind": "count",
+    "unit": "stamps",
+    "u": "https://www.neopets.com/stamps.phtml?type=album",
+    "go": "Open your stamp album",
+    "what": "You buy stamps and stick them into an album, page by page.",
+    "how": "Fill album pages to work towards their collection rewards. See the guide for which pages award avatars. Added stamps cannot be removed. Stamp collecting guide.",
+    "guides": [
+      {
+        "label": "Stamp collecting guide",
+        "url": "https://www.jellyneo.net/?go=stamps"
+      }
+    ]
+  },
+  {
+    "id": "cards",
+    "name": "NeoDeck cards",
+    "kind": "count",
+    "unit": "cards",
+    "u": "https://www.neopets.com/games/neodeck/index.phtml",
+    "go": "Open your NeoDeck",
+    "what": "Collectable trading cards. Same idea as stamps.",
+    "how": "Yes, there are bronze, silver and gold Card Collector trophies. They depend on your monthly leaderboard position, not a fixed card target. Visit My Cards at the start of each month to re-enter the table; a top-17 position can earn a trophy. Cards can be removed, unlike stamps. NeoDeck guide and trophy details.",
+    "guides": [
+      {
+        "label": "NeoDeck guide and trophy details",
+        "url": "https://www.jellyneo.net/?go=neodeck"
+      }
+    ]
+  },
+  {
+    "id": "arch",
+    "name": "Archived book collections",
+    "kind": "count",
+    "unit": "finished",
+    "tiers": [
+      [
+        1,
+        "bronze + first collection avatar"
+      ],
+      [
+        2,
+        "silver"
+      ]
+    ],
+    "u": "https://www.neopets.com/bookshelf/archive-bookshelf.phtml",
+    "go": "Open your bookshelf",
+    "what": "A separate collection of special archived books, not books your pets read. Each collection is a set: count 1 here only after collecting every book in one set.",
+    "how": "Open your bookshelf and choose Collection Progress to see each set and its missing books. Add archived books through your inventory; once added, they cannot be removed. Your first complete set earns bronze and an avatar; two sets earn silver. The gold target is unconfirmed. SunnyNeo step-by-step guide · Jellyneo missing-book checklist.",
+    "guides": [
+      {
+        "label": "SunnyNeo step-by-step guide",
+        "url": "https://www.sunnyneo.com/archivedbookcollection"
+      },
+      {
+        "label": "Jellyneo missing-book checklist",
+        "url": "https://items.jellyneo.net/tools/archived-book-checklist"
+      }
+    ]
+  },
+  {
+    "id": "jhudora",
+    "name": "Jhudora quests done",
+    "kind": "count",
+    "unit": "quests",
+    "tiers": [
+      [
+        20,
+        "Jhudora's Cloud avatar"
+      ]
+    ],
+    "u": "https://www.neopets.com/faerieland/darkfaerie.phtml",
+    "go": "Open Jhudora's Bluff",
+    "what": "A quest chain. Each quest you finish moves you up a level, and level 20 pays out an avatar.",
+    "how": "She asks for an item, you fetch it, you go up one. One quest per 12 hours, and that clock is shared with Illusen, though their levels count separately. You get 33m20s per quest on Premium.",
+    "guides": []
+  },
+  {
+    "id": "illusen",
+    "name": "Illusen quests done",
+    "kind": "count",
+    "unit": "quests",
+    "tiers": [
+      [
+        20,
+        "Illusen's Glade avatar"
+      ]
+    ],
+    "u": "https://www.neopets.com/forest/illusen.phtml",
+    "go": "Open Illusen's Glade",
+    "what": "Jhudora's rival, and the same deal: a quest chain with an avatar at level 20.",
+    "how": "Her levels are counted completely separately from Jhudora's, so doing one does not undo the other. What they do share is the 12-hour clock, so you only get one quest between them per 12 hours. She also refuses to talk on Jhudora Day, 4 February.",
+    "guides": []
+  },
+  {
+    "id": "beauty",
+    "name": "Beauty Contest trophy",
+    "kind": "tick",
+    "u": "https://www.neopets.com/beauty/index.phtml",
+    "go": "Open the Beauty Contest",
+    "what": "You draw your pet and people vote for it.",
+    "how": "Weekly. The trophy goes on the pet's page and stays with them.",
+    "guides": []
+  },
+  {
+    "id": "custom",
+    "name": "Customisation Spotlight",
+    "kind": "tick",
+    "u": "https://www.neopets.com/spotlights/custompet/index.phtml",
+    "go": "Open the spotlight",
+    "what": "A trophy for dressing a pet up well.",
+    "how": "You enter an outfit. Choose one of your outfits to enter.",
+    "guides": []
+  }
+]

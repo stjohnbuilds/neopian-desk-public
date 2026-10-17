@@ -1,0 +1,233 @@
+[
+  {
+    "id": "chia-florg",
+    "name": "Chia - Florg",
+    "game": "Feed Florg",
+    "score": "250",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=645"
+  },
+  {
+    "id": "petpet-rescue",
+    "name": "Petpet Rescue",
+    "game": "Petpet Rescue",
+    "score": "250",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=228"
+  },
+  {
+    "id": "techo-the-buzzer-game",
+    "name": "Techo - The Buzzer Game",
+    "game": "The Buzzer Game",
+    "score": "300",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=307"
+  },
+  {
+    "id": "ace-zafara",
+    "name": "Ace Zafara",
+    "game": "Advert Attack",
+    "score": "700",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=204"
+  },
+  {
+    "id": "carnival-of-terror",
+    "name": "Carnival of Terror",
+    "game": "Carnival of Terror",
+    "score": "725",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=902"
+  },
+  {
+    "id": "spike-it",
+    "name": "Spike It!",
+    "game": "Mynci Beach Volleyball",
+    "score": "800",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=315"
+  },
+  {
+    "id": "raider-of-maraqua",
+    "name": "Raider of Maraqua",
+    "game": "Raiders of Maraqua",
+    "score": "800",
+    "guide": "https://www.jellyneo.net/?go=raiders_of_maraqua"
+  },
+  {
+    "id": "skeith-jelly-processing-plant",
+    "name": "Skeith - Jelly Processing Plant",
+    "game": "Hungry Skeith",
+    "score": "1,000",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=538"
+  },
+  {
+    "id": "gadgadsgame",
+    "name": "Gadgadsgame",
+    "game": "Gadgadsgame",
+    "score": "1,000",
+    "guide": "https://www.jellyneo.net/?go=avatars&id=games"
+  },
+  {
+    "id": "grand-theft-ummagine",
+    "name": "Grand Theft Ummagine",
+    "game": "Grand Theft Ummagine",
+    "score": "1,100",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=212"
+  },
+  {
+    "id": "deckswabber",
+    "name": "Deckswabber",
+    "game": "Stowaway Sting",
+    "score": "1,200",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=852"
+  },
+  {
+    "id": "evil-eliv-thade",
+    "name": "Evil Eliv Thade",
+    "game": "The Castle of Eliv Thade",
+    "score": "1,200",
+    "guide": "https://www.jellyneo.net/?go=castle_of_eliv_thade"
+  },
+  {
+    "id": "freaky-factory-yoinked",
+    "name": "Freaky Factory - Yoinked",
+    "game": "Freaky Factory",
+    "score": "1,250",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=390"
+  },
+  {
+    "id": "meerca-chase",
+    "name": "Meerca Chase",
+    "game": "Meerca Chase 2",
+    "score": "1,250",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=500"
+  },
+  {
+    "id": "chia-bomber",
+    "name": "Chia Bomber",
+    "game": "Chia Bomber 2",
+    "score": "1,300",
+    "guide": "https://www.jellyneo.net/?go=chia_bomber_2"
+  },
+  {
+    "id": "volcano-run",
+    "name": "Volcano Run",
+    "game": "Volcano Run II",
+    "score": "1,500",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=761"
+  },
+  {
+    "id": "sakhmet-savant",
+    "name": "Sakhmet Savant",
+    "game": "Sakhmet Solitaire II",
+    "score": "2,000",
+    "guide": "https://www.jellyneo.net/?go=sakhmet_solitaire_ii"
+  },
+  {
+    "id": "faerie-bubbles",
+    "name": "Faerie Bubbles",
+    "game": "Faerie Bubbles",
+    "score": "2,000",
+    "guide": "https://www.jellyneo.net/?go=faerie_bubbles"
+  },
+  {
+    "id": "suteks-tomb",
+    "name": "Suteks Tomb",
+    "game": "Sutek's Tomb",
+    "score": "2,000",
+    "guide": "https://www.jellyneo.net/?go=suteks_tomb"
+  },
+  {
+    "id": "mutant-graveyard-of-doom-ii",
+    "name": "Mutant Graveyard of Doom II",
+    "game": "Mutant Graveyard of Doom II",
+    "score": "2,250",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=1042"
+  },
+  {
+    "id": "revenge-is-sweet",
+    "name": "Revenge is Sweet",
+    "game": "TNT Staff Smasher",
+    "score": "2,250",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=198"
+  },
+  {
+    "id": "destruct-o-match-ii",
+    "name": "Destruct-O-Match II",
+    "game": "Destruct-O-Match III",
+    "score": "2,500",
+    "guide": "https://www.jellyneo.net/?go=destruct_o_match_3"
+  },
+  {
+    "id": "meepit-vs-feepit",
+    "name": "Meepit Vs Feepit",
+    "game": "Meepit vs. Feepit",
+    "score": "3,000",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=540"
+  },
+  {
+    "id": "a-meepit-run",
+    "name": "A Meepit! Run!",
+    "game": "Meepit Juice Break",
+    "score": "3,500",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=379"
+  },
+  {
+    "id": "magax-destroyer",
+    "name": "Magax: Destroyer",
+    "game": "MAGAX: Destroyer II",
+    "score": "3,500",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=763"
+  },
+  {
+    "id": "typing-terror",
+    "name": "Typing Terror",
+    "game": "Typing Terror",
+    "score": "3,600",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=574"
+  },
+  {
+    "id": "nimmos-pond",
+    "name": "Nimmos Pond",
+    "game": "Nimmos Pond",
+    "score": "4,000",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=1048"
+  },
+  {
+    "id": "snowmuncher",
+    "name": "Snowmuncher",
+    "game": "Snowmuncher",
+    "score": "5,000",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=412"
+  },
+  {
+    "id": "snowroller",
+    "name": "Snowroller",
+    "game": "Snow Roller",
+    "score": "6,500",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=1076"
+  },
+  {
+    "id": "goparokko",
+    "name": "Goparokko",
+    "game": "Goparokko",
+    "score": "8,500",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=887"
+  },
+  {
+    "id": "grundo-snowthrow",
+    "name": "Grundo - Snowthrow!",
+    "game": "Snow Wars II",
+    "score": "10,000",
+    "guide": "https://www.jellyneo.net/?go=snow_wars_2"
+  },
+  {
+    "id": "spacerocked",
+    "name": "Spacerocked!",
+    "game": "Spacerocked!",
+    "score": "13,500",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=964"
+  },
+  {
+    "id": "ice-cream-machine",
+    "name": "Ice Cream Machine",
+    "game": "Ice Cream Machine",
+    "score": "14,500",
+    "guide": "https://www.jellyneo.net/?go=ice_cream_machine"
+  }
+]

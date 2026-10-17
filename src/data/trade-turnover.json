@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-09-13",
+  "items": [
+    {
+      "name": "Cool Negg",
+      "slug": "cool-negg",
+      "value": 5000000,
+      "priceDate": "2026-09-09",
+      "rating": "ets",
+      "reason": "Repeat-use stat training item; ItemDB easy-to-sell rating verified on review.",
+      "source": "https://itemdb.com.br/item/cool-negg"
+    },
+    {
+      "name": "Snegg",
+      "slug": "snegg",
+      "value": 4000000,
+      "priceDate": "2026-09-03",
+      "rating": "ets",
+      "reason": "Repeat-use stat training item; ItemDB easy-to-sell rating verified on review.",
+      "source": "https://itemdb.com.br/item/snegg"
+    },
+    {
+      "name": "Super Negg",
+      "slug": "super-negg",
+      "value": 5050000,
+      "priceDate": "2026-09-05",
+      "rating": "ets",
+      "reason": "Repeat-use stat training item; ItemDB easy-to-sell rating verified on review.",
+      "source": "https://itemdb.com.br/item/super-negg"
+    }
+  ]
+}

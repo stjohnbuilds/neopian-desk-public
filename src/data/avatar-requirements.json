@@ -1,0 +1,3060 @@
+{
+  "royalboyacara": {
+    "detail": "Pet lookup: a male Royal Acara.",
+    "guide": "https://thedailyneopets.com/neoavatars/acara-angry-prince",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Llywenn",
+    "activity": "Example pet"
+  },
+  "robertabrightvale": {
+    "detail": "Open Brightvale's Scrollery shop.",
+    "guide": "https://thedailyneopets.com/neoavatars/acara-roberta-of-brightvale",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/objects.phtml?type=shop&obj_type=78",
+    "activity": "Open activity"
+  },
+  "discoaisha": {
+    "detail": "Pet lookup: a Disco Aisha aged at least 100 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/aisha-disco",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Kaluki",
+    "activity": "Example pet"
+  },
+  "angelpuss": {
+    "detail": "Use Neopets' site search for Angelpuss.",
+    "guide": "https://thedailyneopets.com/neoavatars/angelpuss-angel",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=object&string=Angelpuss",
+    "activity": "Open activity"
+  },
+  "anubis": {
+    "detail": "Pet lookup: a Desert pet with an attached Anubis.",
+    "guide": "https://thedailyneopets.com/neoavatars/anubis",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=_Cleo_99",
+    "activity": "Example pet"
+  },
+  "babybuzz": {
+    "detail": "Enter i love baby buzz! in Neopets' site search.",
+    "guide": "https://thedailyneopets.com/neoavatars/baby-buzz",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?s=i%20love%20baby%20buzz!",
+    "activity": "Open activity"
+  },
+  "babynimmo": {
+    "detail": "Pet lookup: a Baby Nimmo.",
+    "guide": "https://thedailyneopets.com/neoavatars/baby-nimmo",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Nwimmo",
+    "activity": "Open activity"
+  },
+  "cracked": {
+    "detail": "Pet lookup: a Baby Pteri.",
+    "guide": "https://thedailyneopets.com/neoavatars/baby-pteri-cracked",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=rikoushin",
+    "activity": "Open activity"
+  },
+  "battlejubjub": {
+    "detail": "Pet lookup: any Jubjub.",
+    "guide": "https://thedailyneopets.com/neoavatars/battle-jubjub",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Jubjubpigz",
+    "activity": "Open activity"
+  },
+  "asparableh": {
+    "detail": "Open the historical Bleh! layout announcement page.",
+    "guide": "https://thedailyneopets.com/neoavatars/bleh",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/bleh.phtml",
+    "activity": "Open activity"
+  },
+  "grumpybori": {
+    "detail": "Pet lookup: a Plushie Bori that is ill or has zero hit points.",
+    "guide": "https://thedailyneopets.com/neoavatars/bori-grumpy",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Muhkeat",
+    "activity": "Example pet"
+  },
+  "mutantbruce": {
+    "detail": "Pet lookup: a Bruce more than 365 days old.",
+    "guide": "https://thedailyneopets.com/neoavatars/bruce-mutant",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Kermz",
+    "activity": "Open activity"
+  },
+  "scarblade": {
+    "detail": "Open the second page of Scarblade's drawing tutorial.",
+    "guide": "https://thedailyneopets.com/neoavatars/captain-scarblade",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/art/misc/scarblade2.phtml",
+    "activity": "Open activity"
+  },
+  "rainbowchomby": {
+    "detail": "Pet lookup: a Rainbow Chomby aged at least 100 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/chomby-colourful",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Urwissen",
+    "activity": "Open activity"
+  },
+  "clay_day": {
+    "detail": "Pet lookup: any Clay pet.",
+    "guide": "https://thedailyneopets.com/neoavatars/clay-ouch",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=__Aman__Da__",
+    "activity": "Open activity"
+  },
+  "colorfulkorbat": {
+    "detail": "Pet lookup: a Rainbow Korbat.",
+    "guide": "https://thedailyneopets.com/neoavatars/colourful-korbat",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Korbath",
+    "activity": "Open activity"
+  },
+  "cyodrake": {
+    "detail": "Pet lookup: a pet with an attached Cyodrake.",
+    "guide": "https://thedailyneopets.com/neoavatars/cyodrake",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Tsnamii",
+    "activity": "Example pet"
+  },
+  "darkpeophin": {
+    "detail": "Pet lookup: a Darigan Peophin.",
+    "guide": "https://thedailyneopets.com/neoavatars/darigan-peophin",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Chreos",
+    "activity": "Example pet"
+  },
+  "defenders_aisha": {
+    "detail": "Enter Defenders of Neopia headquarters.",
+    "guide": "https://thedailyneopets.com/neoavatars/defenders-of-neopia-aisha",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/defenders.phtml",
+    "activity": "Open activity"
+  },
+  "defenders_lupe": {
+    "detail": "Enter Defenders of Neopia headquarters and open Old Comics.",
+    "guide": "https://thedailyneopets.com/neoavatars/defenders-of-neopia-lupe",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/defenders.phtml?type=old",
+    "activity": "Open activity"
+  },
+  "drdeath": {
+    "detail": "Open the Pound's abandonment page. Viewing is sufficient; do not abandon a pet for this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/dr-death",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pound/abandon.phtml",
+    "activity": "Open activity"
+  },
+  "battleelephante": {
+    "detail": "Pet lookup: an Elephante with a past battle recorded.",
+    "guide": "https://thedailyneopets.com/neoavatars/elephante-to-war",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=iamanelephant",
+    "activity": "Example pet"
+  },
+  "itsalive": {
+    "detail": "Pet lookup: a pet with an attached Faellie.",
+    "guide": "https://thedailyneopets.com/neoavatars/faellie-its-alive",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Mega5Roll",
+    "activity": "Example pet"
+  },
+  "faeriepteri": {
+    "detail": "Pet lookup: a Faerie Pteri.",
+    "guide": "https://thedailyneopets.com/neoavatars/faerie-pteri",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Kothan",
+    "activity": "Open activity"
+  },
+  "fierypteri": {
+    "detail": "Pet lookup: a Fire Pteri.",
+    "guide": "https://thedailyneopets.com/neoavatars/fiery-pteri",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Astro_febuary",
+    "activity": "Open activity"
+  },
+  "rainbowflotsam": {
+    "detail": "Pet lookup: a Rainbow Flotsam.",
+    "guide": "https://thedailyneopets.com/neoavatars/flotsam-rainbow",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=MommaFlotsam",
+    "activity": "Open activity"
+  },
+  "toughflotsam": {
+    "detail": "Pet lookup: a Flotsam with strength above 55.",
+    "guide": "https://thedailyneopets.com/neoavatars/flotsam-tough",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Saiyber",
+    "activity": "Open activity"
+  },
+  "goldy": {
+    "detail": "Pet lookup: a pet with an attached Goldy.",
+    "guide": "https://thedailyneopets.com/neoavatars/goldy",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Mangokicks",
+    "activity": "Open activity"
+  },
+  "iscacaylis": {
+    "detail": "Read chapter five of the Curse of Maraqua comic.",
+    "guide": "https://thedailyneopets.com/neoavatars/good-or-bad",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/water/plot_com.phtml?chapter=5",
+    "activity": "Open activity"
+  },
+  "darigangrarrl": {
+    "detail": "Pet lookup: a Darigan Grarrl.",
+    "guide": "https://thedailyneopets.com/neoavatars/grarrl-darigan",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Valertica",
+    "activity": "Open activity"
+  },
+  "galem": {
+    "detail": "Search Neopets for the Galem Darkhand collectible card with English selected.",
+    "guide": "https://thedailyneopets.com/neoavatars/grarrl-galem-darkhand",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=object&string=Galem%2BDarkhand",
+    "activity": "Open activity"
+  },
+  "greyfaerie": {
+    "detail": "Open the Grey Faerie's Neopedia article.",
+    "guide": "https://thedailyneopets.com/neoavatars/grey-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/neopedia.phtml?neopedia_id=179",
+    "activity": "Open activity"
+  },
+  "grundo_faerie": {
+    "detail": "Pet lookup: a Faerie Grundo.",
+    "guide": "https://thedailyneopets.com/neoavatars/grundo-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Frizzlets",
+    "activity": "Open activity"
+  },
+  "icehissi": {
+    "detail": "Pet lookup: an Ice Hissi.",
+    "guide": "https://thedailyneopets.com/neoavatars/hissi-ice",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=axeci",
+    "activity": "Example pet"
+  },
+  "ava_varwolf_howl": {
+    "detail": "Pet lookup: any Varwolf.",
+    "guide": "https://thedailyneopets.com/neoavatars/howling-varwolf",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Caynid",
+    "activity": "Example pet"
+  },
+  "discoixi": {
+    "detail": "Pet lookup: a Disco Ixi.",
+    "guide": "https://thedailyneopets.com/neoavatars/ixi-disco",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Technicienne",
+    "activity": "Open activity"
+  },
+  "swampwitch": {
+    "detail": "Open the Halloween costumes page.",
+    "guide": "https://thedailyneopets.com/neoavatars/ixi-sophie-the-swamp-witch",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/halloween/costumes.phtml",
+    "activity": "Open activity"
+  },
+  "jeranhero": {
+    "detail": "Read chapter seven of the Battle for Meridell comic.",
+    "guide": "https://thedailyneopets.com/neoavatars/jeran-hero",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/medieval/plot_bfm.phtml?current_day=7",
+    "activity": "Open activity"
+  },
+  "bahbyjetsam": {
+    "detail": "Pet lookup: a Baby Jetsam.",
+    "guide": "https://thedailyneopets.com/neoavatars/jetsam-bah",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=MyJoshWellington",
+    "activity": "Open activity"
+  },
+  "tyrannianjubjub": {
+    "detail": "Pet lookup: a Tyrannian Jubjub.",
+    "guide": "https://thedailyneopets.com/neoavatars/jubjub-tyrannian",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Jubjubpigz",
+    "activity": "Open activity"
+  },
+  "kassminion": {
+    "detail": "Open Lord Kass's Gallery of Evil entry.",
+    "guide": "https://thedailyneopets.com/neoavatars/kass-minion",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/evil/showcreature.phtml?villain=16",
+    "activity": "Open activity"
+  },
+  "starrykau": {
+    "detail": "Pet lookup: a Starry Kau.",
+    "guide": "https://thedailyneopets.com/neoavatars/kau-starry",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=cowwycowwy88",
+    "activity": "Example pet"
+  },
+  "royalkorbat_boy": {
+    "detail": "With a female account gender, view a female Royal Korbat. The two Royal Korbat avatars are mutually exclusive.",
+    "guide": "https://thedailyneopets.com/neoavatars/korbat-royal",
+    "checkedOn": "2026-09-13"
+  },
+  "royalkorbat_girl": {
+    "detail": "With a male account gender, view a male Royal Korbat. The two Royal Korbat avatars are mutually exclusive.",
+    "guide": "https://thedailyneopets.com/neoavatars/korbat-royal-1",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Warh",
+    "activity": "Open activity"
+  },
+  "babykougra": {
+    "detail": "Pet lookup: a Baby Kougra younger than 59 days. Example pets may age out.",
+    "guide": "https://thedailyneopets.com/neoavatars/kougra-baby",
+    "checkedOn": "2026-09-13"
+  },
+  "krawkislandfever": {
+    "detail": "Pet lookup: an Island Krawk with an Island petpet attached for at least 60 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/krawk-island-fever",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Doobiezez",
+    "activity": "Example pet"
+  },
+  "mutantlenny": {
+    "detail": "Pet lookup: a Mutant Lenny aged at least 75 days, with a Mutant petpet attached.",
+    "guide": "https://thedailyneopets.com/neoavatars/lenny-mutant",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Orangish",
+    "activity": "Open activity"
+  },
+  "kingaltador": {
+    "detail": "Visit the statue of King Altador.",
+    "guide": "https://thedailyneopets.com/neoavatars/lupe-king-altador",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/altador/hallofheroes.phtml?view_statue_id=12",
+    "activity": "Open activity"
+  },
+  "maraquanchomby": {
+    "detail": "Pet lookup: a Maraquan Chomby.",
+    "guide": "https://thedailyneopets.com/neoavatars/maraquan-chomby",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Paqua",
+    "activity": "Example pet"
+  },
+  "maraquankrawk": {
+    "detail": "Pet lookup: a Maraquan Krawk.",
+    "guide": "https://thedailyneopets.com/neoavatars/maraquan-krawk",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Dyslexic",
+    "activity": "Example pet"
+  },
+  "aim_maraquanlupe": {
+    "detail": "Pet lookup: a Maraquan Lupe.",
+    "guide": "https://thedailyneopets.com/neoavatars/maraquan-lupe",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Akuudan",
+    "activity": "Example pet"
+  },
+  "villainousmeerca": {
+    "detail": "Pet lookup: a Halloween Meerca.",
+    "guide": "https://thedailyneopets.com/neoavatars/meerca-halloween",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=coolmeerca163666",
+    "activity": "Example pet"
+  },
+  "moach": {
+    "detail": "Pet lookup: a pet whose petpet has a Moach attached. The award message may be absent.",
+    "guide": "https://thedailyneopets.com/neoavatars/moach",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Ezenthier",
+    "activity": "Example pet"
+  },
+  "piratemoehog": {
+    "detail": "Pet lookup: a Pirate Moehog.",
+    "guide": "https://thedailyneopets.com/neoavatars/moehog-avast",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Pirate_Hog",
+    "activity": "Open activity"
+  },
+  "mutantdraik": {
+    "detail": "Pet lookup: a Mutant Draik.",
+    "guide": "https://thedailyneopets.com/neoavatars/mutant-draik-back-off",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Nannias",
+    "activity": "Open activity"
+  },
+  "halloweenmynci": {
+    "detail": "Pet lookup: a Halloween Mynci with a spooky petpet attached.",
+    "guide": "https://thedailyneopets.com/neoavatars/mynci-halloween",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=fpvs",
+    "activity": "Open activity"
+  },
+  "ava_nt_1k": {
+    "detail": "Read issue 1,000 of the Neopian Times.",
+    "guide": "https://thedailyneopets.com/neoavatars/neopian-1k-edition",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/ntimes/index.phtml?week=1000",
+    "activity": "Open activity"
+  },
+  "ava_rules": {
+    "detail": "Open Neopets' rules page.",
+    "guide": "https://thedailyneopets.com/neoavatars/neopian-task-force",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/settings/about/rules/",
+    "activity": "Open activity"
+  },
+  "niptor": {
+    "detail": "Pet lookup: a pet whose Niptor has been attached for at least 50 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/niptor",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Xiaonamu",
+    "activity": "Example pet"
+  },
+  "wreathy": {
+    "detail": "Pet lookup: a pet with an attached Wreathy.",
+    "guide": "https://thedailyneopets.com/neoavatars/not-for-wreathale",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=neopetsrmg",
+    "activity": "Example pet"
+  },
+  "ohemgee": {
+    "detail": "Pet lookup: a female Royal Bruce.",
+    "guide": "https://thedailyneopets.com/neoavatars/ohemgee",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Snowien",
+    "activity": "Example pet"
+  },
+  "faeriepeo": {
+    "detail": "Pet lookup: a Faerie Peophin.",
+    "guide": "https://thedailyneopets.com/neoavatars/peophin-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=seikayla",
+    "activity": "Example pet"
+  },
+  "purplepeo": {
+    "detail": "Pet lookup: a Purple Peophin.",
+    "guide": "https://thedailyneopets.com/neoavatars/peophin-purple",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=stninna",
+    "activity": "Open activity"
+  },
+  "aishapirate": {
+    "detail": "Academy pirate room: number 45.",
+    "guide": "https://thedailyneopets.com/neoavatars/pirate-aisha",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/academy.phtml?room=45",
+    "activity": "Open activity"
+  },
+  "krawkpirate": {
+    "detail": "Academy pirate room: number 2.",
+    "guide": "https://thedailyneopets.com/neoavatars/pirate-krawk",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/academy.phtml?room=2",
+    "activity": "Open activity"
+  },
+  "scorchiopirate": {
+    "detail": "Academy pirate room: number 2149.",
+    "guide": "https://thedailyneopets.com/neoavatars/pirate-scorchio",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/academy.phtml?room=2149",
+    "activity": "Open activity"
+  },
+  "shoyrupirate": {
+    "detail": "Academy pirate room: number 15.",
+    "guide": "https://thedailyneopets.com/neoavatars/pirate-shoyru",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/academy.phtml?room=15",
+    "activity": "Open activity"
+  },
+  "piratepoogle": {
+    "detail": "Pet lookup: a Pirate Poogle.",
+    "guide": "https://thedailyneopets.com/neoavatars/poogle-pirate",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Avaste",
+    "activity": "Open activity"
+  },
+  "quiggleaaay": {
+    "detail": "Visit a shop using the Quiggle - Bandit shopkeeper.",
+    "guide": "https://thedailyneopets.com/neoavatars/quiggle-cheesy-grin",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/browseshop.phtml?owner=wavelet",
+    "activity": "Open activity"
+  },
+  "mutantquiggle": {
+    "detail": "Pet lookup: a Mutant Quiggle older than 201 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/quiggle-mutant",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=W4rl0rdx",
+    "activity": "Open activity"
+  },
+  "raindorf": {
+    "detail": "Pet lookup: a pet with an attached Raindorf.",
+    "guide": "https://thedailyneopets.com/neoavatars/raindorf",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Emaden",
+    "activity": "Open activity"
+  },
+  "ruki": {
+    "detail": "Pet lookup: any Ruki.",
+    "guide": "https://thedailyneopets.com/neoavatars/ruki",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Azanias",
+    "activity": "Example pet"
+  },
+  "desertruki": {
+    "detail": "Pet lookup: a Desert Ruki.",
+    "guide": "https://thedailyneopets.com/neoavatars/ruki-desert",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Zzvar",
+    "activity": "Open activity"
+  },
+  "scarabug": {
+    "detail": "Pet lookup: a pet with an attached Scarabug.",
+    "guide": "https://thedailyneopets.com/neoavatars/scarabug",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=MipsyMemo",
+    "activity": "Open activity"
+  },
+  "slugawoooo": {
+    "detail": "Pet lookup: a pet with an attached Slugawoo.",
+    "guide": "https://thedailyneopets.com/neoavatars/slugawoo",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Jessana_176",
+    "activity": "Open activity"
+  },
+  "snuffly": {
+    "detail": "Pet lookup: a pet whose Snuffly has been attached for at least 100 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/snuffly",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=__ShadowFury__",
+    "activity": "Example pet"
+  },
+  "spardel": {
+    "detail": "Pet lookup: a pet with an attached Spardel.",
+    "guide": "https://thedailyneopets.com/neoavatars/spardel",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Chaminco20",
+    "activity": "Open activity"
+  },
+  "spottedgelert": {
+    "detail": "Pet lookup: a Spotted Gelert.",
+    "guide": "https://thedailyneopets.com/neoavatars/spotted-gelert",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=WolfChild_Spirit",
+    "activity": "Example pet"
+  },
+  "ava_storytelling_1000th": {
+    "detail": "Read Storytelling issue 1,000.",
+    "guide": "https://thedailyneopets.com/neoavatars/storytelling-1000th",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/art/storytell.phtml?issue=1000",
+    "activity": "Open activity"
+  },
+  "techomaster": {
+    "detail": "Open the Training School's Wisdom page.",
+    "guide": "https://thedailyneopets.com/neoavatars/techo-master",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/island/training.phtml?type=wisdom",
+    "activity": "Open activity"
+  },
+  "darkestfaerie": {
+    "detail": "Visit the page linked in the guide during the 10pm–5am NST window.",
+    "guide": "https://thedailyneopets.com/neoavatars/the-darkest-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/tcg/displayCard.phtml?edid=9&id=5",
+    "activity": "Open activity"
+  },
+  "mutanttonu": {
+    "detail": "Pet lookup: a Mutant Tonu that is ill or has zero hit points.",
+    "guide": "https://thedailyneopets.com/neoavatars/tonu-mutant",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Pigiaoto",
+    "activity": "Open activity"
+  },
+  "tuskyrelax": {
+    "detail": "Pet lookup: an Island Tuskaninny.",
+    "guide": "https://thedailyneopets.com/neoavatars/tuskaninny-relax",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=madame_katie",
+    "activity": "Open activity"
+  },
+  "nightsteed": {
+    "detail": "Between 8pm and 6am NST, view a Halloween Uni aged at least 30 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/uni-nightsteed",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Dusksteed",
+    "activity": "Open activity"
+  },
+  "usukicon_shopkeeper": {
+    "detail": "Open the Usukiland advertisement. Also awards Usukicon - Usuls; neither necessarily displays a notice.",
+    "guide": "https://thedailyneopets.com/neoavatars/usukicon-shopkeeper",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/usuki_demo.phtml",
+    "activity": "Open activity"
+  },
+  "usukicon_usuls": {
+    "detail": "Open the Usukiland advertisement. Also awards Usukicon - Shopkeeper; neither necessarily displays a notice.",
+    "guide": "https://thedailyneopets.com/neoavatars/usukicon-usuls",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/usuki_demo.phtml",
+    "activity": "Open activity"
+  },
+  "royalboyusul": {
+    "detail": "Pet lookup: a male Royal Usul.",
+    "guide": "https://thedailyneopets.com/neoavatars/usul-royal-boy",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Ashlento",
+    "activity": "Open activity"
+  },
+  "pinkcybunny": {
+    "detail": "Pet lookup: a Pink Cybunny.",
+    "guide": "https://thedailyneopets.com/neoavatars/who-me",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Camaro_envy",
+    "activity": "Example pet"
+  },
+  "camowocky": {
+    "detail": "Pet lookup: any Camouflage pet.",
+    "guide": "https://thedailyneopets.com/neoavatars/wocky-camouflage",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Caymeo",
+    "activity": "Example pet"
+  },
+  "faeriexweetok": {
+    "detail": "Pet lookup: a Faerie Xweetok older than 364 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/xweetok-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=grantuy7",
+    "activity": "Example pet"
+  },
+  "yarrble": {
+    "detail": "Pet lookup: a Pirate Yurble.",
+    "guide": "https://thedailyneopets.com/neoavatars/yarrble",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=pazuhl",
+    "activity": "Open activity"
+  },
+  "yurble": {
+    "detail": "Pet lookup: any Yurble.",
+    "guide": "https://thedailyneopets.com/neoavatars/yurble",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Winged_Nevaeh",
+    "activity": "Open activity"
+  },
+  "yurbleforeman": {
+    "detail": "Visit the Hall of Heroes janitor.",
+    "guide": "https://thedailyneopets.com/neoavatars/yurble-forefitor",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/altador/hallofheroes.phtml?janitor=1",
+    "activity": "Open activity"
+  },
+  "zomutt": {
+    "detail": "Pet lookup: a pet with an attached Zomutt.",
+    "guide": "https://thedailyneopets.com/neoavatars/zomutt",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Corellion",
+    "activity": "Open activity"
+  },
+  "3legs": {
+    "detail": "Finish an Academy training course. Species days and Neopets' birthday offer free training; ordinary courses require dubloons.",
+    "guide": "https://thedailyneopets.com/neoavatars/capn-threelegs",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/academy.phtml",
+    "activity": "Open activity"
+  },
+  "acp": {
+    "detail": "Finish the Altador Plot and claim its first rewards, then return to King Altador about 6–12 hours later for the daily-prize visit that awards this avatar.",
+    "guide": "https://www.jellyneo.net/?go=altador_plot&id=council_chamber",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/altador/council.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "aicon_neopiacentral": {
+    "detail": "Choose Team Neopia Central when joining the Altador Cup.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2026-neopia-central",
+    "checkedOn": "2026-09-13"
+  },
+  "aim_aisha_snotdrip": {
+    "detail": "The Secret Laboratory must turn your pet Snot.",
+    "guide": "https://www.jellyneo.net/?go=labray",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/lab.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "aim_paperbag_puppet": {
+    "detail": "Win a #NEOPETS contest.",
+    "guide": "https://thedailyneopets.com/neoavatars/unknown",
+    "checkedOn": "2026-09-13"
+  },
+  "air_mote": {
+    "detail": "Restock a mote of rarity 70 or higher directly from Brightvale Motery.",
+    "guide": "https://thedailyneopets.com/neoavatars/angry-air-mote",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/objects.phtml?type=shop&obj_type=82",
+    "activity": "Open activity"
+  },
+  "ava_acmi_starry_scorchio": {
+    "detail": "Redeem STARRYNIGHT25 at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/scorchio-starry",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/warehouse/prizecodes.phtml",
+    "activity": "Open activity"
+  },
+  "ava_af25_voidnick": {
+    "detail": "During April Fools 2025, read every Theory Note on the Septic Tank page.",
+    "guide": "https://thedailyneopets.com/neoavatars/the-void-files",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/sceptictank/",
+    "activity": "Open activity"
+  },
+  "ava_alien_kad": {
+    "detail": "Use the Petpet Laboratory until an attached petpet turns Alien. Any eligible Alien species counts. Zaps are random and can also make a petpet disappear.",
+    "guide": "https://www.jellyneo.net/?go=labraypp",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/petpetlab.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "ava_art_gallery_contest": {
+    "detail": "Have an entry selected as an Art Gallery winner.",
+    "guide": "https://thedailyneopets.com/neoavatars/easel-y-the-best",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/art/gallery.phtml",
+    "activity": "Open activity"
+  },
+  "ava_brushitoff": {
+    "detail": "Complete The Void Within story through chapter two.",
+    "guide": "https://thedailyneopets.com/neoavatars/brush-it-off",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_cookbook_omelette": {
+    "detail": "Redeem NEOPETSCOOKBOOK at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/professional-omelette-flipper-avatar",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/warehouse/prizecodes.phtml",
+    "activity": "Open activity"
+  },
+  "ava_devotedcaretaker": {
+    "detail": "Finish twelve Neopian Hospital volunteer shifts in The Void Within.",
+    "guide": "https://thedailyneopets.com/neoavatars/devoted-caretaker",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/hospital.phtml",
+    "activity": "Open activity"
+  },
+  "ava_dizzyyooyu": {
+    "detail": "Collect a prize from Altador Cup: The Grey Year.",
+    "guide": "https://thedailyneopets.com/neoavatars/dizzy-yooyu",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_fishing_vortex": {
+    "detail": "Redeem the code from a Curse of Maraqua Ye' Olde Fishing Vortex TCG starter deck.",
+    "guide": "https://thedailyneopets.com/neoavatars/fishing-vortex",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/warehouse/prizecodes.phtml",
+    "activity": "Open activity"
+  },
+  "ava_gallery_collector": {
+    "detail": "Have your gallery chosen for Gallery Spotlight.",
+    "guide": "https://thedailyneopets.com/neoavatars/gallery-go-getter",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_lairbeast": {
+    "detail": "Complete every Orion riddle in The Void Within's epilogue.",
+    "guide": "https://thedailyneopets.com/neoavatars/lair-beast",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_neopiesknow": {
+    "detail": "Vote in the Neopies for a nominee that subsequently wins.",
+    "guide": "https://thedailyneopets.com/neoavatars/neopies-know-it-all",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_nyx_powers": {
+    "detail": "Reach level 20 and finish the Adventure Pass free track.",
+    "guide": "https://thedailyneopets.com/neoavatars/nyx-void-powers",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_overtherainbow": {
+    "detail": "Complete every comic and activity in The Void Within.",
+    "guide": "https://thedailyneopets.com/neoavatars/over-the-rainbow",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_plushie_mania": {
+    "detail": "Promotional reward associated with Youtooz Plushie Shoyru or Plushie Jubjub purchases; check redemption details first.",
+    "guide": "https://thedailyneopets.com/neoavatars/plushie-mania",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_thrifting_queen": {
+    "detail": "Accumulate 250 Igloo Garage Sale purchases. The purchase limit is ten items per day.",
+    "guide": "https://thedailyneopets.com/neoavatars/thrifting-queen",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_udtcg_com_kingskeith": {
+    "detail": "Redeem the qualifying Champions of Meridell TCG code at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/king-skarl-hero",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_udtcgfireuni": {
+    "detail": "Redeem the Fire Uni TCG starter-deck code at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/ud-tcg-fire-uni",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_udtcgillusen": {
+    "detail": "Redeem the Illusen's Glade TCG structure-deck code at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/illusens-mortog",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/warehouse/prizecodes.phtml",
+    "activity": "Open activity"
+  },
+  "ava_udtcgjhudora": {
+    "detail": "Redeem the Jhudora's Bluff TCG structure-deck code at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/jhudora-gruslens",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/warehouse/prizecodes.phtml",
+    "activity": "Open activity"
+  },
+  "ava_udtcgshoyru": {
+    "detail": "Redeem the qualifying Upper Deck TCG code from the SDCC 2023 release.",
+    "guide": "https://thedailyneopets.com/neoavatars/ud-tcg-arcade-shoyru",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_udtcgstarryacara": {
+    "detail": "Redeem the Starry Acara TCG starter-deck code at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/ud-tcg-starry-acara",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_varwolf_food": {
+    "detail": "Complete the Varwolf mini-plot and create a Varwolf.",
+    "guide": "https://thedailyneopets.com/neoavatars/smelly-surprise",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_virtuallyalive": {
+    "detail": "Redeem TIME4SOC14L1SING at Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/virtually-alive",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/warehouse/prizecodes.phtml",
+    "activity": "Open activity"
+  },
+  "bilgedice": {
+    "detail": "Random award for a 24-point Bilge Dice result. Availability depends on the game returning.",
+    "guide": "https://thedailyneopets.com/neoavatars/bilge-dice",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/bilge.phtml",
+    "activity": "Open activity"
+  },
+  "buzzin": {
+    "detail": "Use a Fountain Faerie quest reward to paint a Buzz at the Rainbow Fountain.",
+    "guide": "https://thedailyneopets.com/neoavatars/buzzin",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/faerieland/rainbowfountain.phtml",
+    "activity": "Open activity"
+  },
+  "chokato": {
+    "detail": "Keep a Chokato (TCG) in your inventory and visit inventory until the random award occurs.",
+    "guide": "https://thedailyneopets.com/neoavatars/chokato",
+    "checkedOn": "2026-09-13"
+  },
+  "drackonack_hungry": {
+    "detail": "Keep a Drackonack and a cheese-named item in inventory until the Drackonack eating event occurs.",
+    "guide": "https://thedailyneopets.com/neoavatars/drackonack-hungry",
+    "checkedOn": "2026-09-13"
+  },
+  "emosuki": {
+    "detail": "View your shop with the Usul - Gothic shopkeeper selected. Viewing after changing shopkeeper can remove the avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/emo-usuki",
+    "checkedOn": "2026-09-13"
+  },
+  "emotingnimmo": {
+    "detail": "In Avatar Chat, submit :)*angry*:( typed manually. The avatar event replaces the post; consult the guide for exact formatting.",
+    "guide": "https://thedailyneopets.com/neoavatars/nimmo-emote",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/neoboards/boardlist.phtml?board=21",
+    "activity": "Open activity"
+  },
+  "fishsquid": {
+    "detail": "Catch a Titanic Giant Squid. It becomes possible at roughly fishing skill 80; each pet has its own skill and fishing cooldown.",
+    "guide": "https://www.jellyneo.net/?go=fishingvortex",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/water/fishing.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "fyora": {
+    "detail": "Purchase an item directly from the Hidden Tower.",
+    "guide": "https://thedailyneopets.com/neoavatars/fyora-faerie-queen",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/faerieland/hiddentower938.phtml",
+    "activity": "Open activity"
+  },
+  "gloomy": {
+    "detail": "Open the weather page and choose worlds until one is rainy or gloomy. Visiting that world’s weather awards the avatar. All worlds are gloomy on April 14.",
+    "guide": "https://www.jellyneo.net/?go=avatars&s=Gloomy",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/weather.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "requirements"
+  },
+  "grundogrunt": {
+    "detail": "Redeem A384J-228P1 in Grundo's Warehouse.",
+    "guide": "https://thedailyneopets.com/neoavatars/grundo-warehouse",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/warehouse/prizecodes.phtml",
+    "activity": "Open activity"
+  },
+  "haiku": {
+    "detail": "Random award on viewing the Haiku Generator.",
+    "guide": "https://thedailyneopets.com/neoavatars/rorru",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/island/haiku/haiku.phtml",
+    "activity": "Open activity"
+  },
+  "ihearthappiness": {
+    "detail": "Set I *heart* Sloth as your active avatar, then view the Happiness Faerie in the Gallery of Heroes.",
+    "guide": "https://thedailyneopets.com/neoavatars/i-heart-happiness",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/hero/showhero.phtml?hero=ihearthappiness",
+    "activity": "Open activity"
+  },
+  "imposterapple": {
+    "detail": "Bob once daily. Receiving an Imposter Apple, or losing one from your inventory into the water, awards the avatar. Store other valuable items before playing because the daily can remove an inventory item.",
+    "guide": "https://www.jellyneo.net/?go=applebobbing",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/halloween/applebobbing.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "islandmystic": {
+    "detail": "Look for “Kyries” in the English fortune. You can also check one non-English language each day for a second chance (“Kyris” or “Kyriis”); further languages repeat that second fortune.",
+    "guide": "https://www.jellyneo.net/?go=islandmystic",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/island/mystichut.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "kelpwaitress": {
+    "detail": "Random award when bringing home leftovers from Kelp.",
+    "guide": "https://thedailyneopets.com/neoavatars/bon-appetit",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/water/restaurant.phtml",
+    "activity": "Open activity"
+  },
+  "kikopop": {
+    "detail": "Choose Standard or Super Crazy (Hard) and pop a balloon revealing the question-mark paper for a chance at the avatar. Jellyneo reports no eligible question-mark prize on Easy.",
+    "guide": "https://www.jellyneo.net/?go=kiko_pop",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/worlds/kiko/kpop/",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "lilgrarrl": {
+    "detail": "Match at least four eggs in Grarrl Keno.",
+    "guide": "https://thedailyneopets.com/neoavatars/grarrl-keno",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/prehistoric/keno.phtml",
+    "activity": "Open activity"
+  },
+  "maraquanbuzz": {
+    "detail": "Find the account-specific ?buzz1= link in Caption Contest 664's source and visit that exact address.",
+    "guide": "https://thedailyneopets.com/neoavatars/buzz-maraquan",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/caption/caption_archive.phtml?place=664",
+    "activity": "Open activity"
+  },
+  "mibeach": {
+    "detail": "Take a pet on the 50 NP Mystery Island Tiki Tour.",
+    "guide": "https://thedailyneopets.com/neoavatars/a-day-at-the-beach",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/island/tikitours.phtml",
+    "activity": "Open activity"
+  },
+  "musickiko": {
+    "detail": "Find your account-specific secretavatar link in the Music page source, then open it.",
+    "guide": "https://thedailyneopets.com/neoavatars/kiko-rock",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/music.phtml",
+    "activity": "Open activity"
+  },
+  "neodaqtick": {
+    "detail": "Open your portfolio with more than 1,000,000 NP invested. VPTS alone is excluded.",
+    "guide": "https://thedailyneopets.com/neoavatars/sell-sell",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stockmarket.phtml?type=portfolio",
+    "activity": "Open activity"
+  },
+  "neomailaddict": {
+    "detail": "Random award while using Neomail, including opening the inbox or reading messages.",
+    "guide": "https://thedailyneopets.com/neoavatars/neomail-addict",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/neomessages.phtml",
+    "activity": "Open activity"
+  },
+  "neovisionplus": {
+    "detail": "Historical requirement: visit Neovision Plus on April 1, 2021.",
+    "guide": "https://thedailyneopets.com/neoavatars/neovision-plus-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "ntstar": {
+    "detail": "Have ten Neopian Times contributions published, then view your lookup after the trophies arrive.",
+    "guide": "https://thedailyneopets.com/neoavatars/neopian-times-star",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/ntimes/nt_submit.phtml",
+    "activity": "Open activity"
+  },
+  "numbersix": {
+    "detail": "Carry exactly the asparagus price shown on About Us, then view that page. The amount changes.",
+    "guide": "https://thedailyneopets.com/neoavatars/number-six",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/aboutus.phtml",
+    "activity": "Open activity"
+  },
+  "petpetlabray": {
+    "detail": "Unlock the Secret Laboratory and Petpet Laboratory maps, then zap an attached petpet into a Pile of Soot. The result is random; zaps can also make a petpet disappear.",
+    "guide": "https://www.jellyneo.net/?go=labraypp",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/petpetlab.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "plushieeyrie": {
+    "detail": "Post only squawk to a Neoboard, with neoHTML removed. Consult the guide before submitting.",
+    "guide": "https://thedailyneopets.com/neoavatars/plushie-eyrie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/neoboards/preferences.phtml",
+    "activity": "Open activity"
+  },
+  "pooralbert": {
+    "detail": "Random award at the Poor Old Albert page linked by the guide.",
+    "guide": "https://thedailyneopets.com/neoavatars/mutant-graveyard-of-doom",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/halloween/gamegraveyard.phtml",
+    "activity": "Open activity"
+  },
+  "pwned": {
+    "detail": "The Secret Laboratory must change your pet's species.",
+    "guide": "https://www.jellyneo.net/?go=labray",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/lab.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "rubbish": {
+    "detail": "Discard items through inventory or Quick Stock until awarded. The threshold is not confirmed; often reported around 5,000.",
+    "guide": "https://thedailyneopets.com/neoavatars/rubbish",
+    "checkedOn": "2026-09-13"
+  },
+  "sloth": {
+    "detail": "Receive the Dr. Sloth avatar random event while browsing. A later random event can remove it.",
+    "guide": "https://thedailyneopets.com/neoavatars/sloth",
+    "checkedOn": "2026-09-13"
+  },
+  "soup_faerie_kind": {
+    "detail": "Random award while feeding pets at the Soup Kitchen. Check its current NP eligibility limit in the guide.",
+    "guide": "https://thedailyneopets.com/neoavatars/soup-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/soupkitchen.phtml",
+    "activity": "Open activity"
+  },
+  "soup_kitchen_donation": {
+    "detail": "Donate to the Soup Kitchen; the qualifying total is not confirmed.",
+    "guide": "https://thedailyneopets.com/neoavatars/soup-faerie-donation",
+    "checkedOn": "2026-09-13"
+  },
+  "storytelling": {
+    "detail": "Win a Storytelling round, then open your own lookup.",
+    "guide": "https://thedailyneopets.com/neoavatars/storytelling-competition",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/art/storytell.phtml",
+    "activity": "Open activity"
+  },
+  "symol": {
+    "detail": "Check the guide for today’s four-minute window. Win an item, NP or a level-up during it to earn the avatar. An attempt inside the window starts a full 60-minute cooldown, even without a prize.",
+    "guide": "https://www.jellyneo.net/?go=symolhole",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/medieval/symolhole.phtml",
+    "activity": "Open activity",
+    "cadence": "One eligible attempt per hour within a four-minute window that changes daily. Check the guide for today’s minutes.",
+    "dailyGuide": "walkthrough"
+  },
+  "tarla": {
+    "detail": "Buy an item directly from the Shop of Mystery.",
+    "guide": "https://thedailyneopets.com/neoavatars/tarla-shop-of-mystery",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/winter/shopofmystery.phtml",
+    "activity": "Open activity"
+  },
+  "toothfaerie": {
+    "detail": "Receive the Tooth Faerie avatar random event while browsing.",
+    "guide": "https://thedailyneopets.com/neoavatars/tooth-faerie",
+    "checkedOn": "2026-09-13"
+  },
+  "trudyavatar": {
+    "detail": "Reach Trudy's 25th consecutive spin and collect the 100,000 NP reward.",
+    "guide": "https://www.jellyneo.net/?go=trudys_surprise",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/trudys_surprise.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "turmaculus": {
+    "detail": "Visit during his waking hour with an attached petpet. The avatar requires Turmaculus to eat it, permanently removing both the petpet and any petpetpet. The guide links the predicted waking times.",
+    "guide": "https://www.jellyneo.net/?go=turmaculus",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/medieval/turmaculus.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "twentyyearavatar": {
+    "detail": "Historical sources: an SDCC 2019 item code or the twentieth-birthday event completion bonus.",
+    "guide": "https://thedailyneopets.com/neoavatars/20-year-celebration-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "unifaboo": {
+    "detail": "Restock a rarity-80-or-higher item directly from the Clothing Shop.",
+    "guide": "https://thedailyneopets.com/neoavatars/uni-faboo",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/objects.phtml?type=shop&obj_type=4",
+    "activity": "Open activity"
+  },
+  "wishingwell": {
+    "detail": "Make a single 48,673 NP Wishing Well donation; the requested item does not matter.",
+    "guide": "https://thedailyneopets.com/neoavatars/wishing-well",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/wishing.phtml",
+    "activity": "Open activity"
+  },
+  "zafara_helpful": {
+    "detail": "Open the Avatars help article until the award appears.",
+    "guide": "https://thedailyneopets.com/neoavatars/helpful-zafara",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/help_search.phtml?help_id=16",
+    "activity": "Open activity"
+  },
+  "ava_birthdaybash": {
+    "detail": "Play with a 25th Anniversary Birthday Bash Attendee Medal.",
+    "guide": "https://thedailyneopets.com/neoavatars/25th-anniversary-birthday-bash-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "achyfi": {
+    "detail": "Feed a pet an item with drink or juice in its name.",
+    "guide": "https://thedailyneopets.com/neoavatars/achyfi",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_acmi_darkest_faerie": {
+    "detail": "Play with a Roberta and Mortog Action Figure.",
+    "guide": "https://thedailyneopets.com/neoavatars/acmi-the-darkest-faerie",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_adventure_juni": {
+    "detail": "Play with a Void Faellie Plushie.",
+    "guide": "https://thedailyneopets.com/neoavatars/adventure-pass-juni",
+    "checkedOn": "2026-09-13"
+  },
+  "aim_kacheek_pirate_wink": {
+    "detail": "Play with a Retired Smugglers Cove Treasure capsule.",
+    "guide": "https://thedailyneopets.com/neoavatars/ahoy",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_25anniversary_aisha": {
+    "detail": "Pet lookup: a 25th Anniversary Aisha.",
+    "guide": "https://thedailyneopets.com/neoavatars/aisha-25th-anniversary-avatar",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Imortalise",
+    "activity": "Example pet"
+  },
+  "alienaisha": {
+    "detail": "Spend a Nerkmid at the Alien Aisha Vending Machine.",
+    "guide": "https://thedailyneopets.com/neoavatars/alien-aisha",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/vending.phtml",
+    "activity": "Open activity"
+  },
+  "angelpuss2": {
+    "detail": "Attach an Angelpuss to your pet, then open Quick Reference.",
+    "guide": "https://thedailyneopets.com/neoavatars/angelpuss",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/quickref.phtml",
+    "activity": "Open activity"
+  },
+  "ava_aprilfools_y27": {
+    "detail": "Keep an Artists Day Off item from April Fools 2026 in inventory, then view inventory.",
+    "guide": "https://thedailyneopets.com/neoavatars/april-fools-2026",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_rbookshelf_collector": {
+    "detail": "Finish a set in the Archived Book Collection.",
+    "guide": "https://thedailyneopets.com/neoavatars/archive-books-collector",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_beach_please": {
+    "detail": "Play with a Maraquan Kiko Pocket Toy.",
+    "guide": "https://thedailyneopets.com/neoavatars/beach-please",
+    "checkedOn": "2026-09-13"
+  },
+  "chefbonju": {
+    "detail": "In August, select Mad About Orange as your avatar; combine Blumaroo Steak, Gourmet Cooking For Your Pet and Orange Juice in the Cooking Pot.",
+    "guide": "https://thedailyneopets.com/neoavatars/blumaroo-chef-bonju",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/island/cookingpot.phtml",
+    "activity": "Open activity"
+  },
+  "ava_brain_freeze": {
+    "detail": "Redeem fifteen Ice Cream Machine coupons at the Ice Cream Cart.",
+    "guide": "https://thedailyneopets.com/neoavatars/brain-freeze",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/winter/icecream.phtml",
+    "activity": "Open activity"
+  },
+  "brokentoy": {
+    "detail": "Get a broken toy successfully repaired by Donny.",
+    "guide": "https://thedailyneopets.com/neoavatars/broken",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/winter/brokentoys.phtml",
+    "activity": "Open activity"
+  },
+  "aim_sandcastle": {
+    "detail": "Random chance when playing with a pet using an item with sand in its name.",
+    "guide": "https://thedailyneopets.com/neoavatars/building-sand-castles",
+    "checkedOn": "2026-09-13"
+  },
+  "cocojubjub": {
+    "detail": "Feed a Coconut Jubjub a Tropical Food item.",
+    "guide": "https://thedailyneopets.com/neoavatars/coconut-jubjub",
+    "checkedOn": "2026-09-13"
+  },
+  "codestones": {
+    "detail": "Open inventory while holding all ten different regular codestones.",
+    "guide": "https://thedailyneopets.com/neoavatars/codestones",
+    "checkedOn": "2026-09-13"
+  },
+  "plushiecybunny": {
+    "detail": "With a plushie in inventory, view a Plushie Cybunny at least 30 days old.",
+    "guide": "https://thedailyneopets.com/neoavatars/cybunny-plush",
+    "checkedOn": "2026-09-13"
+  },
+  "darknova": {
+    "detail": "Equip a battle item with dark nova in its name.",
+    "guide": "https://thedailyneopets.com/neoavatars/dark-nova",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_deadchia": {
+    "detail": "View your own Chia's lookup while it is hungry, diseased and at zero hit points.",
+    "guide": "https://thedailyneopets.com/neoavatars/dead-chia-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "donoteatcarrot": {
+    "detail": "Feed a pet an item with carrot in its name.",
+    "guide": "https://thedailyneopets.com/neoavatars/do-not-eat",
+    "checkedOn": "2026-09-13"
+  },
+  "draikegg": {
+    "detail": "Make a Draik active, then visit the Draik Nest.",
+    "guide": "https://thedailyneopets.com/neoavatars/draik-hatched",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/medieval/draiknest.phtml",
+    "activity": "Open activity"
+  },
+  "fuzzleBOO": {
+    "detail": "Random chance when playing with a Blue Evil Fuzzle.",
+    "guide": "https://thedailyneopets.com/neoavatars/evil-fuzzle-boo",
+    "checkedOn": "2026-09-13"
+  },
+  "firekougra": {
+    "detail": "Add the Fire Paw collectible card to your Neodeck.",
+    "guide": "https://thedailyneopets.com/neoavatars/fire-paw",
+    "checkedOn": "2026-09-13"
+  },
+  "galleryofevil_vira": {
+    "detail": "Carry a mirror-named item and open Vira's Gallery of Evil entry.",
+    "guide": "https://thedailyneopets.com/neoavatars/gallery-of-evil-vira",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/evil/showcreature.phtml?villain=13",
+    "activity": "Open activity"
+  },
+  "ava_gaming_slorg": {
+    "detail": "Play with a Slorgeous Game Console.",
+    "guide": "https://thedailyneopets.com/neoavatars/gaming-slorg-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "runaway_garlic": {
+    "detail": "Feed garlic-named food to a pet; more than one feeding may be needed.",
+    "guide": "https://thedailyneopets.com/neoavatars/garlic-run",
+    "checkedOn": "2026-09-13"
+  },
+  "starrygelert": {
+    "detail": "Carry a starry-named item and view a Starry Gelert.",
+    "guide": "https://thedailyneopets.com/neoavatars/gelert-starry",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=_glitter_n_sparkle",
+    "activity": "Example pet"
+  },
+  "ghostkrawk": {
+    "detail": "Make your Krawk active and visit the Fungus Cave. Creating a new Krawk is unnecessary.",
+    "guide": "https://thedailyneopets.com/neoavatars/ghost-krawk",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/funguscave.phtml",
+    "activity": "Open activity"
+  },
+  "aim_kacheek_ghost": {
+    "detail": "Read a book with spooky in its title to a Ghost Kacheek.",
+    "guide": "https://thedailyneopets.com/neoavatars/ghost-stories",
+    "checkedOn": "2026-09-13"
+  },
+  "gnome": {
+    "detail": "Carry a gnome-named item and visit the Garden Centre.",
+    "guide": "https://thedailyneopets.com/neoavatars/gnome",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/objects.phtml?type=shop&obj_type=12",
+    "activity": "Open activity"
+  },
+  "grarrlwarrior": {
+    "detail": "Equip a Bony Grarrl Club to a Grarrl.",
+    "guide": "https://thedailyneopets.com/neoavatars/grarrl-warrior",
+    "checkedOn": "2026-09-13"
+  },
+  "sigh": {
+    "detail": "Open the lookup of a Grey pet you own.",
+    "guide": "https://thedailyneopets.com/neoavatars/grey-wocky-sigh",
+    "checkedOn": "2026-09-13"
+  },
+  "gruslen": {
+    "detail": "Open your pet's lookup after its Gruslen has been attached for at least 99 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/gruslen",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_guild_battler": {
+    "detail": "Play with a Guild First Aid Bandaid.",
+    "guide": "https://thedailyneopets.com/neoavatars/guild-battler",
+    "checkedOn": "2026-09-13"
+  },
+  "windyharris": {
+    "detail": "Open your pet's lookup after its Harris has been attached for at least 99 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/harris-hi",
+    "checkedOn": "2026-09-13"
+  },
+  "htrich": {
+    "detail": "Read Grimoire of the First Order to a pet; reading consumes the book.",
+    "guide": "https://thedailyneopets.com/neoavatars/ht-rich",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/faerieland/hiddentower938.phtml",
+    "activity": "Open activity"
+  },
+  "htricher": {
+    "detail": "Read Grimoire of Prosperity to a pet; reading consumes the book.",
+    "guide": "https://thedailyneopets.com/neoavatars/ht-richer",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/faerieland/hiddentower938.phtml",
+    "activity": "Open activity"
+  },
+  "htrichest": {
+    "detail": "Read Grimoire of Affluence to a pet; reading consumes the book.",
+    "guide": "https://thedailyneopets.com/neoavatars/ht-richest",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/faerieland/hiddentower938.phtml",
+    "activity": "Open activity"
+  },
+  "ava_htrichelite": {
+    "detail": "Purchase five Retired Hidden Tower Treasure capsules from the Hidden Tower.",
+    "guide": "https://thedailyneopets.com/neoavatars/ht-elite",
+    "checkedOn": "2026-09-13"
+  },
+  "huggy": {
+    "detail": "Open your pet's lookup after its Huggy has been attached for at least 99 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/huggy",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_iheartnc": {
+    "detail": "Play with a Slorgeous Flip Phone.",
+    "guide": "https://thedailyneopets.com/neoavatars/i-neocash",
+    "checkedOn": "2026-09-13"
+  },
+  "pantdeviltaunt": {
+    "detail": "View inventory with items whose displayed Est. Values total at least 5,000,000 NP. Market prices are not the qualifying values.",
+    "guide": "https://thedailyneopets.com/neoavatars/i-taunt-the-pant-devil",
+    "checkedOn": "2026-09-13"
+  },
+  "dung": {
+    "detail": "View inventory holding ten distinct dung-named items.",
+    "guide": "https://thedailyneopets.com/neoavatars/im-smelly",
+    "checkedOn": "2026-09-13"
+  },
+  "jetsamchomp": {
+    "detail": "Feed an Aquatic Petpet to a Jetsam. This consumes the petpet item.",
+    "guide": "https://thedailyneopets.com/neoavatars/jetsam-chomp",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_25anniversary_kacheek": {
+    "detail": "Pet lookup: a 25th Anniversary Kacheek.",
+    "guide": "https://thedailyneopets.com/neoavatars/kacheek-25th-anniversary-avatar",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Angeleaux",
+    "activity": "Example pet"
+  },
+  "ava_mlbp_kacheek": {
+    "detail": "Play with a Hydrate With a Slushie Badge.",
+    "guide": "https://thedailyneopets.com/neoavatars/kacheek-homerun",
+    "checkedOn": "2026-09-13"
+  },
+  "kacheekswim": {
+    "detail": "Make a Kacheek active, then visit the Beach.",
+    "guide": "https://thedailyneopets.com/neoavatars/kacheek-swim",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/island/beach.phtml",
+    "activity": "Open activity"
+  },
+  "kaufortuneteller": {
+    "detail": "Carry a Crystal Ball-named item and view a Pink Kau.",
+    "guide": "https://thedailyneopets.com/neoavatars/kau-fortune-teller",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Booly66",
+    "activity": "Open activity"
+  },
+  "kikosnacktime": {
+    "detail": "Feed a pet during 3–4am or 3–4pm NST. Avoid gross foods; the guide gives qualifying examples.",
+    "guide": "https://thedailyneopets.com/neoavatars/kiko-snack-time",
+    "checkedOn": "2026-09-13"
+  },
+  "ninjakiko": {
+    "detail": "Carry the Niten Hiroru collectible card and read his Neopedia article.",
+    "guide": "https://thedailyneopets.com/neoavatars/kiko-ninja",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/neopedia.phtml?neopedia_id=181",
+    "activity": "Open activity"
+  },
+  "kelpbeard": {
+    "detail": "Carry a Maractite Weaponry item and view the King Kelpbeard TCG entry.",
+    "guide": "https://thedailyneopets.com/neoavatars/king-kelpbeard",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/tcg/displayCard.phtml?edid=7&id=33",
+    "activity": "Open activity"
+  },
+  "koiplushie": {
+    "detail": "Carry a Koi plushie and view a painted Koi.",
+    "guide": "https://thedailyneopets.com/neoavatars/koi-spotted-plushie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Koiwi",
+    "activity": "Open activity"
+  },
+  "lawyerbot": {
+    "detail": "Open inventory with fifty distinct Usuki items.",
+    "guide": "https://thedailyneopets.com/neoavatars/lawyerbot-lt3-usuki",
+    "checkedOn": "2026-09-13"
+  },
+  "letitsnow": {
+    "detail": "Keep an Icy Snowflake in your inventory, then open Terror Mountain’s weather when it says snowing or blizzards. The item only needs to be carried; do not use it.",
+    "guide": "https://www.jellyneo.net/?go=avatars&s=Let+it+Snow%21",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/weather.phtml?world=1",
+    "activity": "Open activity",
+    "dailyGuide": "requirements"
+  },
+  "ava_love_bomb": {
+    "detail": "Send a Love Bomb and have the recipient reject it through the Item Event Log so it returns.",
+    "guide": "https://thedailyneopets.com/neoavatars/love-bomb",
+    "checkedOn": "2026-09-13"
+  },
+  "madaboutorange": {
+    "detail": "Open inventory with eight distinct orange-named items.",
+    "guide": "https://thedailyneopets.com/neoavatars/mad-about-orange",
+    "checkedOn": "2026-09-13"
+  },
+  "kauvara": {
+    "detail": "Use a Morphing Potion on a pet; this changes the pet and consumes the potion.",
+    "guide": "https://thedailyneopets.com/neoavatars/magical-kauvara",
+    "checkedOn": "2026-09-13"
+  },
+  "mazzew": {
+    "detail": "Open your pet's lookup after its Mazzew has been attached for at least 221 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/mazzew",
+    "checkedOn": "2026-09-13"
+  },
+  "meowclops_close": {
+    "detail": "Attach a Meowclops to your pet and open Quick Reference.",
+    "guide": "https://thedailyneopets.com/neoavatars/meowclops",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/quickref.phtml",
+    "activity": "Open activity"
+  },
+  "custard": {
+    "detail": "Feed a pet an item with custard in its name.",
+    "guide": "https://thedailyneopets.com/neoavatars/mmm-custard",
+    "checkedOn": "2026-09-13"
+  },
+  "halloweenmoehog": {
+    "detail": "Carry a sloth-named item and view a Halloween Moehog.",
+    "guide": "https://thedailyneopets.com/neoavatars/moehog-halloween",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/search.phtml?selected_type=pet&string=Slothydoo",
+    "activity": "Open activity"
+  },
+  "mootix": {
+    "detail": "Have a Mootix attached to one of your petpets, then open Quick Reference.",
+    "guide": "https://thedailyneopets.com/neoavatars/mootix",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/quickref.phtml",
+    "activity": "Open activity"
+  },
+  "evilpoogle": {
+    "detail": "Open inventory holding a Malevolent Sentient Poogle Plushie (TCG).",
+    "guide": "https://thedailyneopets.com/neoavatars/mspp",
+    "checkedOn": "2026-09-13"
+  },
+  "doglefox_mud": {
+    "detail": "Attach a Doglefox, then groom that pet with a soap-named item.",
+    "guide": "https://thedailyneopets.com/neoavatars/muddy-paws",
+    "checkedOn": "2026-09-13"
+  },
+  "mutantjubjub": {
+    "detail": "Use a Transmogrification Potion on a pet; this changes the pet and consumes the potion.",
+    "guide": "https://thedailyneopets.com/neoavatars/mutant-jubjub",
+    "checkedOn": "2026-09-13"
+  },
+  "nabile": {
+    "detail": "Carry a genuine ring item and read Nabile's Neopedia article. A name merely containing ring may not qualify.",
+    "guide": "https://thedailyneopets.com/neoavatars/nabile",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/neopedia.phtml?neopedia_id=15",
+    "activity": "Open activity"
+  },
+  "aim_babygrundo_boo": {
+    "detail": "Random chance when playing with a Baby pet using a toy.",
+    "guide": "https://thedailyneopets.com/neoavatars/peek-a-boo",
+    "checkedOn": "2026-09-13"
+  },
+  "pinatacandy": {
+    "detail": "Play with a toy pinata until it breaks. The Scorchio Pinata is excluded.",
+    "guide": "https://thedailyneopets.com/neoavatars/pinatas-candy",
+    "checkedOn": "2026-09-13"
+  },
+  "pinkpopcorn": {
+    "detail": "Feed popcorn-named food to a Pink pet.",
+    "guide": "https://thedailyneopets.com/neoavatars/pink",
+    "checkedOn": "2026-09-13"
+  },
+  "plushietonu": {
+    "detail": "Donate a plushie-named item using its item window. Quick Stock donations do not count for this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/plushie",
+    "checkedOn": "2026-09-13"
+  },
+  "quadrapus": {
+    "detail": "Open your pet's lookup after its Quadrapus has been attached for at least 60 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/quadrapus",
+    "checkedOn": "2026-09-13"
+  },
+  "queenfyora": {
+    "detail": "Play with a Faerie Queen Doll.",
+    "guide": "https://thedailyneopets.com/neoavatars/queen-fyora",
+    "checkedOn": "2026-09-13"
+  },
+  "roboeyrie": {
+    "detail": "Place a Robo Pet in a classic Neohome. Check current classic-Neohome availability first.",
+    "guide": "https://thedailyneopets.com/neoavatars/robo",
+    "checkedOn": "2026-09-13"
+  },
+  "royalboylutari": {
+    "detail": "Carry five different Lutari items and view a Royalboy Lutari.",
+    "guide": "https://thedailyneopets.com/neoavatars/royalboy-lutari",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=auberillis",
+    "activity": "Example pet"
+  },
+  "hauntedscorchio": {
+    "detail": "Equip a Haunted Weaponry battle item to a pet.",
+    "guide": "https://thedailyneopets.com/neoavatars/scorchio-haunted",
+    "checkedOn": "2026-09-13"
+  },
+  "scordrax": {
+    "detail": "Carry a Scorchio plushie and visit the specific page linked in the requirement guide.",
+    "guide": "https://thedailyneopets.com/neoavatars/scorchio-scordrax",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/tcg/album.phtml?edition=8&offset=36&owner=pinkcaddy",
+    "activity": "Open activity"
+  },
+  "sdb": {
+    "detail": "Store at least 1,000 distinct items in the SDB, then view it. Duplicate quantities do not increase the distinct-item count.",
+    "guide": "https://thedailyneopets.com/neoavatars/sdb-pack-rat",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/safetydeposit.phtml",
+    "activity": "Open activity"
+  },
+  "ava_25anniversary_shoyru": {
+    "detail": "Pet lookup: a 25th Anniversary Shoyru.",
+    "guide": "https://thedailyneopets.com/neoavatars/shoyru-25th-anniversary",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/petlookup.phtml?pet=Nijyuugo",
+    "activity": "Example pet"
+  },
+  "slorg": {
+    "detail": "Open your pet's lookup after a Slorg or Slorgclops has been attached for at least 100 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/slorg",
+    "checkedOn": "2026-09-13"
+  },
+  "snicklebeasty": {
+    "detail": "Open your pet's lookup after its Snicklebeast has been attached for at least 61 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/snicklebeast",
+    "checkedOn": "2026-09-13"
+  },
+  "snorkle": {
+    "detail": "Feed a Snorkle Snout to a pet.",
+    "guide": "https://thedailyneopets.com/neoavatars/snorkle",
+    "checkedOn": "2026-09-13"
+  },
+  "speckled": {
+    "detail": "Feed a pet a speckled-named food.",
+    "guide": "https://thedailyneopets.com/neoavatars/speckled",
+    "checkedOn": "2026-09-13"
+  },
+  "superpea": {
+    "detail": "Equip a Super Attack Pea to a Pea Chia.",
+    "guide": "https://thedailyneopets.com/neoavatars/super-attack-pea",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_take_my_money": {
+    "detail": "Play with a Tycoon Game Case.",
+    "guide": "https://thedailyneopets.com/neoavatars/take-my-money",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_nyx_arcade": {
+    "detail": "Play with a Nostalgic Neopets Arcade Background.",
+    "guide": "https://thedailyneopets.com/neoavatars/the-void-arcade",
+    "checkedOn": "2026-09-13"
+  },
+  "toasty": {
+    "detail": "Carry a bread-named item and visit Techo Mountain.",
+    "guide": "https://thedailyneopets.com/neoavatars/toasty",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/island/techomountain.phtml",
+    "activity": "Open activity"
+  },
+  "tomos": {
+    "detail": "Carry exactly 1 NP and a scarab-named item; open page two of the Tomos drawing tutorial.",
+    "guide": "https://thedailyneopets.com/neoavatars/tomos",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/art/misc/tomos2.phtml",
+    "activity": "Open activity"
+  },
+  "unibeauty": {
+    "detail": "Groom a pet with a grooming item.",
+    "guide": "https://thedailyneopets.com/neoavatars/uni-beauty",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_neoyork_car": {
+    "detail": "Play with a Greetings from Neo York Postcard.",
+    "guide": "https://thedailyneopets.com/neoavatars/welcome-to-neo-york",
+    "checkedOn": "2026-09-13"
+  },
+  "white_snowbunnies": {
+    "detail": "Open your pet's lookup after its Snowbunny has been attached for at least 364 days.",
+    "guide": "https://thedailyneopets.com/neoavatars/whee",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_boardgame": {
+    "detail": "Play with a 25th Anniversary Neopets Game Case.",
+    "guide": "https://thedailyneopets.com/neoavatars/withdrawal-or-deposit",
+    "checkedOn": "2026-09-13"
+  },
+  "aim_hasee_yum": {
+    "detail": "Play with a Neo York Doughnutfruit Plushie.",
+    "guide": "https://thedailyneopets.com/neoavatars/yum",
+    "checkedOn": "2026-09-13"
+  },
+  "zaffydoubleagent": {
+    "detail": "Carry a Zafara Double Agent Plushie and search Neopets for Zafara Double Agent.",
+    "guide": "https://thedailyneopets.com/neoavatars/zafara-double-agent",
+    "checkedOn": "2026-09-13"
+  },
+  "altador": {
+    "detail": "Fill every slot on the Altador album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-altador",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=19",
+    "activity": "Open activity"
+  },
+  "battleformeridell": {
+    "detail": "Fill every slot on the Battle for Meridell album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-battle-for-meridell",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=12",
+    "activity": "Open activity"
+  },
+  "ava_stampalbum_charms": {
+    "detail": "Fill every slot on the Charms album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-charms",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=21&owner=",
+    "activity": "Open activity"
+  },
+  "ava_stampalbum_charms2": {
+    "detail": "Fill every slot on the Charms II album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-charms-ii",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=31",
+    "activity": "Open activity"
+  },
+  "coins": {
+    "detail": "Fill every slot on the Coins album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-coins",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=11",
+    "activity": "Open activity"
+  },
+  "avaevilcoconut": {
+    "detail": "Fill every slot on the Evil Coconuts album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-evil-coconuts",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=16",
+    "activity": "Open activity"
+  },
+  "stampsfaerieland87393": {
+    "detail": "Fill every slot on the Faerieland album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-faerieland",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=23",
+    "activity": "Open activity"
+  },
+  "stampsHaunted3192": {
+    "detail": "Fill every slot on the Haunted Woods album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-haunted-woods",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=4",
+    "activity": "Open activity"
+  },
+  "ava_stampalbum_krawkisland": {
+    "detail": "Fill every slot on the Krawk Island album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-krawk-island",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=29",
+    "activity": "Open activity"
+  },
+  "stampsDesert0013": {
+    "detail": "Fill every slot on the Lost Desert album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-lost-desert",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=9",
+    "activity": "Open activity"
+  },
+  "ava_stampalbum_maractite_coins": {
+    "detail": "Fill every slot on the Maractite Coins album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-maractite-coins",
+    "checkedOn": "2026-09-13"
+  },
+  "kingkelp": {
+    "detail": "Fill every slot on the Maraquan album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-maraquan",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=18",
+    "activity": "Open activity"
+  },
+  "meridellvsarigan": {
+    "detail": "Fill every slot on the Meridell vs Darigan album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-meridell-vs-darigan",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=8",
+    "activity": "Open activity"
+  },
+  "stampsMystery2352": {
+    "detail": "Fill every slot on the Mystery Island album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-mystery-island",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=1",
+    "activity": "Open activity"
+  },
+  "stampcollectorneopiacentral": {
+    "detail": "Fill every slot on the Neopia Central album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-neopia-central",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=5",
+    "activity": "Open activity"
+  },
+  "neoquest": {
+    "detail": "Fill every slot on the Neoquest album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-neoquest",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=6",
+    "activity": "Open activity"
+  },
+  "neoquestii": {
+    "detail": "Fill every slot on the Neoquest II album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-neoquest-ii",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=13",
+    "activity": "Open activity"
+  },
+  "other": {
+    "detail": "Fill every slot on the Other album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-other",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=14",
+    "activity": "Open activity"
+  },
+  "ava_stampalbum_other_faeries": {
+    "detail": "Fill every slot on the Other III album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-other-iii",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=33&owner=",
+    "activity": "Open activity"
+  },
+  "tdn-stamp-collector-other-iv": {
+    "detail": "Fill every slot on the Other IV album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-other-iv",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=41",
+    "activity": "Open activity"
+  },
+  "stampsothers": {
+    "detail": "Fill every slot on the Others II album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-others-ii",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=22",
+    "activity": "Open activity"
+  },
+  "ava_stampalbum_qasala": {
+    "detail": "Fill every slot on the Qasala album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-qasala",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=27",
+    "activity": "Open activity"
+  },
+  "scarabs": {
+    "detail": "Fill every slot on the Scarabs album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-scarabs",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=24",
+    "activity": "Open activity"
+  },
+  "collectorseashells": {
+    "detail": "Fill every slot on the Sea Shells album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-sea-shells",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=17&owner;=",
+    "activity": "Open activity"
+  },
+  "sta_avatar_linae": {
+    "detail": "Fill every slot on the Shenkuu album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-shenkuu",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=20&owner;=",
+    "activity": "Open activity"
+  },
+  "stampsSnowy2312": {
+    "detail": "Fill every slot on the Snowy Valley album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-snowy-valley",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=7&owner=",
+    "activity": "Open activity"
+  },
+  "spacestationcoins": {
+    "detail": "Fill every slot on the Space Station Coins album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-space-station-coins",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=15",
+    "activity": "Open activity"
+  },
+  "stampsbattledome1337": {
+    "detail": "Fill every slot on the The Battledome album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-the-battledome",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=10",
+    "activity": "Open activity"
+  },
+  "stampsTyrannia3421": {
+    "detail": "Fill every slot on the Tyrannia album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-tyrannia",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=3",
+    "activity": "Open activity"
+  },
+  "stampsVirtupets9764": {
+    "detail": "Fill every slot on the Virtupets album page, then open that completed page.",
+    "guide": "https://thedailyneopets.com/neoavatars/stamp-collector-virtupets",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/stamps.phtml?type=album&page_id=2",
+    "activity": "Open activity"
+  },
+  "10thbday": {
+    "detail": "Historical requirement: claim a tenth-birthday freebie on November 15, 2009.",
+    "guide": "https://thedailyneopets.com/neoavatars/10th-birthday",
+    "checkedOn": "2026-09-13"
+  },
+  "hoban": {
+    "detail": "Submit at least two correct answers in the Cyodrake's Gaze plot, including the hat question if correct.",
+    "guide": "https://thedailyneopets.com/neoavatars/aisha-hoban-the-navigator",
+    "checkedOn": "2026-09-13"
+  },
+  "altadorcup": {
+    "detail": "Historical participation reward from one of the first four Altador Cups; retired when Cup V started.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-cup",
+    "checkedOn": "2026-09-13"
+  },
+  "altadorcupstaff": {
+    "detail": "Historical requirement: correctly predict at least one staff placement in the 2006 Altador Cup.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-cup-staff-tourney",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_af24_swm": {
+    "detail": "Participate in the 2024 April Fools event.",
+    "guide": "https://thedailyneopets.com/neoavatars/april-fool-2024",
+    "checkedOn": "2026-09-13"
+  },
+  "aota": {
+    "detail": "Collect the Atlas of the Ancients plot rewards.",
+    "guide": "https://thedailyneopets.com/neoavatars/atlas-of-the-ancients",
+    "checkedOn": "2026-09-13"
+  },
+  "valiant": {
+    "detail": "Random chance on a Battledome victory results page.",
+    "guide": "https://thedailyneopets.com/neoavatars/battle-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml",
+    "activity": "Open activity"
+  },
+  "bd_veteran": {
+    "detail": "Visit the new Battledome with a pet that fought in the old arena. Prior use for another account may affect eligibility.",
+    "guide": "https://thedailyneopets.com/neoavatars/battledome-veteran",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/dome/",
+    "activity": "Open activity"
+  },
+  "awakened_aagh7l": {
+    "detail": "Support the Awakened in a winning Battleground skirmish and meet reward eligibility. Claim the faction prize afterward.",
+    "guide": "https://thedailyneopets.com/neoavatars/battleground-awakened",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/prehistoric/battleground/",
+    "activity": "Open activity"
+  },
+  "brutes_syg48s": {
+    "detail": "Support the Brute Squad in a winning Battleground skirmish and meet reward eligibility. Claim the faction prize afterward.",
+    "guide": "https://thedailyneopets.com/neoavatars/battleground-brute-squad",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/prehistoric/battleground/",
+    "activity": "Open activity"
+  },
+  "seekers_slb7gh": {
+    "detail": "Support the Seekers in a winning Battleground skirmish and meet reward eligibility. Claim the faction prize afterward.",
+    "guide": "https://thedailyneopets.com/neoavatars/battleground-seekers",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/prehistoric/battleground/",
+    "activity": "Open activity"
+  },
+  "order_aylbt": {
+    "detail": "Support the Order in a winning Battleground skirmish and meet reward eligibility. Claim the faction prize afterward.",
+    "guide": "https://thedailyneopets.com/neoavatars/battleground-the-order",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/prehistoric/battleground/",
+    "activity": "Open activity"
+  },
+  "sway_lyatb3": {
+    "detail": "Support the Sway in a winning Battleground skirmish and meet reward eligibility. Claim the faction prize afterward.",
+    "guide": "https://thedailyneopets.com/neoavatars/battleground-the-sway",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/prehistoric/battleground/",
+    "activity": "Open activity"
+  },
+  "thieves_atyl7": {
+    "detail": "Thieves Guild Battleground faction reward. Consult the faction guide for current participation and claiming requirements.",
+    "guide": "https://thedailyneopets.com/neoavatars/battleground-thieves-guild",
+    "checkedOn": "2026-09-13"
+  },
+  "nfy14": {
+    "detail": "Solve the daily grid with each symbol-and-colour combination appearing once, following the pictured clues. A completed puzzle has a random avatar chance; the guide explains how to read the clues.",
+    "guide": "https://www.jellyneo.net/?go=mysterious_negg_cave",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/shenkuu/neggcave/",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "squished": {
+    "detail": "Historical requirement: earn a Meridell War shield, then view your lookup.",
+    "guide": "https://thedailyneopets.com/neoavatars/bfm-squished-spiders",
+    "checkedOn": "2026-09-13"
+  },
+  "blackPteri": {
+    "detail": "Beat the Black Pteri in a single-player battle. The challenger is unlocked by a random event.",
+    "guide": "https://thedailyneopets.com/neoavatars/black-pteri",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "ava_book_cipher": {
+    "detail": "Participate in the 2026 Festival of Neggs.",
+    "guide": "https://thedailyneopets.com/neoavatars/book-cipher-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "bythonbrood": {
+    "detail": "Participate in the 2023 Festival of Neggs.",
+    "guide": "https://thedailyneopets.com/neoavatars/bython-brood",
+    "checkedOn": "2026-09-13"
+  },
+  "charitycorner": {
+    "detail": "Finish eight Adopt-A-Neopian quests during the original Charity Corner event.",
+    "guide": "https://thedailyneopets.com/neoavatars/charity-corner",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/charitycorner/",
+    "activity": "Open activity"
+  },
+  "charityCorner2018": {
+    "detail": "Donate at least one hundred times during Charity Corner 2018.",
+    "guide": "https://thedailyneopets.com/neoavatars/charity-corner-2018",
+    "checkedOn": "2026-09-13"
+  },
+  "charitycorner2019": {
+    "detail": "Donate one hundred items to the 2019 Declutter Machine.",
+    "guide": "https://thedailyneopets.com/neoavatars/charity-corner-2019",
+    "checkedOn": "2026-09-13"
+  },
+  "charitycorner2020": {
+    "detail": "Make one hundred donations during Charity Corner 2020.",
+    "guide": "https://thedailyneopets.com/neoavatars/charity-corner-2020",
+    "checkedOn": "2026-09-13"
+  },
+  "cocoroller": {
+    "detail": "Historical requirement: reach Coco Roll level five and redeem its account-linked code. Redemption ended in March 2007.",
+    "guide": "https://thedailyneopets.com/neoavatars/coco-roll",
+    "checkedOn": "2026-09-13"
+  },
+  "comiccon2018": {
+    "detail": "Redeem a qualifying SDCC 2018 virtual-prize code.",
+    "guide": "https://thedailyneopets.com/neoavatars/comic-con-2018",
+    "checkedOn": "2026-09-13"
+  },
+  "maraquansupporter": {
+    "detail": "Historical requirement: participate as a Maraquan Supporter in the Curse of Maraqua war, then view your lookup. War avatars are mutually exclusive.",
+    "guide": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-maraquan-supporter",
+    "checkedOn": "2026-09-13"
+  },
+  "maraquanwarrior": {
+    "detail": "Historical requirement: participate as a Maraquan Warrior in the Curse of Maraqua war, then view your lookup. War avatars are mutually exclusive.",
+    "guide": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-maraquan-warrior",
+    "checkedOn": "2026-09-13"
+  },
+  "piratesupporter": {
+    "detail": "Historical requirement: participate as a Pirate Supporter in the Curse of Maraqua war, then view your lookup. War avatars are mutually exclusive.",
+    "guide": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-pirate-supporter",
+    "checkedOn": "2026-09-13"
+  },
+  "piratewarrior": {
+    "detail": "Historical requirement: participate as a Pirate Warrior in the Curse of Maraqua war, then view your lookup. War avatars are mutually exclusive.",
+    "guide": "https://thedailyneopets.com/neoavatars/curse-of-maraqua-pirate-warrior",
+    "checkedOn": "2026-09-13"
+  },
+  "ddstaff_tourney": {
+    "detail": "Vote in the 2011 Daily Dare staff tournament.",
+    "guide": "https://thedailyneopets.com/neoavatars/daily-dare-neopets-staff-tournament",
+    "checkedOn": "2026-09-13"
+  },
+  "ddstaff": {
+    "detail": "Submit selections in the 2010 Daily Dare staff tournament.",
+    "guide": "https://thedailyneopets.com/neoavatars/daily-dare-staff-tournament",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/aaa/staff.phtml",
+    "activity": "Open activity"
+  },
+  "darigandarkling": {
+    "detail": "Earn a point for Darigan in the original war, then view your lookup. Mutually exclusive with Meridell Knight.",
+    "guide": "https://thedailyneopets.com/neoavatars/darigan-darkling",
+    "checkedOn": "2026-09-13"
+  },
+  "dariganredeemed": {
+    "detail": "Having fought for Darigan in the Meridell War, visit his chambers.",
+    "guide": "https://thedailyneopets.com/neoavatars/darigan-redeemed",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/medieval/dariganschambers.phtml",
+    "activity": "Open activity"
+  },
+  "dungdash": {
+    "detail": "Historical requirement: visit Dung Dash on April 1, 2022.",
+    "guide": "https://thedailyneopets.com/neoavatars/dung-dash-avatar",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/dungdash/",
+    "activity": "Open activity"
+  },
+  "ava_faerie_celebration": {
+    "detail": "Participate in the 2025 Faerie Festival.",
+    "guide": "https://thedailyneopets.com/neoavatars/faerie-celebration",
+    "checkedOn": "2026-09-13"
+  },
+  "faeriefestival": {
+    "detail": "Attend every day of the relevant Faerie Festival event; consult the guide for the event year and availability.",
+    "guide": "https://thedailyneopets.com/neoavatars/faerie-festival",
+    "checkedOn": "2026-09-13"
+  },
+  "schooltools": {
+    "detail": "Donate during the fall 2015 Charity Corner on seven separate days; consecutive days were unnecessary.",
+    "guide": "https://thedailyneopets.com/neoavatars/fall-charity-corner",
+    "checkedOn": "2026-09-13"
+  },
+  "neggfest2010_95e8ebf8a4": {
+    "detail": "Complete all eight Festival of Neggs 2010 quests before each subsequent quest unlocks.",
+    "guide": "https://thedailyneopets.com/neoavatars/festival-of-neggs-y12-quester",
+    "checkedOn": "2026-09-13"
+  },
+  "negg_fest11": {
+    "detail": "Complete the four Festival of Neggs 2011 quests in order, each before the next releases.",
+    "guide": "https://thedailyneopets.com/neoavatars/festival-of-neggs-y13-builder",
+    "checkedOn": "2026-09-13"
+  },
+  "fiendishformations": {
+    "detail": "Complete each of the eight Fiendish Formations puzzles on its release day.",
+    "guide": "https://thedailyneopets.com/neoavatars/fiendish-formations",
+    "checkedOn": "2026-09-13"
+  },
+  "foreverloading": {
+    "detail": "Historical requirement: visit the redesign page on April 1, 2020.",
+    "guide": "https://thedailyneopets.com/neoavatars/forever-loading",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/redesignY22.phtml",
+    "activity": "Open activity"
+  },
+  "freejhuidah": {
+    "detail": "Rescue Jhuidah with a Tagobo Potion during the Mystery Island plot.",
+    "guide": "https://thedailyneopets.com/neoavatars/free-jhuidah",
+    "checkedOn": "2026-09-13"
+  },
+  "gadgadsfruit": {
+    "detail": "Read the specified Gadgadsbogen Neopedia article on March 4.",
+    "guide": "https://thedailyneopets.com/neoavatars/gadgadsbogen",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/neopedia.phtml?neopedia_id=176",
+    "activity": "Open activity"
+  },
+  "avinroo": {
+    "detail": "Historical Daily Dare reward: fifteen challenges in 2007, or fifteen AAA challenges in the 2018 rerelease.",
+    "guide": "https://thedailyneopets.com/neoavatars/gamesmaster-aaa",
+    "checkedOn": "2026-09-13"
+  },
+  "ghostlupe": {
+    "detail": "Beat the Ghost Lupe in single-player Battledome. The guide links the Neohome used to unlock him.",
+    "guide": "https://thedailyneopets.com/neoavatars/ghost-lupe",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "ava_fon24_gk": {
+    "detail": "Participate in the 2024 Festival of Neggs.",
+    "guide": "https://thedailyneopets.com/neoavatars/grey-kari",
+    "checkedOn": "2026-09-13"
+  },
+  "birthday": {
+    "detail": "Open New Features on November 15, Neopets' birthday.",
+    "guide": "https://thedailyneopets.com/neoavatars/happy-birthday",
+    "checkedOn": "2026-09-13",
+    "url": "https://neopets.com/nf.phtml",
+    "activity": "Open activity"
+  },
+  "heermeedjet": {
+    "detail": "Defeat Heermeedjet after unlocking the Meerca Brothers through Defenders of Neopia. Unavailable while that system is down; excludes Meerouladen's avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/heermeedjet",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "hiddenidentity": {
+    "detail": "Battle Kaia while she was in the Forgotten Graveyard; the outcome did not matter.",
+    "guide": "https://thedailyneopets.com/neoavatars/hidden-identity",
+    "checkedOn": "2026-09-13"
+  },
+  "savedMysteryIsland": {
+    "detail": "Submit the correct Mystery Island Volcano Plot answer within the first 10,000 successful entries.",
+    "guide": "https://thedailyneopets.com/neoavatars/i-saved-mystery-island",
+    "checkedOn": "2026-09-13"
+  },
+  "neopocalypse": {
+    "detail": "Historical requirement: visit New Features after the February 2012 outage or September 2014 server move.",
+    "guide": "https://thedailyneopets.com/neoavatars/i-survived-the-neopocalypse",
+    "checkedOn": "2026-09-13"
+  },
+  "infirmary": {
+    "detail": "During The Wraith Resurgence, donate all ten types of Taelia's Concoctions to Infirmary patients.",
+    "guide": "https://thedailyneopets.com/neoavatars/infirmary",
+    "checkedOn": "2026-09-13"
+  },
+  "iommoehog": {
+    "detail": "Finish Invasion of Meridell mission seven, battle three, in the same calendar month as starting mission one.",
+    "guide": "https://thedailyneopets.com/neoavatars/iom-moehog",
+    "checkedOn": "2026-09-13"
+  },
+  "kasukilu": {
+    "detail": "Inspect a Kasuki Lu collectible card in inventory to unlock him, then beat him in single-player Battledome.",
+    "guide": "https://thedailyneopets.com/neoavatars/kasuki-lu-heeyah",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "krawkenattack": {
+    "detail": "Solve a puzzle during the Krawk Island Disappearance event.",
+    "guide": "https://thedailyneopets.com/neoavatars/krawken-attack",
+    "checkedOn": "2026-09-13"
+  },
+  "landlba": {
+    "detail": "Finish a Legends and Letters challenge during the Neopets crossover week.",
+    "guide": "https://thedailyneopets.com/neoavatars/ll-bravo-aurrick",
+    "checkedOn": "2026-09-13"
+  },
+  "ldp_tablet": {
+    "detail": "Finish and translate your own tablet during the Lost Desert plot.",
+    "guide": "https://thedailyneopets.com/neoavatars/ldp-what-does-it-mean",
+    "checkedOn": "2026-09-13"
+  },
+  "glitchedtopsibot": {
+    "detail": "Find all fifteen neggs in the 2021 Festival of Neggs.",
+    "guide": "https://thedailyneopets.com/neoavatars/mecha-topsi-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "meridellknight": {
+    "detail": "Earn a point for Meridell in the original war, then view your lookup. Mutually exclusive with Darigan Darkling.",
+    "guide": "https://thedailyneopets.com/neoavatars/meridell-knight",
+    "checkedOn": "2026-09-13"
+  },
+  "meerouladen": {
+    "detail": "Defeat Meerouladen after unlocking the Meerca Brothers through Defenders of Neopia. Unavailable while that system is down; excludes Heermeedjet's avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/merouladen",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "meukasnot": {
+    "detail": "Unlock Meuka using a pet with NeoFlu or Sneezles, then beat him in single-player Battledome.",
+    "guide": "https://thedailyneopets.com/neoavatars/meuka-snotty",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "ava_mind_control": {
+    "detail": "Visit the 2023 April Fools Sceptic Tank event.",
+    "guide": "https://thedailyneopets.com/neoavatars/mind-control",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/sceptictank/",
+    "activity": "Open activity"
+  },
+  "monsterhunting": {
+    "detail": "Meet the participation requirement in the Spooky Food Eating Contest event; the exact threshold is unconfirmed.",
+    "guide": "https://thedailyneopets.com/neoavatars/monster-hunting",
+    "checkedOn": "2026-09-13"
+  },
+  "easterbunnyy17": {
+    "detail": "Find at least eight Festival of Neggs 2015 neggs on their individual release days.",
+    "guide": "https://thedailyneopets.com/neoavatars/negg-basket-cybunny",
+    "checkedOn": "2026-09-13"
+  },
+  "obeliskwar_ayfb89s": {
+    "detail": "Claim the participation reward in the 2013 Obelisk War prize shop.",
+    "guide": "https://thedailyneopets.com/neoavatars/obelisk-war-veteran",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/prehistoric/outskirts/prizes.phtml",
+    "activity": "Open activity"
+  },
+  "novaplushie": {
+    "detail": "Historical McDonald's giveaway reward: May 31, 2004 or the Australian September 29, 2005 giveaway.",
+    "guide": "https://thedailyneopets.com/neoavatars/plushie-nova",
+    "checkedOn": "2026-09-13"
+  },
+  "dariganpteri": {
+    "detail": "Pet lookup: a Darigan Pteri on its exact 644th day of age. Use the guide's current eligible-pet list.",
+    "guide": "https://thedailyneopets.com/neoavatars/pteri-darigan",
+    "checkedOn": "2026-09-13"
+  },
+  "punchbag": {
+    "detail": "Lose a battle against Punchbag Sid with your active pet. He is available only during rare appearances.",
+    "guide": "https://thedailyneopets.com/neoavatars/punchbag",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "randomevents2014": {
+    "detail": "Assemble the Coincidence during its original event.",
+    "guide": "https://thedailyneopets.com/neoavatars/random-event-event-avatar",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/space/coincidence.phtml",
+    "activity": "Open activity"
+  },
+  "tfr2010_d92f4b98fa": {
+    "detail": "Participation reward from The Faeries' Ruin plot, 2010–2011.",
+    "guide": "https://thedailyneopets.com/neoavatars/ruined",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_sakhmet_soiree": {
+    "detail": "Participate in the 2026 Sakhmet Soiree.",
+    "guide": "https://thedailyneopets.com/neoavatars/sakhmet-soiree",
+    "checkedOn": "2026-09-13"
+  },
+  "spacefaerie": {
+    "detail": "Unlock the Space Faerie with a qualifying merchandise item code, then beat her in single-player Battledome.",
+    "guide": "https://thedailyneopets.com/neoavatars/space-faerie",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/battledome/battledome.phtml?type=oneplayer&subtype=challenge",
+    "activity": "Open activity"
+  },
+  "hwp_krawley": {
+    "detail": "Collect your Tale of Woe plot prizes.",
+    "guide": "https://thedailyneopets.com/neoavatars/tale-of-woe-krawley",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/halloween/hwp/shack.phtml",
+    "activity": "Open activity"
+  },
+  "rods_champion": {
+    "detail": "Historical requirement: score two correct predictions in the October 2004 staff TCG tournament, or win the Return of Dr. Sloth TCG tournament.",
+    "guide": "https://thedailyneopets.com/neoavatars/tcg-return-of-dr-sloth-champion",
+    "checkedOn": "2026-09-13"
+  },
+  "tcgtourney2": {
+    "detail": "Make predictions worth at least two points in the March 2004 staff TCG tournament.",
+    "guide": "https://thedailyneopets.com/neoavatars/tcg-wanna-play",
+    "checkedOn": "2026-09-13"
+  },
+  "tcg_wizard": {
+    "detail": "Make predictions worth at least two points in the October 2003 staff TCG tournament.",
+    "guide": "https://thedailyneopets.com/neoavatars/tcg-wizard",
+    "checkedOn": "2026-09-13"
+  },
+  "teamillusen": {
+    "detail": "Choose Illusen's team during the 2023 Faerie Festival.",
+    "guide": "https://thedailyneopets.com/neoavatars/team-illusen",
+    "checkedOn": "2026-09-13"
+  },
+  "teamjhudora": {
+    "detail": "Choose Jhudora's team during the 2023 Faerie Festival.",
+    "guide": "https://thedailyneopets.com/neoavatars/team-jhudora",
+    "checkedOn": "2026-09-13"
+  },
+  "thewraithresurgence": {
+    "detail": "Participation reward from The Wraith Resurgence plot.",
+    "guide": "https://thedailyneopets.com/neoavatars/the-wraith-resurgence",
+    "checkedOn": "2026-09-13"
+  },
+  "halloween_reginald_hauntedbook_avatar": {
+    "detail": "Collect all seven Halloween 2023 Trick-or-Treat bags.",
+    "guide": "https://thedailyneopets.com/neoavatars/trick-or-treat-2023",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_vocivus": {
+    "detail": "Deal damage to Vocivus during The Void Within.",
+    "guide": "https://thedailyneopets.com/neoavatars/void-vanquisher",
+    "checkedOn": "2026-09-13"
+  },
+  "volcanoReward": {
+    "detail": "Submit the correct Mystery Island Volcano Plot answer within the first one hundred successful entries.",
+    "guide": "https://thedailyneopets.com/neoavatars/volcano-faerie",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_warlock_void": {
+    "detail": "Accumulate 50,000 damage against Vocivus during The Void Within.",
+    "guide": "https://thedailyneopets.com/neoavatars/warlock-of-the-void",
+    "checkedOn": "2026-09-13"
+  },
+  "charitycorner2017": {
+    "detail": "Participation reward from winter Charity Corner 2017. The exact qualifying requirement is unconfirmed.",
+    "guide": "https://thedailyneopets.com/neoavatars/winter-charity-corner",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_fon25_zaira": {
+    "detail": "Participate in the 2025 Festival of Neggs.",
+    "guide": "https://thedailyneopets.com/neoavatars/zaira-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018altadoravatar": {
+    "detail": "Reach Altador Cup rank one while representing Altador. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-altador-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018brightvaleavatar": {
+    "detail": "Reach Altador Cup rank one while representing Brightvale. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-brightvale-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018dariganavatar": {
+    "detail": "Reach Altador Cup rank one while representing Darigan Citadel. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-darigan-citadel-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018faerielandavatar": {
+    "detail": "Reach Altador Cup rank one while representing Faerieland. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-faerieland-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018hauntedavatar": {
+    "detail": "Reach Altador Cup rank one while representing Haunted Woods. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-haunted-woods-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018kikolakeavatar": {
+    "detail": "Reach Altador Cup rank one while representing Kiko Lake. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-kiko-lake-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018krawkavatar": {
+    "detail": "Reach Altador Cup rank one while representing Krawk Island. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-krawk-island-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018kreludoravatar": {
+    "detail": "Reach Altador Cup rank one while representing Kreludor. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-kreludor-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018lostdesertavatar": {
+    "detail": "Reach Altador Cup rank one while representing Lost Desert. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-lost-desert-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018maraquaavatar": {
+    "detail": "Reach Altador Cup rank one while representing Maraqua. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-maraqua-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018meridellavatar": {
+    "detail": "Reach Altador Cup rank one while representing Meridell. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-meridell-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018moltaraavatar": {
+    "detail": "Reach Altador Cup rank one while representing Moltara. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-moltara-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018mysteryislandavatar": {
+    "detail": "Reach Altador Cup rank one while representing Mystery Island. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-mystery-island-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018rooislandavatar": {
+    "detail": "Reach Altador Cup rank one while representing Roo Island. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-roo-island-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018shenkuuavatar": {
+    "detail": "Reach Altador Cup rank one while representing Shenkuu. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-shenkuu-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018terrormountainavatar": {
+    "detail": "Reach Altador Cup rank one while representing Terror Mountain. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-terror-mountain-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018tyranniaavatar": {
+    "detail": "Reach Altador Cup rank one while representing Tyrannia. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-tyrannia-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "altador2018virtupetsavatar": {
+    "detail": "Reach Altador Cup rank one while representing Virtupets. Switching teams in a later year can remove this avatar.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-2018-virtupets-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "a53": {
+    "detail": "Submit an Assignment 53 score of at least 20,000.",
+    "guide": "https://thedailyneopets.com/neoavatars/a53-like-a-boss",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/game.phtml?game_id=1347",
+    "activity": "Open activity"
+  },
+  "aaasrevenge": {
+    "detail": "Submit an AAA's Revenge score of at least 1,000.",
+    "guide": "https://thedailyneopets.com/neoavatars/aaas-revenge",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_hands_on_board": {
+    "detail": "Complete ten Faerie Fragments referrals during the May 21–June 18, 2025 Faerie Frenzy Quest.",
+    "guide": "https://thedailyneopets.com/neoavatars/all-hands-on-board",
+    "checkedOn": "2026-09-13"
+  },
+  "altadorcupplayer": {
+    "detail": "Reach Altador Cup rank one, then play an AC game.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-cup-player",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/altador/colosseum/games.phtml",
+    "activity": "Open activity"
+  },
+  "altadorcup_staff": {
+    "detail": "Participate in the Altador Cup staff tournament in 2010, 2012 or 2013.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-cup-staff-tournament",
+    "checkedOn": "2026-09-13"
+  },
+  "ava_yooyu_fall": {
+    "detail": "Finish all five Altador Cup XX achievements.",
+    "guide": "https://thedailyneopets.com/neoavatars/altador-cup-xx",
+    "checkedOn": "2026-09-13"
+  },
+  "attackoftheslorgs": {
+    "detail": "Submit an Attack of the Slorgs score of at least 1,000.",
+    "guide": "https://thedailyneopets.com/neoavatars/attack-of-the-slorgs",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/slorgattack.phtml",
+    "activity": "Open activity"
+  },
+  "avatarcollector": {
+    "detail": "Reach the top fifty on the daily Avatar Collector leaderboard.",
+    "guide": "https://thedailyneopets.com/neoavatars/avatar-collector",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/gamescores.phtml?game_id=342&limit=50",
+    "activity": "Open activity"
+  },
+  "mathsbabaa": {
+    "detail": "Reach the top fifty on the daily Math's Nightmare leaderboard.",
+    "guide": "https://thedailyneopets.com/neoavatars/babaa-maths-nightmare",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/gamescores.phtml?game_id=885&limit=50",
+    "activity": "Open activity"
+  },
+  "beautycontest": {
+    "detail": "Place in the top three of your species or overall in the Beauty Contest.",
+    "guide": "https://thedailyneopets.com/neoavatars/beauty-contest",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/beauty/index.phtml",
+    "activity": "Open activity"
+  },
+  "ava_best_strategist": {
+    "detail": "Finish three consecutive Attack on Altador games within one NST day.",
+    "guide": "https://thedailyneopets.com/neoavatars/best-strategist",
+    "checkedOn": "2026-09-13"
+  },
+  "betterthanyou": {
+    "detail": "Beat a Better Than You challenge and receive its winning Neomail.",
+    "guide": "https://thedailyneopets.com/neoavatars/better-than-you",
+    "checkedOn": "2026-09-13",
+    "url": "https://neopets.com/games/betterthanyou.phtml",
+    "activity": "Open activity"
+  },
+  "luckystreak": {
+    "detail": "Win ten successive Bilge Dice games. Check whether the game is currently available.",
+    "guide": "https://thedailyneopets.com/neoavatars/bilge-dice-lucky-streak",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/pirates/bilge.phtml",
+    "activity": "Open activity"
+  },
+  "braintree": {
+    "detail": "Accept a Brain Tree quest, then complete two Esophagor quests for its answers. Your NP reward sets the score. Stay in the top 50 until the daily trophy awards to earn the avatar.",
+    "guide": "https://www.jellyneo.net/?go=braintree",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/halloween/braintree.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "capara": {
+    "detail": "Catch Capara cheating and finish Cheat! round one. The award is random.",
+    "guide": "https://thedailyneopets.com/neoavatars/capara",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/cheat/index.phtml",
+    "activity": "Open activity"
+  },
+  "captionwinner": {
+    "detail": "Win a Caption Contest whose issue number is divisible by one hundred.",
+    "guide": "https://thedailyneopets.com/neoavatars/caption-contest-funny",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/new_caption.phtml",
+    "activity": "Open activity"
+  },
+  "ava_cap_contest": {
+    "detail": "Receive a gold-tier prize in the monthly Caption Contest.",
+    "guide": "https://thedailyneopets.com/neoavatars/caption-contest-hilarious",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/new_caption.phtml",
+    "activity": "Open activity"
+  },
+  "ava_clever_strategist": {
+    "detail": "Enter DEFEATVOID during Attack on Altador and finish the game.",
+    "guide": "https://thedailyneopets.com/neoavatars/clever-strategist",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/attackonaltador/",
+    "activity": "Open activity"
+  },
+  "cliffhanger": {
+    "detail": "Finish a losing game of Cliffhanger.",
+    "guide": "https://thedailyneopets.com/neoavatars/cliffhanger-game-over",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/cliffhanger/cliffhanger.phtml",
+    "activity": "Open activity"
+  },
+  "ava_customisation": {
+    "detail": "Become a Customisation Contest finalist, then open the results page.",
+    "guide": "https://thedailyneopets.com/neoavatars/customisation-connoisseur",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/spotlights/custompet/?tab=results",
+    "activity": "Open activity"
+  },
+  "dice_escape": {
+    "detail": "Submit a Dice Escape score of at least 1,000.",
+    "guide": "https://thedailyneopets.com/neoavatars/dice-escape",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/diceescape.phtml",
+    "activity": "Open activity"
+  },
+  "ava_doglefetch": {
+    "detail": "After Doglefetch round five, click the central Luperus's head.",
+    "guide": "https://thedailyneopets.com/neoavatars/doglefetch",
+    "checkedOn": "2026-09-13"
+  },
+  "drgrumps": {
+    "detail": "Submit a Gourmet Club Bowls score of at least 900.",
+    "guide": "https://thedailyneopets.com/neoavatars/dr-grumps",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/bowls.phtml",
+    "activity": "Open activity"
+  },
+  "efmcdraik": {
+    "detail": "Reach the top fifty on the monthly Escape from Meridell Castle leaderboard.",
+    "guide": "https://thedailyneopets.com/neoavatars/draik-escape-from-meridell-castle",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/gamescores.phtml?game_id=197&limit=50",
+    "activity": "Open activity"
+  },
+  "extremepotato": {
+    "detail": "Submit an Extreme Potato Counter score of at least 200.",
+    "guide": "https://thedailyneopets.com/neoavatars/extreme-potato-counter",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/epc.phtml",
+    "activity": "Open activity"
+  },
+  "ff_matchmaker": {
+    "detail": "Clear all 750 Faerie Fragments levels with Neopass linked so the avatar can be redeemed.",
+    "guide": "https://thedailyneopets.com/neoavatars/faerie-fragments-professional-matchmaker",
+    "checkedOn": "2026-09-13"
+  },
+  "aim_jhudora_fire": {
+    "detail": "Complete level 25, accept level 26, let its timer expire, then return to Jhudora. This failure awards the avatar and resets your quest level and leaderboard progress.",
+    "guide": "https://www.jellyneo.net/?go=jhudoras_cloud",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/faerieland/darkfaerie.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "kissthemortog": {
+    "detail": "Be in Kiss the Mortog's top fifty when the daily trophies are awarded.",
+    "guide": "https://thedailyneopets.com/neoavatars/flee",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/gamescores.phtml?game_id=154&limit=50",
+    "activity": "Open activity"
+  },
+  "ava_lostindark": {
+    "detail": "Win a game of Lost In The Dark.",
+    "guide": "https://thedailyneopets.com/neoavatars/follow-the-light",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/lostinthedark",
+    "activity": "Open activity"
+  },
+  "ava_food_club_smmmmm": {
+    "detail": "Collect 1,000,000 NP in cumulative Food Club winnings since October 15, 2025. Smaller claims across multiple bets and rounds count; a single million-NP claim is not required.",
+    "guide": "https://www.jellyneo.net/?go=food_club",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/pirates/foodclub.phtml?type=collect",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "freakedkorbat": {
+    "detail": "Be in Korbat's Lab's top fifty when trophies are awarded.",
+    "guide": "https://thedailyneopets.com/neoavatars/freaked-korbat",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/gamescores.phtml?game_id=801",
+    "activity": "Open activity"
+  },
+  "ava_game_trophy": {
+    "detail": "Earn at least one hundred game trophies, then open your lookup.",
+    "guide": "https://thedailyneopets.com/neoavatars/game-trophy-enthusiast",
+    "checkedOn": "2026-09-13"
+  },
+  "godori": {
+    "detail": "Win 250 Godori hands within one calendar month, before the monthly reset.",
+    "guide": "https://thedailyneopets.com/neoavatars/godori",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/godori/index.phtml",
+    "activity": "Open activity"
+  },
+  "hatpc": {
+    "detail": "Submit a Hannah and the Pirate Caves score of at least 150,000.",
+    "guide": "https://thedailyneopets.com/neoavatars/hannah-and-the-pirate-caves",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/piratecaves.phtml",
+    "activity": "Open activity"
+  },
+  "ava_puzzle_addict": {
+    "detail": "Random chance on completing a Puzzle of the Past.",
+    "guide": "https://thedailyneopets.com/neoavatars/jigsaw-puzzle-addict",
+    "checkedOn": "2026-09-13"
+  },
+  "kacheek06": {
+    "detail": "Submit an Extreme Herder score of at least 250.",
+    "guide": "https://thedailyneopets.com/neoavatars/kacheek-herder",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/extremeherder.phtml",
+    "activity": "Open activity"
+  },
+  "kioskwocky": {
+    "detail": "Win any prize from a Terror Mountain scratchcard. Choose a card accepted by this kiosk; the guide lists the cards and prizes. Buying the card alone does not award the avatar.",
+    "guide": "https://www.jellyneo.net/?go=scratchcards",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/winter/kiosk.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "lenny_plushie": {
+    "detail": "Answer a Lenny Conundrum correctly within the first 250 successful entries.",
+    "guide": "https://thedailyneopets.com/neoavatars/lennies-rule",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/conundrum.phtml",
+    "activity": "Open activity"
+  },
+  "library_faerie": {
+    "detail": "Finish one Faerie Crossword correctly before midnight NST. The first completed puzzle awards the avatar; your completion time does not matter. The guide includes today’s answers.",
+    "guide": "https://www.jellyneo.net/?go=faerie_crossword",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/games/crossword/index.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "mastervex": {
+    "detail": "Random award while playing Cellblock; the guide explains progression and eligible rounds.",
+    "guide": "https://thedailyneopets.com/neoavatars/master-vex",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/cellblock/cellblock.phtml",
+    "activity": "Open activity"
+  },
+  "ava_match_madness": {
+    "detail": "Finish a challenge during Kiko Match III's Match Madness event.",
+    "guide": "https://thedailyneopets.com/neoavatars/match-madness",
+    "checkedOn": "2026-09-13"
+  },
+  "lottery": {
+    "detail": "Buy a lottery ticket, win the drawing, then return to the Lottery page to receive the avatar. The guide explains which matches qualify as a win.",
+    "guide": "https://www.jellyneo.net/?go=neopian_lottery",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/games/lottery.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "ntwriter": {
+    "detail": "Have work published in a Neopian Times issue numbered as a multiple of fifty.",
+    "guide": "https://thedailyneopets.com/neoavatars/neopian-times-writer",
+    "checkedOn": "2026-09-13"
+  },
+  "nq1erick": {
+    "detail": "In NeoQuest, complete Erick's qualifying gem exchange. The guide lists the Clouded Gem and wand-building routes.",
+    "guide": "https://thedailyneopets.com/neoavatars/neoquest-wise-and-powerful",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/neoquest/neoquest.phtml",
+    "activity": "Open activity"
+  },
+  "bunninator": {
+    "detail": "Defeat a Bionic Bunny during NeoQuest II.",
+    "guide": "https://thedailyneopets.com/neoavatars/neoquest-ii-bionic-cybunny",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/nq2/index.phtml",
+    "activity": "Open activity"
+  },
+  "devilpuss": {
+    "detail": "Defeat a Devilpuss during NeoQuest II.",
+    "guide": "https://thedailyneopets.com/neoavatars/neoquest-ii-devilpuss",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/nq2/index.phtml",
+    "activity": "Open activity"
+  },
+  "weakling": {
+    "detail": "Random chance after losing a NeoQuest II battle to a Plains Lupe.",
+    "guide": "https://thedailyneopets.com/neoavatars/neoquest-ii-weakling",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/nq2/index.phtml",
+    "activity": "Open activity"
+  },
+  "petpetsitter": {
+    "detail": "Submit a Petpetsitter score of at least 2,500.",
+    "guide": "https://thedailyneopets.com/neoavatars/petpetsitter",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/petpetsitter.phtml",
+    "activity": "Open activity"
+  },
+  "pickyourown": {
+    "detail": "Leave the farm with six items and no dung. Discard dung by clicking it in your basket before collecting your sixth item; the guide explains the route and 20-click limit.",
+    "guide": "https://www.jellyneo.net/?go=pick_your_own",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/medieval/pickyourown_index.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "plushieTycoon": {
+    "detail": "End a Plushie Tycoon month with at least 50,000 NP in the game.",
+    "guide": "https://thedailyneopets.com/neoavatars/plushie-tycoon",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/tycoon/index.phtml",
+    "activity": "Open activity"
+  },
+  "ava_pandorapresents": {
+    "detail": "Land on the Wheel of Celebration's avatar segment while the wheel is available.",
+    "guide": "https://thedailyneopets.com/neoavatars/presents-from-pandora-avatar",
+    "checkedOn": "2026-09-13"
+  },
+  "randomcontest": {
+    "detail": "Receive first place, second place or runner-up in a Random Contest.",
+    "guide": "https://thedailyneopets.com/neoavatars/random-contest-winner",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/spotlight_subs/random_contest.phtml",
+    "activity": "Open activity"
+  },
+  "sewage_surfer": {
+    "detail": "Reach Sewage Surfer level fifty, then quit the game at that level.",
+    "guide": "https://thedailyneopets.com/neoavatars/sewage-surfer",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/sewage/index.phtml",
+    "activity": "Open activity"
+  },
+  "sinsishifter": {
+    "detail": "Reach Shapeshifter level six and visit the page linked in the guide.",
+    "guide": "https://thedailyneopets.com/neoavatars/sinsi-shapeshifter",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/medieval/shapeshifter_index.phtml",
+    "activity": "Open activity"
+  },
+  "sitespotlight": {
+    "detail": "Have your site selected as a Site Spotlight winner.",
+    "guide": "https://thedailyneopets.com/neoavatars/site-spotlight",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/spotlight_subs/sitespotlight_submission.phtml",
+    "activity": "Open activity"
+  },
+  "smuggleddubloon": {
+    "detail": "Submit a Dubloon Disaster score of at least 2,500.",
+    "guide": "https://thedailyneopets.com/neoavatars/smugglers-dubloon",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/dubloondisaster.phtml",
+    "activity": "Open activity"
+  },
+  "taelia": {
+    "detail": "Complete a Snow Faerie quest for Taelia.",
+    "guide": "https://www.jellyneo.net/?go=taelia_quests",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/winter/snowfaerie.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "thatsnotrubbish": {
+    "detail": "Collect an eligible item: a petpet, paint brush, bottled faerie, Hidden Tower item or Apple Core. The guide lists each one. A failed pickup may show a false award notice; check your avatar preferences.",
+    "guide": "https://www.jellyneo.net/?go=rubbishdump",
+    "checkedOn": "2026-09-14",
+    "url": "https://www.neopets.com/medieval/rubbishdump.phtml",
+    "activity": "Open activity",
+    "dailyGuide": "walkthrough"
+  },
+  "taviteatime": {
+    "detail": "Complete at least one Tea Time with Tavi quest on five consecutive days during The Void Within.",
+    "guide": "https://thedailyneopets.com/neoavatars/time-for-tea",
+    "checkedOn": "2026-09-13"
+  },
+  "tonucharge": {
+    "detail": "Win a Battledome fight using your Darigan Tonu. The reference reports that fighting someone else's Tonu currently does not qualify.",
+    "guide": "https://thedailyneopets.com/neoavatars/tonu-charge",
+    "checkedOn": "2026-09-13"
+  },
+  "topgamer": {
+    "detail": "Record scores for at least 250 different games, then open My High Scores.",
+    "guide": "https://thedailyneopets.com/neoavatars/top-gamer",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/mygamescores.phtml",
+    "activity": "Open activity"
+  },
+  "ava_towerconqueror": {
+    "detail": "Complete Faerie Fragments Tower Mode 150 times.",
+    "guide": "https://thedailyneopets.com/neoavatars/tower-conqueror",
+    "checkedOn": "2026-09-13"
+  },
+  "bullseye": {
+    "detail": "Submit an Ultimate Bullseye II score of at least 100.",
+    "guide": "https://thedailyneopets.com/neoavatars/turtum",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/play.phtml?game_id=903",
+    "activity": "Open activity"
+  },
+  "ava_voidworks_capsule": {
+    "detail": "Finish ten Voidworks puzzles with thirty seconds or more remaining on each timer.",
+    "guide": "https://thedailyneopets.com/neoavatars/voidworks-technician",
+    "checkedOn": "2026-09-13"
+  },
+  "whackedkass": {
+    "detail": "Submit a Kass Basher score of at least 850.",
+    "guide": "https://thedailyneopets.com/neoavatars/whack-a-kass",
+    "checkedOn": "2026-09-13",
+    "url": "https://www.neopets.com/games/kassgame.phtml",
+    "activity": "Open activity"
+  },
+  "evilcoconut": {
+    "detail": "Open this fast link and refresh it for another throw; no Flash needed. Each visit or refresh uses one throw. Knock a coconut off its stand to earn the avatar; an explosion does not count.",
+    "guide": "https://www.jellyneo.net/?go=coconut_shy",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "wheelofexcitement": {
+    "detail": "Land on the 20,000 NP space.",
+    "guide": "https://www.jellyneo.net/?go=wheel_of_excitement",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "brightvale": {
+    "detail": "Land on the eight-pointed star.",
+    "guide": "https://www.jellyneo.net/?go=wheel_of_knowledge",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "mediocrity": {
+    "detail": "Land on 4,000 NP. Check your avatar preferences afterwards: there is no award notice.",
+    "guide": "https://www.jellyneo.net/?go=wheel_of_mediocrity",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "misfortune": {
+    "detail": "Any space can randomly award it. Check your avatar preferences; there is no notification. This wheel can have negative effects—read the guide first.",
+    "guide": "https://www.jellyneo.net/?go=wheel_of_misfortune",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "monotony": {
+    "detail": "Land on the question mark and finish the spin to collect the result.",
+    "guide": "https://www.jellyneo.net/?go=wheel_of_monotony",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "ava_monotony_tick": {
+    "detail": "A random chance after paying at least 100,000 NP to grease the wheel, awarded when it finishes. An expensive optional attempt; not guaranteed.",
+    "guide": "https://www.jellyneo.net/?go=wheel_of_monotony",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "extravagance": {
+    "detail": "Land on the blank square. An expensive optional attempt; not guaranteed.",
+    "guide": "https://www.jellyneo.net/?go=wheel_of_extravagance",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "snowager": {
+    "detail": "A random award when you get blasted. Regular hibernation visits cannot award it.",
+    "guide": "https://www.jellyneo.net/?go=snowager",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "geraptiku_tomb": {
+    "detail": "A random chance when you receive an item from the tomb.",
+    "guide": "https://www.jellyneo.net/?go=geraptomb",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "ava_fruit_machine": {
+    "detail": "Match three Cheops or three Puntec fruits. Cheops became eligible on September 11, 2026.",
+    "guide": "https://www.jellyneo.net/?go=fruit_machine",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "moodyskarl": {
+    "detail": "Receive the result where Skarl throws you out of his castle.",
+    "guide": "https://www.jellyneo.net/?go=grumpy_old_king",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "jester": {
+    "detail": "Use this question: “What do you do if [blank] fierce Peophins [blank] has eaten too much [blank] tin of olives?” Any answer is allowed. You need the random hysterical-laughter result.",
+    "guide": "https://www.jellyneo.net/?go=grumpy_old_king",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "kinghagan": {
+    "detail": "Choose a statement and offer your wisdom to Hagan. An A+ result awards the avatar. The grade is random; the guide explains outcomes and his meal breaks.",
+    "guide": "https://www.jellyneo.net/?go=wise_old_king",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "jhudorascloud": {
+    "detail": "Complete Jhudora’s level 20 quest. A failed quest resets progress, and her 12-hour wait is shared with Illusen. The guide explains timers, quest levels and item requests.",
+    "guide": "https://www.jellyneo.net/?go=jhudoras_cloud",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "illusensglade": {
+    "detail": "Complete Illusen’s level 20 quest. A failed quest resets progress, and her 12-hour wait is shared with Jhudora. The guide explains timers, quest levels and item requests.",
+    "guide": "https://www.jellyneo.net/?go=illusens_glade",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "forgshore": {
+    "detail": "Redeem all nine Forgotten Shore map pieces once to unlock access, then visit each day. The avatar is one possible daily prize.",
+    "guide": "https://www.jellyneo.net/?go=forgottenshore",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "sssidney": {
+    "detail": "Win any prize from a Deserted Fairground scratchcard. The guide lists the eligible cards and their prizes; buying a card alone does not award the avatar.",
+    "guide": "https://www.jellyneo.net/?go=scratchcards&id=deserted_fairgrounds",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "aishascalawag": {
+    "detail": "Random when you win anything at Buried Treasure, booby prize included.",
+    "guide": "https://www.jellyneo.net/?go=treasure_of_the_black_pawkeet",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "tdmbgpop": {
+    "detail": "Random on the daily prize. Odds go up during the Winter Starlight Celebration.",
+    "guide": "https://www.jellyneo.net/?go=tdmbgpop",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "ednacackle": {
+    "detail": "Complete a quest requesting three items for a random avatar chance. One- and two-item quests cannot award it; you can let those expire. Edna is unavailable from midnight–1am and noon–1pm NST.",
+    "guide": "https://www.jellyneo.net/?go=ednaquests",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "luckyblumaroo": {
+    "detail": "Keep rolling to reach the fifth (silver) die and win its jackpot. Stopping to collect ends the run. Results are random; the guide explains each die and the daily boredom limit.",
+    "guide": "https://www.jellyneo.net/?go=dice_a_roo",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "cheeseroller": {
+    "detail": "Buy a cheese from the game’s own seller and finish in 60 seconds or less for a random avatar chance. The guide lists valid cheese names and racing choices; no cheese guarantees a win.",
+    "guide": "https://www.jellyneo.net/?go=cheeseroller",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "pooglewinner": {
+    "detail": "Bet on a Poogle, watch the race, and if it wins choose Return to Main Page to collect the avatar and winnings.",
+    "guide": "https://www.jellyneo.net/?go=poogle_racing",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "aim_hauntedwoods_1": {
+    "detail": "Send an attached petpet adventuring, then check its status for a random avatar chance. Each fixed ten-minute block gives one chance (at :00, :10, :20, :30, :40 and :50).",
+    "guide": "https://www.jellyneo.net/?go=gravedanger",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "deadlydice": {
+    "detail": "Use an active pet of level 2 or higher. Tie with Von Roo, then win at least two levels. If you play again, tie and lose, you also lose the avatar.",
+    "guide": "https://www.jellyneo.net/?go=deadlydice",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "pet_rock": {
+    "detail": "Attend Sticks N Stones with the matching ticket in your inventory. Buying a ticket alone does not award the avatar.",
+    "guide": "https://www.jellyneo.net/?go=concerts",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "groovychomby": {
+    "detail": "Attend Chomby and the Fungus Balls with the matching ticket in your inventory. Buying a ticket alone does not award the avatar.",
+    "guide": "https://www.jellyneo.net/?go=concerts",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "elephantejazz": {
+    "detail": "Attend Jazzmosis with the matching ticket in your inventory. Buying a ticket alone does not award the avatar.",
+    "guide": "https://www.jellyneo.net/?go=concerts",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "jubzambra": {
+    "detail": "Attend Jub Zambra and the Cobrall Charmers with the matching ticket in your inventory. Buying a ticket alone does not award the avatar.",
+    "guide": "https://www.jellyneo.net/?go=concerts",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  },
+  "yesboyicecream": {
+    "detail": "Attend Yes Boy Ice-Cream with the matching ticket in your inventory. Buying a ticket alone does not award the avatar.",
+    "guide": "https://www.jellyneo.net/?go=concerts",
+    "dailyGuide": "walkthrough",
+    "checkedOn": "2026-09-14"
+  }
+}

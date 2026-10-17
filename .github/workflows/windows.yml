@@ -1,0 +1,65 @@
+name: Windows package
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-dotnet@v6.0.0
+        with:
+          dotnet-version: '10.0.x'
+      - run: npm ci --no-audit --no-fund
+      - run: npm run check
+      - run: npm run build
+      - run: npm test
+      - name: Build native overlay
+        run: dotnet publish windows/NeopianDesk.Overlay.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o windows/publish
+      - name: Check native parser
+        run: windows/publish/NeopianDesk.Overlay.exe --self-test
+      - name: Exercise desktop journeys
+        run: npm run test:desktop
+      - name: Exercise Windows accessibility with browser fixtures
+        run: node tests/windows-overlay.cjs
+      - name: Package installer
+        run: npm run dist:win
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - name: Install and check saved data through reinstall
+        shell: pwsh
+        run: |
+          $install = Join-Path $env:RUNNER_TEMP 'NeopianDeskInstalled'
+          $setup = Resolve-Path 'release/Neopian-Desk-Setup.exe'
+          $result = Start-Process $setup -ArgumentList @('/S', "/D=$install") -Wait -PassThru
+          if ($result.ExitCode -ne 0) { throw "Install failed: $($result.ExitCode)" }
+          $env:DESK_INSTALLED_EXE = Join-Path $install 'Neopian Desk.exe'
+          node tests/installed.cjs fresh
+          if ($LASTEXITCODE -ne 0) { throw 'Installed app check failed' }
+          $result = Start-Process $setup -ArgumentList @('/S', "/D=$install") -Wait -PassThru
+          if ($result.ExitCode -ne 0) { throw "Reinstall failed: $($result.ExitCode)" }
+          node tests/installed.cjs reopen
+          if ($LASTEXITCODE -ne 0) { throw 'Reinstalled app check failed' }
+          Get-FileHash $setup -Algorithm SHA256 | ForEach-Object { "$($_.Hash.ToLower())  Neopian-Desk-Setup.exe" } | Set-Content release/SHA256SUMS.txt
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: windows-verification
+          path: test-results/
+          if-no-files-found: ignore
+          retention-days: 7
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: Neopian-Desk-Windows
+          path: |
+            release/Neopian-Desk-Setup.exe
+            release/SHA256SUMS.txt
+          retention-days: 7
