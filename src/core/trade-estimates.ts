@@ -14,17 +14,39 @@ export interface PriorityItem {
   reference?: { label: string; url: string };
 }
 export const priorityKey = "nd_priority_items";
-export function readPriorityItems(legacy: Record<string,string>): PriorityItem[] {
+export function readPriorityItems(
+  legacy: Record<string, string>,
+): PriorityItem[] {
   return legacy[priorityKey] ? JSON.parse(legacy[priorityKey]) : [];
 }
 export function validPriorityItems(value: unknown): value is PriorityItem[] {
-  return Array.isArray(value) && value.length <= 100 &&
-    new Set(value.map(i => i?.name?.toLowerCase())).size === value.length &&
-    value.every(i => i && typeof i.name === "string" && i.name.trim() === i.name && i.name.length > 0 && i.name.length <= 200 &&
-      typeof i.slug === "string" && /^[a-z0-9-]*$/.test(i.slug) && i.slug.length <= 200 &&
-      Number.isSafeInteger(i.buyCeiling) && i.buyCeiling >= 0 && i.buyCeiling <= 2000000000 &&
-      ["buyAt","quantity","note"].every(k => typeof i[k] === "string" && i[k].length <= 2000) &&
-      ["buyDetail","sellAt","sellDetail"].every(k => i[k] === undefined || (typeof i[k] === "string" && i[k].length <= 2000)));
+  return (
+    Array.isArray(value) &&
+    value.length <= 100 &&
+    new Set(value.map((i) => i?.name?.toLowerCase())).size === value.length &&
+    value.every(
+      (i) =>
+        i &&
+        typeof i.name === "string" &&
+        i.name.trim() === i.name &&
+        i.name.length > 0 &&
+        i.name.length <= 200 &&
+        typeof i.slug === "string" &&
+        /^[a-z0-9-]*$/.test(i.slug) &&
+        i.slug.length <= 200 &&
+        Number.isSafeInteger(i.buyCeiling) &&
+        i.buyCeiling >= 0 &&
+        i.buyCeiling <= 2000000000 &&
+        ["buyAt", "quantity", "note"].every(
+          (k) => typeof i[k] === "string" && i[k].length <= 2000,
+        ) &&
+        ["buyDetail", "sellAt", "sellDetail"].every(
+          (k) =>
+            i[k] === undefined ||
+            (typeof i[k] === "string" && i[k].length <= 2000),
+        ),
+    )
+  );
 }
 
 export const tradeCandidates = [
@@ -35,9 +57,10 @@ export const tradeCandidates = [
 ].filter(
   (i) => i.value >= 1_000_000 && i.value <= 15_000_000 && i.rating !== "hts",
 );
-export const estimateTargets = (legacy: Record<string,string> = {}) => [...readPriorityItems(legacy), ...tradeCandidates].filter(
-  (item, index, all) => all.findIndex((i) => i.name === item.name) === index,
-);
+export const estimateTargets = (legacy: Record<string, string> = {}) =>
+  [...readPriorityItems(legacy), ...tradeCandidates].filter(
+    (item, index, all) => all.findIndex((i) => i.name === item.name) === index,
+  );
 export const estimateKey = "nd_trade_estimates";
 export interface Estimate {
   value?: number;
@@ -100,7 +123,7 @@ export function mergeEstimates(
   previous: Estimates,
   raw: unknown,
   now: string,
-  targets: {name:string}[] = estimateTargets(),
+  targets: { name: string }[] = estimateTargets(),
 ): {
   estimates: Estimates;
   updated: number;

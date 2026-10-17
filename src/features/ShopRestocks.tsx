@@ -8,24 +8,62 @@ import { Button, Panel, Link, Feedback } from "../components/shared";
 import { InfoHelp } from "../components/InfoHelp";
 
 type Shop = { id: number; name: string };
-const shops = [...catalogues.DESK_SHOP_LAUNCH_DATA].sort((a,b)=>a.name.localeCompare(b.name));
-const groups = Array.from({length:Math.ceil(shops.length/10)},(_,i)=>shops.slice(i*10,i*10+10));
+const shops = [...catalogues.DESK_SHOP_LAUNCH_DATA].sort((a, b) =>
+  a.name.localeCompare(b.name),
+);
+const groups = Array.from({ length: Math.ceil(shops.length / 10) }, (_, i) =>
+  shops.slice(i * 10, i * 10 + 10),
+);
 
 export function ShopRestocks() {
-  const { message, opening, open: launch, batchRunning, batchMessage, stop } = useShopLauncher();
+  const {
+    message,
+    opening,
+    open: launch,
+    batchRunning,
+    batchMessage,
+    stop,
+  } = useShopLauncher();
   const open = (shops: Shop[]) => void launch(shops.map((s) => s.id));
   return (
     <div className="feature-stack">
       <WantedItems />
       <WearableShops />
-      <Panel title="Neopian shops" actions={<InfoHelp title="Opening shops"><p>Choose a shop or open a group of up to ten ordinary links. Saved price estimates are dated and may differ from current asking prices.</p><p>With Prices and Jump to expensive finds enabled, Desk checks each opened page once. Stop cancels the remaining check; it never buys or refreshes.</p></InfoHelp>}>
-        <ShopList groups={groups} label="Find a shop" opening={opening} onOpen={open}/>
+      <Panel
+        title="Neopian shops"
+        actions={
+          <InfoHelp title="Opening shops">
+            <p>
+              Choose a shop or open a group of up to ten ordinary links. Saved
+              price estimates are dated and may differ from current asking
+              prices.
+            </p>
+            <p>
+              With Prices and Jump to expensive finds enabled, Desk checks each
+              opened page once. Stop cancels the remaining check; it never buys
+              or refreshes.
+            </p>
+          </InfoHelp>
+        }
+      >
+        <ShopList
+          groups={groups}
+          label="Find a shop"
+          opening={opening}
+          onOpen={open}
+        />
       </Panel>
       <Feedback message={message} />
-      {batchMessage && <div className="actions" role="status">
-        <span>{batchMessage}</span>
-        {batchRunning && <Button variant="outline" onClick={() => void stop()}>Stop batch jump</Button>}
-      </div>}
+      {batchMessage && (
+        <div className="actions" role="status">
+          <span>{batchMessage}</span>
+          {batchRunning && (
+            <Button variant="outline" onClick={() => void stop()}>
+              Stop batch jump
+            </Button>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -91,9 +129,7 @@ function ShopList({
             {batch.map((s) => (
               <tr key={s.id}>
                 {ranked && (
-                  <td>
-                    {shops.findIndex(shop=>shop.id===s.id)+1}
-                  </td>
+                  <td>{shops.findIndex((shop) => shop.id === s.id) + 1}</td>
                 )}
                 <td>{s.name}</td>
                 <td>

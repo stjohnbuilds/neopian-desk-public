@@ -70,15 +70,25 @@ export function validateAccountColors(
     );
   }
 }
-export const signatureDefaults: Record<string,string> = {
-  "neo-signature:default:html":"", "neo-signature:default:signature":"",
-  "neo-signature:art:html":"", "neo-signature:art:signature":"",
+export const signatureDefaults: Record<string, string> = {
+  "neo-signature:default:html": "",
+  "neo-signature:default:signature": "",
+  "neo-signature:art:html": "",
+  "neo-signature:art:signature": "",
 };
 export const stripPreviewArtifacts = (html: string) => html;
-export function applyCodeColors(key: string, value: string, colors?: AccountColors) {
+export function applyCodeColors(
+  key: string,
+  value: string,
+  colors?: AccountColors,
+) {
   if (!colors || !value) return value;
   validateAccountColors(colors);
-  if (key.startsWith("neo-signature:")) return value.replace(/(\[font[^\]]*c=)#[0-9a-f]{6}/gi, `$1${colors.text}`);
-  const clean=value.replace(/<style data-desk-colors>[\s\S]*?<\/style>/g,"");
-  return clean+`\n<style data-desk-colors>body{background:${colors.background};color:${colors.text}}h1{color:${colors.heading}}h2,h3{color:${colors.subheading}}a{color:${colors.link}}</style>`;
+  if (key.startsWith("neo-signature:"))
+    return value.replace(/(\[font[^\]]*c=)#[0-9a-f]{6}/gi, `$1${colors.text}`);
+  const clean = value.replace(/<style data-desk-colors>[\s\S]*?<\/style>/g, "");
+  return (
+    clean +
+    `\n<style data-desk-colors>body{background:${colors.background};color:${colors.text}}h1{color:${colors.heading}}h2,h3{color:${colors.subheading}}a{color:${colors.link}}</style>`
+  );
 }

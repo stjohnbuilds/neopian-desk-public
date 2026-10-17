@@ -12,3 +12,11 @@ Added empty account defaults, generic page editors, paired browser observations,
 Windows desktop storage and recovery, configurable buy targets and native overlay
 source. Fourteen storage/domain checks and macOS desktop journeys ran. Windows
 installer and native accessibility checks remain pending in the Windows workflow.
+
+## 17 October 2026 — public Windows verification
+
+Published reviewed source with fresh history. Added ordinary item-list editing and
+account-bound sales capture. Retained newer event/training observations when restoring
+older backups. Fifty-six Node checks and desktop journeys completed without a reported
+failure. The first Windows run exercised the native overlay and fresh installed app;
+a harness error interrupted the reinstall check and was repaired for the next run.

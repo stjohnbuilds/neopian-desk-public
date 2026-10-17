@@ -58,6 +58,11 @@ jobs:
           retention-days: 7
       - uses: actions/upload-artifact@v7.0.2
         with:
+          name: windows-package-review
+          path: release/win-unpacked/resources/app.asar
+          retention-days: 1
+      - uses: actions/upload-artifact@v7.0.2
+        with:
           name: Neopian-Desk-Windows
           path: |
             release/Neopian-Desk-Setup.exe

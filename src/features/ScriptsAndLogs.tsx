@@ -54,7 +54,9 @@ export function ScriptsAndLogs({
             <Button
               variant="outline"
               size="sm"
-              onClick={() => window.dispatchEvent(new Event("desk-open-settings"))}
+              onClick={() =>
+                window.dispatchEvent(new Event("desk-open-settings"))
+              }
             >
               Account settings
             </Button>
@@ -71,9 +73,9 @@ export function ScriptsAndLogs({
             </div>
             <InfoHelp title="About Shop Helper">
               <p>
-                Built into this computer app. It shows price previews in Neopets shops,
-                other players’ shops, your inventory, SDB and shop stock. It
-                does not buy, move items or change shop prices.
+                Built into this computer app. It shows price previews in Neopets
+                shops, other players’ shops, your inventory, SDB and shop stock.
+                It does not buy, move items or change shop prices.
               </p>
               <p>
                 {String(
@@ -81,18 +83,46 @@ export function ScriptsAndLogs({
                     "Turn on Shop Helper, then open a supported Neopets page in Chrome or Edge.",
                 )}
               </p>
-              <p>ItemDB estimates update automatically for items on the page and are shared across shops, inventory and SDB. They are dated market estimates.</p>
-              <p role="status">{String(helper.priceMessage || "Open an item page to check prices.")}</p>
+              <p>
+                ItemDB estimates update automatically for identified visible
+                items and are shared across shops, inventory and SDB. They are
+                dated market estimates.
+              </p>
+              <p role="status">
+                {String(
+                  helper.priceMessage || "Open an item page to check prices.",
+                )}
+              </p>
               <Button
                 variant="outline"
                 disabled={!isNative() || helper.priceCanRefresh !== true}
-                onClick={() => nativeMessage("deskShopHelper", { action: "refreshPrices" })}
+                onClick={() =>
+                  nativeMessage("deskShopHelper", { action: "refreshPrices" })
+                }
               >
-                {helper.priceBusy === true ? "Updating prices…" : helper.priceNeedsConnection === true ? "Connect to ItemDB" : "Refresh item prices"}
+                {helper.priceBusy === true
+                  ? "Updating prices…"
+                  : helper.priceNeedsConnection === true
+                    ? "Connect to ItemDB"
+                    : "Refresh item prices"}
               </Button>
-              {helper.lastPriorityCheck ? <p className="muted text-small">Last search reminder: {String(helper.lastPriorityCheck)}</p> : null}
-              <p className="muted text-small">Last shop check: {String(helper.lastShopCheck || "No shop read since Desk opened.")}</p>
-              <p className="muted text-small">Last alert: {String(helper.lastAlert || "No alert displayed since Desk opened.")}</p>
+              {helper.lastPriorityCheck ? (
+                <p className="muted text-small">
+                  Last search reminder: {String(helper.lastPriorityCheck)}
+                </p>
+              ) : null}
+              <p className="muted text-small">
+                Last shop check:{" "}
+                {String(
+                  helper.lastShopCheck || "No shop read since Desk opened.",
+                )}
+              </p>
+              <p className="muted text-small">
+                Last alert:{" "}
+                {String(
+                  helper.lastAlert || "No alert displayed since Desk opened.",
+                )}
+              </p>
               <Button
                 variant="outline"
                 disabled={!isNative()}
@@ -193,7 +223,19 @@ export function ScriptsAndLogs({
               </p>
             </div>
             <TrackerConnectionHelp />
-            {connection.ready && <Button size="sm" variant="outline" onClick={()=>void run(()=>nativeMessage("deskBrowser",{action:"disconnect"}))}>Turn connection off</Button>}
+            {connection.ready && (
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={() =>
+                  void run(() =>
+                    nativeMessage("deskBrowser", { action: "disconnect" }),
+                  )
+                }
+              >
+                Turn connection off
+              </Button>
+            )}
             {!connection.ready && (
               <Button
                 size="sm"
@@ -236,15 +278,15 @@ export function ScriptsAndLogs({
           actions={
             <InfoHelp title="Installing browser scripts">
               <p>
-                These run in Chrome’s Tampermonkey extension. Copy a script,
-                open Tampermonkey’s Dashboard, edit the existing script with the
-                same name, replace its code and save. Create a new script only
-                if it is not already installed.
+                These run in Tampermonkey in Chrome or Edge. Copy a script, open
+                Tampermonkey’s Dashboard, edit the existing script with the same
+                name, replace its code and save. Create a new script only if it
+                is not already installed.
               </p>
               <p>
-                Purchase Tracker, Stamp Tracker and Random Events Logger also
-                need the Desk connection key once. Search Helper adds browser
-                shortcuts and does not need pairing.
+                Purchase Tracker, Stamp Tracker, Training Helper and Random
+                Events Logger also need the Desk connection key once. Search
+                Helper adds browser shortcuts and does not need pairing.
               </p>
               <p>
                 Copying a release does not update the installed browser script.

@@ -1,3 +1,6 @@
+import { mergeBrowserEvents } from "../core/browser-events";
+import { syncTraining, emptyTraining } from "../core/training";
+import { defaultReminders } from "../core/timers";
 import { emptyProfile, validateProfile, type Profile } from "../core/profile";
 import {
   validateAccountColors,
@@ -12,7 +15,12 @@ import {
 import { validateNameReview, type NameReview } from "../core/name-review";
 import { validateNavigation, type Navigation } from "../core/navigation";
 import { validateLegacy } from "./validate-legacy";
-import { validateCollections, mergeCollections, mergeAlbums, type Collections } from "../core/collections";
+import {
+  validateCollections,
+  mergeCollections,
+  mergeAlbums,
+  type Collections,
+} from "../core/collections";
 import { validateTradingLinks, mergeSaleBackups } from "../core/trading-sales";
 import { accounting, type Purchase } from "../core/accounting";
 import { useSyncExternalStore } from "react";
@@ -63,10 +71,16 @@ export interface Store {
 }
 export function createInitialState(): Store {
   return {
-    format: "neopian-desk-public", version: 1, revision: 0,
-    profile: emptyProfile(), legacy: {},
+    format: "neopian-desk-public",
+    version: 1,
+    revision: 0,
+    profile: emptyProfile(),
+    legacy: {},
     names: { records: {}, history: [], exclusions: [] },
-    native: { purchases: [], browser: { version: 1, albums: {}, events: [], training: {} } },
+    native: {
+      purchases: [],
+      browser: { version: 1, albums: {}, events: [], training: {} },
+    },
   };
 }
 
@@ -90,13 +104,29 @@ export function validateStore(value: unknown): asserts value is Store {
   )
     throw Error("This is not a valid Neopian Desk backup.");
   validateProfile(s.profile);
-  const ledger = s.legacy.nd_shop_profit_v1 ? JSON.parse(s.legacy.nd_shop_profit_v1) : {};
-  const receipts = s.legacy.nd_trading_sales_v1 ? JSON.parse(s.legacy.nd_trading_sales_v1) : {};
-  const ownedRecords = [...s.native.purchases, ...Object.values(s.native.browser.albums),
-    ...s.native.browser.events, ...Object.values(s.native.browser.training ?? {}),
-    ...(ledger.restoredPurchases ?? []), ...(receipts.receipts ?? [])];
-  if (ownedRecords.some((r: {account?: string}) => !s.profile.account || r.account !== s.profile.account))
-    throw Error("These records belong to a different account. Nothing was imported.");
+  const ledger = s.legacy.nd_shop_profit_v1
+    ? JSON.parse(s.legacy.nd_shop_profit_v1)
+    : {};
+  const receipts = s.legacy.nd_trading_sales_v1
+    ? JSON.parse(s.legacy.nd_trading_sales_v1)
+    : {};
+  const ownedRecords = [
+    ...s.native.purchases,
+    ...Object.values(s.native.browser.albums),
+    ...s.native.browser.events,
+    ...Object.values(s.native.browser.training ?? {}),
+    ...(ledger.restoredPurchases ?? []),
+    ...(receipts.receipts ?? []),
+  ];
+  if (
+    ownedRecords.some(
+      (r: { account?: string }) =>
+        !s.profile.account || r.account !== s.profile.account,
+    )
+  )
+    throw Error(
+      "These records belong to a different account. Nothing was imported.",
+    );
   if (s.training !== undefined) validateTraining(s.training);
   if (s.native.browser.training !== undefined) {
     const snapshots = s.native.browser.training;
@@ -235,8 +265,13 @@ function persist(
     try {
       const next = { ...change(state), revision: state.revision + 1 };
       validateStore(next);
-    if (state.profile.account && state.profile.account !== next.profile.account)
-      throw Error("This desk belongs to another account. Export a backup before creating a separate desk.");
+      if (
+        state.profile.account &&
+        state.profile.account !== next.profile.account
+      )
+        throw Error(
+          "This desk belongs to another account. Export a backup before creating a separate desk.",
+        );
       if (isNative())
         await request("save", {
           text: JSON.stringify(next),
@@ -258,10 +293,23 @@ function persist(
   queue = run.catch(() => {});
   return run;
 }
-if (typeof window !== "undefined") window.addEventListener("desk-state", ((event: CustomEvent<Store>) => {
-  const incoming = event.detail;
-  queue = queue.then(() => { validateStore(incoming); if (incoming.revision > state.revision) { state = incoming; failure = ""; notify(); } }).catch(error => { failure=String(error); notify(); });
-}) as EventListener);
+if (typeof window !== "undefined")
+  window.addEventListener("desk-state", ((event: CustomEvent<Store>) => {
+    const incoming = event.detail;
+    queue = queue
+      .then(() => {
+        validateStore(incoming);
+        if (incoming.revision > state.revision) {
+          state = incoming;
+          failure = "";
+          notify();
+        }
+      })
+      .catch((error) => {
+        failure = String(error);
+        notify();
+      });
+  }) as EventListener);
 export function updateStore(change: (previous: Store) => Store): Promise<void> {
   return persist(change);
 }
@@ -282,31 +330,71 @@ export async function restoreBackup(
   validateStore(value);
   // Restore merges names, preserves the raw original keys, and is one atomic write.
   await persist(
-    (current) => ({
-      ...value,
-      legacy: mergeSaleBackups(current.legacy, value.legacy),
-      collections: mergeCollections(current.collections, value.collections),
-      native: {
-        ...value.native,
-        purchases: accounting.mergePurchases(current.native.purchases, value.native.purchases),
-        browser: {
-          ...value.native.browser,
-          albums: mergeAlbums(current.native.browser.albums, value.native.browser.albums),
+    (current) => {
+      const trainingSnapshots = { ...current.native.browser.training };
+      for (const [school, snapshot] of Object.entries(
+        value.native.browser.training ?? {},
+      ))
+        if (
+          !trainingSnapshots[school] ||
+          trainingSnapshots[school].observedAt < snapshot.observedAt
+        )
+          trainingSnapshots[school] = snapshot;
+      const restoredReminders = JSON.parse(
+        value.legacy.nd_reminders ?? JSON.stringify(defaultReminders),
+      );
+      const training = syncTraining(
+        value.training ?? emptyTraining(),
+        restoredReminders.timers,
+        Object.values(trainingSnapshots),
+      );
+      return {
+        ...value,
+        training: training.state,
+        legacy: {
+          ...mergeSaleBackups(current.legacy, value.legacy),
+          nd_reminders: JSON.stringify({
+            ...restoredReminders,
+            timers: training.timers,
+          }),
         },
-      },
-      names: {
-        ...mergeNameNotes(
-          mergeObservations(current.names, [
-            ...parseObservations(value.names),
-            ...value.names.history,
-          ]),
-          value.names.notes,
-        ),
-        exclusions: [
-          ...new Set([...current.names.exclusions, ...value.names.exclusions]),
-        ],
-      },
-    }),
+        collections: mergeCollections(current.collections, value.collections),
+        native: {
+          ...value.native,
+          purchases: accounting.mergePurchases(
+            current.native.purchases,
+            value.native.purchases,
+          ),
+          browser: {
+            ...value.native.browser,
+            events: mergeBrowserEvents(
+              current.native.browser.events,
+              value.native.browser.events,
+            ),
+            training: trainingSnapshots,
+            albums: mergeAlbums(
+              current.native.browser.albums,
+              value.native.browser.albums,
+            ),
+          },
+        },
+        names: {
+          ...mergeNameNotes(
+            mergeObservations(current.names, [
+              ...parseObservations(value.names),
+              ...value.names.history,
+            ]),
+            value.names.notes,
+          ),
+          exclusions: [
+            ...new Set([
+              ...current.names.exclusions,
+              ...value.names.exclusions,
+            ]),
+          ],
+        },
+      };
+    },
     true,
     sourceText,
   );

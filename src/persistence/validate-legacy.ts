@@ -1,3 +1,4 @@
+import { validWardrobe } from "../core/wardrobe";
 import { validPriorityItems } from "../core/trade-estimates";
 import { validEstimates } from "../core/trade-estimates";
 import { validAvatarFavorites } from "../core/avatar-daily-favorites";
@@ -108,15 +109,7 @@ export function validateLegacy(key: string, value: unknown) {
         valid = object(value) && Object.values(value).every(date);
         break;
       case "nd_items_v2":
-        valid = rows(
-          value,
-          (r) =>
-            text(r.n) &&
-            ["F", "U"].includes(String(r.l)) &&
-            finite(r.q) &&
-            Number.isSafeInteger(r.q) &&
-            r.q > 0,
-        );
+        valid = validWardrobe(value);
         break;
       case "nd_dreams":
         valid = rows(

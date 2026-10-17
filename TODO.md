@@ -42,13 +42,13 @@ real Windows install must be checked separately from fixture/build results.
 1. DONE — inventory and trace. Read source goals, daily star/save path, native bridge,
    startup seeds and hardcoded account/backup dependencies. Re-check README before
    proceeding to implementation.
-2. 80% — clean public foundation. Create fresh source history from reviewed reusable
+2. 95% — clean public foundation. Create fresh source history from reviewed reusable
    modules, replace personal seeds with empty defaults and configurable account
    data. Verify no private data or history enters source/package. Re-check README.
-3. 60% — Windows support. Port the agreed native features through the shared adapter,
+3. 90% — Windows support. Port the agreed native features through the shared adapter,
    with atomic saves and recovery. Verify each complete workflow and failure path;
    do not substitute a browser preview for native behavior. Re-check README.
-4. 15% — distribution. Build installer; exercise fresh install, reopen, upgrade,
+4. 60% — distribution. Build installer; exercise fresh install, reopen, upgrade,
    backup/restore and normal/narrow layouts on Windows; then publish the reviewed
    package. Report unavailable live checks explicitly. Re-check README; leave this
    plan open until its completion is reviewed before closing or archiving it.
@@ -86,3 +86,23 @@ Implementation follows isolated native capabilities, per-user installation,
 explicit account pairing, UI Automation cached reads and ordinary app save/cancel
 patterns. Saved targets and wardrobe records must be editable without preparing
 JSON. All additions still use the shared validated store.
+
+## Windows package verification — 17 October 2026
+
+Public source uses fresh history at https://github.com/stjohnbuilds/neopian-desk-public.
+The original private source and saved data remain separate. Fifty-six Node checks
+now exercise receipts, sales, album/SDB evidence, training, events, backups, recovery
+and loopback account isolation. Desktop journeys exercise star keyboard focus,
+normal/narrow views, all main sections, page editing, targets, item add/edit, export,
+restore and reopening. Dialog choices use fixtures; the resulting files are real.
+
+The first Windows workflow compiled the native helper, exercised Chrome accessibility
+item/cost reads and click-through badges, built NSIS and opened a fresh installed app.
+Its installed-check script then failed because it used an unavailable require inside
+an evaluation. The harness now reads the resource path through the host process;
+full-catalogue overlay startup and reinstall are being rerun. No real signed-in
+Neopets session or actual Windows toast delivery has been checked.
+
+Pending: complete final Windows workflow, inspect screenshots and packaged contents,
+publish the installer/checksum, and mirror finished source plus release to Drive.
+Rule is: keep the completed plan available until its closure is explicitly reviewed.

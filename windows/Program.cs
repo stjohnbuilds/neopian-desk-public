@@ -55,7 +55,7 @@ static class Program {
       case "start":running=true;break;
       case "stop":running=false;Clear();break;
       case "prices":
-        prices=command.GetProperty("items").Deserialize<Price[]>()!.ToDictionary(p=>p.name,StringComparer.OrdinalIgnoreCase);names=prices.Keys.ToHashSet(StringComparer.OrdinalIgnoreCase);break;
+        prices=command.GetProperty("items").Deserialize<Price[]>()!.GroupBy(p=>p.name,StringComparer.OrdinalIgnoreCase).ToDictionary(g=>g.Key,g=>g.OrderByDescending(p=>p.priceDate).First(),StringComparer.OrdinalIgnoreCase);names=prices.Keys.ToHashSet(StringComparer.OrdinalIgnoreCase);break;
       case "options":autoJump=command.GetProperty("autoJump").GetBoolean();testItem=command.GetProperty("testItem").GetString()??"";jumpedPage="";break;
       case "select":
         _=Task.Run(()=>{try{SelectTab(command);}catch(Exception e){Emit(new{type="error",message="Could not return to the shop tab: "+e.Message});}});break;
@@ -63,6 +63,7 @@ static class Program {
     }
   }
   static void SelectTab(JsonElement command){
+    if(command.GetProperty("lastInput").GetUInt32()!=LastInput())return;
     var handle=(nint)command.GetProperty("window").GetInt64();
     GetWindowThreadProcessId(handle,out var pid);
     if(pid==0 || !new[]{"chrome","msedge"}.Contains(Process.GetProcessById((int)pid).ProcessName))return;

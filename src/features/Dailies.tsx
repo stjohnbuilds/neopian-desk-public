@@ -33,7 +33,10 @@ export function Dailies({ search = "" }: { search?: string }) {
     if (busy || !starFocus.current) return;
     const id = starFocus.current;
     starFocus.current = "";
-    if (document.activeElement === document.body || document.activeElement?.id === id)
+    if (
+      document.activeElement === document.body ||
+      document.activeElement?.id === id
+    )
       document.getElementById(id)?.focus();
   }, [busy, store.revision]);
   const mark = (urls: string[], checked = true) =>
@@ -74,8 +77,8 @@ export function Dailies({ search = "" }: { search?: string }) {
           Daily checks · {today} · Pacific time
         </p>
         <p className="muted text-small">
-          Star a daily to add it to My dailies. Unstarred dailies move to More dailies
-          below, where you can star them again. Each daily appears once.
+          Star a daily to add it to My dailies. Unstarred dailies move to More
+          dailies below, where you can star them again. Each daily appears once.
         </p>
         <Feedback message={message} />
         {["My dailies", "More dailies"].map((group) => {
@@ -151,7 +154,8 @@ export function Dailies({ search = "" }: { search?: string }) {
                         onClick={(event) => {
                           const hadFocus =
                             document.activeElement === event.currentTarget;
-                          if (hadFocus) starFocus.current = `daily-star-${dailyId(d)}`;
+                          if (hadFocus)
+                            starFocus.current = `daily-star-${dailyId(d)}`;
                           const checked = !favoriteIds.includes(dailyId(d));
                           if (!checked) setShowOther(true);
                           void run(

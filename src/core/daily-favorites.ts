@@ -28,7 +28,11 @@ export function dailyFavorites(legacy: Record<string, string>): string[] {
   // A short starter list; every catalogue entry can be starred or unstarred.
   return legacy[dailyFavoritesKey] === undefined
     ? activeDailies
-        .filter((entry) => ["Quest Log", "Bank Interest", "Trudy's Surprise"].includes(entry.name))
+        .filter((entry) =>
+          ["Quest Log", "Bank Interest", "Trudy's Surprise"].includes(
+            entry.name,
+          ),
+        )
         .map(dailyId)
     : (JSON.parse(legacy[dailyFavoritesKey]) as Favorites).ids;
 }
