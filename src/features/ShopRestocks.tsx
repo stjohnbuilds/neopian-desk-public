@@ -39,9 +39,9 @@ export function ShopRestocks() {
               prices.
             </p>
             <p>
-              With Prices and Jump to expensive finds enabled, Desk checks each
-              opened page once. Stop cancels the remaining check; it never buys
-              or refreshes.
+              With Shop Helper and Jump to expensive finds enabled in Tools →
+              App scripts, Desk checks each opened page once. Stop cancels the
+              remaining check; it never buys or refreshes.
             </p>
           </InfoHelp>
         }

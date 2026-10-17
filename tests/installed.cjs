@@ -2,6 +2,11 @@ const { _electron: electron, expect } = require("@playwright/test");
 const fs = require("node:fs/promises");
 const path = require("node:path");
 const assert = require("node:assert/strict");
+const {
+  exerciseScriptControls,
+  assertScriptsOff,
+  seedOldPreferences,
+} = require("./script-controls.cjs");
 (async () => {
   if (
     process.platform !== "win32" ||
@@ -12,6 +17,8 @@ const assert = require("node:assert/strict");
   const env = { ...process.env };
   delete env.ELECTRON_RUN_AS_NODE;
   delete env.DESK_TEST_DATA_DIR;
+  const data = path.join(process.env.APPDATA, "Neopian Desk");
+  if (process.argv[2] === "reopen") await seedOldPreferences(data);
   const app = await electron.launch({
     executablePath: process.env.DESK_INSTALLED_EXE,
     env,
@@ -78,36 +85,61 @@ const assert = require("node:assert/strict");
       throw Error("Self-contained overlay was not included.");
     if (process.argv[2] === "fresh") {
       await page.keyboard.press("Escape");
-      await page.evaluate(() => {
-        window.addEventListener("desk-shop-helper-state", (event) => {
-          window.installedOverlayState = event.detail;
-        });
-      });
-      await page
-        .getByRole("button", { name: "Prices · Off", exact: true })
-        .click();
-      await expect(
-        page.getByRole("button", { name: "Prices · On", exact: true }),
-      ).toBeVisible({ timeout: 30000 });
-      await page.waitForFunction(
-        () => {
-          const state = window.installedOverlayState;
-          return (
-            state?.running &&
-            /Price tags pause|Open a supported|visible items identified|No exact item identities|browser has not exposed/.test(
-              state.message,
-            )
-          );
+      await exerciseScriptControls(page, data);
+      const key = await fs.readFile(path.join(data, "pairing-key"), "utf8");
+      const now = Date.now();
+      const response = await fetch("http://127.0.0.1:47831/v1/training", {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
         },
-        { timeout: 30000 },
+        body: JSON.stringify({
+          account: "install_test",
+          school: "academy",
+          observedAt: now,
+          courses: [
+            {
+              pet: "test_pet",
+              course: "Level",
+              level: 10,
+              dueAt: now + 3600000,
+            },
+          ],
+        }),
+      });
+      assert.equal(response.status, 200);
+      const saved = JSON.parse(
+        await fs.readFile(path.join(data, "state.json"), "utf8"),
       );
-      await page
-        .getByRole("button", { name: "Prices · On", exact: true })
-        .click();
-      await expect(
-        page.getByRole("button", { name: "Prices · Off", exact: true }),
-      ).toBeVisible();
+      assert.equal(JSON.parse(saved.legacy.nd_reminders).timers.length, 1);
+      await fs.writeFile(
+        "test-results/installed-session-expected.json",
+        JSON.stringify(saved),
+      );
+    } else {
+      await assertScriptsOff(page);
+      if (process.argv[2] === "reopen") {
+        const expected = JSON.parse(
+          await fs.readFile(
+            "test-results/installed-session-expected.json",
+            "utf8",
+          ),
+        );
+        expected.training.enabled = false;
+        expected.revision++;
+        assert.deepEqual(
+          await page.evaluate(() => window.deskInitialState),
+          expected,
+        );
+        const saved = JSON.parse(
+          await fs.readFile(path.join(data, "state.json"), "utf8"),
+        );
+        assert.ok(saved.revision >= expected.revision);
+        assert.deepEqual({ ...saved, revision: expected.revision }, expected);
+      }
     }
+
     await page.screenshot({
       path: "test-results/installed-" + process.argv[2] + ".png",
     });

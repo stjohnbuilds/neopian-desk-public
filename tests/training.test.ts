@@ -31,7 +31,12 @@ test("groups use last finish, preserve manual timers and fit native identifiers"
     url: "https://www.neopets.com/pirates/academy.phtml",
     dueAt: now + 60000,
   };
-  const result = syncTraining(emptyTraining(), [manual], [snapshot()], now);
+  const result = syncTraining(
+    { ...emptyTraining(), enabled: true },
+    [manual],
+    [snapshot()],
+    now,
+  );
   assert.deepEqual(
     result.timers.map((t) => t.dueAt),
     [manual.dueAt, now + 131 * 60000, now + 378 * 60000],
@@ -48,7 +53,12 @@ test("groups use last finish, preserve manual timers and fit native identifiers"
   assert.deepEqual(again, result);
 });
 test("reload corrections keep identity; removed timers stay dismissed; new course creates a timer", () => {
-  const first = syncTraining(emptyTraining(), [], [snapshot([120])], now);
+  const first = syncTraining(
+    { ...emptyTraining(), enabled: true },
+    [],
+    [snapshot([120])],
+    now,
+  );
   const corrected = snapshot([110], now + 60000);
   const correction = syncTraining(
     first.state,
@@ -75,7 +85,12 @@ test("reload corrections keep identity; removed timers stay dismissed; new cours
   assert.notEqual(later.timers[0].id, first.timers[0].id);
 });
 test("older tabs cannot rewind courses; unpaid/free courses remove pending groups; schools remain independent", () => {
-  const first = syncTraining(emptyTraining(), [], [snapshot([120])], now);
+  const first = syncTraining(
+    { ...emptyTraining(), enabled: true },
+    [],
+    [snapshot([120])],
+    now,
+  );
   const free = snapshot([120], now + 60000);
   free.courses[0].dueAt = null;
   free.courses[0].course = "";
@@ -94,10 +109,10 @@ test("older tabs cannot rewind courses; unpaid/free courses remove pending group
     [],
     now + 60000,
   );
-  assert.equal(off.timers.length, 0);
+  assert.deepEqual(off.timers, result.timers);
   assert.equal(
-    syncTraining({ ...off.state, enabled: true }, [], [], now + 60000).timers
-      .length,
+    syncTraining({ ...off.state, enabled: true }, off.timers, [], now + 60000)
+      .timers.length,
     1,
   );
 });
@@ -130,7 +145,12 @@ test("invalid snapshots and corrupt backups fail before changing saved timers", 
   const { createInitialState, validateStore, restoreBackup, getState } =
     await import("../src/persistence/store");
   Object.assign(globalThis, { window: {}, localStorage: { setItem() {} } });
-  const result = syncTraining(emptyTraining(), [], [snapshot()], now);
+  const result = syncTraining(
+    { ...emptyTraining(), enabled: true },
+    [],
+    [snapshot()],
+    now,
+  );
   const { defaultReminders } = await import("../src/core/timers");
   const store = {
     ...createInitialState(),
@@ -144,7 +164,11 @@ test("invalid snapshots and corrupt backups fail before changing saved timers", 
   };
   validateStore(store);
   await restoreBackup(store);
-  assert.deepEqual(getState().training, result.state);
+  assert.deepEqual(getState().training, { ...result.state, enabled: false });
+  assert.deepEqual(
+    JSON.parse(getState().legacy.nd_reminders).timers,
+    result.timers,
+  );
   assert.throws(() =>
     validateStore({ ...store, training: { ...result.state, groups: null } }),
   );

@@ -16,33 +16,14 @@ class BrowserBridge {
   status() {
     return {
       ready: this.ready,
+      port: this.ready ? this.port : null,
       error: this.error,
       account: this.storage.state.profile.account,
     };
   }
-  async restore() {
-    try {
-      const value = JSON.parse(
-        await fs.readFile(
-          path.join(this.storage.directory, "bridge-settings.json"),
-          "utf8",
-        ),
-      );
-      if (value.enabled) await this.start();
-    } catch (e) {
-      if (e.code !== "ENOENT") {
-        this.error = e.message;
-        this.publish("desk-browser-state", this.status());
-      }
-    }
-  }
   async setEnabled(enabled) {
     if (enabled) await this.start();
-    await atomicFile(
-      path.join(this.storage.directory, "bridge-settings.json"),
-      JSON.stringify({ enabled }),
-    );
-    if (!enabled) this.stop();
+    else this.stop();
   }
   async start() {
     if (this.server) return;
@@ -70,7 +51,8 @@ class BrowserBridge {
       this.server = null;
       this.error =
         "Browser connection could not start. Another copy may be using its port.";
-      throw e;
+      this.publish("desk-browser-state", this.status());
+      throw Error(this.error);
     });
     this.port = this.server.address().port;
     this.ready = true;
@@ -78,6 +60,7 @@ class BrowserBridge {
     this.publish("desk-browser-state", this.status());
   }
   async handle(req, res) {
+    const server = this.server;
     const reply = (code, data) => {
       if (res.writableEnded) return;
       res.writeHead(code, {
@@ -118,9 +101,11 @@ class BrowserBridge {
         parts.push(chunk);
       }
       const data = JSON.parse(Buffer.concat(parts).toString("utf8"));
-      const state = await this.storage.commit((old) =>
-        this.domain.observe(old, kind, data),
-      );
+      const state = await this.storage.commit((old) => {
+        if (!this.ready || this.server !== server)
+          throw Error("Browser connection is off. Retry after turning it on.");
+        return this.domain.observe(old, kind, data);
+      });
       this.publish("desk-state", state);
       reply(200, { ok: true });
     } catch (e) {
@@ -129,8 +114,10 @@ class BrowserBridge {
   }
   stop() {
     this.server?.close();
+    this.server?.closeAllConnections();
     this.server = null;
     this.ready = false;
+    this.error = "";
     this.publish("desk-browser-state", this.status());
   }
 }

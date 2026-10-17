@@ -4,7 +4,6 @@ const fs = require("node:fs");
 const { EventEmitter } = require("node:events");
 const { app } = require("electron");
 const domain = require("./domain.cjs");
-const { atomicFile } = require("./storage.cjs");
 class Overlay extends EventEmitter {
   constructor(storage, prices, publish) {
     super();
@@ -31,32 +30,6 @@ class Overlay extends EventEmitter {
         this.catalogue.set(item.name, item);
     }
   }
-  async restore() {
-    try {
-      const options = JSON.parse(
-        await fs.promises.readFile(
-          path.join(this.storage.directory, "overlay-settings.json"),
-          "utf8",
-        ),
-      );
-      this.options.autoJump = options.autoJump === true;
-      if (options.enabled && this.available) await this.start();
-    } catch (e) {
-      if (e.code !== "ENOENT") {
-        this.message = e.message;
-        this.status();
-      }
-    }
-  }
-  async saveOptions() {
-    await atomicFile(
-      path.join(this.storage.directory, "overlay-settings.json"),
-      JSON.stringify({
-        enabled: this.enabled,
-        autoJump: this.options.autoJump,
-      }),
-    );
-  }
   status() {
     const state = {
       available: this.available,
@@ -82,15 +55,18 @@ class Overlay extends EventEmitter {
     if (body.action === "enabled") {
       if (body.enabled) await this.start();
       else this.stop();
-      await this.saveOptions();
     } else if (body.action === "refreshPrices") await this.refresh(true);
     else if (body.action === "permission")
       this.message =
         "Windows accessibility reads supported pages in Chrome or Edge while Prices is on. No extra permission is needed.";
     else if (body.action === "options") {
+      if (body.autoJump && !this.enabled)
+        throw Error(
+          "Turn Shop Helper on before enabling Jump to expensive finds.",
+        );
       this.options.autoJump = body.autoJump === true;
+      if (!this.options.autoJump) this.stopBatch();
       this.send({ action: "options", ...this.options });
-      await this.saveOptions();
     } else if (body.action === "setTestItem") {
       if (typeof body.name !== "string" || body.name.length > 200)
         throw Error("Use an exact item name below 200 characters.");
@@ -117,6 +93,7 @@ class Overlay extends EventEmitter {
     this.message = "Starting Windows price tags…";
     let buffer = "";
     child.stdout.on("data", (chunk) => {
+      if (this.child !== child) return;
       buffer += chunk.toString();
       if (buffer.length > 2000000) {
         this.message = "Overlay response was too large.";
@@ -181,6 +158,7 @@ class Overlay extends EventEmitter {
     this.send({ action: "prices", items: this.priceRows() });
   }
   receive(message) {
+    if (!this.enabled) return;
     this.lastResponse = Date.now();
     if (message.type === "ready") {
       this.running = true;
@@ -198,7 +176,13 @@ class Overlay extends EventEmitter {
     this.status();
   }
   async refresh(interactive) {
+    if (!this.enabled) {
+      if (interactive)
+        throw Error("Turn Shop Helper on before refreshing prices.");
+      return;
+    }
     if (this.priceBusy) return;
+    const child = this.child;
     const names = [...new Set(this.rows.map((r) => r.name))]
       .filter(
         (n) =>
@@ -215,9 +199,11 @@ class Overlay extends EventEmitter {
     this.status();
     try {
       const raw = await this.prices.refresh(names, interactive);
+      if (!this.enabled || this.child !== child) return;
       const now = new Date().toISOString();
       let report;
       const state = await this.storage.commit((old) => {
+        if (!this.enabled || this.child !== child) return old;
         report = domain.mergeEstimates(
           domain.readEstimates(old.legacy),
           raw,
@@ -233,6 +219,7 @@ class Overlay extends EventEmitter {
           },
         };
       });
+      if (!report) return;
       this.publish("desk-state", state);
       this.syncPrices();
       this.needsConnection = false;
@@ -330,6 +317,8 @@ class Overlay extends EventEmitter {
     this.stopBatch();
     this.enabled = false;
     this.running = false;
+    this.options.autoJump = false;
+    if (this.priceBusy) this.prices.cancel();
     this.send({ action: "close" });
     const child = this.child;
     this.child = null;

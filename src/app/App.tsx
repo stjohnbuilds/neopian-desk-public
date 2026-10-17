@@ -58,7 +58,6 @@ import {
 } from "../components/shared";
 import { Modal } from "../components/Modal";
 import { Dailies } from "../features/Dailies";
-import { helperAction, helperStatus } from "../core/shop-helper";
 import { Items } from "../features/Items";
 import { Profit } from "../features/Profit";
 import { Achievements } from "../features/Achievements";
@@ -145,7 +144,7 @@ export function App() {
     ];
     bindings.forEach(([name, fn]) => window.addEventListener(name, fn));
     // Native startup can publish before React mounts; request fresh status
-    // only after the listener exists so the header reflects the running helper.
+    // only after the listener exists so script controls reflect the running helper.
     if (isNative()) {
       nativeMessage("deskShopHelper", { action: "status" });
       nativeMessage("deskReminders", { action: "status" });
@@ -256,19 +255,6 @@ export function App() {
               <Bell />
             </Button>
             <div className="header-tools">
-              <Button
-                variant="outline"
-                size="sm"
-                className="helper-toggle"
-                title={helper.message || "Show item price tags in Chrome"}
-                onClick={() =>
-                  run(async () =>
-                    nativeMessage("deskShopHelper", helperAction(helper)),
-                  )
-                }
-              >
-                Prices · {helperStatus(helper)}
-              </Button>
               <QuickLinks />
             </div>
           </div>

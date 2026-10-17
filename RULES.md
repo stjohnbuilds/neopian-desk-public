@@ -44,3 +44,7 @@ remain editable through the same manual checklist after import.
 Rule is: a new player's saved work stays in their own Windows profile without a
 cloud account or backup destination. Release checks use the actual public installer
 and distinguish first installation, reopening, reinstall and simulated game data.
+Rule is: built-in scripts have labelled on/off switches in Tools > App scripts
+and start off on every launch, including after an upgrade or an earlier enabled
+session. Turning a script off stops its work without deleting saved records,
+pairing information or existing timers. Tampermonkey scripts remain separate.

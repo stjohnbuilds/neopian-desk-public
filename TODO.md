@@ -1,5 +1,49 @@
 # To do
 
+## App script switches and default-off sessions — 17 October 2026
+
+Rule is: all built-in script controls live in App scripts, take effect immediately,
+and start off every time Desk opens. Preserve saved work and keep Tampermonkey separate.
+Source goals re-read: all general tools, clean personal defaults, shared validated
+storage, optional browser observations and manual game actions.
+
+1. DONE — trace App scripts, overlay process, browser bridge, training reconciliation,
+   startup and restore; compare public/private feature modules and release status.
+   Verify the current Drive installer checksum. Re-check README before continuing.
+2. DONE — use shared accessible switches for Shop Helper, Jump to expensive finds,
+   Browser connection and Automatic training timers; remove the top-bar price action.
+   Make startup ignore old enabled preferences and preserve data when paused. Verify
+   off/on/off, failures, keyboard, restart, backup restore and narrow layouts. Re-check README.
+3. 25% — build and exercise the installed Windows update, publish the checked package,
+   replace the single Drive installer and document included versus private content.
+   Verify checksums and retained records. Re-check source goals; keep the plan open
+   until closure or archiving is reviewed.
+
+References inspected as official documentation and pictured patterns, not live apps:
+- https://learn.microsoft.com/en-us/windows/apps/develop/ui/controls/toggles —
+  immediate binary action, stable feature label and visible On/Off state.
+- https://www.w3.org/WAI/ARIA/apg/patterns/switch/ — stable accessible name, checked
+  state, Space operation and grouped descriptions.
+
+Acceptance: all four controls are discoverable in App scripts; Tampermonkey remains
+on its separate tab; switches show actual acknowledged state and report errors;
+turn-off always stops instead of opening a price connection window; all start off
+even with old saved enabled values; existing timers, notes, records and pairing keys
+survive; restoring a backup does not turn a paused script on. No horizontal overflow
+or unreachable controls at narrow width. Installed Windows checks distinguish native
+process/port behaviour from mocked game observations. Drive sharing needs live access
+verification; the earlier browser permission denial does not establish share access.
+
+Local evidence: 66 checks completed without reported failures. Real desktop journeys
+exercise all four controls' initial off states, keyboard focus, live loopback start/stop, pairing-key
+retention, normal/narrow layouts, full saved-state reopening and old enabled-setting
+fixtures. Native Windows helper behaviour still needs the installed Windows run.
+Keyboard focus during a pending save was repaired using the existing button's
+focusable-disabled behaviour. Local test connections use an ephemeral port so another
+running desk is not interrupted. Restart comparison uses initial saved data before
+navigation writes its own revision counter. No personal app or data was changed.
+
+
 ## Released installer and local saving — 16 October 2026
 
 Rule is: verify a new player's first launch, local saves, returning later and setup

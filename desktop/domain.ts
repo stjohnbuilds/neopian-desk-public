@@ -16,6 +16,15 @@ import {
 import { defaultReminders } from "../src/core/timers";
 export { createInitialState, validateStore };
 
+export function startSession(state: Store): Store {
+  if (!state.training?.enabled) return state;
+  return {
+    ...state,
+    revision: state.revision + 1,
+    training: { ...state.training, enabled: false },
+  };
+}
+
 // Save an entire observation envelope once. A failed batch leaves both the
 // previous save and the browser outbox available for a safe retry.
 export function observe(previous: Store, kind: string, envelope: any): Store {

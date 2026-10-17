@@ -6,6 +6,7 @@ import path from "node:path";
 import vm from "node:vm";
 import { randomUUID } from "node:crypto";
 import * as domain from "../desktop/domain";
+import { emptyTraining } from "../src/core/training";
 import { Storage } from "../desktop/storage.cjs";
 import { BrowserBridge } from "../desktop/browser-bridge.cjs";
 import { recover } from "../desktop/recovery.cjs";
@@ -134,9 +135,13 @@ test("event types and short-window duplicates are validated", () => {
     type: "regular",
     event: "Test event",
   };
-  const state = domain.observe(configured(), "events", {
-    events: [e, { ...e, timestamp: e.timestamp + 500 }],
-  });
+  const state = domain.observe(
+    { ...configured(), training: { ...emptyTraining(), enabled: true } },
+    "events",
+    {
+      events: [e, { ...e, timestamp: e.timestamp + 500 }],
+    },
+  );
   assert.equal(state.native.browser.events.length, 1);
   assert.throws(() =>
     domain.observe(state, "events", { events: [{ ...e, type: "made-up" }] }),
@@ -408,11 +413,15 @@ test("restoring an older backup retains newer event observations and training sn
   };
   await updateStore(() =>
     domain.observe(
-      domain.observe(configured(), "events", {
-        events: [
-          { account, event: "Newer event", timestamp: now, type: "regular" },
-        ],
-      }),
+      domain.observe(
+        { ...configured(), training: { ...emptyTraining(), enabled: true } },
+        "events",
+        {
+          events: [
+            { account, event: "Newer event", timestamp: now, type: "regular" },
+          ],
+        },
+      ),
       "training",
       snapshot,
     ),

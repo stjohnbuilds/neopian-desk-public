@@ -9,8 +9,7 @@ export interface HelperState {
   [key: string]: unknown;
 }
 
-// ItemDB stops answering until its daily check is passed again. Background
-// updates cannot pass it, so the header button offers the connection window.
+// ItemDB connection is separate from the script's on/off control.
 function needsItemDB(helper: HelperState) {
   return (
     helper.running === true &&
@@ -25,11 +24,4 @@ export function helperStatus(helper: HelperState) {
   if (helper.permission === false) return "Needs permission";
   if (needsItemDB(helper)) return "Connect";
   return helper.running ? "On" : "Starting…";
-}
-
-export function helperAction(helper: HelperState) {
-  if (helper.enabled && helper.permission === false)
-    return { action: "permission" };
-  if (needsItemDB(helper)) return { action: "refreshPrices" };
-  return { action: "enabled", enabled: !helper.enabled };
 }

@@ -86,6 +86,36 @@ The overlay needs a supported foreground Chrome or Edge window and accessible it
 text. Pages that do not expose it may have no badges. Firefox is not supported by
 the native overlay.
 
+## App script switches
+
+Open **Tools → App scripts**. Every built-in script starts **Off** each time Desk
+opens, even if it was on when Desk last closed. Use the switches to turn on only
+what you need for this session:
+
+- **Shop Helper:** floating price estimates for supported Chrome and Edge pages.
+- **Jump to expensive finds:** optional scrolling during shop checks. Shop Helper
+  must be on; switching it off also switches jumping off.
+- **Browser connection:** receives observations from paired browser trackers.
+  Turn it on before copying the connection key. The pairing key stays saved.
+- **Automatic training timers:** creates and updates timers from received courses.
+  Turning it off leaves existing timers and course records intact.
+
+Switches take effect immediately. Turning a script off or restarting Desk does not
+erase saved records. Restoring a backup does not turn a paused script on.
+Tampermonkey scripts remain in their own tab and are managed in Tampermonkey;
+the app switches do not enable or disable those browser installations.
+
+## What the public edition leaves out
+
+General feature groups listed above are included. Personal account and pet details,
+collection progress, transaction history, favourite choices, wardrobe/outfits, notes,
+page designs, birthday dates and private backup locations are not bundled.
+The bespoke personal page-draft editor and its custom styles are replaced by generic
+user-lookup, petpage and pet-lookup code editors. The Mac-only built-in receipt and
+shop-sales readers are replaced by the optional paired browser scripts on Windows;
+the source libraries and platform mechanisms are different. The Windows price
+overlay is included. No Neopets login or browser session is bundled.
+
 ## Optional browser trackers
 
 Dailies and manual lists work without a browser extension. For automatic observations:
@@ -96,10 +126,11 @@ Dailies and manual lists work without a browser extension. For automatic observa
 2. Save the account in Desk settings. In **Tools → Tampermonkey scripts**, copy a
    tracker into Tampermonkey's new-script editor and save it. Replace an existing
    copy when updating.
-3. In **Tools → App scripts**, enable the connection and copy its pairing key.
+3. In **Tools → App scripts**, turn **Browser connection** on and copy its pairing key.
 4. On a supported Neopets page, open the tracker's Tampermonkey menu, choose
    **Connect**, and paste the key. Pair each tracker once; Search Helper needs no key.
-5. Keep Desk open. If delivery fails, use the tracker's Retry or Sync command.
+5. Turn Browser connection on each time Desk opens. If delivery fails, use the
+   tracker's Retry or Sync command. Pairing only needs to be done once.
 
 The pairing key connects only to this computer's loopback service. A tracker binds
 to the configured account and refuses another account. Use separate Windows and

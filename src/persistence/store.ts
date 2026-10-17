@@ -344,7 +344,10 @@ export async function restoreBackup(
         value.legacy.nd_reminders ?? JSON.stringify(defaultReminders),
       );
       const training = syncTraining(
-        value.training ?? emptyTraining(),
+        {
+          ...(value.training ?? emptyTraining()),
+          enabled: current.training?.enabled === true,
+        },
         restoredReminders.timers,
         Object.values(trainingSnapshots),
       );

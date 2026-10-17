@@ -8,7 +8,10 @@ export function TrackerConnectionHelp() {
       </p>
       <ol>
         <li>Save your Neopets username in Settings. No password is needed.</li>
-        <li>In the browser’s extension settings, allow user scripts for Tampermonkey and allow access to Neopets pages.</li>
+        <li>
+          In the browser’s extension settings, allow user scripts for
+          Tampermonkey and allow access to Neopets pages.
+        </li>
         <li>
           Copy the chosen script from Tools → Tampermonkey scripts. Paste into
           Tampermonkey’s new-script editor and save. Replace an existing copy
@@ -21,9 +24,10 @@ export function TrackerConnectionHelp() {
         </li>
       </ol>
       <p>
-        Keep Desk open for updates. Offline observations remain in the browser
-        until Desk confirms saving them. Use the script’s Retry or Sync menu
-        after a connection error.
+        Turn Browser connection on each time Desk opens. Pairing only needs to
+        be done once. Offline observations remain in the browser until Desk
+        confirms saving them. Use the script’s Retry or Sync menu after a
+        connection error.
       </p>
       <p>
         The key pairs this computer and account; it is not a Neopets password.

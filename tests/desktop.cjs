@@ -3,6 +3,11 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 const os = require("node:os");
 const assert = require("node:assert/strict");
+const {
+  exerciseScriptControls,
+  assertScriptsOff,
+  seedOldPreferences,
+} = require("./script-controls.cjs");
 (async () => {
   const installed = process.env.DESK_INSTALLED_EXE;
   if (installed && (process.platform !== "win32" || process.env.CI !== "true"))
@@ -422,9 +427,18 @@ const assert = require("node:assert/strict");
     );
     if (backup.profile.account !== "test_account")
       throw Error("Automatic backup did not use the configured account");
+    await exerciseScriptControls(page, data);
+    const beforeRestart = await state();
     await app.close();
     app = null;
+    await seedOldPreferences(data);
     page = await launch();
+    await assertScriptsOff(page);
+    assert.deepEqual(await page.evaluate(() => window.deskInitialState), {
+      ...beforeRestart,
+      revision: beforeRestart.revision + 1,
+      training: { ...beforeRestart.training, enabled: false },
+    });
     await expect(page.getByText("test_account", { exact: true })).toBeVisible();
     const saved = await state();
     if (

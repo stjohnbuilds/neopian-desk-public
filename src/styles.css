@@ -1037,9 +1037,6 @@ main {
   .header-actions {
     gap: 0;
   }
-  .helper-toggle {
-    font-size: 10px;
-  }
   .subnav {
     gap: 14px;
     overflow: auto;
@@ -1282,6 +1279,34 @@ main {
 .script-version {
   margin-left: 8px;
   white-space: nowrap;
+}
+.script-switch {
+  gap: 8px;
+  min-width: 88px;
+}
+.script-switch[aria-disabled="true"] {
+  opacity: 0.5;
+}
+.script-switch-track {
+  display: inline-flex;
+  align-items: center;
+  width: 36px;
+  height: 22px;
+  padding: 3px;
+  border-radius: 20px;
+  background: var(--muted-foreground);
+}
+.script-switch-track > span {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--background);
+}
+.script-switch[aria-checked="true"] .script-switch-track {
+  background: var(--primary);
+}
+.script-switch[aria-checked="true"] .script-switch-track > span {
+  transform: translateX(14px);
 }
 .avatar-toolbar {
   display: flex;

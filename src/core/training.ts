@@ -39,7 +39,7 @@ export interface TrainingState {
   groups: { id: string; members: string[] }[];
 }
 export const emptyTraining = (): TrainingState => ({
-  enabled: true,
+  enabled: false,
   processed: {},
   courses: {},
   groups: [],
@@ -137,6 +137,9 @@ export function syncTraining(
   now = Date.now(),
 ) {
   const state = structuredClone(previous);
+  // Pausing automation retains existing timers and course identities. New
+  // observations are reconciled when the current session explicitly enables it.
+  if (!state.enabled) return { state, timers: [...timers] };
   for (const group of state.groups)
     if (!timers.some((t) => t.id === group.id))
       for (const c of Object.values(state.courses))
@@ -180,7 +183,6 @@ export function syncTraining(
   }
   const retained = timers.filter((t) => !t.id.startsWith("training-"));
   state.groups = [];
-  if (!state.enabled) return { state, timers: retained };
   for (const school of Object.keys(trainingSchools) as School[]) {
     const courses = Object.values(state.courses)
       .filter(

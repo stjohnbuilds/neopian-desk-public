@@ -214,7 +214,8 @@ ipcMain.handle("desk-channel", async (event, channel, body = {}) => {
     if (body.action === "connect") await bridge.setEnabled(true);
     else if (body.action === "disconnect") await bridge.setEnabled(false);
     else if (body.action === "copyKey") {
-      await bridge.setEnabled(true);
+      if (!bridge.ready)
+        throw Error("Turn Browser connection on before copying its key.");
       clipboard.writeText(bridge.key);
     } else if (body.action !== "status" && body.action !== "importAlbum")
       throw Error("Unknown connection action.");
@@ -301,6 +302,7 @@ app
         return;
       }
     }
+    await storage.commit(domain.startSession);
     window = new BrowserWindow({
       title: "Neopian Desk",
       width: 1180,
@@ -368,7 +370,12 @@ app
       );
       return { action: "deny" };
     });
-    bridge = new BrowserBridge(storage, domain, publish);
+    bridge = new BrowserBridge(
+      storage,
+      domain,
+      publish,
+      process.env.DESK_TEST_DATA_DIR && !app.isPackaged ? 0 : 47831,
+    );
     reminders = new Reminders(storage.directory, Notification, publish, open);
     await reminders.start();
     prices = new Prices();
@@ -376,8 +383,6 @@ app
     overlay = new Overlay(storage, prices, publish);
     await window.loadURL("desk://app/index.html");
     window.show();
-    await bridge.restore();
-    await overlay.restore();
     reminders.status();
     overlay.status();
   })

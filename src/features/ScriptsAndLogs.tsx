@@ -12,11 +12,12 @@ import {
   Feedback,
   useAction,
 } from "../components/shared";
+import { ScriptSwitch } from "../components/ScriptSwitch";
 import { InfoHelp } from "../components/InfoHelp";
 import { TrackerConnectionHelp } from "./TrackerConnectionHelp";
 import { SavedScripts } from "./SavedScripts";
 import type { HelperState } from "../core/shop-helper";
-import { helperAction, helperStatus } from "../core/shop-helper";
+import { helperStatus } from "../core/shop-helper";
 
 export function ScriptsAndLogs({
   helper,
@@ -27,7 +28,12 @@ export function ScriptsAndLogs({
 }) {
   const store = useStore();
   const [connection, setConnection] = useState({ ready: false, error: "" });
-  const { run, message } = useAction();
+  const { run, message, busy, setMessage } = useAction();
+  const changeScript = (channel: string, value: Record<string, unknown>) =>
+    void run(async () => {
+      setMessage("");
+      await nativeMessage(channel, value);
+    });
   const [testName, setTestName] = useState(helper.testItem ?? "");
   const editingTest = useRef(false);
   useEffect(() => {
@@ -50,7 +56,10 @@ export function ScriptsAndLogs({
       {section === "app" && (
         <Panel title="App scripts">
           <div className="tool-row">
-            <strong>Purchase and sales logging</strong>
+            <p className="muted text-small">
+              All built-in scripts start off each time Desk opens. Your saved
+              records and timers stay.
+            </p>
             <Button
               variant="outline"
               size="sm"
@@ -134,22 +143,6 @@ export function ScriptsAndLogs({
               >
                 About Windows access
               </Button>
-              <label className="checkbox-label">
-                <input
-                  type="checkbox"
-                  checked={helper.autoJump === true}
-                  disabled={!isNative()}
-                  onChange={(e) =>
-                    void run(async () =>
-                      nativeMessage("deskShopHelper", {
-                        action: "options",
-                        autoJump: e.target.checked,
-                      }),
-                    )
-                  }
-                />
-                Jump to expensive finds
-              </label>
               <label>
                 Test item
                 <input
@@ -179,38 +172,38 @@ export function ScriptsAndLogs({
                 Clear the field to stop testing.
               </p>
             </InfoHelp>
-            <Button
-              size="sm"
-              variant="outline"
-              disabled={!isNative()}
-              onClick={() =>
-                void run(async () =>
-                  nativeMessage("deskShopHelper", helperAction(helper)),
-                )
+            <ScriptSwitch
+              label="Shop Helper"
+              checked={helper.enabled === true}
+              disabled={!isNative() || helper.available === false || busy}
+              onChange={(enabled) =>
+                changeScript("deskShopHelper", {
+                  action: "enabled",
+                  enabled,
+                })
               }
-            >
-              {helper.enabled && helper.permission === false
-                ? "Allow access"
-                : helper.enabled
-                  ? "Turn off"
-                  : "Turn on"}
-            </Button>
-            {helper.enabled && helper.permission === false && (
-              <Button
-                size="sm"
-                variant="ghost"
-                onClick={() =>
-                  void run(async () =>
-                    nativeMessage("deskShopHelper", {
-                      action: "enabled",
-                      enabled: false,
-                    }),
-                  )
-                }
-              >
-                Turn off
-              </Button>
-            )}
+            />
+          </div>
+          <div className="tool-row">
+            <div>
+              <strong>Jump to expensive finds</strong>
+              <p className="muted text-small">
+                {helper.enabled
+                  ? "Scroll to a qualifying item during a shop check. Never buys."
+                  : "Turn Shop Helper on first. Turning it off also stops jumping."}
+              </p>
+            </div>
+            <ScriptSwitch
+              label="Jump to expensive finds"
+              checked={helper.autoJump === true}
+              disabled={!isNative() || !helper.enabled || busy}
+              onChange={(autoJump) =>
+                changeScript("deskShopHelper", {
+                  action: "options",
+                  autoJump,
+                })
+              }
+            />
           </div>
           <div className="tool-row">
             <div>
@@ -219,40 +212,24 @@ export function ScriptsAndLogs({
                 {connection.error ||
                   (connection.ready
                     ? "Ready to receive paired trackers"
-                    : "Off · enable to receive browser updates")}
+                    : "Off · turn on to receive paired browser trackers")}
               </p>
             </div>
             <TrackerConnectionHelp />
-            {connection.ready && (
-              <Button
-                size="sm"
-                variant="outline"
-                onClick={() =>
-                  void run(() =>
-                    nativeMessage("deskBrowser", { action: "disconnect" }),
-                  )
-                }
-              >
-                Turn connection off
-              </Button>
-            )}
-            {!connection.ready && (
-              <Button
-                size="sm"
-                disabled={!isNative()}
-                onClick={() =>
-                  void run(async () =>
-                    nativeMessage("deskBrowser", { action: "connect" }),
-                  )
-                }
-              >
-                Enable connection
-              </Button>
-            )}
+            <ScriptSwitch
+              label="Browser connection"
+              checked={connection.ready}
+              disabled={!isNative() || busy}
+              onChange={(enabled) =>
+                changeScript("deskBrowser", {
+                  action: enabled ? "connect" : "disconnect",
+                })
+              }
+            />
             <Button
               variant="outline"
               size="sm"
-              disabled={!isNative()}
+              disabled={!isNative() || !connection.ready || busy}
               onClick={() =>
                 void run(
                   async () =>

@@ -9,6 +9,7 @@ import { defaultReminders, type Reminders } from "../core/timers";
 import { isNative, nativeMessage } from "../core/bridge";
 import { Panel, Button, Feedback, useAction, Link } from "../components/shared";
 import { InfoHelp } from "../components/InfoHelp";
+import { ScriptSwitch } from "../components/ScriptSwitch";
 export function TrainingHelper() {
   const store = useStore();
   const state = store.training ?? emptyTraining();
@@ -47,42 +48,45 @@ export function TrainingHelper() {
       }
     >
       <div className="tool-row">
-        <label className="checkbox-label">
-          <input
-            type="checkbox"
-            checked={state.enabled}
-            disabled={busy}
-            onChange={(e) => {
-              const enabled = e.target.checked;
-              void run(() =>
-                updateStore((s) => {
-                  const old = readLegacy<Reminders>(
-                    s,
-                    "nd_reminders",
-                    defaultReminders,
-                  );
-                  const synced = syncTraining(
-                    { ...(s.training ?? emptyTraining()), enabled },
-                    old.timers,
-                    Object.values(s.native.browser.training ?? {}),
-                  );
-                  return {
-                    ...s,
-                    training: synced.state,
-                    legacy: {
-                      ...s.legacy,
-                      nd_reminders: JSON.stringify({
-                        ...old,
-                        timers: synced.timers,
-                      }),
-                    },
-                  };
-                }),
-              );
-            }}
-          />
-          Automatic training timers
-        </label>
+        <div>
+          <strong>Automatic training timers</strong>
+          <p className="muted text-small">
+            Create and update timers from received courses. Turning this off
+            keeps existing timers.
+          </p>
+        </div>
+        <ScriptSwitch
+          label="Automatic training timers"
+          checked={state.enabled}
+          disabled={busy}
+          onChange={(enabled) => {
+            void run(() =>
+              updateStore((s) => {
+                const old = readLegacy<Reminders>(
+                  s,
+                  "nd_reminders",
+                  defaultReminders,
+                );
+                const synced = syncTraining(
+                  { ...(s.training ?? emptyTraining()), enabled },
+                  old.timers,
+                  Object.values(s.native.browser.training ?? {}),
+                );
+                return {
+                  ...s,
+                  training: synced.state,
+                  legacy: {
+                    ...s.legacy,
+                    nd_reminders: JSON.stringify({
+                      ...old,
+                      timers: synced.timers,
+                    }),
+                  },
+                };
+              }),
+            );
+          }}
+        />
         <Button
           variant="outline"
           size="sm"

@@ -1,5 +1,18 @@
 # History
 
+## 17 October 2026 — built-in scripts start off
+
+Added shared on/off switches under App scripts for Shop Helper, jump-to-find,
+browser connection and automatic training timers. Removed the top-bar price action.
+Native startup ignores earlier enabled settings and resets only the training switch;
+saved timers, records and pairing keys remain. Copying a key no longer starts the
+connection, and turning the overlay off cannot launch an ItemDB connection window.
+Stopped helpers ignore late output and pending deliveries. Backup restore retains
+the current session's training switch. Tampermonkey installations remain separate.
+Local type check, 66 checks and desktop journeys completed. Windows packaging and
+installed verification are pending; the Drive installer is still beta.1 until those
+finish. Public/private feature differences are documented in README.
+
 ## 16 October 2026 — published installer and local saving checked
 
 Extended the existing desktop journey to run against the actual public Windows
