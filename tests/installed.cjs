@@ -62,12 +62,29 @@ const path = require("node:path");
       throw Error("Self-contained overlay was not included.");
     if (process.argv[2] === "fresh") {
       await page.keyboard.press("Escape");
+      await page.evaluate(() => {
+        window.addEventListener("desk-shop-helper-state", (event) => {
+          window.installedOverlayState = event.detail;
+        });
+      });
       await page
         .getByRole("button", { name: "Prices · Off", exact: true })
         .click();
       await expect(
         page.getByRole("button", { name: "Prices · On", exact: true }),
       ).toBeVisible({ timeout: 30000 });
+      await page.waitForFunction(
+        () => {
+          const state = window.installedOverlayState;
+          return (
+            state?.running &&
+            /Price tags pause|Open a supported|visible items identified|No exact item identities|browser has not exposed/.test(
+              state.message,
+            )
+          );
+        },
+        { timeout: 30000 },
+      );
       await page
         .getByRole("button", { name: "Prices · On", exact: true })
         .click();
