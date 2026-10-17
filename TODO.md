@@ -42,13 +42,13 @@ real Windows install must be checked separately from fixture/build results.
 1. DONE — inventory and trace. Read source goals, daily star/save path, native bridge,
    startup seeds and hardcoded account/backup dependencies. Re-check README before
    proceeding to implementation.
-2. 95% — clean public foundation. Create fresh source history from reviewed reusable
+2. DONE — clean public foundation. Create fresh source history from reviewed reusable
    modules, replace personal seeds with empty defaults and configurable account
    data. Verify no private data or history enters source/package. Re-check README.
-3. 90% — Windows support. Port the agreed native features through the shared adapter,
+3. DONE — Windows support. Port the agreed native features through the shared adapter,
    with atomic saves and recovery. Verify each complete workflow and failure path;
    do not substitute a browser preview for native behavior. Re-check README.
-4. 60% — distribution. Build installer; exercise fresh install, reopen, upgrade,
+4. 95% — distribution. Build installer; exercise fresh install, reopen, upgrade,
    backup/restore and normal/narrow layouts on Windows; then publish the reviewed
    package. Report unavailable live checks explicitly. Re-check README; leave this
    plan open until its completion is reviewed before closing or archiving it.
@@ -106,3 +106,23 @@ Neopets session or actual Windows toast delivery has been checked.
 Pending: complete final Windows workflow, inspect screenshots and packaged contents,
 publish the installer/checksum, and mirror finished source plus release to Drive.
 Rule is: keep the completed plan available until its closure is explicitly reviewed.
+
+## Release handover — 17 October 2026
+
+Windows run 38997112568 completed all steps on runtime commit c8bb987: type check,
+build, 56 data/observation tests, desktop journeys, native parser, Chrome UI Automation
+fixtures, NSIS packaging, fresh installed startup and same-version reinstall. The
+installed helper returned observations after loading the full item catalogue; saved
+account and star choices survived reinstall. Windows normal/narrow and installed
+screenshots were inspected. A separate live macOS ItemDB check returned 200 with item
+data after visiting its site; the initial unconnected request correctly returned 401.
+Official connection reference: https://docs.itemdb.com.br/api-access-2263939m0 .
+
+The extracted packaged app contains no matched private account/pet identifiers, local
+private paths, pairing key or saved-state files. Its installer SHA256 is
+48c96f06a2567ea99032106e9cf59543c8d8172102858958a50d9814cba22b54.
+
+Remaining release action: upload the current installer and checksum, verify their
+public links, then complete the Drive mirror and remove temporary build downloads.
+Real signed-in Windows gameplay and actual Windows toast delivery remain untested;
+this is documented in the beta release. The plan remains open for review.

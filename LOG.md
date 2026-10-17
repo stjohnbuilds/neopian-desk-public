@@ -20,3 +20,13 @@ account-bound sales capture. Retained newer event/training observations when res
 older backups. Fifty-six Node checks and desktop journeys completed without a reported
 failure. The first Windows run exercised the native overlay and fresh installed app;
 a harness error interrupted the reinstall check and was repaired for the next run.
+
+## 17 October 2026 — installed package checked
+
+Windows run 38997112568 completed packaging and both installed-app checks. Saved
+account and daily selections survived reinstall; native helper startup produced
+observations with the full catalogue. Inspected Windows wide/narrow and installed
+screenshots. Package privacy scan found no matched private identifiers or saved
+records. Live ItemDB data was returned after a normal connection-page visit in an
+isolated macOS session. The release remains a beta without real-account Windows
+gameplay or actual toast-delivery verification.

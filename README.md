@@ -6,8 +6,10 @@ collection marks. Game actions stay manual.
 
 ## Get started
 
-The first Windows beta is being verified. Its installer will appear on the
-[releases page](https://github.com/stjohnbuilds/neopian-desk-public/releases).
+**[Download the Windows installer](https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.1/Neopian-Desk-Setup.exe)** ·
+[Release notes and checksum](https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.1)
+
+Version 1.0.0-beta.1 is an early public release.
 
 1. Download **Neopian-Desk-Setup.exe** from the release and open it. The x64 package
    is intended for Windows 10 or 11; it includes its runtime. No coding tools are needed.
@@ -43,7 +45,9 @@ retain saved data; install the newer release using the same destination.
 
 Opening a link or checking a visit does not claim a game action was completed.
 Prices are dated estimates, not guaranteed sale prices. Refresh uses ItemDB; if it
-asks for a browser verification, complete that in its window and click Refresh again.
+asks for a connection, let its window load, complete any browser verification, then
+choose **Prices → Refresh prices after connecting** in that window. ItemDB requires
+a recent visit periodically; saved estimates remain available if the connection fails.
 The overlay needs a supported foreground Chrome or Edge window and accessible item
 text. Pages that do not expose it may have no badges. Firefox is not supported by
 the native overlay.
@@ -102,9 +106,13 @@ dotnet publish windows/NeopianDesk.Overlay.csproj -c Release -r win-x64 --self-c
 npm run dist:win
 ```
 
-`npm start` opens the built desktop app. The Windows workflow exercises native
-accessibility against controlled Chrome pages, builds the installer, installs it,
-and checks reopening and same-version reinstall. These fixtures do not establish
+`npm start` opens the built desktop app. The
+[Windows verification run](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/38997112568)
+completed 56 data/observation checks, desktop journeys at normal and narrow sizes,
+native Chrome accessibility fixtures, fresh installation, overlay startup and
+same-version reinstall with saved choices retained. The packaged files were checked
+for private identifiers and saved records. A live ItemDB request returned item data
+after its connection page loaded in an isolated macOS desktop session. These fixtures do not establish
 compatibility with every current Neopets page. Real signed-in Windows gameplay and
 Windows toast delivery have not been checked. See TODO.md and LOG.md for the current
 verification record.
