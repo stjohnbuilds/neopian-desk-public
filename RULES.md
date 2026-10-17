@@ -38,3 +38,6 @@ Rule is: required third-party notices ship with every package. Only README.md,
 RULES.md, TODO.md and LOG.md contain project notes.
 Rule is: tests, simulated browser fixtures, installed Windows checks and real-account
 checks are recorded separately. An unverified feature is never reported as verified.
+Rule is: each new player controls their own lists and collection progress. Avatar
+page-source imports are reviewed before saving, preserve existing progress, and
+remain editable through the same manual checklist after import.

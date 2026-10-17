@@ -1,5 +1,71 @@
 # To do
 
+## New-player avatar journey — 17 October 2026
+
+Rule is: a fresh player can import their own avatar page source, review matches,
+then check and uncheck collected avatars without editing files or installing a
+browser tracker. Imports must preserve existing progress and remain reversible.
+
+Source goals re-read: empty personal defaults, all general tools, shared validated
+persistence, manual game actions and optional browser trackers. The existing
+AvatarImport, avatar checklist and shared store already implement this journey.
+
+References inspected: Jellyneo's documented source-copy instructions and checklist
+filters at https://www.jellyneo.net/?go=avatar_checklist_tool ; SunnyNeo's public
+account page at https://my.sunnyneo.com/login.php lists avatar logging but requires
+sign-in to inspect it. Neither site's signed-in importer was exercised. Follow
+the established copy-source, review, collected/missing checklist pattern.
+
+Acceptance: an empty profile can paste a complete picker; review excludes defaults
+and preserves unknown codes; import marks exact matches; manual check/uncheck and
+Show collected work; repeat import does not duplicate; malformed input/cancel
+preserve data; undo, reopening and backup/restore retain the intended progress.
+Inspect the actual desktop at normal and narrow sizes and keyboard focus.
+
+1. DONE — trace current implementation and inspect the comparable references.
+   Re-check README before proceeding.
+2. DONE — exercise the fresh-player journey and add focused import regression
+   coverage. Fix any demonstrated failure in the shared implementation. Re-check
+   README before proceeding.
+3. 70% — add plain Windows instructions, record evidence, publish and mirror the
+   resulting source. Rebuild the installer only if runtime code changes. Re-check
+   README; keep the plan open for review before closing or archiving.
+
+Evidence: a separate empty desktop profile on macOS exercised paste, preview,
+excluding a row, keyboard import, Show collected, manual uncheck/check, malformed
+input and recovery, repeated review, additive import, undo, Escape cancellation,
+empty search result and actual quit/reopen. The earlier collected mark survived.
+The page and modal were inspected at 1180 and approximately 430 logical pixels wide.
+Keyboard focus returned to Paste avatar source after import and Escape; Space
+toggled a collection checkbox. Six synthetic import tests cover inert HTML parsing,
+default/unknown codes, duplicate imports, retained progress, undo conflicts, native
+atomic save/reopen and restore through the shared backup function with a test bridge.
+The full 62-test suite and TypeScript check completed without reported failures.
+No runtime changes were needed; beta.1 already contains the observed workflow.
+
+Limitations: this session used synthetic Neopets picker markup, not a fresh signed-in
+account export. SunnyNeo's importer requires login and was not exercised. The new
+avatar-specific walkthrough ran on macOS; previous Windows installer verification
+remains as recorded below. Real signed-in Windows gameplay remains untested.
+
+New-player review: the screen contains the main sidebar, global tools/quick links,
+Trophy tabs, account-total/search card, import action, filters and category lists;
+the modal contains source instructions, source input/file choice, review and save.
+No orphaned element was observed. The least obvious detail is that the account
+total does not change when individual avatars are checked; README now explains it.
+
+Usability checks (observed existing interface): main flow, expected behaviour,
+close/Escape, data safety, accidental actions, errors, empty state, saving feedback,
+returning later, keyboard, narrow window and consistency all exercised or inspected.
+Interface checks: first impression, space, crowding, alignment, priority, labels,
+long source text, narrow layout, contrast by inspection, consistency, layering,
+scrolling and reading effort inspected. The master list calls these twelve but
+names thirteen; all thirteen were covered. Three minor clarity issues are addressed
+in README: the route through Trophy, Windows source-copy steps, and the distinction
+between collected marks and Total from account. No runtime failure was observed.
+Screen-reader operation, measured contrast and actual phone use were not tested;
+this is a desktop app. Plan remains open for review.
+
 ## Current handover — 17 October 2026
 
 DONE — public Windows beta delivered. All general feature groups are included, with

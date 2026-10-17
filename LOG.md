@@ -1,5 +1,14 @@
 # History
 
+## 17 October 2026 — new-player avatar checklist
+
+Confirmed the existing paste/review/import/manual-check flow with an empty isolated
+desktop profile, normal/narrow layouts, keyboard controls and actual reopening.
+Added six synthetic avatar regression cases; 62 checks and the type check completed
+without reported failures. Added Windows copy/paste and Show collected instructions
+to README, including the separate manual account total. Runtime and beta.1 installer
+remain unchanged. No fresh signed-in account source or SunnyNeo login was tested.
+
 ## 16 October 2026
 
 Started a clean public source workspace from the current reviewed feature modules.

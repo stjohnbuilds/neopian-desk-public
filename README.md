@@ -25,6 +25,36 @@ This beta is unsigned. Windows may display an unknown-publisher warning. Downloa
 only from this repository's release page. Updates replace the app in place and
 retain saved data; install the newer release using the same destination.
 
+## Bring your own avatar progress
+
+No browser tracker is needed. Start in **Trophy → Avatars → Paste avatar source**.
+
+1. Open the linked **Neoboard Settings** page while signed into your own Neopets
+   account. In Chrome on Windows, press **Ctrl+U** to view the page source, then
+   **Ctrl+A** and **Ctrl+C** to copy it all. You do not need to understand the code.
+2. Return to Desk, click the **Neoboard Settings HTML** box and press **Ctrl+V**.
+   This needs the whole page source, rather than a typed list of avatar names.
+3. Choose **Review avatars**. Expand **Review secret avatars** if you want to leave
+   any out, then choose **Import collected avatars**.
+4. Tick avatars as you earn them. Turn on **Show collected** to see or untick
+   ones you already own. Search by name to find an avatar quickly.
+
+Imports add matched avatars without removing existing checks. Repeating an import
+does not create duplicates. **Undo last avatar import** is available in the current
+session; later checklist changes are protected. Unmatched codes are kept for review.
+**Total from account** is a separate number you enter from Neopets; imports and
+individual checks do not change it. Your progress saves automatically.
+
+The copy-source approach is also documented by
+[Jellyneo's avatar checklist](https://www.jellyneo.net/?go=avatar_checklist_tool);
+Windows shortcuts are listed in [Chrome Help](https://support.google.com/chrome/answer/157179).
+Desk uses Neopets page source directly and does not require a SunnyNeo account.
+
+Your daily stars, quick links, item lists, buy targets, timers, notes, pet details
+and collection marks are yours to change. The built-in game catalogue and guide
+requirements are reference information. A new installation contains none of another
+player's personal progress.
+
 ## Included tools
 
 - **Dailies:** searchable catalogue, star/unstar favourites, visit checks and links.
