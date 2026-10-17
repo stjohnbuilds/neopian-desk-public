@@ -30,3 +30,11 @@ screenshots. Package privacy scan found no matched private identifiers or saved
 records. Live ItemDB data was returned after a normal connection-page visit in an
 isolated macOS session. The release remains a beta without real-account Windows
 gameplay or actual toast-delivery verification.
+
+## 17 October 2026 — public beta released
+
+Published v1.0.0-beta.1 with the Windows installer and SHA256 checksum. Unauthenticated
+asset access and the published digest were verified. The release differs from the
+checked runtime commit only in README, TODO and LOG. Filed the source mirror and
+single current installer in Drive; removed temporary packages, test builds and
+obsolete workflow package artifacts. The plan remains open for review.

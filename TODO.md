@@ -1,5 +1,16 @@
 # To do
 
+## Current handover — 17 October 2026
+
+DONE — public Windows beta delivered. All general feature groups are included, with
+empty personal defaults and saved star/unstar choices. The original private app and
+records remain separate. Public source, setup instructions and the installer are at
+https://github.com/stjohnbuilds/neopian-desk-public .
+
+Plan stays open for review; ask before closing or archiving it. Live signed-in Windows
+gameplay and actual Windows toast delivery are not yet verified. Detailed completed
+steps, references and evidence remain below.
+
 ## Handover — 16 October 2026
 
 
@@ -48,7 +59,7 @@ real Windows install must be checked separately from fixture/build results.
 3. DONE — Windows support. Port the agreed native features through the shared adapter,
    with atomic saves and recovery. Verify each complete workflow and failure path;
    do not substitute a browser preview for native behavior. Re-check README.
-4. 95% — distribution. Build installer; exercise fresh install, reopen, upgrade,
+4. DONE — distribution. Build installer; exercise fresh install, reopen, upgrade,
    backup/restore and normal/narrow layouts on Windows; then publish the reviewed
    package. Report unavailable live checks explicitly. Re-check README; leave this
    plan open until its completion is reviewed before closing or archiving it.
@@ -103,8 +114,8 @@ an evaluation. The harness now reads the resource path through the host process;
 full-catalogue overlay startup and reinstall are being rerun. No real signed-in
 Neopets session or actual Windows toast delivery has been checked.
 
-Pending: complete final Windows workflow, inspect screenshots and packaged contents,
-publish the installer/checksum, and mirror finished source plus release to Drive.
+Completed by the release handover below: final Windows workflow, screenshot/package
+inspection, public installer/checksum and the Drive mirror.
 Rule is: keep the completed plan available until its closure is explicitly reviewed.
 
 ## Release handover — 17 October 2026
@@ -122,7 +133,9 @@ The extracted packaged app contains no matched private account/pet identifiers, 
 private paths, pairing key or saved-state files. Its installer SHA256 is
 48c96f06a2567ea99032106e9cf59543c8d8172102858958a50d9814cba22b54.
 
-Remaining release action: upload the current installer and checksum, verify their
-public links, then complete the Drive mirror and remove temporary build downloads.
+Public release: https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.1 .
+The installer and checksum are uploaded; unauthenticated downloads and the published
+SHA256 were verified. Current source and the single installer are filed in the Drive
+GitHub mirror. Temporary downloaded/extracted packages and test builds are removed.
 Real signed-in Windows gameplay and actual Windows toast delivery remain untested;
 this is documented in the beta release. The plan remains open for review.
