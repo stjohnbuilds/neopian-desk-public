@@ -190,5 +190,11 @@ test("overlay switch stops even when prices need connection, cancels jumping and
   await helper.action({ action: "enabled", enabled: true });
   assert.equal(children.length, 2);
   assert.equal(helper.status().autoJump, false);
+  children[0].emit("error", Error("Old process stopped"));
+  assert.equal(helper.status().enabled, true);
+  await helper.action({ action: "options", autoJump: true });
+  children[1].emit("exit");
+  assert.equal(helper.status().enabled, false);
+  assert.equal(helper.status().autoJump, false);
   helper.stop();
 });

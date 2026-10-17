@@ -113,16 +113,14 @@ class Overlay extends EventEmitter {
       }
     });
     child.on("error", (e) => {
+      if (this.child !== child) return;
       this.message = e.message;
       this.stop();
     });
     child.on("exit", () => {
       if (this.child !== child) return;
       this.child = null;
-      this.running = false;
-      this.enabled = false;
-      clearInterval(this.watchdog);
-      this.status();
+      this.stop();
     });
     child.stderr.on("data", () => {});
     this.lastResponse = Date.now();
