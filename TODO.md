@@ -27,7 +27,7 @@ Inspect the actual desktop at normal and narrow sizes and keyboard focus.
 2. DONE — exercise the fresh-player journey and add focused import regression
    coverage. Fix any demonstrated failure in the shared implementation. Re-check
    README before proceeding.
-3. 70% — add plain Windows instructions, record evidence, publish and mirror the
+3. DONE — add plain Windows instructions, record evidence, publish and mirror the
    resulting source. Rebuild the installer only if runtime code changes. Re-check
    README; keep the plan open for review before closing or archiving.
 
@@ -54,17 +54,40 @@ the modal contains source instructions, source input/file choice, review and sav
 No orphaned element was observed. The least obvious detail is that the account
 total does not change when individual avatars are checked; README now explains it.
 
-Usability checks (observed existing interface): main flow, expected behaviour,
-close/Escape, data safety, accidental actions, errors, empty state, saving feedback,
-returning later, keyboard, narrow window and consistency all exercised or inspected.
-Interface checks: first impression, space, crowding, alignment, priority, labels,
-long source text, narrow layout, contrast by inspection, consistency, layering,
-scrolling and reading effort inspected. The master list calls these twelve but
-names thirteen; all thirteen were covered. Three minor clarity issues are addressed
-in README: the route through Trophy, Windows source-copy steps, and the distinction
-between collected marks and Total from account. No runtime failure was observed.
-Screen-reader operation, measured contrast and actual phone use were not tested;
-this is a desktop app. Plan remains open for review.
+Usability observations under the test conditions above:
+- Pass — main flow: paste, review, select and import completed.
+- Pass — expected behaviour: imported marks remained manually editable.
+- Pass — close/Escape: review cancelled and focus returned to the trigger.
+- Pass — data safety: earlier marks survived import, undo and reopening.
+- Pass — accidental actions: review preceded saving; later edits block unsafe undo.
+- Pass — errors: a name-only paste explained how to obtain the required source.
+- Pass — empty state: hidden collected search result said no avatars matched.
+- Pass — loading: shared save feedback and disabled duplicate submit inspected.
+- Pass — returning later: the checked avatar was still checked after reopening.
+- Pass — keyboard: textarea focus, Tab/Return import and Space check exercised.
+- Uncertain — phone use: only a narrow desktop window was exercised.
+- Pass — app consistency: existing shared dialog, controls and store were reused.
+
+Interface observations (the master list names thirteen despite its twelve label):
+- Minor — first impression: the route through Trophy is not obvious to newcomers.
+- Pass — space: toolbar, filters and category groups remain separated.
+- Pass — crowding: controls wrap inside the narrow window.
+- Pass — alignment: source field, review and save share the dialog column.
+- Pass — priority: review counts precede the final import button.
+- Minor — labels: HTML/source terminology needs Windows copy instructions.
+- Pass — long content: pasted source scrolls within its labelled textarea.
+- Pass — small screens: narrow dialog and checklist controls remain reachable.
+- Uncertain — contrast: inspected visually; no measured contrast or screen-reader run.
+- Pass — consistency: collection checkbox matches the other collection surfaces.
+- Pass — layering: modal background is blocked and source link stays labelled.
+- Pass — scrolling: dialog content and final action remain accessible.
+- Minor — reading effort: the separate manual Total from account needs explanation.
+
+Counts: 20 pass, 3 minor, 0 broken, 2 uncertain. The three clarity improvements are
+documented in README: Trophy navigation, Windows copy-source steps and the separate
+account total. These are observations of the existing workflow, not a guarantee
+for untested live pages. Source and instructions are published and mirrored in
+Drive; the existing installer remains current. Plan remains open for review.
 
 ## Current handover — 17 October 2026
 
