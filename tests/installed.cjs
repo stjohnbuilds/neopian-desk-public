@@ -1,6 +1,7 @@
 const { _electron: electron, expect } = require("@playwright/test");
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const assert = require("node:assert/strict");
 (async () => {
   if (
     process.platform !== "win32" ||
@@ -42,6 +43,21 @@ const path = require("node:path");
       await expect(
         page.getByText("Account settings saved.", { exact: true }),
       ).toBeVisible();
+    } else if (process.argv[2] === "release-reopen") {
+      const initial = await page.evaluate(() => window.deskInitialState);
+      const expected = JSON.parse(
+        await fs.readFile("test-results/reinstall-expected.json", "utf8"),
+      );
+      assert.deepEqual(initial, expected, "Reinstall changed saved user data");
+      const folder = await app.evaluate(({ app }) => app.getPath("userData"));
+      assert.equal(
+        path.resolve(folder).toLowerCase(),
+        path.join(process.env.APPDATA, "Neopian Desk").toLowerCase(),
+      );
+      assert.deepEqual(
+        JSON.parse(await fs.readFile(path.join(folder, "state.json"), "utf8")),
+        expected,
+      );
     } else {
       const initial = await page.evaluate(() => window.deskInitialState);
       if (

@@ -1,5 +1,24 @@
 # To do
 
+## Released installer and local saving — 16 October 2026
+
+Rule is: verify a new player's first launch, local saves, returning later and setup
+clarity against the exact public Windows download. No cloud folder is required.
+Source goals re-read: all general tools, empty personal defaults, ordinary manual
+game actions, shared validated storage and optional browser trackers.
+
+1. 40% — inspect release evidence, startup, saves and every personal-data entry
+   point. Verify local path selection and failure handling. Re-check README.
+2. 0% — exercise the published installer on isolated Windows: empty first launch,
+   representative saves in each area, avatar import, actual files, close/reopen,
+   backup restore and reinstall. Capture normal/narrow screenshots. Re-check README.
+3. 0% — review setup usability, fix demonstrated issues in the existing architecture,
+   document the evidence and limitations, publish and mirror the results. Re-check
+   source goals; leave the plan open until closure or archiving is reviewed.
+
+Known setup friction to evaluate: unsigned installer warning; account username is
+fixed after first save; optional trackers require extension and pairing setup.
+
 ## New-player avatar journey — 17 October 2026
 
 Rule is: a fresh player can import their own avatar page source, review matches,

@@ -2,16 +2,43 @@ const { _electron: electron, expect } = require("@playwright/test");
 const fs = require("node:fs/promises");
 const path = require("node:path");
 const os = require("node:os");
+const assert = require("node:assert/strict");
 (async () => {
+  const installed = process.env.DESK_INSTALLED_EXE;
+  if (installed && (process.platform !== "win32" || process.env.CI !== "true"))
+    throw Error("Installed journeys require an isolated Windows CI runner.");
   const root = await fs.mkdtemp(path.join(os.tmpdir(), "desk-desktop-test-"));
-  const data = path.join(root, "data");
+  const data = installed
+    ? path.join(process.env.APPDATA, "Neopian Desk")
+    : path.join(root, "data");
   await fs.mkdir("test-results", { recursive: true });
   const env = { ...process.env, DESK_TEST_DATA_DIR: data };
+  if (installed) {
+    delete env.DESK_TEST_DATA_DIR;
+    await assert.rejects(fs.access(path.join(data, "state.json")), {
+      code: "ENOENT",
+    });
+  }
   delete env.ELECTRON_RUN_AS_NODE;
   const errors = [];
   let app;
   async function launch() {
-    app = await electron.launch({ args: ["."], env });
+    app = await electron.launch(
+      installed ? { executablePath: installed, env } : { args: ["."], env },
+    );
+    if (installed) {
+      const runtime = await app.evaluate(({ app }) => ({
+        packaged: app.isPackaged,
+        folder: app.getPath("userData"),
+        version: app.getVersion(),
+      }));
+      assert.equal(runtime.packaged, true);
+      assert.equal(
+        path.resolve(runtime.folder).toLowerCase(),
+        path.resolve(data).toLowerCase(),
+      );
+      console.log("Installed runtime: " + JSON.stringify(runtime));
+    }
     const page = await app.firstWindow();
     page.on("pageerror", (e) => errors.push(e.message));
     page.setDefaultTimeout(15000);
@@ -23,6 +50,10 @@ const os = require("node:os");
   }
   try {
     let page = await launch();
+    const initial = await page.evaluate(() => window.deskInitialState);
+    assert.equal(initial.profile.account, "");
+    assert.deepEqual(initial.profile.pets, []);
+    assert.deepEqual(initial.legacy, {});
     await expect(
       page.getByRole("button", { name: "Unstar Quest Log", exact: true }),
     ).toBeVisible();
@@ -69,6 +100,11 @@ const os = require("node:os");
     ).toBeDisabled();
     await page.keyboard.press("Escape");
     await expect(settings).not.toBeVisible();
+    // No backup folder is chosen until the ordinary local-save journeys finish.
+    await assert.rejects(fs.access(path.join(data, "backup-location.json")), {
+      code: "ENOENT",
+    });
+    assert.equal((await state()).profile.account, "test_account");
     for (const name of [
       "Profits",
       "Trophy",
@@ -92,6 +128,71 @@ const os = require("node:os");
         scroll: document.documentElement.scrollWidth,
       })),
     );
+    await page.setViewportSize({ width: 1180, height: 840 });
+    await page
+      .getByRole("button", { name: "Edit quick links", exact: true })
+      .click();
+    const shortcuts = page.getByRole("dialog", {
+      name: "Quick links",
+      exact: true,
+    });
+    await shortcuts
+      .getByRole("button", { name: "Add shortcut", exact: true })
+      .click();
+    await shortcuts
+      .getByLabel("Shortcut destination", { exact: true })
+      .selectOption("custom");
+    await shortcuts
+      .getByLabel("Shortcut name", { exact: true })
+      .fill("My test link");
+    await shortcuts
+      .getByLabel("Shortcut link", { exact: true })
+      .fill("https://www.neopets.com/");
+    await shortcuts.getByRole("button", { name: "Save", exact: true }).click();
+    await expect(shortcuts).not.toBeVisible();
+
+    await page
+      .getByRole("navigation", { name: "Main navigation" })
+      .getByRole("button", { name: "Trophy", exact: true })
+      .click();
+    await page
+      .getByRole("button", { name: "Paste avatar source", exact: true })
+      .click();
+    const avatarImport = page.getByRole("dialog", {
+      name: "Import collected avatars",
+      exact: true,
+    });
+    const source =
+      '<div id="SelectAvatarPopup"><div class="settings-avatars"><div class="settings-av" id="defaultAvvie"><img src="//images.neopets.com/neoboards/avatars/default.gif" alt="Default"></div></div><p>Secret Avatars:</p><div class="settings-avatars"><div class="settings-av" id="pet_rockAvvie"><img src="//images.neopets.com/neoboards/avatars/pet_rock.gif" alt="I Love My Rock"></div></div></div>';
+    await avatarImport
+      .getByLabel("Neoboard Settings HTML", { exact: true })
+      .fill(source);
+    await avatarImport
+      .getByRole("button", { name: "Review avatars", exact: true })
+      .click();
+    await expect(
+      avatarImport.getByText("1 to add · 0 already collected", { exact: true }),
+    ).toBeVisible();
+    await page.screenshot({ path: "test-results/avatar-import-wide.png" });
+    await page.setViewportSize({ width: 430, height: 850 });
+    await page.screenshot({ path: "test-results/avatar-import-narrow.png" });
+    await avatarImport
+      .getByRole("button", { name: "Import collected avatars", exact: true })
+      .click();
+    await expect(avatarImport).not.toBeVisible();
+    await page.getByLabel("Show collected", { exact: true }).check();
+    await page
+      .getByRole("searchbox", { name: "Find an avatar", exact: true })
+      .fill("I Love My Rock");
+    const collected = page.getByRole("checkbox", {
+      name: "Collected I Love My Rock",
+      exact: true,
+    });
+    await expect(collected).toBeChecked();
+    await collected.click();
+    await expect(collected).not.toBeChecked();
+    await collected.click();
+    await expect(collected).toBeChecked();
     await page.setViewportSize({ width: 1180, height: 840 });
     await page
       .getByRole("navigation", { name: "Main navigation" })
@@ -127,6 +228,67 @@ const os = require("node:os");
     const copied = await app.evaluate(({ clipboard }) => clipboard.readText());
     if (copied !== "<h1>Test page</h1>")
       throw Error("Copied page differs from saved code");
+    await page.keyboard.press("Escape");
+    await page
+      .getByRole("button", { name: "Account information", exact: true })
+      .click();
+    await page.getByRole("button", { name: "Add notes", exact: true }).click();
+    await page
+      .getByRole("textbox", { name: "Account notes", exact: true })
+      .fill("My local test note");
+    await page.getByRole("button", { name: "Save notes", exact: true }).click();
+    await expect(
+      page.getByText("Account notes saved.", { exact: true }),
+    ).toBeVisible();
+
+    await page
+      .getByRole("button", { name: "Open calendar", exact: true })
+      .click();
+    const calendar = page.getByRole("dialog", {
+      name: "Calendar",
+      exact: true,
+    });
+    await calendar
+      .getByLabel("Add your own date to this day", { exact: true })
+      .fill("My test date");
+    await calendar.getByRole("button", { name: /^Add to / }).click();
+    await expect(
+      calendar.getByText("Date saved", { exact: true }),
+    ).toBeVisible();
+    await page.keyboard.press("Escape");
+
+    await page
+      .getByRole("navigation", { name: "Main navigation" })
+      .getByRole("button", { name: "Tools", exact: true })
+      .click();
+    await page.getByRole("button", { name: "Pet Hunt", exact: true }).click();
+    await page
+      .getByLabel("Try your own name", { exact: true })
+      .fill("testcandidate");
+    await page.getByRole("button", { name: "Use", exact: true }).click();
+    const nameEditor = page.getByRole("dialog", {
+      name: "Edit Testcandidate",
+      exact: true,
+    });
+    await nameEditor
+      .getByLabel("Name notes", { exact: true })
+      .fill("My saved name note");
+    await nameEditor
+      .getByRole("button", { name: "Save note", exact: true })
+      .click();
+    await expect(nameEditor).not.toBeVisible();
+    await page.getByRole("button", { name: "Timers", exact: true }).click();
+    const timers = page.getByRole("dialog", {
+      name: "Your timers",
+      exact: true,
+    });
+    await timers.getByLabel("Minutes", { exact: true }).fill("120");
+    await timers
+      .getByRole("button", { name: "Start timer", exact: true })
+      .click();
+    await expect(
+      timers.getByRole("button", { name: "Restart timer", exact: true }),
+    ).toBeVisible();
     await page.keyboard.press("Escape");
     await page
       .getByRole("navigation", { name: "Main navigation" })
@@ -180,6 +342,20 @@ const os = require("node:os");
       .click();
     const backupFolder = path.join(root, "backup"),
       exportFile = path.join(root, "export.json");
+    await page.screenshot({ path: "test-results/settings-wide.png" });
+    const invalidBackup = path.join(root, "invalid.json");
+    await fs.writeFile(invalidBackup, "{}");
+    const beforeInvalid = await state();
+    await page
+      .getByRole("dialog", { name: "Settings & backups" })
+      .locator("input[type=file]")
+      .setInputFiles(invalidBackup);
+    await expect(
+      page.getByText("This is not a valid Neopian Desk backup.", {
+        exact: true,
+      }),
+    ).toBeVisible();
+    assert.deepEqual(await state(), beforeInvalid);
     await app.evaluate(({ dialog }, folder) => {
       dialog.showOpenDialog = async () => ({
         canceled: false,
@@ -256,9 +432,34 @@ const os = require("node:os");
       throw Error("Priority item was not retained");
     if (JSON.parse(saved.legacy.nd_items_v2)[0].q !== 3)
       throw Error("Item edit was not retained");
+    assert.deepEqual(saved.profile.pets, ["test_pet"]);
+    assert.equal(
+      JSON.parse(saved.legacy.nd_account_notes),
+      "My local test note",
+    );
+    assert.ok(
+      JSON.parse(saved.legacy.nd_calendar).events.some(
+        (e) => e.title === "My test date",
+      ),
+    );
+    assert.ok(
+      JSON.parse(saved.legacy.nd_avatar_catalogue).includes("pet_rock"),
+    );
+    assert.ok(
+      JSON.parse(saved.legacy.nd_header_shortcuts).some(
+        (s) => s.label === "My test link",
+      ),
+    );
+    assert.ok(JSON.stringify(saved.names).includes("My saved name note"));
+    assert.equal(JSON.parse(saved.legacy.nd_reminders).timers.length, 1);
+    if (installed)
+      await fs.writeFile(
+        "test-results/reinstall-expected.json",
+        JSON.stringify(saved),
+      );
     if (errors.length) throw Error("Renderer errors: " + errors.join("; "));
     console.log(
-      "Desktop journeys: stars + keyboard focus, account settings, all sections, wide/narrow layout, page save/copy/discard, priority targets, item add/edit, backup/export/restore with dialog fixtures, and reopening exercised.",
+      "Desktop journeys: local save path, stars and keyboard, account/pets, custom shortcuts, avatar import/checks, notes, calendar, timers, names, page save/copy/discard, buy targets, item editing, invalid backup rejection, backup/export/restore with dialog fixtures, normal/narrow layout, and reopening exercised.",
     );
   } catch (error) {
     if (app) {

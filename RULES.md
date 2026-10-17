@@ -41,3 +41,6 @@ checks are recorded separately. An unverified feature is never reported as verif
 Rule is: each new player controls their own lists and collection progress. Avatar
 page-source imports are reviewed before saving, preserve existing progress, and
 remain editable through the same manual checklist after import.
+Rule is: a new player's saved work stays in their own Windows profile without a
+cloud account or backup destination. Release checks use the actual public installer
+and distinguish first installation, reopening, reinstall and simulated game data.

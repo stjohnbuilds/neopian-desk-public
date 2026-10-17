@@ -1,0 +1,47 @@
+name: Verify public Windows download
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  released-installer:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Download the public installer and verify its identity
+        shell: pwsh
+        run: |
+          $setup = Join-Path $env:RUNNER_TEMP 'Neopian-Desk-Setup.exe'
+          Invoke-WebRequest 'https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.1/Neopian-Desk-Setup.exe' -OutFile $setup
+          $hash = (Get-FileHash $setup -Algorithm SHA256).Hash.ToLower()
+          if ($hash -ne '48c96f06a2567ea99032106e9cf59543c8d8172102858958a50d9814cba22b54') { throw "Unexpected installer SHA256: $hash" }
+          "Verified public installer SHA256: $hash"
+          $install = Join-Path $env:LOCALAPPDATA 'Programs\Neopian Desk'
+          if (Test-Path (Join-Path $env:APPDATA 'Neopian Desk\state.json')) { throw 'Runner does not have a fresh profile' }
+          $result = Start-Process $setup -ArgumentList @('/S', "/D=$install") -Wait -PassThru
+          if ($result.ExitCode -ne 0) { throw "Install failed: $($result.ExitCode)" }
+          "DESK_INSTALLED_EXE=$(Join-Path $install 'Neopian Desk.exe')" | Out-File $env:GITHUB_ENV -Append
+      - name: Exercise the installed release and verify local saving
+        run: npm run test:desktop
+      - name: Reinstall the same public download and verify all saved data
+        shell: pwsh
+        run: |
+          $setup = Join-Path $env:RUNNER_TEMP 'Neopian-Desk-Setup.exe'
+          $install = Split-Path $env:DESK_INSTALLED_EXE
+          $result = Start-Process $setup -ArgumentList @('/S', "/D=$install") -Wait -PassThru
+          if ($result.ExitCode -ne 0) { throw "Reinstall failed: $($result.ExitCode)" }
+          node tests/installed.cjs release-reopen
+          if ($LASTEXITCODE -ne 0) { throw 'Saved-data verification failed' }
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: released-installer-verification
+          path: test-results/
+          if-no-files-found: ignore
+          retention-days: 7
