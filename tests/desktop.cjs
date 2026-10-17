@@ -119,9 +119,13 @@ const assert = require("node:assert/strict");
         .click();
       await expect(page.locator("main")).toBeVisible();
       if (name === "Personalization")
-        await expect(page.getByRole("navigation", { name: "Personalization sections" })).toBeVisible();
+        await expect(
+          page.getByRole("navigation", { name: "Personalization sections" }),
+        ).toBeVisible();
       else
-        await expect(page.getByRole("heading", { name, exact: true, level: 1 })).toBeVisible();
+        await expect(
+          page.getByRole("heading", { name, exact: true, level: 1 }),
+        ).toBeVisible();
     }
     await page.screenshot({ path: "test-results/dailies-wide.png" });
     await page.setViewportSize({ width: 430, height: 850 });

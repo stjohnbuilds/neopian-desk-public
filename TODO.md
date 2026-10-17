@@ -7,17 +7,92 @@ clarity against the exact public Windows download. No cloud folder is required.
 Source goals re-read: all general tools, empty personal defaults, ordinary manual
 game actions, shared validated storage and optional browser trackers.
 
-1. 40% — inspect release evidence, startup, saves and every personal-data entry
+1. DONE — inspect release evidence, startup, saves and personal-data entry
    point. Verify local path selection and failure handling. Re-check README.
-2. 0% — exercise the published installer on isolated Windows: empty first launch,
+2. DONE — exercise the published installer on isolated Windows: empty first launch,
    representative saves in each area, avatar import, actual files, close/reopen,
    backup restore and reinstall. Capture normal/narrow screenshots. Re-check README.
-3. 0% — review setup usability, fix demonstrated issues in the existing architecture,
+3. DONE — review setup usability, fix demonstrated issues in the existing architecture,
    document the evidence and limitations, publish and mirror the results. Re-check
    source goals; leave the plan open until closure or archiving is reviewed.
 
-Known setup friction to evaluate: unsigned installer warning; account username is
+Observed setup friction: unsigned installer warning; account username is
 fixed after first save; optional trackers require extension and pairing setup.
+
+Evidence: public-download run 38999060355 downloaded beta.1 without authentication,
+verified its published SHA256 and installed it under the test user's LocalAppData.
+The installed app reported packaged=true, version 1.0.0-beta.1 and its own userData
+folder under AppData/Roaming/Neopian Desk. The profile started empty. Stars and
+account settings saved before any backup folder was chosen. The following were
+saved, exported/restored, reopened and retained through reinstall: daily stars,
+account/pets, custom quick links, imported and manually changed avatar marks,
+account notes, calendar entry, timer, name note, page HTML, buy target and wardrobe
+quantity. The saved state file was compared after reinstall, including every field.
+An invalid backup was rejected without changing the previous file. No renderer
+error was reported. Native file chooser choices were test fixtures; the exports,
+backups, working files, installation and process restarts were real.
+
+The Windows environment was GitHub's Windows Server 2025 runner with a fresh app
+profile, not a consumer Windows 10/11 PC. Silent installation does not exercise the
+normal browser download warning or installer wizard. No live signed-in game source,
+screen-reader use, physical phone or actual toast delivery was checked. The installer
+is unsigned: SmartScreen can warn and Smart App Control or managed policy can block
+it. Official reference inspected as documentation:
+https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation .
+No security protections were changed. The public installer itself was not modified.
+
+The extended local desktop test initially needed to wait for the durable checkbox
+save before asserting its new state. Screenshot inspection also found a navigation
+transition captured before Dailies finished loading; the harness now waits for the
+destination heading. These were verification timing issues, not runtime changes.
+Run 38999320067 stopped at a test assertion that incorrectly expected a main heading
+in Personalization; that section deliberately uses its tabs without the heading.
+The check now uses its actual navigation label. Final run 38999489076 completed the
+same download, installed journeys and whole-state reinstall comparison successfully.
+Its settled Dailies, avatar import, settings and reopened Windows screenshots were
+inspected at normal and narrow widths. Source goals were re-checked; the runtime
+and published installer remain unchanged. Results and current proof images are
+filed in the Drive mirror. The plan remains open for review.
+
+Usability review — current first-run and saving workflow:
+Sections inspected: sidebar, top search/tools/quick links, Dailies tabs and star
+cards, My dailies/More dailies, avatar import, item/page editors, and Settings panels
+for account/pets, notifications, backup folder and export/restore. No orphaned control
+was observed in settled views. The most confusing detail for a newcomer is that
+Settings discusses a backup folder without explicitly describing the local save.
+
+- Pass — main flow: empty profile, star changes and editable personal records saved.
+- Pass — expected behaviour: manual collection changes survived reopening.
+- Pass — close/Escape: dialogs close; page editor offers Keep editing for a draft.
+- Pass — data safety: actual save files, invalid restore rejection and reinstall compared.
+- Minor — accidental actions: a username typo becomes locked after the first save.
+- Pass — errors: invalid backup feedback leaves the existing file unchanged.
+- Pass — empty states: blank Items, account notes and personal records invite entry.
+- Pass — loading/waiting: save feedback is visible; tests wait for acknowledged writes.
+- Pass — returning later: every tested saved field remained after reopening/reinstall.
+- Pass — keyboard: star Space/focus, dialog controls and avatar checks exercised.
+- Uncertain — phone use: narrow desktop layout inspected; no phone app is shipped.
+- Pass — app match: each editor uses the shared controls and validated store.
+- Pass — first impression: Dailies starts with three editable general suggestions.
+- Pass — space: sidebar, toolbar, daily groups and settings panels remain distinct.
+- Pass — cramped areas: fields/buttons wrap at the narrow width inspected.
+- Pass — alignment: card stars and dialog form controls share consistent edges.
+- Pass — priority: My dailies and save/import actions have clear placement.
+- Minor — text/labels: Trophy and HTML/source terms need the README route and steps.
+- Pass — long content: source textarea scrolls and notes wrap within their editors.
+- Pass — small screens: inspected narrow daily and avatar layouts stay within the window.
+- Uncertain — contrast: visually inspected, no measured full-interface or screen-reader audit.
+- Pass — consistency: shared stars, checkboxes and save/cancel controls retain their roles.
+- Pass — tooltips/layering: labelled icon actions and modal background separation inspected.
+- Pass — scrolling: settings, long preview and final dialog actions remain reachable.
+- Minor — reading effort: backup/cloud and optional tracker setup need plain instructions.
+
+Counts: 20 pass, 3 minor, 0 broken, 2 uncertain across all 25 named checks in the
+master's nominal 24-point list. Highest-priority clarity work: distinguish local
+save from optional backup (README updated); make the username lock explicit before
+entry (existing form warning verified); separate ordinary use from optional tracker
+setup (README clarified). Consumer Windows security prompts remain an installation
+limitation outside these interface observations. No promise of universal compatibility.
 
 ## New-player avatar journey — 17 October 2026
 

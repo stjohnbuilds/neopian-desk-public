@@ -19,10 +19,14 @@ Version 1.0.0-beta.1 is an early public release.
 4. In **Settings & backups**, save a Neopets username when ready to use account
    tools. Check the spelling: the account is fixed after saving to prevent mixed
    records. No Neopets password is requested. Pet names and a closet link are optional.
-5. Choose a backup folder, preferably in Google Drive or another synced drive.
+5. **Optional:** choose a backup folder, preferably in Google Drive or another
+   synced drive. Your changes already save on your computer without this step.
 
-This beta is unsigned. Windows may display an unknown-publisher warning. Download
-only from this repository's release page. Updates replace the app in place and
+This beta is unsigned. Windows may display an unknown-publisher warning or block
+it under Smart App Control or a managed-device policy. A successful test installation
+does not guarantee that every Windows security configuration will allow it. See
+[Microsoft's explanation](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
+Download only from this repository's release page. Updates replace the app in place and
 retain saved data; install the newer release using the same destination.
 
 ## Bring your own avatar progress
@@ -109,6 +113,14 @@ additional verified backup to a folder chosen by the current player. No develope
 account or fixed cloud destination is used. Keep Desk open until pending browser
 records arrive before exporting a full backup.
 
+Stars and collection checkboxes save automatically. In an editing form, choose its
+**Save** button and wait for the confirmation before closing the app. Saved pets,
+notes, item lists, targets, page code, calendar dates, timers and name records stay
+on this computer when the app closes. Unsaved drafts and temporary search filters
+are not saved records. Timers remain saved, but Desk must be open to show alerts.
+The app does not automatically record every action on Neopets; the optional paired
+browser trackers only capture the supported observations described above.
+
 **Export full backup** creates a portable JSON file. **Restore backup** restores
 preferences and merges receipts, name history and collection evidence; it retains
 newer event and training observations. A different account's data is rejected.
@@ -146,6 +158,14 @@ after its connection page loaded in an isolated macOS desktop session. These fix
 compatibility with every current Neopets page. Real signed-in Windows gameplay and
 Windows toast delivery have not been checked. See TODO.md and LOG.md for the current
 verification record.
+
+The [public-download verification](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/38999489076)
+also installed the exact published beta.1 file, verified its checksum and checked
+local saves, avatar import/manual checks, notes, calendar, timers, custom links,
+names, items, page code, backup rejection/restore, reopening and reinstall. It used
+a fresh app profile on Windows Server 2025 with a silent installer. Consumer Windows
+10/11 download warnings, the interactive installer wizard and live gameplay were
+not exercised by that run.
 
 ## Notices
 

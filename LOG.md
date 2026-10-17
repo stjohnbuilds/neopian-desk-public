@@ -1,5 +1,22 @@
 # History
 
+## 16 October 2026 — published installer and local saving checked
+
+Extended the existing desktop journey to run against the actual public Windows
+installer. Public-download run 38999060355 verified the SHA256, opened an empty
+profile, exercised personal saves across every main area, rejected an invalid
+backup, reopened and compared the saved file after reinstall. The real userData
+path was the test Windows user's AppData/Roaming/Neopian Desk. Native dialog paths
+and avatar source were fixtures; disk writes and installed processes were real.
+Clarified automatic local saving, explicit Save buttons, optional backups and
+unsigned-app restrictions in README. The installer and runtime remain unchanged.
+Consumer Windows prompts and live signed-in gameplay remain unverified. Final run
+38999489076 repeated the public download, installed journeys and entire saved-state
+comparison after reinstall. Settled normal/narrow Windows screenshots were inspected.
+The intermediate screenshot/navigation assertions were corrected in the test harness
+without changing app behaviour. Published the verification and mirrored current
+source and proof images in Drive; removed temporary local builds and test profiles.
+
 ## 17 October 2026 — new-player avatar checklist
 
 Confirmed the existing paste/review/import/manual-check flow with an empty isolated
