@@ -170,6 +170,13 @@ all scripts off. A saved training timer and all other saved fields survived rein
 The packaged files were checked for private paths, records and pairing keys. This used
 Windows Server 2025 and synthetic observations, not a signed-in live Neopets account.
 
+The [beta.2 public-download check](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/39081153137)
+downloaded the published installer without authentication and verified its SHA256.
+The installed app reported version 1.0.0-beta.2 and saved in the Windows user's own
+AppData folder. Fresh setup, script switches, personal editing, avatar import,
+backup/restore, reopening and a second installation completed; the full saved state
+was retained. The single current Drive installer has the same verified bytes.
+Drive website sharing permissions and cloud download were not accessible to check.
 
 Source: `~/Dev/neopian-desk-public`, mirrored to the configured Drive GitHub folder.
 The React feature/core/persistence modules share validation with the desktop adapter.

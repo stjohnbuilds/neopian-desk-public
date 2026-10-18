@@ -14,7 +14,7 @@ storage, optional browser observations and manual game actions.
    Browser connection and Automatic training timers; remove the top-bar price action.
    Make startup ignore old enabled preferences and preserve data when paused. Verify
    off/on/off, failures, keyboard, restart, backup restore and narrow layouts. Re-check README.
-3. 85% — build and exercise the installed Windows update, publish the checked package,
+3. DONE — build and exercise the installed Windows update, publish the checked package,
    replace the single Drive installer and document included versus private content.
    Verify checksums and retained records. Re-check source goals; keep the plan open
    until closure or archiving is reviewed.
@@ -56,7 +56,14 @@ verified: 2b3ec6c5fec9418213d5e1229ab4fcc1a266a6f8d962d26794bf36fce3f62fe4.
 Browser access to Drive's website is still denied by a saved permission; local filing
 and byte verification succeeded, but sharing permissions and cloud download remain
 unverified. Consumer security prompts, live account pages and screen readers remain
-untested. Final public-download verification and final source mirror are pending.
+untested. Public-download run 39081153137 downloaded beta.2 without authentication,
+verified the same SHA256 and exercised fresh installed journeys, script controls,
+local saving, backup/restore, reopening and reinstall. The installed app reported
+version 1.0.0-beta.2 and its own Windows AppData folder; the full saved-state comparison
+completed without differences beyond the expected session flag/revision. README
+goals were re-checked. Published source and the Drive mirror include the final
+verification record; temporary builds and duplicate downloads are removed at handover.
+The plan remains open for closure review.
 
 
 ## Released installer and local saving — 16 October 2026

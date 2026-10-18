@@ -15,6 +15,11 @@ and a training timer retained. Beta.2 replaced the single installer in Drive; it
 checksum matches the tested artifact. Public/private feature differences are in README.
 Drive website sharing remains unverified because a saved browser permission blocks
 access; the local Drive folder remains writable and was updated.
+Public-download run 39081153137 then verified the exact beta.2 release checksum,
+fresh local saves, script controls, backup/restore, reopening and reinstall. The
+installed app reported its own Windows AppData folder and retained the whole saved
+state. Published the final evidence, mirrored source to Drive and removed temporary
+local builds and duplicate installer downloads. The plan remains open for review.
 
 ## 16 October 2026 — published installer and local saving checked
 
