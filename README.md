@@ -6,10 +6,10 @@ collection marks. Game actions stay manual.
 
 ## Get started
 
-**[Download the Windows installer](https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.1/Neopian-Desk-Setup.exe)** ·
-[Release notes and checksum](https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.1)
+**[Download the Windows installer](https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.2/Neopian-Desk-Setup.exe)** ·
+[Release notes and checksum](https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.2)
 
-Version 1.0.0-beta.1 is an early public release.
+Version 1.0.0-beta.2 is an early public release.
 
 1. Download **Neopian-Desk-Setup.exe** from the release and open it. The x64 package
    is intended for Windows 10 or 11; it includes its runtime. No coding tools are needed.
@@ -161,6 +161,15 @@ a chosen backup and preserves the unreadable file for recovery. Uninstalling ret
 saved data. A full backup does not include the machine's pairing key or browser logins.
 
 ## Development and verification
+
+The [beta.2 Windows run](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/39080868306)
+completed the type check, 66 data/observation checks, native accessibility fixtures,
+normal/narrow script views, fresh installed switch journeys and reinstall. All four
+controls were exercised on Windows; reopening with old enabled-preference files left
+all scripts off. A saved training timer and all other saved fields survived reinstall.
+The packaged files were checked for private paths, records and pairing keys. This used
+Windows Server 2025 and synthetic observations, not a signed-in live Neopets account.
+
 
 Source: `~/Dev/neopian-desk-public`, mirrored to the configured Drive GitHub folder.
 The React feature/core/persistence modules share validation with the desktop adapter.

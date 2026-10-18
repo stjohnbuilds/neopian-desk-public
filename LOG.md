@@ -9,9 +9,12 @@ saved timers, records and pairing keys remain. Copying a key no longer starts th
 connection, and turning the overlay off cannot launch an ItemDB connection window.
 Stopped helpers ignore late output and pending deliveries. Backup restore retains
 the current session's training switch. Tampermonkey installations remain separate.
-Local type check, 66 checks and desktop journeys completed. Windows packaging and
-installed verification are pending; the Drive installer is still beta.1 until those
-finish. Public/private feature differences are documented in README.
+Local type check, 66 checks and desktop journeys completed. Windows run 39080868306
+then completed native checks, installed switch journeys and reinstall with records
+and a training timer retained. Beta.2 replaced the single installer in Drive; its
+checksum matches the tested artifact. Public/private feature differences are in README.
+Drive website sharing remains unverified because a saved browser permission blocks
+access; the local Drive folder remains writable and was updated.
 
 ## 16 October 2026 — published installer and local saving checked
 

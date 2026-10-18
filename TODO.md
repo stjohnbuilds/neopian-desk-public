@@ -14,7 +14,7 @@ storage, optional browser observations and manual game actions.
    Browser connection and Automatic training timers; remove the top-bar price action.
    Make startup ignore old enabled preferences and preserve data when paused. Verify
    off/on/off, failures, keyboard, restart, backup restore and narrow layouts. Re-check README.
-3. 25% — build and exercise the installed Windows update, publish the checked package,
+3. 85% — build and exercise the installed Windows update, publish the checked package,
    replace the single Drive installer and document included versus private content.
    Verify checksums and retained records. Re-check source goals; keep the plan open
    until closure or archiving is reviewed.
@@ -37,11 +37,26 @@ verification; the earlier browser permission denial does not establish share acc
 Local evidence: 66 checks completed without reported failures. Real desktop journeys
 exercise all four controls' initial off states, keyboard focus, live loopback start/stop, pairing-key
 retention, normal/narrow layouts, full saved-state reopening and old enabled-setting
-fixtures. Native Windows helper behaviour still needs the installed Windows run.
+fixtures. Native Windows helper behaviour was then exercised by the installed run below.
 Keyboard focus during a pending save was repaired using the existing button's
 focusable-disabled behaviour. Local test connections use an ephemeral port so another
 running desk is not interrupted. Restart comparison uses initial saved data before
 navigation writes its own revision counter. No personal app or data was changed.
+
+Windows run 39080868306 on runtime commit faa5985 completed every step: type check,
+66 checks, native parser/accessibility fixtures, desktop journeys, NSIS packaging,
+fresh installed switches and reinstall. Actual helper processes and loopback sockets
+started/stopped. All scripts were left on before closing; reopening with old enabled
+preference files still started them off. Complete saved-state comparisons retained
+records and a synthetic training timer, apart from the required enabled flag and
+save revision. Normal/narrow Windows screenshots and the reopened timer were inspected.
+The packaged beta.2 archive contains no matched private paths, state files, keys or
+bespoke private-page modules. Drive's single installer was overwritten and its SHA256
+verified: 2b3ec6c5fec9418213d5e1229ab4fcc1a266a6f8d962d26794bf36fce3f62fe4.
+Browser access to Drive's website is still denied by a saved permission; local filing
+and byte verification succeeded, but sharing permissions and cloud download remain
+unverified. Consumer security prompts, live account pages and screen readers remain
+untested. Final public-download verification and final source mirror are pending.
 
 
 ## Released installer and local saving — 16 October 2026
