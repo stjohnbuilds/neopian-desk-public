@@ -2100,7 +2100,8 @@ main:has(.profit-page.is-sales) > .page-title { position: absolute; width: 1px; 
 .quest-shortcuts { display: grid; gap: 8px; }
 .quest-shortcuts summary { cursor: pointer; font-size: 12px; padding: 5px 0; }
 .quest-shortcuts ul { display: grid; gap: 7px; margin: 8px 0; padding: 0; list-style: none; }
-.quest-shortcuts li { font-size: 12px; overflow-wrap: anywhere; }
+.quest-shortcuts li { display: flex; align-items: center; gap: 6px; font-size: 12px; overflow-wrap: anywhere; }
+.quest-shortcuts li input[type="checkbox"] { flex: 0 0 auto; margin: 0; }
 .quest-shortcuts .external { max-width: 100%; }
 .quest-shortcuts .external svg { flex-shrink: 0; }
 .daily-card:has(.quest-shortcuts) { align-self: start; }

@@ -25,6 +25,8 @@ export function Dailies({ search = "" }: { search?: string }) {
     today = usePacificDay();
   const [actionGroup, setActionGroup] = useState("");
   const [showOther, setShowOther] = useState(false);
+  const [questTicks, setQuestTicks] = useState<string[]>([]);
+  const [questsShown, setQuestsShown] = useState(false);
   const opened = visitedToday(store.legacy, today);
   const { run, message, busy } = useAction();
   const favoriteIds = dailyFavorites(store.legacy);
@@ -55,8 +57,25 @@ export function Dailies({ search = "" }: { search?: string }) {
           "Pages opened, but checks could not be saved. Try saving again.",
         );
       }
-    }, `Opened ${urls.length} pages in Chrome.`);
+    }, `Opened ${urls.length} pages in your browser.`);
   };
+  // This app cannot read the Quest Log, so it opens with Trudy's Surprise and the
+  // shortcut ticks open beside it for the day's quests.
+  const openQuestLog = (d: { name: string; links: { url: string }[] }) => {
+    setQuestsShown(true);
+    openPages(
+      d.links.map((l) => l.url),
+      `${d.name} today`,
+    );
+  };
+  const questOpening = (name: string) =>
+    !busy
+      ? ""
+      : actionGroup === `${name} today`
+        ? "today"
+        : actionGroup === `${name} ticked`
+          ? "ticked"
+          : "";
   return (
     <div className="feature-stack">
       <SectionTabs
@@ -110,7 +129,7 @@ export function Dailies({ search = "" }: { search?: string }) {
                   variant="outline"
                   aria-label={`Open all ${group} pages`}
                   disabled={busy || !isNative() || !batchUrls.length}
-                  title={`Open ${batchUrls.length} pages in Chrome${urls.length > 20 ? "; up to 20 unchecked pages at a time" : ""}`}
+                  title={`Open ${batchUrls.length} pages in your browser${urls.length > 20 ? "; up to 20 unchecked pages at a time" : ""}`}
                   onClick={() => openPages(batchUrls, group)}
                 >
                   <ExternalLink size={14} />
@@ -213,20 +232,27 @@ export function Dailies({ search = "" }: { search?: string }) {
                     {d.shortcuts && (
                       <QuestShortcuts
                         links={d.shortcuts}
+                        ticked={questTicks}
+                        expanded={questsShown}
                         busy={busy}
-                        opening={busy && actionGroup === d.name}
-                        onOpen={() =>
+                        opening={questOpening(d.name)}
+                        onOpenToday={() => openQuestLog(d)}
+                        onOpenTicked={() =>
                           openPages(
-                            [
-                              ...new Set(
-                                [...d.links, ...d.shortcuts].map(
-                                  (link) => link.url,
-                                ),
-                              ),
-                            ],
-                            d.name,
+                            d
+                              .shortcuts!.map((l) => l.url)
+                              .filter((url) => questTicks.includes(url)),
+                            `${d.name} ticked`,
                           )
                         }
+                        onTick={(url, checked) =>
+                          setQuestTicks((ticks) =>
+                            checked
+                              ? [...ticks, url]
+                              : ticks.filter((tick) => tick !== url),
+                          )
+                        }
+                        onExpand={setQuestsShown}
                         onVisit={(url) => {
                           void run(() => mark([url]));
                         }}

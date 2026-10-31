@@ -24,6 +24,7 @@ export function QuickLinks() {
   const [editing, setEditing] = useState(false),
     [more, setMore] = useState(false);
   const [limit, setLimit] = useState(4);
+  const visible = links.length === limit + 1 ? links.length : limit;
   const root = useRef<HTMLDivElement>(null);
   const importButton = useRef<HTMLButtonElement>(null);
   const { opening, message, open, batchRunning, batchMessage, stop } =
@@ -106,7 +107,7 @@ export function QuickLinks() {
           if (e.key === "Escape") setMore(false);
         }}
       >
-        {links.slice(0, limit).map((s) => render(s))}
+        {links.slice(0, visible).map((s) => render(s))}
         <button
           className="quick-link"
           ref={importButton}
@@ -120,7 +121,7 @@ export function QuickLinks() {
         >
           <ClipboardPaste size={16} />
         </button>
-        {links.length > limit && (
+        {links.length > visible && (
           <button
             className="quick-link"
             aria-label="More quick links"
@@ -141,9 +142,9 @@ export function QuickLinks() {
         >
           <Pencil size={14} />
         </button>
-        {more && (
+        {more && links.length > visible && (
           <div className="shortcut-overflow">
-            {links.slice(limit).map((s) => render(s, true))}
+            {links.slice(visible).map((s) => render(s, true))}
           </div>
         )}
       </div>

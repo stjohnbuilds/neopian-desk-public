@@ -6,10 +6,31 @@ export const dailyId = (entry: { name: string }) =>
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/-$/, "");
+// Trudy's Surprise sits inside the Quest Log card so the two always open together.
+const joinedInto: Record<string, string> = { "Trudy's Surprise": "Quest Log" };
 // The event remains in the source catalogue and historical visits.
-export const activeDailies = data.filter(
-  (entry) => entry.name !== "Faerie Festival",
-);
+export const activeDailies = data
+  .filter(
+    (entry) => entry.name !== "Faerie Festival" && !joinedInto[entry.name],
+  )
+  .map((entry) => {
+    const joined = data.filter(
+      (other) => joinedInto[other.name] === entry.name,
+    );
+    if (!joined.length) return entry;
+    return {
+      ...entry,
+      links: [
+        ...entry.links.map((link) => ({
+          ...link,
+          label: link.label === "Open" ? entry.name : link.label,
+        })),
+        ...joined.flatMap((other) =>
+          other.links.map((link) => ({ ...link, label: other.name })),
+        ),
+      ],
+    };
+  });
 type Favorites = { version: 1; ids: string[] };
 export function validDailyFavorites(value: unknown): value is Favorites {
   const saved = value as Favorites;

@@ -3,15 +3,25 @@ import { isNative } from "../core/bridge";
 
 export function QuestShortcuts({
   links,
+  ticked,
+  expanded,
   busy,
   opening,
-  onOpen,
+  onOpenToday,
+  onOpenTicked,
+  onTick,
+  onExpand,
   onVisit,
 }: {
   links: { label: string; url: string }[];
+  ticked: string[];
+  expanded: boolean;
   busy: boolean;
-  opening: boolean;
-  onOpen: () => void;
+  opening: "" | "today" | "ticked";
+  onOpenToday: () => void;
+  onOpenTicked: () => void;
+  onTick: (url: string, checked: boolean) => void;
+  onExpand: (open: boolean) => void;
   onVisit: (url: string) => void;
 }) {
   return (
@@ -20,13 +30,17 @@ export function QuestShortcuts({
         size="sm"
         variant="outline"
         disabled={busy || !isNative()}
-        aria-label="Open all Quest Log pages"
-        onClick={onOpen}
+        aria-label="Open the Quest Log and Trudy's Surprise"
+        title="Opens the Quest Log and Trudy's Surprise, then shows the quest shortcuts to tick"
+        onClick={onOpenToday}
       >
-        {opening ? "Opening…" : `Open all (${links.length + 1})`}
+        {opening === "today" ? "Opening…" : "Open Quest Log + Trudy"}
       </Button>
-      {!isNative() && <p>Open all is available in the desktop app.</p>}
-      <details>
+      {!isNative() && <p>Opening pages is available in the desktop app.</p>}
+      <details
+        open={expanded}
+        onToggle={(event) => onExpand(event.currentTarget.open)}
+      >
         <summary>Quest shortcuts ({links.length})</summary>
         <ul aria-label="Quest Log shortcuts">
           {links.map((link) => (
@@ -36,13 +50,30 @@ export function QuestShortcuts({
                 if ((event.target as Element).closest("a")) onVisit(link.url);
               }}
             >
+              <input
+                type="checkbox"
+                aria-label={`Tick ${link.label}`}
+                checked={ticked.includes(link.url)}
+                disabled={busy}
+                onChange={(event) => onTick(link.url, event.target.checked)}
+              />
               <Link href={link.url}>{link.label}</Link>
             </li>
           ))}
         </ul>
+        <Button
+          size="sm"
+          variant="outline"
+          disabled={busy || !isNative() || !ticked.length}
+          aria-label="Open the ticked quest pages"
+          onClick={onOpenTicked}
+        >
+          {opening === "ticked" ? "Opening…" : `Open ticked (${ticked.length})`}
+        </Button>
         <p>
-          Visit Quest Log before doing tasks. For Popular NC items, use View
-          more in the Mall homepage’s Popular Items box.
+          Tick today's quests from your Quest Log, then press Open ticked. Visit
+          Quest Log before doing tasks. For Popular NC items, use View more in
+          the Mall homepage’s Popular Items box.
         </p>
       </details>
     </div>

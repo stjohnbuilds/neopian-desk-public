@@ -1,5 +1,43 @@
 # To do
 
+## Trudy's Surprise inside the Quest Log card — 31 October 2026
+
+Rule is: Trudy's Surprise always sits inside the Quest Log card, with its own tick box,
+and opens whenever the card's open button opens the Quest Log. It has no separate card, so each daily still appears once, and
+it moves with the Quest Log card when that card is starred or unstarred.
+
+1. DONE — joined in the dailies list; Open all counts the real pages (now fourteen).
+   Type check and all 66 checks passed in a copy using matching
+   package versions; not yet run on Windows.
+2. IN PROGRESS — approved; ships in the beta.3 Windows download.
+
+## Quest Log opens only the day's quests — 31 October 2026
+
+Rule is: the Quest Log never opens every possible quest page. This edition cannot read
+the Quest Log page, so its button opens the Quest Log and Trudy's Surprise and shows the
+twelve quest shortcuts as tick boxes; Open ticked opens only the ticked pages. Opening
+still needs a deliberate click and never marks a quest done.
+
+1. DONE — Open Quest Log + Trudy, tick boxes and Open ticked replace Open all. Messages
+   for opening daily pages now say the pages open in your browser, because Windows opens
+   the default browser, not Chrome. Type check and all 67 checks passed in a copy using
+   matching package versions, including a new check for the tick boxes. A browser preview
+   showed the button, the tick boxes and the message. Not yet run on Windows.
+2. IN PROGRESS — ship in beta.3 with the quick links change.
+
+## Quick links never hide just one shortcut — 30 October 2026
+
+Rule is: the top bar's More quick links button appears only when two or more
+shortcuts do not fit. When only one would be hidden, that shortcut takes the
+button's place, because the button uses the same space as the shortcut it hides.
+
+1. DONE — show every shortcut when only one would overflow; the menu still opens
+   with two or more. The identical change in the private edition passed its type
+   check and 282 checks. A browser preview showed a narrow bar with five shortcuts
+   (all shown, no menu), six (four plus a menu holding two) and a wide bar (all six).
+2. IN PROGRESS — approved: push, let the Windows workflow build and check it, publish
+   1.0.0-beta.3 and replace the single Drive installer. Not yet run on Windows.
+
 ## App script switches and default-off sessions — 17 October 2026
 
 Rule is: all built-in script controls live in App scripts, take effect immediately,

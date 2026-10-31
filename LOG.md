@@ -1,5 +1,33 @@
 # History
 
+## 31 October 2026 — Quest Log tick boxes
+
+The Quest Log card's Open all (fourteen pages) is gone. Open Quest Log + Trudy opens those
+two pages and shows the twelve quest shortcuts as tick boxes; Open ticked opens only the
+ticked ones. Daily page messages now say the pages open in your browser. Type check, all
+67 checks and a browser preview passed. Not yet run on Windows.
+
+## 31 October 2026 — Trudy's Surprise joins the Quest Log card
+
+Trudy's Surprise now shows inside the Quest Log card and opens with its Open all button;
+its separate card is gone. Checks and a browser preview passed. Not yet in the installed
+app or a Windows download.
+
+## 31 October 2026 — beta.2 download rechecked
+
+The Drive installer matched GitHub's published fingerprint. Unpacked, it held none of the
+private edition's account name, pet names, owner name or email, saved-data files or
+secret-key shapes. Fresh Windows run 41239390130 downloaded, installed, exercised and
+reinstalled it with saved data kept. No antivirus result exists: VirusTotal has no record
+of the file. Security prompts on a home Windows computer remain untested.
+
+## 30 October 2026 — quick links keep a lone shortcut visible
+
+The top bar no longer hides a single leftover shortcut behind the More quick links
+button; the shortcut shows in that space instead. Two or more leftovers still go in
+the menu. Checked in a browser preview at narrow and wide widths. Not yet built,
+released or checked on Windows.
+
 ## 17 October 2026 — built-in scripts start off
 
 Added shared on/off switches under App scripts for Shop Helper, jump-to-find,
