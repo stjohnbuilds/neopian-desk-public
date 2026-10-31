@@ -162,6 +162,15 @@ saved data. A full backup does not include the machine's pairing key or browser 
 
 ## Development and verification
 
+The [beta.3 Windows run](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/41252588636)
+completed the type check, 67 checks, native accessibility fixtures, desktop journeys,
+packaging, installation and reinstall with saved data kept. The unpacked installer held
+no private account or pet names, owner details, saved-data files or keys. The
+[beta.3 public-download check](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/41253693319)
+downloaded the published installer without authentication, verified its SHA256, installed
+it on a fresh Windows runner, exercised it and reinstalled it with all saved data kept.
+This used synthetic observations, not a signed-in live Neopets account.
+
 The [beta.2 Windows run](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/39080868306)
 completed the type check, 66 data/observation checks, native accessibility fixtures,
 normal/narrow script views, fresh installed switch journeys and reinstall. All four

@@ -1,5 +1,14 @@
 # History
 
+## 31 October 2026 — beta.3 published
+
+Beta.3 carries the Quest Log tick boxes, Trudy's Surprise inside the Quest Log card and
+the quick links fix. Windows run 41252588636 passed every check and packaged it; the
+unpacked installer held nothing private. Published as a pre-release with SHA256
+12fd85db5d066ebc5815968dd9f0420f72585a0c94e3821d5446df4c29a61df7, replaced the single
+Drive installer and pointed README and the download check at it. Public-download run
+41253693319 installed, exercised and reinstalled it with saved data kept.
+
 ## 31 October 2026 — Quest Log tick boxes
 
 The Quest Log card's Open all (fourteen pages) is gone. Open Quest Log + Trudy opens those

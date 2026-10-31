@@ -1,5 +1,22 @@
 # To do
 
+## Beta.3 download — 31 October 2026
+
+Rule is: one current installer exists: the GitHub release and the single Drive copy in
+release/ hold the same bytes, and each new version replaces the old one in both places.
+
+1. DONE — Windows run 41252588636 checked, packaged, installed and reinstalled the
+   build. Published pre-release v1.0.0-beta.3 (not a draft); installer SHA256
+   12fd85db5d066ebc5815968dd9f0420f72585a0c94e3821d5446df4c29a61df7.
+2. DONE — the unpacked installer held no private account or pet names, owner name or
+   email, or saved-data files; eight key-shaped matches sit inside encoded data in the
+   standard Electron program file, not in any app file, and are not keys.
+3. DONE — the Drive installer and SHA256SUMS.txt were replaced with the same bytes;
+   README and the download check point at beta.3. Public-download run 41253693319
+   downloaded, verified, installed, exercised and reinstalled it with saved data kept.
+4. NOT DONE — no antivirus service result exists, and security prompts on a home
+   Windows computer remain untested; the installer is unsigned, so Windows may warn.
+
 ## Trudy's Surprise inside the Quest Log card — 31 October 2026
 
 Rule is: Trudy's Surprise always sits inside the Quest Log card, with its own tick box,
@@ -9,7 +26,7 @@ it moves with the Quest Log card when that card is starred or unstarred.
 1. DONE — joined in the dailies list; Open all counts the real pages (now fourteen).
    Type check and all 66 checks passed in a copy using matching
    package versions; not yet run on Windows.
-2. IN PROGRESS — approved; ships in the beta.3 Windows download.
+2. DONE — shipped in beta.3 on 31 October.
 
 ## Quest Log opens only the day's quests — 31 October 2026
 
@@ -23,7 +40,7 @@ still needs a deliberate click and never marks a quest done.
    the default browser, not Chrome. Type check and all 67 checks passed in a copy using
    matching package versions, including a new check for the tick boxes. A browser preview
    showed the button, the tick boxes and the message. Not yet run on Windows.
-2. IN PROGRESS — ship in beta.3 with the quick links change.
+2. DONE — shipped in beta.3 on 31 October.
 
 ## Quick links never hide just one shortcut — 30 October 2026
 
@@ -35,8 +52,7 @@ button's place, because the button uses the same space as the shortcut it hides.
    with two or more. The identical change in the private edition passed its type
    check and 282 checks. A browser preview showed a narrow bar with five shortcuts
    (all shown, no menu), six (four plus a menu holding two) and a wide bar (all six).
-2. IN PROGRESS — approved: push, let the Windows workflow build and check it, publish
-   1.0.0-beta.3 and replace the single Drive installer. Not yet run on Windows.
+2. DONE — shipped in beta.3 on 31 October.
 
 ## App script switches and default-off sessions — 17 October 2026
 
