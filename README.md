@@ -6,10 +6,10 @@ collection marks. Game actions stay manual.
 
 ## Get started
 
-**[Download the Windows installer](https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.2/Neopian-Desk-Setup.exe)** ·
-[Release notes and checksum](https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.2)
+**[Download the Windows installer](https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.3/Neopian-Desk-Setup.exe)** ·
+[Release notes and checksum](https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.3)
 
-Version 1.0.0-beta.2 is an early public release.
+Version 1.0.0-beta.3 is an early public release.
 
 1. Download **Neopian-Desk-Setup.exe** from the release and open it. The x64 package
    is intended for Windows 10 or 11; it includes its runtime. No coding tools are needed.
