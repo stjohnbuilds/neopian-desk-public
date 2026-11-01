@@ -14,8 +14,13 @@ release/ hold the same bytes, and each new version replaces the old one in both 
 3. DONE — the Drive installer and SHA256SUMS.txt were replaced with the same bytes;
    README and the download check point at beta.3. Public-download run 41253693319
    downloaded, verified, installed, exercised and reinstalled it with saved data kept.
-4. NOT DONE — no antivirus service result exists, and security prompts on a home
-   Windows computer remain untested; the installer is unsigned, so Windows may warn.
+4. DONE — VirusTotal fetched and scanned the published installer (SHA256 above) twice:
+   no engine flagged it either time (0 of 63, then 0 of 58), Microsoft included. Avast,
+   AVG, BitDefender, Kaspersky, CTX, Rising and Skyhigh timed out on the 152 MB file both
+   times, so they gave no answer. README and the release notes show the result. Report:
+   https://www.virustotal.com/gui/file/12fd85db5d066ebc5815968dd9f0420f72585a0c94e3821d5446df4c29a61df7
+5. NOT DONE — security prompts on a home Windows computer remain untested; the installer
+   is unsigned, so Windows may warn.
 
 ## Trudy's Surprise inside the Quest Log card — 31 October 2026
 

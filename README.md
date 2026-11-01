@@ -26,6 +26,9 @@ This beta is unsigned. Windows may display an unknown-publisher warning or block
 it under Smart App Control or a managed-device policy. A successful test installation
 does not guarantee that every Windows security configuration will allow it. See
 [Microsoft's explanation](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
+No antivirus engine flagged this installer on
+[VirusTotal](https://www.virustotal.com/gui/file/12fd85db5d066ebc5815968dd9f0420f72585a0c94e3821d5446df4c29a61df7):
+0 of the 63 that finished the scan; a few others timed out on the large file.
 Download only from this repository's release page. Updates replace the app in place and
 retain saved data; install the newer release using the same destination.
 
@@ -170,6 +173,11 @@ no private account or pet names, owner details, saved-data files or keys. The
 downloaded the published installer without authentication, verified its SHA256, installed
 it on a fresh Windows runner, exercised it and reinstalled it with all saved data kept.
 This used synthetic observations, not a signed-in live Neopets account.
+
+[VirusTotal](https://www.virustotal.com/gui/file/12fd85db5d066ebc5815968dd9f0420f72585a0c94e3821d5446df4c29a61df7)
+fetched the published beta.3 installer and scanned it twice. No engine flagged it
+(0 of 63, then 0 of 58), Microsoft included. Avast, AVG, BitDefender, Kaspersky, CTX,
+Rising and Skyhigh timed out on the large file both times.
 
 The [beta.2 Windows run](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/39080868306)
 completed the type check, 66 data/observation checks, native accessibility fixtures,

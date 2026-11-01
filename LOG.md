@@ -1,5 +1,12 @@
 # History
 
+## 31 October 2026 — beta.3 virus scan
+
+VirusTotal fetched the published beta.3 installer from its download link and scanned it
+twice. No engine flagged it either time (0 of 63, then 0 of 58), Microsoft included. Seven
+engines, among them Avast, AVG, BitDefender and Kaspersky, timed out on the large file both
+times and gave no answer. README and the release notes now show the result with its link.
+
 ## 31 October 2026 — beta.3 published
 
 Beta.3 carries the Quest Log tick boxes, Trudy's Surprise inside the Quest Log card and
