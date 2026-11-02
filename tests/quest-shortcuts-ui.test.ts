@@ -77,10 +77,16 @@ test("Quest Log opens with Trudy's Surprise, shows the ticks, and opens only tic
     const [questLog, trudy] = quest.links.map((l) => l.url);
     const page = (label: string) =>
       quest.shortcuts!.find((s) => s.label.startsWith(label))!.url;
-    assert.equal(document.querySelectorAll(".quest-shortcuts a").length, 12);
+    assert.equal(document.querySelectorAll(".quest-shortcuts a").length, 19);
     assert.equal(
       document.querySelectorAll(".quest-shortcuts input[type=checkbox]").length,
-      12,
+      19,
+    );
+    assert.ok(
+      [...document.querySelectorAll(".daily-card strong")].some(
+        (title) => title.textContent === "Trudy's Surprise",
+      ),
+      "Trudy's Surprise keeps its own card",
     );
     assert.match(document.body.textContent!, /Open ticked \(0\)/);
     assert.ok(!/Open all \(14\)/.test(document.body.textContent!));
@@ -101,18 +107,21 @@ test("Quest Log opens with Trudy's Surprise, shows the ticks, and opens only tic
     assert.deepEqual(visits(), [questLog, trudy]);
     assert.match(document.body.textContent!, /Opened 2 pages in your browser/);
 
-    await tick("Wheel of Misfortune");
-    await tick("NC Mall / Popular items");
-    await tick("Battledome");
-    await tick("Battledome");
+    await tick("Spin the Wheel of Misfortune");
+    await tick("Check out Popular NC Items · Visit NC Mall");
+    await tick("Fight in the Battledome");
+    await tick("Fight in the Battledome");
     assert.match(document.body.textContent!, /Open ticked \(2\)/);
     await click("Open the ticked quest pages");
-    assert.deepEqual(opened(), [page("NC Mall"), page("Wheel of Misfortune")]);
+    assert.deepEqual(opened(), [
+      page("Check out Popular NC Items"),
+      page("Spin the Wheel of Misfortune"),
+    ]);
     assert.deepEqual(visits(), [
       questLog,
       trudy,
-      page("NC Mall"),
-      page("Wheel of Misfortune"),
+      page("Check out Popular NC Items"),
+      page("Spin the Wheel of Misfortune"),
     ]);
     assert.match(document.body.textContent!, /Opened 2 pages in your browser/);
   } finally {

@@ -1,5 +1,23 @@
 # To do
 
+## Beta.4 download: a link for every quest, Trudy's own card back — 2 November 2026
+
+Rule is: the Quest Log card lists one link for every daily quest type, named the way the
+Quest Log words the quest, with the page after a dot when the name does not say it. When
+Neopets adds a quest type, its link is added too. Pet care quests open the Safety Deposit
+Box, never the inventory, because the items are kept there; Discard an Item and Donate an
+Item open the inventory, because the game only counts those two from the inventory.
+
+Rule is: Trudy's Surprise keeps its own card and also opens with the Quest Log button.
+Its own card is never removed: it is a daily of its own and is starred on its own.
+
+1. DONE — 19 links cover all 22 daily quest types in the public quest guides
+   (jellyneo.net and sunnyneo.com, read 1 November), including the ten added on
+   26 October 2026. Trudy's Surprise has its own card again. Type check and all 67
+   checks passed in a copy using matching package versions.
+2. IN PROGRESS — push, let the Windows workflow build and check it, publish
+   1.0.0-beta.4 and replace the single Drive installer.
+
 ## Beta.3 download — 31 October 2026
 
 Rule is: one current installer exists: the GitHub release and the single Drive copy in
@@ -24,9 +42,7 @@ release/ hold the same bytes, and each new version replaces the old one in both 
 
 ## Trudy's Surprise inside the Quest Log card — 31 October 2026
 
-Rule is: Trudy's Surprise always sits inside the Quest Log card, with its own tick box,
-and opens whenever the card's open button opens the Quest Log. It has no separate card, so each daily still appears once, and
-it moves with the Quest Log card when that card is starred or unstarred.
+Replaced on 2 November by the rule above: Trudy's Surprise keeps its own card as well.
 
 1. DONE — joined in the dailies list; Open all counts the real pages (now fourteen).
    Type check and all 66 checks passed in a copy using matching
@@ -37,7 +53,7 @@ it moves with the Quest Log card when that card is starred or unstarred.
 
 Rule is: the Quest Log never opens every possible quest page. This edition cannot read
 the Quest Log page, so its button opens the Quest Log and Trudy's Surprise and shows the
-twelve quest shortcuts as tick boxes; Open ticked opens only the ticked pages. Opening
+quest links as tick boxes; Open ticked opens only the ticked pages. Opening
 still needs a deliberate click and never marks a quest done.
 
 1. DONE — Open Quest Log + Trudy, tick boxes and Open ticked replace Open all. Messages

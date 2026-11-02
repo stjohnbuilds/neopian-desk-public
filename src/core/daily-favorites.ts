@@ -6,25 +6,18 @@ export const dailyId = (entry: { name: string }) =>
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/-$/, "");
-// Trudy's Surprise sits inside the Quest Log card so the two always open together.
-const joinedInto: Record<string, string> = { "Trudy's Surprise": "Quest Log" };
+// Trudy's Surprise keeps its own card and also opens with the Quest Log.
+const alsoIn: Record<string, string> = { "Trudy's Surprise": "Quest Log" };
 // The event remains in the source catalogue and historical visits.
 export const activeDailies = data
-  .filter(
-    (entry) => entry.name !== "Faerie Festival" && !joinedInto[entry.name],
-  )
+  .filter((entry) => entry.name !== "Faerie Festival")
   .map((entry) => {
-    const joined = data.filter(
-      (other) => joinedInto[other.name] === entry.name,
-    );
+    const joined = data.filter((other) => alsoIn[other.name] === entry.name);
     if (!joined.length) return entry;
     return {
       ...entry,
       links: [
-        ...entry.links.map((link) => ({
-          ...link,
-          label: link.label === "Open" ? entry.name : link.label,
-        })),
+        ...entry.links,
         ...joined.flatMap((other) =>
           other.links.map((link) => ({ ...link, label: other.name })),
         ),

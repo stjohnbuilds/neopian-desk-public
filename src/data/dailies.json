@@ -12,52 +12,80 @@
     ],
     "shortcuts": [
       {
-        "label": "NC Mall / Popular items",
+        "label": "Check out Popular NC Items · Visit NC Mall",
         "url": "https://ncmall.neopets.com/mall/shop.phtml"
       },
       {
-        "label": "Games room",
-        "url": "https://www.neopets.com/games/"
+        "label": "Claim a Recycled Item · Money Tree",
+        "url": "https://www.neopets.com/donations.phtml"
       },
       {
-        "label": "Fishing",
-        "url": "https://www.neopets.com/water/fishing.phtml"
+        "label": "Collect Interest · Deposit in the Bank",
+        "url": "https://www.neopets.com/bank.phtml"
       },
       {
-        "label": "Battledome",
-        "url": "https://www.neopets.com/dome/arena.phtml"
-      },
-      {
-        "label": "Customize",
+        "label": "Customise a Pet",
         "url": "https://www.neopets.com/customise/"
       },
       {
-        "label": "Safety Deposit Box",
-        "url": "https://www.neopets.com/safetydeposit.phtml"
-      },
-      {
-        "label": "Inventory · feed, groom, play, read",
+        "label": "Discard or Donate an Item · Inventory",
         "url": "https://www.neopets.com/inventory.phtml"
       },
       {
-        "label": "General Store · buy items",
+        "label": "Feed, Groom, Play With or Read to a Pet · Safety Deposit Box",
+        "url": "https://www.neopets.com/safetydeposit.phtml"
+      },
+      {
+        "label": "Fight in the Battledome",
+        "url": "https://www.neopets.com/dome/arena.phtml"
+      },
+      {
+        "label": "Go Fishing",
+        "url": "https://www.neopets.com/water/fishing.phtml"
+      },
+      {
+        "label": "Grab an Omelette",
+        "url": "https://www.neopets.com/prehistoric/omelette.phtml"
+      },
+      {
+        "label": "Play a Game · Games Room",
+        "url": "https://www.neopets.com/games/"
+      },
+      {
+        "label": "Play Grumpy Old King",
+        "url": "https://www.neopets.com/medieval/grumpyking.phtml"
+      },
+      {
+        "label": "Play Wise Old King",
+        "url": "https://www.neopets.com/medieval/wiseking.phtml"
+      },
+      {
+        "label": "Purchase an Item · General Store",
         "url": "https://www.neopets.com/generalstore.phtml"
       },
       {
-        "label": "Wheel of Excitement",
+        "label": "Scratch a Scratchcard · Ice Caves kiosk",
+        "url": "https://www.neopets.com/winter/kiosk.phtml"
+      },
+      {
+        "label": "Spin the Wheel of Excitement",
         "url": "https://www.neopets.com/faerieland/wheel.phtml"
       },
       {
-        "label": "Wheel of Mediocrity",
-        "url": "https://www.neopets.com/prehistoric/mediocrity.phtml"
-      },
-      {
-        "label": "Wheel of Knowledge",
+        "label": "Spin the Wheel of Knowledge",
         "url": "https://www.neopets.com/medieval/knowledge.phtml"
       },
       {
-        "label": "Wheel of Misfortune",
+        "label": "Spin the Wheel of Mediocrity",
+        "url": "https://www.neopets.com/prehistoric/mediocrity.phtml"
+      },
+      {
+        "label": "Spin the Wheel of Misfortune",
         "url": "https://www.neopets.com/halloween/wheel/index.phtml"
+      },
+      {
+        "label": "Vote in Customisation Spotlight",
+        "url": "https://www.neopets.com/spotlights/custompet/?tab=vote"
       }
     ]
   },
