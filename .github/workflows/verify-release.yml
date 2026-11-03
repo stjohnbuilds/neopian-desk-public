@@ -18,9 +18,9 @@ jobs:
         shell: pwsh
         run: |
           $setup = Join-Path $env:RUNNER_TEMP 'Neopian-Desk-Setup.exe'
-          Invoke-WebRequest 'https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.3/Neopian-Desk-Setup.exe' -OutFile $setup
+          Invoke-WebRequest 'https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.4/Neopian-Desk-Setup.exe' -OutFile $setup
           $hash = (Get-FileHash $setup -Algorithm SHA256).Hash.ToLower()
-          if ($hash -ne '12fd85db5d066ebc5815968dd9f0420f72585a0c94e3821d5446df4c29a61df7') { throw "Unexpected installer SHA256: $hash" }
+          if ($hash -ne '85d77762d061b71858bafb7ab4b401dedcc90b3959ff5df1acef50e6a34c2f7a') { throw "Unexpected installer SHA256: $hash" }
           "Verified public installer SHA256: $hash"
           $install = Join-Path $env:LOCALAPPDATA 'Programs\Neopian Desk'
           if (Test-Path (Join-Path $env:APPDATA 'Neopian Desk\state.json')) { throw 'Runner does not have a fresh profile' }
