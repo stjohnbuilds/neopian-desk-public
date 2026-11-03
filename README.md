@@ -6,10 +6,10 @@ collection marks. Game actions stay manual.
 
 ## Get started
 
-**[Download the Windows installer](https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.3/Neopian-Desk-Setup.exe)** ·
-[Release notes and checksum](https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.3)
+**[Download the Windows installer](https://github.com/stjohnbuilds/neopian-desk-public/releases/download/v1.0.0-beta.4/Neopian-Desk-Setup.exe)** ·
+[Release notes and checksum](https://github.com/stjohnbuilds/neopian-desk-public/releases/tag/v1.0.0-beta.4)
 
-Version 1.0.0-beta.3 is an early public release.
+Version 1.0.0-beta.4 is an early public release.
 
 1. Download **Neopian-Desk-Setup.exe** from the release and open it. The x64 package
    is intended for Windows 10 or 11; it includes its runtime. No coding tools are needed.
@@ -26,9 +26,6 @@ This beta is unsigned. Windows may display an unknown-publisher warning or block
 it under Smart App Control or a managed-device policy. A successful test installation
 does not guarantee that every Windows security configuration will allow it. See
 [Microsoft's explanation](https://learn.microsoft.com/en-us/windows/apps/package-and-deploy/smartscreen-reputation).
-No antivirus engine flagged this installer on
-[VirusTotal](https://www.virustotal.com/gui/file/12fd85db5d066ebc5815968dd9f0420f72585a0c94e3821d5446df4c29a61df7):
-0 of the 63 that finished the scan; a few others timed out on the large file.
 Download only from this repository's release page. Updates replace the app in place and
 retain saved data; install the newer release using the same destination.
 
@@ -164,6 +161,15 @@ a chosen backup and preserves the unreadable file for recovery. Uninstalling ret
 saved data. A full backup does not include the machine's pairing key or browser logins.
 
 ## Development and verification
+
+The [beta.4 Windows run](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/41410956343)
+completed the type check, 67 checks, native accessibility fixtures, desktop journeys,
+packaging, installation and reinstall with saved data kept. The unpacked installer held
+no private account or pet names, owner details, saved-data files or keys. The
+[beta.4 public-download check](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/41579298105)
+downloaded the published installer without authentication, verified its SHA256, installed
+it on a fresh Windows runner, exercised it and reinstalled it with all saved data kept.
+This used synthetic observations, not a signed-in live Neopets account.
 
 The [beta.3 Windows run](https://github.com/stjohnbuilds/neopian-desk-public/actions/runs/41252588636)
 completed the type check, 67 checks, native accessibility fixtures, desktop journeys,

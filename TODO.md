@@ -15,8 +15,20 @@ Its own card is never removed: it is a daily of its own and is starred on its ow
    (jellyneo.net and sunnyneo.com, read 1 November), including the ten added on
    26 October 2026. Trudy's Surprise has its own card again. Type check and all 67
    checks passed in a copy using matching package versions.
-2. IN PROGRESS — push, let the Windows workflow build and check it, publish
-   1.0.0-beta.4 and replace the single Drive installer.
+2. DONE — Windows run 41410956343 checked, packaged, installed and reinstalled the
+   build; installer SHA256 85d77762d061b71858bafb7ab4b401dedcc90b3959ff5df1acef50e6a34c2f7a.
+   The unpacked installer held no private account or pet names, owner name or email, or
+   saved-data files; the eight key-shaped matches sit in the standard Electron program
+   file again, not in any app file.
+3. DONE — pre-release v1.0.0-beta.4 published on 2 November (not a draft; installer and
+   SHA256SUMS.txt attached). The single Drive installer in release/ now holds the same
+   bytes, and README and the download check point at it. Public-download run 41579298105
+   downloaded it without signing in, matched the SHA256, installed and exercised it, and
+   reinstalled it with saved data kept.
+4. OPEN — VirusTotal fetched the published beta.4 installer from its download link and
+   started the scan, but its file page then showed a person check before any result.
+   Once the result is read, add it to README (Get started and verification) and to the
+   release notes, as was done for beta.3.
 
 ## Beta.3 download — 31 October 2026
 

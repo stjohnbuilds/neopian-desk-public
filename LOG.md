@@ -1,5 +1,15 @@
 # History
 
+## 2 November 2026 — beta.4 published
+
+Beta.4 gives the Quest Log card a link for every daily quest and gives Trudy's Surprise
+its own card again. Windows run 41410956343 passed every check and packaged it; the
+unpacked installer held nothing private. Published as a pre-release with SHA256
+85d77762d061b71858bafb7ab4b401dedcc90b3959ff5df1acef50e6a34c2f7a, replaced the single
+Drive installer and pointed README and the download check at it. Public-download run
+41579298105 installed, exercised and reinstalled it with saved data kept. The VirusTotal
+result is not recorded yet.
+
 ## 31 October 2026 — beta.3 virus scan
 
 VirusTotal fetched the published beta.3 installer from its download link and scanned it
